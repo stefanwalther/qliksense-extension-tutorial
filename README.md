@@ -20,7 +20,7 @@ If you want to follow the progress of this project there are some options:
 These are the chapters I am about to write ...
 
 * [00 About this Tutorial](tutorial/00-About.md)
-* 01 Qlik Sense Extension Tutorial
+* [01 Qlik Sense Extension Tutorial](tutorial/01-Qlik-Sense-Extension-Tutorial.md)
 * 02 Introduction to Qlik Sense Visualization Extensions
 * 03 Let's Get Started: Hello World Example
 * 04 Debugging and Web Developer Tools
