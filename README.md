@@ -74,7 +74,7 @@ Due to the nature of this project there is no errata section necessary: This is 
 
 By doing so, you'll always have access to the latest version.
 
-If you want to follow changes, follow the CHANGELOG.md document.
+If you want to follow changes, follow the [Change Log](CHANGELOG.md).
 
 
 ## Author
