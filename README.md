@@ -2,6 +2,10 @@
 
 A comprehensive Qlik Sense Extension Tutorial
 
+## About this Tutorial
+
+In this tutorial you'll learn how to use Qlik Sense' Extension concept to bring new visualizations into the Qlik Sense Client.
+
 ## Work in Progress, Always
 
 This project is work in progress and will probably always remain in this status, that's part of the concept and the idea of creating a living tutorial.
@@ -83,7 +87,7 @@ If you want to follow changes, follow the CHANGELOG.md document.
 
 ## License
 
-This tutorial is made available "AS IS" without any warranty of any kind under the MIT License (MIT). Since this is a private project QlikTech support agreement does not cover support for this software.
+This tutorial is made available "AS IS" without any warranty of any kind under the MIT License (MIT).
 
-Additional license information for this solution.
+[Additional license information for this tutorial](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/LICENSE.md).
 

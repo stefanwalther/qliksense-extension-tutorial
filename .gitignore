@@ -6,8 +6,7 @@ web.*.config
 
 # As of now, always ignore the /dist/ folders, maybe introduce this later on ...
 /**/dist/
-/docs/
-/docgen/
+/docgen_v0.6.0/
 
 #https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
