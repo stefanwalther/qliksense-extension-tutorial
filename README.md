@@ -6,7 +6,7 @@ A comprehensive Qlik Sense Extension Tutorial
 
 In this tutorial you'll learn how to use Qlik Sense' Extension concept to bring new visualizations into the Qlik Sense Client.
 
-## Work in Progress, Always
+### Work in Progress, Always
 
 This project is work in progress and will probably always remain in this status, that's part of the concept and the idea of creating a living tutorial.
 
@@ -23,10 +23,8 @@ These are the chapters I am about to write ...
 * 01 Qlik Sense Extension Tutorial
 * 02 Introduction to Qlik Sense Visualization Extensions
 * 03 Let's Get Started: Hello World Example
-	* Code
 * 04 Debugging and Web Developer Tools
 * 05 Improving the Web Hello World Experience
-	* Code
 * 07 An Introduction to Custom Properties
 * 08 More on Custom Properties
 * 09 Working with Data
