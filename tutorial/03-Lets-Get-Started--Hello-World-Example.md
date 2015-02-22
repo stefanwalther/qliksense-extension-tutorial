@@ -1,3 +1,5 @@
+# 
+
 --
 title: Chapter 03 - Let's Get Started: Hello World Example
 published: false
@@ -59,35 +61,23 @@ The basic structure of a .qext file looks as follows:
 }
 ```
 
-{{#hint}}
+><b>Hint:</b>
 When creating your .qext file you should double-check if this file [meets the requirements of a valid .json file.](http://jsonlint.com/)
-{{/hint}}
+  
 
 ### name
 
 The property `name` will be re-used in the list of visualizations and the preview:
 
-{{image "images/03/03_name.png"}}
+![](images/03/03_name.png)
 
 ### description
 
 The `description` is visible in the preview:
 
-{{image "images/03/03_descriptions.png"}}
+![](images/03/03_descriptions.png)
 
 ### icon
-
-Qlik Sense for Developers [states](http://help.qlik.com/sense/en-us/developer/#../Subsystems/Workbench/Content/BuildingExtensions/HowTos/Ext_Ex_AddPreviewImage.htm?Highlight=preview):
-
-> You can define a custom preview image that is visible when the visualization has been deployed to Qlik Sense. The preview image is visible when selecting the visualization in the Library or Assets panel. This is done by defining the preview parameter in the qext file.
-If you do not define the preview parameter in the qext file, the icon definition will be used for rendering the preview image as well.
-
-{{images "images/03/03_preview.png"}}
-
-{{#note}}
-If you want to create a preview image, choose width and height of 140px x 123px.
-{{/note}}
-
 
 
 ### type
@@ -105,3 +95,9 @@ Considering the anatomy of a Qlik Sense Visualization Extension we can create ou
 
 
 ## Get the Code
+
+
+---
+Qlik Sense Extension Tutorial, Version 0.0.2
+
+[Table of Contents](00-TOC.md)
