@@ -4,7 +4,7 @@
 
 * [00 About this Tutorial](00-About.md)
 * [01 Qlik Sense Extension Tutorial](01-Qlik-Sense-Extension-Tutorial.md)
-* 02 Introduction to Qlik Sense Visualization Extensions
+* [02 Introduction to Qlik Sense Visualization Extensions](02-Introduction-to-Qlik-Sense-Visualization-Extensions.md)
 * 03 Let's Get Started: Hello World Example
 * 04 Debugging and Web Developer Tools
 * 05 Improving the Web Hello World Experience
