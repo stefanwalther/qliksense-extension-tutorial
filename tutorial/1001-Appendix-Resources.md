@@ -1,6 +1,5 @@
 
 
-## Official Resources
 
 ## Tutorials
 * **How to Build a Qlik Sense Extension with D3**
