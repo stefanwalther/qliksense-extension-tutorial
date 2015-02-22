@@ -40,6 +40,7 @@ These are the chapters I am about to write ...
 * 18 Setting up a Robust Development Environment
 * 19 Two Approaches, the “Classic” One & the Angular Way
 * Appendix:
+	* [Resources](tutorial/1001-Appendix-Resources.md)
 	* branch.qlik.com
 	* Basic Introduction to git & GitHub
 	* How to publish your extension to GitHub & branch.qlik.com
