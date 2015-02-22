@@ -59,14 +59,7 @@ If you have any questions, found errors, etc., please [create an issue here on G
 
 ## Contributing
 
-Contributing to this project is very welcome, basically that's the idea behind writing a "living tutorial" here on GitHub.
-The process to do so is outlined below:
-
-1. Create a fork of the project
-2. Work on whatever bug or feature you wish
-3. Create a pull request (PR)
-
-I cannot guarantee that I will merge all PRs but I will evaluate them all.
+Found a bug? Have a request? Please [create an Issue](https://github.com/stefanwalther/qliksense-extension-tutorial/issues).
 
 ## Errata
 Due to the nature of this project there is no errata section necessary: This is living tutorial, so as soon as I find errors or mistakes or just want to improve something, I'll just fix it and push it to GitHub.
