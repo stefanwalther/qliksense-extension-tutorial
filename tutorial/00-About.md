@@ -1,5 +1,5 @@
-
 # About this tutorial
+
 
 In the past I was writing quite a lot of article on [my private blog](http://www.qlikblog.at) which is fine in general, but when writing a tutorial a blog is not really the right format as I realized.
 
@@ -24,3 +24,5 @@ Folder				| Description
 
 ---
 Qlik Sense Extension Tutorial, Version 0.0.1
+
+[Table of Contents](00-TOC.md)

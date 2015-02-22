@@ -13,7 +13,10 @@ module.exports = function ( grunt ) {
 					layoutdir: config.assemble.layoutdir,
 					layout: config.assemble.layout,
 					ext: '.md',
-					data: './config.yml'
+					data: './config.yml',
+					plugins: [
+						//'assemble-middleware-contextual'
+					]
 					//partials: 'templates/partials/**/*.hbs',
 					//helpers: 'templates/helpers/**/*.hbs',
 

@@ -1,8 +1,8 @@
 ---
 title: Qlik Sense Extension Tutorial
+order: 10
 published: true
 ---
-## About this Tutorial
 The intention of this tutorial is to help you to start developing Extensions in Qlik Sense. If you have already spent some time with the concept of Extensions in QlikView you’ll see some similarities in the first chapters, but at the same time you’ll recognize how much cleaner and better the Extension API in Qlik Sense is in comparison to the one in QlikView.
 
 Although at this point it’s important to mention that the intention of this tutorial is to bring Qlik Sense’s Visualization Extension concept to everybody, so you don’t need any skills in neither QlikView nor Qlik Sense to get started.
@@ -13,10 +13,14 @@ To be able to understand this tutorial, it is **not necessary** that you have al
 * Html
 * JavaScript
 
+### Qlik Sense
 All the concepts explained in this tutorial certainly work for both Qlik Sense Server and Qlik Sense Desktop. At the same time only Qlik Sense Desktop is necessary to follow the examples in this tutorial.
+
+The entire tutorial is written based on Qlik Sense 1.0, published in September 2014. If some features of newer versions of Qlik Sense are discussed you’ll find an appropriate inline note.
+
+### Code Editor
+
+In addition to Qlik Sense you'll need a code editor, basically every basic editor is sufficient, so something like [Notepad++](http://notepad-plus-plus.org/), [Sublime Text](http://www.sublimetext.com/) or [Aptana](http://www.aptana.com/) ...
 
 ## Code Download
 All code samples in this tutorial are available on GitHub. At the beginning and end of each chapter you’ll find a short note how to download the corresponding code to a specific chapter.
-
-## Qlik Sense Version
-The entire tutorial is written based on Qlik Sense 1.0, published in September 2014. If some features of newer versions of Qlik Sense are discussed you’ll find an appropriate inline note.

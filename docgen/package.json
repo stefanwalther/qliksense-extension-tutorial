@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "description": "",
   "main": "Gruntfile.js",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "assemble": "^0.4.42",
+    "assemble-middleware-contextual": "^0.2.2",
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
