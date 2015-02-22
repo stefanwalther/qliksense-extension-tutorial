@@ -82,7 +82,7 @@ Qlik Sense for Developers [states](http://help.qlik.com/sense/en-us/developer/#.
 > You can define a custom preview image that is visible when the visualization has been deployed to Qlik Sense. The preview image is visible when selecting the visualization in the Library or Assets panel. This is done by defining the preview parameter in the qext file.
 If you do not define the preview parameter in the qext file, the icon definition will be used for rendering the preview image as well.
 
-{{images "images/03/03_preview.png"}}
+{{image "images/03/03_preview.png"}}
 
 {{#note}}
 If you want to create a preview image, choose width and height of 140px x 123px.

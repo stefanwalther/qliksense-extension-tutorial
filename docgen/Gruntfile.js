@@ -25,7 +25,7 @@ module.exports = function ( grunt ) {
 					flatten: false,
 					expand: true,
 					cwd: './../docs/',
-					src: ['**/03*.md'],
+					src: ['**/*.md'],
 					dest: './../tutorial/'
 				}]
 			}
