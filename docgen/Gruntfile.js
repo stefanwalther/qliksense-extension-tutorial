@@ -16,17 +16,29 @@ module.exports = function ( grunt ) {
 					data: './config.yml',
 					plugins: [
 						//'assemble-middleware-contextual'
-					]
+					],
 					//partials: 'templates/partials/**/*.hbs',
-					//helpers: 'templates/helpers/**/*.hbs',
+					helpers: 'templates/helpers/**/*.js'
 
 				},
 				files: [{
 					flatten: false,
 					expand: true,
 					cwd: './../docs/',
-					src: ['**/*.md'],
+					src: ['**/03*.md'],
 					dest: './../tutorial/'
+				}]
+			}
+		},
+
+		copy: {
+			copy_images: {
+				files: [{
+					expand: true,
+					cwd: './../docs/images/',
+					src: ['**/*.png'],
+					dest: './../tutorial/images/',
+					filter: 'isFile'
 				}]
 			}
 		}
@@ -34,7 +46,8 @@ module.exports = function ( grunt ) {
 	} );
 
 	grunt.loadNpmTasks( 'assemble' );
-	grunt.registerTask( 'default', ['assemble'] );
+	grunt.loadNpmTasks( 'grunt-contrib-copy' );
+	grunt.registerTask( 'default', ['assemble', 'copy:copy_images'] );
 
 };
 
