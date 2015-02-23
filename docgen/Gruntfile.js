@@ -41,13 +41,26 @@ module.exports = function ( grunt ) {
 					filter: 'isFile'
 				}]
 			}
+		},
+
+		// Always add files in /tutorial/
+		gitadd: {
+			tutorial: {
+				files: [{
+					expand: true,
+					cwd: './../tutorial/',
+					src: '**/*.*',
+					dest: './../tutorial/'
+				}]
+			}
 		}
 
 	} );
 
 	grunt.loadNpmTasks( 'assemble' );
 	grunt.loadNpmTasks( 'grunt-contrib-copy' );
-	grunt.registerTask( 'default', ['assemble', 'copy:copy_images'] );
+	grunt.loadNpmTasks( 'grunt-git' );
+	grunt.registerTask( 'default', ['assemble', 'copy:copy_images', 'gitadd'] );
 
 };
 
