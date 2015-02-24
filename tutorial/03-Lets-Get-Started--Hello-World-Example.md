@@ -1,10 +1,6 @@
-# 
+# Chapter 03 - Let&#x27;s Get Started: Hello World Example
 
---
-title: Chapter 03 - Let's Get Started: Hello World Example
-published: false
-order: 30
---
+
 
 The first example is extremely easy, let’s just create a simple „Hello World“ visualization extension. In the following chapters we’ll improve this example and extend it with additional functionality.
 
@@ -155,7 +151,6 @@ define( [
 
 			paint: function ( $element, layout ) {
 
-				// $element.empty();
 				var $helloWorld = $( document.createElement( 'div' ) );
 				$helloWorld.html( 'Hello World from the extension "01-ExtTut-HelloWorld"<br/>' );
 				$element.append( $helloWorld );
@@ -177,23 +172,72 @@ Just follow these steps:
 
 You should see something like that:
 
+![](images/03/03_output.png)
 
 
+>**Hint:**
+If this is the first time that you are working with Qlik Sense (Desktop) I've added a step by step guide to the appendix which will guide you trough creating your first app and testing this extension.
+  
 
 
 ### Explanation of the Code
 
 
 **Some hints you should know:**
->**[object Object]**
+>****
 
   
 
+### But Wait, Something Went Wrong
+Before jumping to the next chapter you'll probably realize that there is something wrong with our solution.
+As soon as you resize the (browser-)window you'll recognize that our output get multiplied, so you'll end up into something like that:
 
-### Get the Code
+![](images/03/03_output_multiplied.png)
+
+So why did this happen?
+The answer is quite easy. Have a look above to the description of the `paint`. This method will always be called when the visualization should be rendered, and a resize triggers the paint.
+So in fact we are appending a new `$helloWorld` object to `$element` on every resize.
+
+There are several ways how to solve this, I'll introduce two of them:
+
+**1) Be lazy, just remove existing content**  
+
+You can remove all child nodes of `$element` at the beginning for your `paint` method (by using the [jQuery empty()](http://api.jquery.com/empty/) method).
+
+Just add the following line at the beginning of `paint`
+
+```javascript
+$element.empty();
+```
+
+**2) Be smarter, detect if the your new node already exists**  
+
+```javascript
+var id = layout.qInfo.qId + '_helloworld';
+var $helloWorld = $( '#' + id );
+if ( !$helloWorld.length ) {
+	console.log( 'No element found with the given Id, so create the element' );
+	$helloWorld = $( document.createElement( 'div' ) );
+	$helloWorld.attr( 'id', id );
+	$helloWorld.html( 'Hello World' );
+	$element.append( $helloWorld );
+} else {
+	console.log( 'Found an element with the given Id, so just change it' );
+	$helloWorld.html( 'Hello World' );
+}
+```
+
+With this example with have also introduced something new, the usage of the layout object to get the unique Id of the current object (too prevent conflicts if you are using the same object several times on a sheet). We'll talk more about `layout` in the upcoming chapters.
+
+**Performance Impact ?**
+Scared about the performance impact of the first approach, I was too, so I did some basic tests:
+http://jsperf.com/emptyorreuse
+
+I leave it to you whether you decide to go with better performance or better readability of your code ...
+
 
 
 ---
-Qlik Sense Extension Tutorial, Version 0.0.2
+Qlik Sense Extension Tutorial, Version 0.0.3
 
 [Table of Contents](00-TOC.md)

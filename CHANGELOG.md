@@ -1,5 +1,11 @@
 # ChangeLog
 
+# v0.0.3
+Date: 2015-02-24
+
+Enhancements:
+* Added Chapter 03, Let's Get Started - Hello World Example
+
 # v0.0.2
 Date: 2015-02-22
 

@@ -2,4 +2,4 @@ assemble:
   layoutdir: './templates/layouts/'
   layout: 'default-md.hbs'
 tutorial:
-  version: 0.0.2
+  version: 0.0.3
