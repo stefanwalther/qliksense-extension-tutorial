@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/stefanwalther/qliksense-extension-tutorial.svg?branch=master)](https://travis-ci.org/stefanwalther/qliksense-extension-tutorial)
 # Qlik Sense Extension Tutorial
 
 A comprehensive Qlik Sense Extension Tutorial
@@ -82,4 +83,3 @@ If you want to follow changes, follow the [Change Log](CHANGELOG.md).
 This tutorial is made available "AS IS" without any warranty of any kind under the MIT License (MIT).
 
 [Additional license information for this tutorial](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/LICENSE.md).
-
