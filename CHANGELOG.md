@@ -1,5 +1,11 @@
 # ChangeLog
 
+# v0.0.4
+Date: 2015-02-24
+
+Enhancements:
+* Added "What's New in Qlik Sense 1.1"
+
 # v0.0.3
 Date: 2015-02-24
 

@@ -62,11 +62,11 @@ There are some places where you can find Extensions for Qlik Sense:
 * **[market.qlik.com](http://market.qlik.com)**  
 Probably quite soon, we'll also see commercial visualization extensions for Qlik Sense on [market.qlik.com](http://market.qlik.com)
 * **[GitHub](http://github.com)**  
-Fortunately quite a lot of developers are publishing their extensions to GitHub, but 
+Fortunately quite a lot of developers are publishing their extensions to GitHub.
 
 
 
 ---
-Qlik Sense Extension Tutorial, Version 0.0.3
+Qlik Sense Extension Tutorial, Version 0.0.4
 
 [Table of Contents](00-TOC.md)
