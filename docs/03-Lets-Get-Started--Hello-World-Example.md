@@ -82,7 +82,7 @@ The property `name` will be re-used in the list of visualizations and the previe
 
 The `description` is visible in the preview:
 
-{{image "images/03/03_descriptions.png"}}
+{{image "images/03/03_description.png"}}
 
 ### `icon`
 
@@ -233,7 +233,7 @@ if ( !$helloWorld.length ) {
 
 With this example with have also introduced something new, the usage of the layout object to get the unique Id of the current object (too prevent conflicts if you are using the same object several times on a sheet). We'll talk more about `layout` in the upcoming chapters.
 
-**Performance Impact ?**
+**Performance Impact ?**  
 Scared about the performance impact of the first approach, I was too, so I did some basic tests:
 http://jsperf.com/emptyorreuse
 
