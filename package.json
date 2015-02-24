@@ -1,0 +1,26 @@
+{
+  "name": "qliksense-extension-tutorial",
+  "version": "0.0.3",
+  "description": "Comprehensive tutorial for Qlik Sense Extensions.",
+  "main": "-",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stefanwalther/qliksense-extension-tutorial.git"
+  },
+  "keywords": [
+    "qliksense-visualization-extension",
+    "tutorial"
+  ],
+  "author": "Stefan Walther",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stefanwalther/qliksense-extension-tutorial/issues"
+  },
+  "homepage": "https://github.com/stefanwalther/qliksense-extension-tutorial"
+}
