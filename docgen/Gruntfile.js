@@ -7,7 +7,7 @@ module.exports = function ( grunt ) {
 	grunt.initConfig( {
 
 		assemble: {
-			project: {
+			tutorial: {
 				options: {
 					trace: true,
 					layoutdir: config.assemble.layoutdir,
@@ -32,7 +32,7 @@ module.exports = function ( grunt ) {
 		},
 
 		copy: {
-			copy_images: {
+			tutorial_images: {
 				files: [{
 					expand: true,
 					cwd: './../docs/images/',
@@ -40,6 +40,18 @@ module.exports = function ( grunt ) {
 					dest: './../tutorial/images/',
 					filter: 'isFile'
 				}]
+			}
+		},
+
+		clean: {
+			options: {
+				force: true
+			},
+			tutorial: {
+				src: [
+					'./../tutorial/**/*.md'
+				],
+				filter: 'isFile'
 			}
 		},
 
@@ -58,9 +70,15 @@ module.exports = function ( grunt ) {
 	} );
 
 	grunt.loadNpmTasks( 'assemble' );
+	grunt.loadNpmTasks( 'grunt-contrib-clean' );
 	grunt.loadNpmTasks( 'grunt-contrib-copy' );
 	grunt.loadNpmTasks( 'grunt-git' );
-	grunt.registerTask( 'default', ['assemble', 'copy:copy_images', 'gitadd'] );
+	grunt.registerTask( 'default', [
+		'clean:tutorial',
+		'assemble:tutorial',
+		'copy:tutorial_images',
+		'gitadd'
+	] );
 
 };
 

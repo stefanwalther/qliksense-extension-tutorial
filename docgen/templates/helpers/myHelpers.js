@@ -6,9 +6,18 @@ var _ = require( 'underscore' );
  */
 module.exports.register = function ( Handlebars, options ) {
 
+	/**
+	 * {{hint [title]}}
+	 *
+	 * or
+	 * {{#hint [title]}}
+	 *  ...
+	 * {{/hint}}
+	 * @param title - Title of the hint, if blank, nothing will displayed, if not defined at all it defaults to "Hint:"
+	 */
 	Handlebars.registerHelper( 'hint', function ( title, options ) {
 
-		if ( title === undefined ) {
+		if ( title === undefined && typeof title !== 'object' ) {
 			title = 'Hint:'
 		}
 
@@ -25,11 +34,14 @@ module.exports.register = function ( Handlebars, options ) {
 
 	function getOptionsArg ( arguments ) {
 		for ( var i = 0, j = arguments.length; i < j; i++ ) {
-			if ( arguments[i].fn ) {
+
+			//console.log( 'argument: ', typeof arguments[i] );
+			if ( typeof arguments[i] === 'object' ) {
 				return arguments[i];
 			}
-			return null;
 		}
+		return null;
+
 	}
 
 };
