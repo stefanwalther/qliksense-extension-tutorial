@@ -37,7 +37,7 @@ In Qlik Sense 1.1 the following additions have been made to APIs which can be ea
 * `qlik.app.field.selectValues` (&#8658; [doc](http://help.qlik.com/sense/en-us/developer/#../Subsystems/Workbench/Content/BuildingWebsites/API/Methods/selectValues-method.htm%3FTocPath%3DQlik%2520Sense%2520Workbench%7CAPI%2520reference%7CQlik%2520Sense%2520Mashups%2520API%2520reference%7Cqlik.app.field%7C_____10))  
 
 **qlik.global**  
-* `qlik.global` (&#8658; doc)
+* `qlik.global`
 * `qlik.global.cancelReload` (&#8658; [doc](http://help.qlik.com/sense/en-us/developer/#../Subsystems/Workbench/Content/BuildingWebsites/API/Methods/cancelReload-method.htm%3FTocPath%3DQlik%2520Sense%2520Workbench%7CAPI%2520reference%7CQlik%2520Sense%2520Mashups%2520API%2520reference%7Cqlik.global%7C_____1))  
 * `qlik.global.getAppList` (&#8658; [doc](http://help.qlik.com/sense/en-us/developer/#../Subsystems/Workbench/Content/BuildingWebsites/API/Methods/getAppList-global-method.htm%3FTocPath%3DQlik%2520Sense%2520Workbench%7CAPI%2520reference%7CQlik%2520Sense%2520Mashups%2520API%2520reference%7Cqlik.global%7C_____2))  
 * `qlik.global.getAuthenticatedUser` (&#8658; [doc](http://help.qlik.com/sense/en-us/developer/#../Subsystems/Workbench/Content/BuildingWebsites/API/Methods/getAuthenticatedUser-method.htm%3FTocPath%3DQlik%2520Sense%2520Workbench%7CAPI%2520reference%7CQlik%2520Sense%2520Mashups%2520API%2520reference%7Cqlik.global%7C_____3))  
