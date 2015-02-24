@@ -32,7 +32,7 @@ published: true
 	* Npm Integration
 	* Programmatic Deployment of Qlik Sense Extensions
 	* What's New
-		* What's New in Qlik Sense 1.1
+		* [What's New in Qlik Sense 1.1](2011-Appendix-Whats-New-in-Qlik-Sense-1.1.md)
 	* Qlik Sense Extension Related Resources
 * Tools
 	* Tools: Manage Your Extensions
