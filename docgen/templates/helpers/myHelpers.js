@@ -32,6 +32,16 @@ module.exports.register = function ( Handlebars, options ) {
 
 	} );
 
+	/**
+	 * A markdown compliant hint.
+	 * @param text {string} - The text to be highlighted as todo.
+	 */
+	Handlebars.registerHelper( 'todo', function ( text ) {
+
+		return '<span style="background-color:#ffff00;">' + text + '</span>'
+
+	} );
+
 	function getOptionsArg ( arguments ) {
 		for ( var i = 0, j = arguments.length; i < j; i++ ) {
 
@@ -41,7 +51,6 @@ module.exports.register = function ( Handlebars, options ) {
 			}
 		}
 		return null;
-
 	}
 
 };
