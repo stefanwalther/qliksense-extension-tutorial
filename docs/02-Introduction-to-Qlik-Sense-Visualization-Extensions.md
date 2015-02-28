@@ -1,7 +1,8 @@
 ---
 title: Introduction to Qlik Sense Visualization Extensions
 order: 20
-published: true 
+published: true
+type: chapter
 ---
 Visualization Extensions are a possibility to extend the visualization capabilities of Qlik Sense by using only standard web-technologies. The concept of extensions in general can also be seen as a plugin-mechanism which allows developers to combine the power of Qlik Sense’ APIs with the nearly unlimited capabilities of the web.
 
