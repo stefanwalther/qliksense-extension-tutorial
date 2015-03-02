@@ -4,6 +4,13 @@ order: 40
 published: false
 ---
 
+{{#comment}}
+
+Console-log helper: http://www.briangrinstead.com/blog/console-log-helper-function
+Blackbox solution: https://gist.github.com/paulirish/c307a5a585ddbcc17242
+
+{{/comment}}
+
 Before we continue improving our Hello World example I think it's now the right moment to talk a little bit about debugging.
 
 In old days JavaScript developers often used [`alert()`](http://www.w3schools.com/jsref/met_win_alert.asp) to bring some debug messages to the front. Certainly you can still use this approach, but it becomes very soon more than annoying ... 
