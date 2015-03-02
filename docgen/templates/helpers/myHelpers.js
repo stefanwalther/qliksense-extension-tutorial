@@ -26,6 +26,13 @@ module.exports.register = function ( Handlebars, options ) {
 		return '>**' + title + '**' + content + '  ';
 	} );
 
+	/**
+	 * Support for images for future compatibility when generating responsive images for Html output.
+	 *
+	 * @param url {string} - Url of the image
+	 * @example
+	 * {{image "http://www.bla.com/image.png"}}
+	 */
 	Handlebars.registerHelper( 'image', function ( url ) {
 
 		return '![](' + url + ')';
@@ -40,6 +47,18 @@ module.exports.register = function ( Handlebars, options ) {
 
 		return '<span style="background-color:#ffff00;">' + text + '</span>'
 
+	} );
+
+	/**
+	 * Allow comments within markdown.
+	 *
+	 * @example
+	 * {{#markdown}}
+	 *   Any comment here will be removed.
+	 * {{/markdown}}
+	 */
+	Handlebars.registerHelper( 'comment', function () {
+		return '';
 	} );
 
 	function getOptionsArg ( arguments ) {
