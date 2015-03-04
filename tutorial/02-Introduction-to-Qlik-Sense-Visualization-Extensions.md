@@ -35,14 +35,14 @@ If you download a visualization extension you'll typically get a .zip file. Let'
 
 If you then have a look into the list of visualization objects you should see the one coming from the imported visualization extension, if this is not the case, refresh either Qlik Sense Desktop (press key `F5`) or refresh your browser.
 
-[Deploying visualizations in Qlik Sense Desktop](http://help.qlik.com/sense/en-us/developer/#../Subsystems/Workbench/Content/BuildingExtensions/HowTos/Ext_Ex_DeployExtensions.htm%3FTocPath%3DQlik%2520Sense%2520Workbench%7CBuilding%2520visualizations%7CWorking%2520with%2520visualizations%7C_____13) in the Qlik Sense Developer help.
+[Deploying visualizations in Qlik Sense Desktop](http://help.qlik.com/sense/en-us/developer/#../Subsystems/Workbench/Content/BuildingExtensions/HowTos/deploy-extensions.htm) in the Qlik Sense Developer help.
 
 
 ### Installing a Visualization Extension for Qlik Sense Server
 
 If you want to make your visualization extension available on Qlik Sense Server you have to import into the repository.
 
-See [Deploying visualizations in Qlik Sense](http://help.qlik.com/sense/en-us/developer/#../Subsystems/Workbench/Content/BuildingExtensions/HowTos/Ext_Ex_DeployExtensions.htm%3FTocPath%3DQlik%2520Sense%2520Workbench%7CBuilding%2520visualizations%7CWorking%2520with%2520visualizations%7C_____13) in the Qlik Sense Developer help.
+See [Deploying visualizations in Qlik Sense](http://help.qlik.com/sense/en-us/developer/#../Subsystems/Workbench/Content/BuildingExtensions/HowTos/deploy-extensions.htm) in the Qlik Sense Developer help.
 
 ## Comparison Between Extensions in QlikView and Qlik Sense
 
