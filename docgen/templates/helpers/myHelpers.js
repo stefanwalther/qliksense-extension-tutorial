@@ -1,4 +1,15 @@
+'use strict';
 var _ = require( 'underscore' );
+
+// ****************************************************************************************
+// Helpers:
+// ~~
+// - hint
+// - image
+// - todo (internal)
+// - comment
+// ****************************************************************************************
+
 /**
  * Handlebar helpers to guarantee compatibility with standard Markdown as soon as we decide also to go for some HTML output.
  * @param Handlebars
@@ -51,22 +62,25 @@ module.exports.register = function ( Handlebars, options ) {
 
 	/**
 	 * Allow comments within markdown.
+	 * The content between {{#comment}} and {{/comment}} will not be displayed.
+	 *
+	 * @description: Note, you can also use standard Html comments, they will also be ignored by standard markdown syntax, but rendered on the client ...
 	 *
 	 * @example
-	 * {{#markdown}}
+	 * {{#comment}}
 	 *   Any comment here will be removed.
-	 * {{/markdown}}
+	 * {{/comment}}
 	 */
 	Handlebars.registerHelper( 'comment', function () {
 		return '';
 	} );
 
-	function getOptionsArg ( arguments ) {
-		for ( var i = 0, j = arguments.length; i < j; i++ ) {
+	function getOptionsArg ( args ) {
+		for ( var i = 0, j = args.length; i < j; i++ ) {
 
 			//console.log( 'argument: ', typeof arguments[i] );
-			if ( typeof arguments[i] === 'object' ) {
-				return arguments[i];
+			if ( typeof args[i] === 'object' ) {
+				return args[i];
 			}
 		}
 		return null;
