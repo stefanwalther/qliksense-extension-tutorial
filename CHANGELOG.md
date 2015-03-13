@@ -1,5 +1,12 @@
 # ChangeLog
 
+# v0.0.5
+Date: 2015-03-14
+
+Enhancements:
+* Added chapter 04
+* Made some minor improvements to the build system
+
 # v0.0.4
 Date: 2015-02-24
 

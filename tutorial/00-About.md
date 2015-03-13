@@ -23,6 +23,6 @@ Folder				| Description
 
 
 ---
-Qlik Sense Extension Tutorial, Version 0.0.4
+Qlik Sense Extension Tutorial, Version 0.0.5
 
 [Table of Contents](00-TOC.md)

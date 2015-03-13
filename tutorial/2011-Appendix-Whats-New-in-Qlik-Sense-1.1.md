@@ -2,7 +2,7 @@
 
 
 
-In Qlik Sense 1.1 the following additions have been made to APIs which can be easily used within extensions:
+In Qlik Sense 1.1 the following additions have been made to APIs which can be easily used within visualization extensions:
 
 **qlik**
 * `qlik.callRepository` ([&#8658; doc](http://help.qlik.com/sense/en-us/developer/#../Subsystems/Workbench/Content/BuildingWebsites/API/Methods/callRepository-method.htm%3FTocPath%3DQlik%2520Sense%2520Workbench%7CAPI%2520reference%7CQlik%2520Sense%2520Mashups%2520API%2520reference%7Cqlik%7C_____1))    
@@ -47,6 +47,6 @@ In Qlik Sense 1.1 the following additions have been made to APIs which can be ea
 
 
 ---
-Qlik Sense Extension Tutorial, Version 0.0.4
+Qlik Sense Extension Tutorial, Version 0.0.5
 
 [Table of Contents](00-TOC.md)
