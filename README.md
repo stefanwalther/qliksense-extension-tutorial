@@ -24,7 +24,7 @@ These are the chapters I am about to write ...
 * [01 Qlik Sense Extension Tutorial](tutorial/01-Qlik-Sense-Extension-Tutorial.md)
 * [02 Introduction to Qlik Sense Visualization Extensions](tutorial/02-Introduction-to-Qlik-Sense-Visualization-Extensions.md)
 * [03 Let's Get Started: Hello World Example](tutorial/03-Lets-Get-Started--Hello-World-Example.md)
-* [04 Debugging and Web Developer Tools] (tutorial/04-04-Debugging-and-Web-Developer-Tools.md)
+* [04 Debugging and Web Developer Tools] (tutorial/04-Debugging-and-Web-Developer-Tools.md)
 * 05 Improving the Web Hello World Experience
 * 07 An Introduction to Custom Properties
 * 08 More on Custom Properties
