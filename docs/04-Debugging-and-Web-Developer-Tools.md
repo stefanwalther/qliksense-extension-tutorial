@@ -1,7 +1,7 @@
 ---
 title: "Chapter 04 - Debugging an Web Developer Tools"
 order: 40
-published: false
+published: true
 ---
 
 {{#comment}}
@@ -74,7 +74,7 @@ results into
 
 ![](images/04/04_Console_Sample.png)
 
-The console is very powerful, I can highly recommend that you spend some time with more "advanced" concepts of the console like:
+The console is very powerful, I highly recommend that you spend some time with more "advanced" concepts of the console like:
 
 ```javascript
 console.assert()
@@ -96,12 +96,37 @@ There are several strategies for achieving that:
 
 1. Remove all ```console.xxx()``` manually  
 Not really a nice solution, but certainly fine for the beginning
-2. Wrap all your calls to `console` that they are only executed if the current browser supports `console`
+2. Wrap all your calls to `console` that they are only executed if the current browser supports `console` ([here's a Gist](https://gist.github.com/stefanwalther/1b5ba150815e3f9a1bcb) you can use)
 3. Use tools like [Grunt](http://gruntjs.com/) or [Gulp](http://gulpjs.com/) to create a deployment process where all console statements will be removed automatically.
 
-I personally prefer option 3 because it keeps the deployed code clean.
+I personally prefer option 3 because it keeps the deployed code clean (I'll talk about the approach I have chosen and developed over time in one of the later chapters).
 
 
 ### Inspect Elements
+Probably even more important than the console output is the possibility to review how you have manipulated the DOM, so HTML and CSS.
+
+If it is unclear for you what "DOM manipulation" is, here are some good articles:
+
+* [Short description on stackoverflow](http://stackoverflow.com/questions/3934826/what-do-people-mean-when-they-say-dom-manipulation)
+* [Good short tutorial](https://dom-tutorials.appspot.com/static/2.html)
+
+Having an inspector is a common capability of all Web Developer Tools. In Chrome WebDev Tools just click on the lens:
+
+Have a look at the following [short video](https://www.youtube.com/watch?v=GHaneFM0QXU):
+
+[![](images/04/04_ChromeWebDevTools_Inspect_Change_Elements.png)](https://www.youtube.com/watch?v=GHaneFM0QXU)
+
+More detailed information: https://developer.chrome.com/devtools/docs/dom-and-styles
 
 ### Debugging
+Finally you can use Developer Tools for live debugging:
+
+Read more on:
+
+* [Debugging with Chrome DevTools site](https://developer.chrome.com/devtools/docs/javascript-debugging)
+* [Debugging with Firebug](http://www.developerfusion.com/article/139949/debugging-javascript-with-firebug/)
+* [Debugging with Internet Explorer Developer Tools](https://msdn.microsoft.com/en-us/library/ie/gg589507%28v=vs.85%29.aspx)
+
+{{#hint "Hint"}}
+Very similar to the advice above regarding `console.x()`, do not forget to remove `debugger;` statements if you move your visualization extension to production environment.
+{{/hint}}
