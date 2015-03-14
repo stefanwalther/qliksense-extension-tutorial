@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/stefanwalther/qliksense-extension-tutorial.svg?branch=master)](https://travis-ci.org/stefanwalther/qliksense-extension-tutorial)
 # Qlik Sense Extension Tutorial
 
-A comprehensive Tutorial for creating Qlik Sense Visualization Extensions
+> A comprehensive tutorial how to create Qlik Sense Visualization Extensions
 
 ## About this Tutorial
 
