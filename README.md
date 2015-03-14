@@ -26,20 +26,20 @@ These are the chapters I am about to write ... and some of them are already fini
 * [03 Let's Get Started: Hello World Example](tutorial/03-Lets-Get-Started--Hello-World-Example.md)
 * [04 Debugging and Web Developer Tools](tutorial/04-Debugging-and-Web-Developer-Tools.md)
 * 05 Improving the Web Hello World Experience
-* 07 An Introduction to Custom Properties
-* 08 More on Custom Properties
-* 09 Working with Data
-* 10 Including External Resources
-* 11 More on  HyperCubes
-* 11 The BackendAPI
-* 12 The Selection Model
-* 13 Working with Variables
-* 14 Working with a ListObjectDefinition
-* 15 Working with a PivotTableDefinition
-* 16 Working with Meta Data
-* 17 Talking to the Repository API
-* 18 Setting up a Robust Development Environment
-* 19 Two Approaches, the “Classic” One & the Angular Way
+* 06 An Introduction to Custom Properties
+* XX More on Custom Properties
+* XX Working with Data
+* XX Including External Resources
+* XX More on  HyperCubes
+* XX The BackendAPI
+* XX The Selection Model
+* XX Working with Variables
+* XX Working with a ListObjectDefinition
+* XX Working with a PivotTableDefinition
+* XX Working with Meta Data
+* XX Talking to the Repository API
+* XX Setting up a Robust Development Environment
+* XX Two Approaches, the “Classic” One & the Angular Way
 * Appendix:
 	* [Resources](tutorial/1001-Appendix-Resources.md)
 	* branch.qlik.com
