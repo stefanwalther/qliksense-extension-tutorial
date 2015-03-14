@@ -9,16 +9,16 @@ In this tutorial you'll learn how to use Qlik Sense' Extension concept to bring 
 
 ### Work in Progress, Always
 
-This project is work in progress and will probably always remain in this status, that's part of the concept and the idea of creating a living tutorial.
+This project is work in progress and will and should always remain in this status, that's part of the concept and the idea of creating a ***living tutorial***. As soon as there are now capabilities exposed in Qlik Sense' Extension API, I will update the appropriate sections here.
 
 If you want to follow the progress of this project there are some options:
 
-* Create a GitHub account and "Watch" this project
+* [Join GitHub](https://github.com/join) and "Watch" this project
 * [Follow me on Twitter](http://twitter.com/waltherstefan), as soon as I have finished a new chapter, I'll announce it there
 
 ## Chapters
 
-These are the chapters I am about to write ...
+These are the chapters I am about to write ... and some of them are already finished ;-)
 
 * [00 About this Tutorial](tutorial/00-About.md)
 * [01 Qlik Sense Extension Tutorial](tutorial/01-Qlik-Sense-Extension-Tutorial.md)
@@ -60,7 +60,8 @@ If you have any questions, found errors, etc., please [create an issue here on G
 
 ## Contributing
 
-Found a bug? Have a request? Please [create an Issue](https://github.com/stefanwalther/qliksense-extension-tutorial/issues).
+Found a bug? Have a request? Have a question?
+Please [create an issue](https://github.com/stefanwalther/qliksense-extension-tutorial/issues) on GitHub.
 
 ## Errata
 Due to the nature of this project there is no errata section necessary: This is living tutorial, so as soon as I find errors or mistakes or just want to improve something, I'll just fix it and push it to GitHub.
@@ -76,7 +77,7 @@ If you want to follow changes, follow the [Change Log](CHANGELOG.md).
 
 * [github.com/stefanwalther](http://github.com/stefanwalther)
 * [twitter.com/waltherstefan](http://twitter.com/waltherstefan)
-* [qlikblog.at](http://www.qlikblog.at)
+* [qliksite.io](http://qliksite.io)
 
 ## License
 

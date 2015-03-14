@@ -63,6 +63,6 @@
 	* Tools: Manage Your Extensions
 
 ---
-Qlik Sense Extension Tutorial, Version 0.1.5
+Qlik Sense Extension Tutorial, Version 0.1.6
 
 [Table of Contents](00-TOC.md)

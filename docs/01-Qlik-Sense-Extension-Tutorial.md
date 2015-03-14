@@ -6,7 +6,7 @@ type: chapter
 ---
 The intention of this tutorial is to help you to start developing Extensions in Qlik Sense. If you have already spent some time with the concept of Extensions in QlikView you’ll see some similarities in the first chapters, but at the same time you’ll recognize how much cleaner and better the Extension API in Qlik Sense is in comparison to the one in QlikView.
 
-Although at this point it’s important to mention that the intention of this tutorial is to bring Qlik Sense’s Visualization Extension concept to everybody, so you don’t need any skills in neither QlikView nor Qlik Sense to get started.
+Although at this point it’s important to mention that the main idea behind this tutorial is to bring Qlik Sense’s Visualization Extension concept to everybody, so you **don’t need any skills in neither QlikView nor Qlik Sense** to get started.
 
 ## Prerequisites
 To be able to understand this tutorial, it is **not necessary** that you have already developed any extensions in either QlikView or Qlik Sense, but you should have a basic understanding of the following concepts:

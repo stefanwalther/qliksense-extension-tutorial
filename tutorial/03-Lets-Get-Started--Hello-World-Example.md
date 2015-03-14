@@ -238,6 +238,6 @@ I leave it to you whether you decide to go with better performance or better rea
 
 
 ---
-Qlik Sense Extension Tutorial, Version 0.1.5
+Qlik Sense Extension Tutorial, Version 0.1.6
 
 [Table of Contents](00-TOC.md)

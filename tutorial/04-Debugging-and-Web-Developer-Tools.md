@@ -125,6 +125,6 @@ Very similar to the advice above regarding `console.x()`, do not forget to remov
   
 
 ---
-Qlik Sense Extension Tutorial, Version 0.1.5
+Qlik Sense Extension Tutorial, Version 0.1.6
 
 [Table of Contents](00-TOC.md)
