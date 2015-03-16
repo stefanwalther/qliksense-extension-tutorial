@@ -1,8 +1,6 @@
----
-title: "Chapter 05 - Improving the Hello World Experience"
-order: 50
-published: true
----
+# Chapter 05 - Improving the Hello World Experience
+
+
 OK, let's improve the _Hello World_ experience.
 In this chapter we'll make the _Hello World_ example a bit more dynamic:
 
@@ -18,12 +16,12 @@ Therefore you can define which properties are exposed to the user in the (right)
 
 If you have a look at the output of our very first "Hello World" example you'll recognize that the property panel looks as follows:
 
-{{image "images/05/05_InitialPropertyPanel.png"}}
+![](images/05/05_InitialPropertyPanel.png)
 
 The "Appearance" accordion is enabled by default and available out of the box without doing anything. Now we'd like to inject just another text box into this accordion where we can define the output rendered:
 
 **Desired result:**
-{{image "images/05/05_DesiredResult.png"}}
+![](images/05/05_DesiredResult.png)
 
 Therefore we add another object to the skeleton of the script file, called `definition`:
 
@@ -94,9 +92,9 @@ definition: {
 
 Good, we have now added a new property to the property panel where we can enter a value for our new, improved "Hello World" example:
 
-{{#hint}}
+>**[object Object]**
 If you are making changes in your script file and then testing it either in your browser or within Qlik Sense Desktop, do not forget to re-load the page. (In Qlik Sense Desktop and most browsers just by hitting the key `F5`)
-{{/hint}}
+  
 
 ### Use the custom string property
 
@@ -106,7 +104,7 @@ Now let's modify the code to render what we enter in our text box. Before doing 
 // put this inside at the beginning of your paint method
 console.log(layout);
 ```
-{{image "images/05/05_HelloWorld_ConsoleLog.png"}}
+![](images/05/05_HelloWorld_ConsoleLog.png)
 
 The rest of this exercise is easy, instead of hard-coding the result
 
@@ -126,16 +124,16 @@ $helloWorld.html( layout.myDynamicProperty );
 $element.append( $helloWorld );
 ```
 
-{{#hint}}
+>**[object Object]**
 If you are making changes to `ref`, refreshing the browser does not reflect the changes. You have to delete an existing object and re-add it to the sheet.
 Therefore double-checking the returned properties using `console.log(...)` is always a good advice.
-{{/hint}}
+  
 
 ## Adding a preview image
 
 The last exercise is easy, we want to add a good looking preview image if you click on the object in the Library or Assets panel.
 
-{{image "images/05/05_PreviewImg_Before.png"}}
+![](images/05/05_PreviewImg_Before.png)
 
 For modifying the displayed preview image, do the following:
 * Create a new image and save it as .png file in the folder of your extension
@@ -144,12 +142,18 @@ For modifying the displayed preview image, do the following:
 
 **Our final result:**
 
-{{image "images/05/05_PreviewImg_After.png.png"}}
+![](images/05/05_PreviewImg_After.png.png)
 
-{{#hint}}
+>**[object Object]**
 As of version 1.0 or 1.1 of Qlik Sense the expected dimensions of the image are not clearly defined. It works best if you choose 140x123 pixels.
-{{/hint}}
+  
 
 
 Congrats, you have now an (little bit) improved version of your "Hello World" example.
 
+
+
+---
+Qlik Sense Extension Tutorial, Version 0.1.7
+
+[Table of Contents](00-TOC.md)
