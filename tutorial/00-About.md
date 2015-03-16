@@ -1,11 +1,11 @@
 # About this tutorial
 
 
-In the past I was writing quite a lot of article on [my private blog](http://www.qlikblog.at) which is fine in general, but when writing a tutorial a blog is not really the right format as I realized.
+In the past I was writing quite a lot of article on [my private blog](http://www.qlikblog.at) which is fine in general, but when writing a tutorial, a blog is not really the ideal format as I realized.
 
 So it's time to try something new: ***A living tutorial***.
 
-The main idea behind publishing this tutorial to [GitHub](http://github.com) is, that a really good tutorial is probably never finished, so if there are changes to be made (either in the code or the descriptive text), it should just be easy to make these changes and publish them. Certainly not only for me - the primary author - but also for other people.
+The main idea behind publishing this tutorial to [GitHub](http://github.com) is, that a really good tutorial should probably never be finished. If there are changes to be made (either in the code or the descriptive text), it should just be easy to make these changes and publish them. Certainly not only for me - the primary author - but also for other people.
 
 So I invite you not only to consume but also to participate!
 
@@ -25,6 +25,6 @@ Folder				| Description
 
 
 ---
-Qlik Sense Extension Tutorial, Version 0.1.6
+Qlik Sense Extension Tutorial, Version 0.1.7
 
 [Table of Contents](00-TOC.md)

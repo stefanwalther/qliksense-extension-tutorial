@@ -7,15 +7,20 @@
 * [02 Introduction to Qlik Sense Visualization Extensions](02-Introduction-to-Qlik-Sense-Visualization-Extensions.md)
 * [03 Let's Get Started: Hello World Example](03-Lets-Get-Started--Hello-World-Example.md)
 * [04 Debugging and Web Developer Tools] (04-Debugging-and-Web-Developer-Tools.md)
-* 05 Improving the Web Hello World Experience
+	* console.x()
+	* Debugging
+	* Object inspection
+* [05 Improving the Web Hello World Experience](05-Improving-the-Hello-World-Experience.md)
 	* Make _Hello World_ dynamic
-	* Create a Preview Image
-* 06 An Introduction to Custom Properties
-	* Basic Custom property types
+	* Define a preview image
+* 06 An Introduction to Using Properties
+	* Skeleton
+	* Re-using properties
+	* Basic custom property types
 	* How to reference properties
 * XX More on Custom Properties
 	* More components
-	* Show Conditions
+	* Show conditions
 	* Tips to structure your property definitions
 	* Tips to organize your references
 	* Use external sources
@@ -63,6 +68,6 @@
 	* Tools: Manage Your Extensions
 
 ---
-Qlik Sense Extension Tutorial, Version 0.1.6
+Qlik Sense Extension Tutorial, Version 0.1.7
 
 [Table of Contents](00-TOC.md)

@@ -1,9 +1,8 @@
 {
-  "name": "ExtTut-01-HelloWorld",
-  "description": "Extension Tutorial, Chapter 3, Simple Hello World.",
+  "name": "ExtTut-03-HelloWorld",
+  "description": "Extension Tutorial, chapter 3, simple \"Hello World\".",
   "icon": "extension",
   "type": "visualization",
   "version": "0.1",
-  "preview": "bar",
   "author": "Stefan Walther"
 }

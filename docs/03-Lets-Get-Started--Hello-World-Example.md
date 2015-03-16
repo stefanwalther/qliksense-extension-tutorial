@@ -29,18 +29,20 @@ define( [ /* dependencies */ ],
 	function ( /* dependency arguments */ ) {
 		'use strict';
 		return {
+
+			// Paint resp.Rendering logic
 			paint: function ( $element, layout ) {
-				// Your painting logic ...				
+				// Your rendering code goes here ...				
 			}
 		};
 	} );
 ```
 
-### define
+### `define`
 `define` is a concept introduced by [requireJS](http://requirejs.org/) to define dependencies in your JavaScript files. The idea is to load external dependencies before your main script gets executed ([read more here](http://requirejs.org/docs/api.html#defsimple)).
 In our example above we do not load any dependencies, but we'll do in further chapters of this tutorial.
 
-### paint
+### `paint`
 `paint` is the main method to render the visualization.
 
 > It will be called every time the visualization should be rendered, either because of new data from the server or because it has been re-sized.
@@ -153,6 +155,7 @@ define( [
 
 		return {
 
+			//Paint resp.Rendering logic
 			paint: function ( $element, layout ) {
 
 				var $helloWorld = $( document.createElement( 'div' ) );
@@ -184,6 +187,7 @@ If this is the first time that you are working with Qlik Sense (Desktop) I've ad
 {{/hint}}
 
 
+{{#comment}}
 ### Explanation of the Code
 
 
@@ -191,6 +195,7 @@ If this is the first time that you are working with Qlik Sense (Desktop) I've ad
 {{#hint ""}}
 
 {{/hint}}
+{{/comment}}
 
 ### But Wait, Something Went Wrong
 Before jumping to the next chapter you'll probably realize that there is something wrong with our solution.
@@ -231,11 +236,13 @@ if ( !$helloWorld.length ) {
 }
 ```
 
-With this example with have also introduced something new, the usage of the layout object to get the unique Id of the current object (too prevent conflicts if you are using the same object several times on a sheet). We'll talk more about `layout` in the upcoming chapters.
+Reviewing this example you'll also recognize something new, the usage of the `layout` object to get the unique Id of the current object (too prevent conflicts if you are using the same object several times on a sheet). We'll talk more about `layout` in upcoming chapters.
 
 **Performance Impact ?**  
-Scared about the performance impact of the first approach, I was too, so I did some basic tests:
+Scared about the performance impact of the first approach? I was too, so I did some basic tests:
 http://jsperf.com/emptyorreuse
 
 I leave it to you whether you decide to go with better performance or better readability of your code ...
+
+> To improve readability of code examples in this tutorial I'll in general stick to the `empty()` pattern.
 

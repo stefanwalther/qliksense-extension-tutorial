@@ -9,7 +9,7 @@ define( [
 			paint: function ( $element, layout ) {
 
 				var $helloWorld = $( document.createElement( 'div' ) );
-				$helloWorld.html( 'Hello World from the extension "01-ExtTut-HelloWorld"<br/>' );
+				$helloWorld.html( 'Hello World from the extension "03-ExtTut-HelloWorld"<br/>' );
 				$element.append( $helloWorld );
 
 				// ****************************************************************************************

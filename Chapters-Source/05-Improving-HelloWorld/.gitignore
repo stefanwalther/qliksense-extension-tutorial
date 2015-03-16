@@ -3,7 +3,6 @@
 dist/
 grunt/node_modules/
 
-
 # =========================
 # Windows detritus
 # =========================

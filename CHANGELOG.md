@@ -1,28 +1,39 @@
 # ChangeLog
 
-# v0.1.5
-Date: 2015-03-14
+# v0.1.7
+
+New:
+* Added chapter 05
 
 Enhancements:
+* Several minor text + code corrections
+* Made links on README.md in the root absolute to make them also working on branch.qlik.com
+
+# v0.1.6
+Date: 2015-03-14
+
+New:
 * Added chapter 04
+
+Enhancements:
 * Made some minor improvements to the build system
 
 # v0.0.4
 Date: 2015-02-24
 
-Enhancements:
+New:
 * Added "What's New in Qlik Sense 1.1"
 
 # v0.0.3
 Date: 2015-02-24
 
-Enhancements:
+New:
 * Added Chapter 03, Let's Get Started - Hello World Example
 
 # v0.0.2
 Date: 2015-02-22
 
-Enhancements:
+New:
 * Added Chapter 02, Introduction to Qlik Sense Visualization Extensions
 
 # v0.0.1

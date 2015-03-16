@@ -2,8 +2,8 @@
 # General Settings
 general:
   LocalExtensionPath: "d:\\Documents\\Qlik\\Sense\\Extensions"
-  ExtensionName: "ExtTut-03-HelloWorld"
-  ExtensionNameSafe: "ExtTut-03-HelloWorld"
+  ExtensionName: "ExtTut-05-Improving-HelloWorld"
+  ExtensionNameSafe: "ExtTut-05-Improving-HelloWorld"
   ExtensionNamespace: "swr-"
   Version:            '0.0.1'
 
