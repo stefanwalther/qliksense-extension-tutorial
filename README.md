@@ -20,11 +20,11 @@ If you want to follow the progress of this project there are some options:
 
 These are the chapters I am about to write ... and some of them are already finished ;-)
 
-* [00 About this Tutorial](tutorial/00-About.md)
-* [01 Qlik Sense Extension Tutorial](tutorial/01-Qlik-Sense-Extension-Tutorial.md)
-* [02 Introduction to Qlik Sense Visualization Extensions](tutorial/02-Introduction-to-Qlik-Sense-Visualization-Extensions.md)
-* [03 Let's Get Started: Hello World Example](tutorial/03-Lets-Get-Started--Hello-World-Example.md)
-* [04 Debugging and Web Developer Tools](tutorial/04-Debugging-and-Web-Developer-Tools.md)
+* [00 About this Tutorial](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/00-About.md)
+* [01 Qlik Sense Extension Tutorial](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/01-Qlik-Sense-Extension-Tutorial.md)
+* [02 Introduction to Qlik Sense Visualization Extensions](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/02-Introduction-to-Qlik-Sense-Visualization-Extensions.md)
+* [03 Let's Get Started: Hello World Example](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/03-Lets-Get-Started--Hello-World-Example.md)
+* [04 Debugging and Web Developer Tools](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/04-Debugging-and-Web-Developer-Tools.md)
 * 05 Improving the Web Hello World Experience
 * 06 An Introduction to Custom Properties
 * XX More on Custom Properties
