@@ -41,14 +41,14 @@ These are the chapters I am about to write ... and some of them are already fini
 * XX Setting up a Robust Development Environment
 * XX Two Approaches, the “Classic” One & the Angular Way
 * Appendix:
-	* [Resources](tutorial/1001-Appendix-Resources.md)
+	* [Resources](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/1001-Appendix-Resources.md)
 	* branch.qlik.com
 	* Basic Introduction to git & GitHub
 	* How to publish your extension to GitHub & branch.qlik.com
 	* Npm Integration
 	* Programmatic Deployment of Qlik Sense Extensions
 	* What's New
-		* [What's New in Qlik Sense 1.1](tutorial/2011-Appendix-Whats-New-in-Qlik-Sense-1.1.md)
+		* [What's New in Qlik Sense 1.1](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/2011-Appendix-Whats-New-in-Qlik-Sense-1.1.md)
 	* Qlik Sense Extension Related Resources
 * Tools
 	* Tools: Manage Your Extensions
