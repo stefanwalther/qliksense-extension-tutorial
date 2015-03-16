@@ -6,7 +6,7 @@
 * [01 Qlik Sense Extension Tutorial](01-Qlik-Sense-Extension-Tutorial.md)
 * [02 Introduction to Qlik Sense Visualization Extensions](02-Introduction-to-Qlik-Sense-Visualization-Extensions.md)
 * [03 Let's Get Started: Hello World Example](03-Lets-Get-Started--Hello-World-Example.md)
-* [04 Debugging and Web Developer Tools] (04-04-Debugging-and-Web-Developer-Tools.md)
+* [04 Debugging and Web Developer Tools] (04-Debugging-and-Web-Developer-Tools.md)
 * 05 Improving the Web Hello World Experience
 	* Make _Hello World_ dynamic
 	* Create a Preview Image
