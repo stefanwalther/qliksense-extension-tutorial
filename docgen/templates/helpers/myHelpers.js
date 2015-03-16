@@ -1,5 +1,6 @@
 'use strict';
 var _ = require( 'underscore' );
+var S = require( 'string' );
 
 // ****************************************************************************************
 // Helpers:
@@ -25,16 +26,20 @@ module.exports.register = function ( Handlebars, options ) {
 	 *  ...
 	 * {{/hint}}
 	 * @param title - Title of the hint, if blank, nothing will displayed, if not defined at all it defaults to "Hint:"
+	 * @todo Work on more params to pass the title
+	 * @todo Work on multiline comments using hint
+	 * @todo Test this stuff
 	 */
-	Handlebars.registerHelper( 'hint', function ( title, options ) {
+	Handlebars.registerHelper( 'hint', function ( options ) {
 
-		if ( title === undefined && typeof title !== 'object' ) {
-			title = 'Hint:'
+		var title = '';
+		if ( !_.isString( options ) ) {
+			title = 'Hint';
 		}
 
 		var content = getOptionsArg( arguments ).fn( this );
 
-		return '>**' + title + '**' + content + '  ';
+		return '>**' + title + '**  \n>' + S( content ).chompLeft( '\n' ) + '  ';
 	} );
 
 	/**

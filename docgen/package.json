@@ -12,6 +12,7 @@
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-copy": "^0.8.0",
     "grunt-git": "^0.3.4",
+    "string": "^3.0.1",
     "underscore": "^1.8.2"
   },
   "scripts": {

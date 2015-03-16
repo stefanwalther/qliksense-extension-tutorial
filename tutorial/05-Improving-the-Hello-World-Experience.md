@@ -92,8 +92,8 @@ definition: {
 
 Good, we have now added a new property to the property panel where we can enter a value for our new, improved "Hello World" example:
 
->**Hint**
-If you are making changes in your script file and then testing it either in your browser or within Qlik Sense Desktop, do not forget to re-load the page. (In Qlik Sense Desktop and most browsers just by hitting the key `F5`)
+>****  
+>If you are making changes in your script file and then testing it either in your browser or within Qlik Sense Desktop, do not forget to re-load the page. (In Qlik Sense Desktop and most browsers just by hitting the key `F5`)
   
 
 ### Use the custom string property
@@ -124,8 +124,8 @@ $helloWorld.html( layout.myDynamicProperty );
 $element.append( $helloWorld );
 ```
 
->**[object Object]**
-If you are making changes to `ref`, refreshing the browser does not reflect the changes. You have to delete an existing object and re-add it to the sheet.
+>**Hint**  
+>If you are making changes to `ref`, refreshing the browser does not reflect the changes. You have to delete an existing object and re-add it to the sheet.
 Therefore double-checking the returned properties using `console.log(...)` is always a good advice.
   
 
@@ -144,8 +144,8 @@ For modifying the displayed preview image, do the following:
 
 ![](images/05/05_PreviewImg_After.png)
 
->**[object Object]**
-As of version 1.0 or 1.1 of Qlik Sense the expected dimensions of the image are not clearly defined. It works best if you choose 140x123 pixels.
+>**Hint**  
+>As of version 1.0 or 1.1 of Qlik Sense the expected dimensions of the image are not clearly defined. It works best if you choose 140x123 pixels.
   
 
 
