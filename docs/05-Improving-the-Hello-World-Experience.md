@@ -22,7 +22,7 @@ If you have a look at the output of our very first "Hello World" example you'll 
 
 The "Appearance" accordion is enabled by default and available out of the box without doing anything. Now we'd like to inject just another text box into this accordion where we can define the output rendered:
 
-**Desired result:**
+**Desired result:**  
 {{image "images/05/05_DesiredResult.png"}}
 
 Therefore we add another object to the skeleton of the script file, called `definition`:
@@ -94,7 +94,7 @@ definition: {
 
 Good, we have now added a new property to the property panel where we can enter a value for our new, improved "Hello World" example:
 
-{{#hint}}
+{{#hint "Hint"}}
 If you are making changes in your script file and then testing it either in your browser or within Qlik Sense Desktop, do not forget to re-load the page. (In Qlik Sense Desktop and most browsers just by hitting the key `F5`)
 {{/hint}}
 
@@ -144,7 +144,7 @@ For modifying the displayed preview image, do the following:
 
 **Our final result:**
 
-{{image "images/05/05_PreviewImg_After.png.png"}}
+{{image "images/05/05_PreviewImg_After.png"}}
 
 {{#hint}}
 As of version 1.0 or 1.1 of Qlik Sense the expected dimensions of the image are not clearly defined. It works best if you choose 140x123 pixels.
