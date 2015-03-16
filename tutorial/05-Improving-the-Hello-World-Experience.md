@@ -92,7 +92,7 @@ definition: {
 
 Good, we have now added a new property to the property panel where we can enter a value for our new, improved "Hello World" example:
 
->****  
+>**Hint**  
 >If you are making changes in your script file and then testing it either in your browser or within Qlik Sense Desktop, do not forget to re-load the page. (In Qlik Sense Desktop and most browsers just by hitting the key `F5`)
   
 
