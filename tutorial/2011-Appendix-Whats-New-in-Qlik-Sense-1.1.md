@@ -47,6 +47,6 @@ In Qlik Sense 1.1 the following additions have been made to APIs which can be ea
 
 
 ---
-Qlik Sense Extension Tutorial, Version 0.1.7
+Qlik Sense Extension Tutorial, Version 0.1.8
 
 [Table of Contents](00-TOC.md)

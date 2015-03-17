@@ -154,6 +154,6 @@ Congrats, you have now an (little bit) improved version of your "Hello World" ex
 
 
 ---
-Qlik Sense Extension Tutorial, Version 0.1.7
+Qlik Sense Extension Tutorial, Version 0.1.8
 
 [Table of Contents](00-TOC.md)
