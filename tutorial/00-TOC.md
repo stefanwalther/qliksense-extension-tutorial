@@ -64,6 +64,8 @@
 	* What's New
 		* [What's New in Qlik Sense 1.1](2011-Appendix-Whats-New-in-Qlik-Sense-1.1.md)
 	* Qlik Sense Extension Related Resources
+* How To
+	* [... use Bootstrap styles in Qlik Sense visualization extensions](5000-Using-Bootstrap-CSS-in-Visualization-Extensions.md)
 * XX Tools
 	* Tools: Manage Your Extensions
 

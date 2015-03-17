@@ -52,6 +52,9 @@ These are the chapters I am about to write ... and some of them are already fini
 	* Qlik Sense Extension Related Resources
 * Tools
 	* Tools: Manage Your Extensions
+* How To
+	* [... use Bootstrap styles in Qlik Sense visualization extensions](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/5000-Using-Bootstrap-CSS-in-Visualization-Extensions.md)
+
 
 
 ## Comments, Feedback & Questions

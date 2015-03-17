@@ -1,5 +1,10 @@
 # ChangeLog
 
+# v0.1.8
+
+New:
+* Added "How to use Bootstrap in Qlik Sense visualization extensions"
+
 # v0.1.7
 
 New:
