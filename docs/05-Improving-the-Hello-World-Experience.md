@@ -151,5 +151,5 @@ As of version 1.0 or 1.1 of Qlik Sense the expected dimensions of the image are 
 {{/hint}}
 
 
-Congrats, you have now an (little bit) improved version of your "Hello World" example.
+Congrats, you have now created an **improved version** of your "Hello World" example, although there is certainly still room for improvement ;-)
 

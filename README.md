@@ -13,7 +13,7 @@ This project is work in progress and will and should always remain in this statu
 
 If you want to follow the progress of this project there are some options:
 
-* [Join GitHub](https://github.com/join) and "Watch" this project
+* [Join GitHub](https://github.com/join) and "watch" or "star" the project and you'll get updates
 * [Follow me on Twitter](http://twitter.com/waltherstefan), as soon as I have finished a new chapter, I'll announce it there
 
 ## Chapters
