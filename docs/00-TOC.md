@@ -21,22 +21,24 @@ type:
 	* Re-using properties
 	* Basic custom property types
 	* How to reference properties
-* XX More on Custom Properties
-	* More components
-	* Show conditions
-	* Tips to structure your property definitions
-	* Tips to organize your references
-	* Use external sources
+	* Separate property definition to a separate file
 * XX Hello Data
+	* Allow users to define dimensions & measures
+	* Retrieve data
+	* Initial properties
+	* Default limitations
 * XX Working with Data
 	* Understanding data structure of Qlik objects / Qlik's internal data structure
 	* qHyperCube
 	* qListObject
 	* qPivotTable
 	* qExpressions
+* XX Hello Data Advanced
+	* Overcome default limitations
 * XX Including External Resources
 * XX More on HyperCubes
 * XX The BackendAPI
+* XX Communicating with the Repository API
 * XX The Selection Model
 * XX Working with Variables
 	* Creating variables manually and programmatically
@@ -55,8 +57,14 @@ type:
 * XX The Angular Way: Directives
 * XX The Angular Way: Filter
 * XX The Angular Way: Services
-* XX Advanced Techniques
-	* Modifying Custom Properties
+* XX Advanced Techniques: Modifying Custom Properties
+* XX Advanced Techniques: Embedding Real Time Communication
+* XX More on Custom Properties
+	* More components
+	* Show conditions
+	* Tips to structure your property definitions
+	* Tips to organize your references
+	* Use external sources
 * [Appendix:](1000-Appendix.md)
 	* [Resources](1001-Appendix-Resources.md)
 	* branch.qlik.com
