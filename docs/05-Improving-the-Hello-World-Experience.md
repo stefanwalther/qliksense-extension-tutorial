@@ -147,7 +147,7 @@ For modifying the displayed preview image, do the following:
 {{image "images/05/05_PreviewImg_After.png"}}
 
 {{#hint}}
-As of version 1.0 or 1.1 of Qlik Sense the expected dimensions of the image are not clearly defined. It works best if you choose 140x123 pixels.
+As of version 1.0 or 1.1 of Qlik Sense the expected dimensions of the image are not clearly defined. It works best if you choose 140x123 pixels or a multiple of this ratio.
 {{/hint}}
 
 
