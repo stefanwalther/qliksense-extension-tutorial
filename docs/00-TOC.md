@@ -22,7 +22,7 @@ type:
 	* Basic custom property types
 	* How to reference properties
 	* Separate property definition to a separate file
-* XX Hello Data
+* 07 Hello Data
 	* Allow users to define dimensions & measures
 	* Retrieve data
 	* Initial properties
@@ -57,6 +57,7 @@ type:
 * XX The Angular Way: Directives
 * XX The Angular Way: Filter
 * XX The Angular Way: Services
+* XX Working With System Tables
 * XX Advanced Techniques: Modifying Custom Properties
 * XX Advanced Techniques: Embedding Real Time Communication
 * XX More on Custom Properties
