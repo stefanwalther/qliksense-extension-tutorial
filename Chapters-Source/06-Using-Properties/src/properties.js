@@ -50,6 +50,7 @@ define( [], function () {
 		}
 	};
 
+
 	// Return values
 	return {
 		type: "items",
@@ -58,7 +59,7 @@ define( [], function () {
 			dimensions: dimensions,
 			measures: measures,
 			sorting: sorting,
-			//addons: addons,
+			addons: addons,
 			appearance: appearancePanel
 
 		}

@@ -79,6 +79,17 @@ module.exports.register = function ( Handlebars, options ) {
 	Handlebars.registerHelper( 'comment', function () {
 		return '';
 	} );
+	/**
+	 * Hide content from the output.
+	 *
+	 * @example
+	 * {{#hidden}}
+	 *   Any comment here will be removed.
+	 * {{/hidden}}
+	 */
+	Handlebars.registerHelper( 'hidden', function (  ) {
+
+	});
 
 	function getOptionsArg ( args ) {
 		for ( var i = 0, j = args.length; i < j; i++ ) {

@@ -1,5 +1,9 @@
 # ChangeLog
 
+# v0.1.9
+New:
+* Draft of chapter 06
+
 # v0.1.8
 
 New:

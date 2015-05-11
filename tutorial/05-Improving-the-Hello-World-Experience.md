@@ -145,11 +145,11 @@ For modifying the displayed preview image, do the following:
 ![](images/05/05_PreviewImg_After.png)
 
 >**Hint**  
->As of version 1.0 or 1.1 of Qlik Sense the expected dimensions of the image are not clearly defined. It works best if you choose 140x123 pixels.
+>As of version 1.0 or 1.1 of Qlik Sense the expected dimensions of the image are not clearly defined. It works best if you choose 140x123 pixels or a multiple of this ratio.
   
 
 
-Congrats, you have now an (little bit) improved version of your "Hello World" example.
+Congrats, you have now created an **improved version** of your "Hello World" example, although there is certainly still room for improvement ;-)
 
 
 

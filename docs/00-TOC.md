@@ -5,12 +5,13 @@ published: true
 type:
 ---
 
+## Introduction to Developing Visualization Extensions
 * [00 About this Tutorial](00-About.md)
 * [01 Qlik Sense Extension Tutorial](01-Qlik-Sense-Extension-Tutorial.md)
 * [02 Introduction to Qlik Sense Visualization Extensions](02-Introduction-to-Qlik-Sense-Visualization-Extensions.md)
 * [03 Let's Get Started: Hello World Example](03-Lets-Get-Started--Hello-World-Example.md)
 * [04 Debugging and Web Developer Tools] (04-Debugging-and-Web-Developer-Tools.md)
-	* console.x()
+	* `console.x()`
 	* Debugging
 	* Object inspection
 * [05 Improving the Web Hello World Experience](05-Improving-the-Hello-World-Experience.md)
@@ -33,9 +34,9 @@ type:
 	* qListObject
 	* qPivotTable
 	* qExpressions
+* XX Including External Resources
 * XX Hello Data Advanced
 	* Overcome default limitations
-* XX Including External Resources
 * XX More on HyperCubes
 * XX The BackendAPI
 * XX Communicating with the Repository API
@@ -58,16 +59,19 @@ type:
 * XX The Angular Way: Filter
 * XX The Angular Way: Services
 * XX Working With System Tables
+
+## Advanced Techniques
 * XX Advanced Techniques: Modifying Custom Properties
 * XX Advanced Techniques: Embedding Real Time Communication
-* XX More on Custom Properties
+* XX Adanced Techniques: More on Custom Properties
 	* More components
 	* Show conditions
 	* Tips to structure your property definitions
 	* Tips to organize your references
 	* Use external sources
+	
+## Appendix
 * [Appendix:](1000-Appendix.md)
-	* [Resources](1001-Appendix-Resources.md)
 	* branch.qlik.com
 	* Basic Introduction to git & GitHub
 	* How to publish your extension to GitHub & branch.qlik.com
@@ -76,7 +80,15 @@ type:
 	* What's New
 		* [What's New in Qlik Sense 1.1](2011-Appendix-Whats-New-in-Qlik-Sense-1.1.md)
 	* Qlik Sense Extension Related Resources
+	
+## How To
 * How To
 	* [... use Bootstrap styles in Qlik Sense visualization extensions](5000-Using-Bootstrap-CSS-in-Visualization-Extensions.md)
+	
+## Tools
 * XX Tools
 	* Tools: Manage Your Extensions
+	
+## Resources
+* [Resources](1001-Appendix-Resources.md)
+	
