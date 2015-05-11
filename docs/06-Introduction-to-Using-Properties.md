@@ -19,7 +19,7 @@ If you have a look at the property panel accordion you'll recognize that propert
 		* Section **headers**
 			* Property **items**
 
-{{image "images/06/06_Accordion_Concept"}}
+{{image "images/06/06_Accordion_Concept.png"}}
 
 ## Property panel definition in your JavaScript file
 
