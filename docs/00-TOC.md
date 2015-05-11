@@ -17,7 +17,7 @@ type:
 * [05 Improving the Web Hello World Experience](05-Improving-the-Hello-World-Experience.md)
 	* Make _Hello World_ dynamic
 	* Define a preview image
-* 06 An Introduction to Using Properties
+* [06 An Introduction to Using Properties] (06-Introduction-to-Using-Properties.md)
 	* Skeleton
 	* Re-using properties
 	* Basic custom property types
