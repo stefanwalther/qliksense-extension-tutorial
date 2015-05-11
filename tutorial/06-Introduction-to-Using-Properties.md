@@ -18,6 +18,8 @@ If you have a look at the property panel accordion you'll recognize that propert
 		* Section **headers**
 			* Property **items**
 
+![](images/06/06_Accordion_Concept)
+
 ## Property panel definition in your JavaScript file
 
 As already mentioned in the previous chapter, properties can be added by defining them in the `definition` property of the extension's JavaScript file:
@@ -194,6 +196,6 @@ Great, you now can use built-in properties in your _visualization extension_ in 
 
 
 ---
-Qlik Sense Extension Tutorial, Version 0.2.0
+Qlik Sense Extension Tutorial, Version 0.2.1
 
 [Table of Contents](00-TOC.md)

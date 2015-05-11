@@ -25,6 +25,6 @@ All code samples in this tutorial are available on GitHub. At the beginning and 
 
 
 ---
-Qlik Sense Extension Tutorial, Version 0.2.0
+Qlik Sense Extension Tutorial, Version 0.2.1
 
 [Table of Contents](00-TOC.md)
