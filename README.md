@@ -26,7 +26,7 @@ These are the chapters I am about to write ... and some of them are already fini
 * [03 Let's Get Started: Hello World Example](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/03-Lets-Get-Started--Hello-World-Example.md)
 * [04 Debugging and Web Developer Tools](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/04-Debugging-and-Web-Developer-Tools.md)
 * [05 Improving the Web Hello World Experience](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/05-Improving-the-Hello-World-Experience.md)
-* [06 An Introduction to Custom Properties](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/06-Introduction-to-Using-Properties.md)
+* [06 An Introduction to Using Properties](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/06-Introduction-to-Using-Properties.md)
 * XX More on Custom Properties
 * XX Working with Data
 * XX Including External Resources
