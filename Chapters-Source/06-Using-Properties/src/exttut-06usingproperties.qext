@@ -1,9 +1,0 @@
-{
-	"name" : "06 Using Properties",
-	"description" : "Get started using properties.",
-	"icon" : "extension",
-	"type" : "visualization",
-	"version": "@@version",
-	"preview" : "06usingproperties.png",
-	"author": "Stefan Walther"
-}

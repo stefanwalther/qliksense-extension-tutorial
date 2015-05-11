@@ -1,9 +1,0 @@
-{
-	"name" : "07 Hello Data",
-	"description" : "Starting to work with data.",
-	"icon" : "extension",
-	"type" : "visualization",
-	"version": "@@version",
-	"preview" : "07hellodata.png",
-	"author": "Stefan Walther"
-}

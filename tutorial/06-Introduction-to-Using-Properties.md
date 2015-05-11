@@ -185,6 +185,8 @@ paint: function ( $element, layout ) {
 }
 ```
 
+Great, you now can use built-in properties in your _visualization extension_ in the next chapter we'll explore how to customize the property panel to get our very custom properties into there to allow users to configure the behavior of your _visualization extension_.
+
 
 
 
@@ -192,6 +194,6 @@ paint: function ( $element, layout ) {
 
 
 ---
-Qlik Sense Extension Tutorial, Version 0.1.8
+Qlik Sense Extension Tutorial, Version 0.2.0
 
 [Table of Contents](00-TOC.md)

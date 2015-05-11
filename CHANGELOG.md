@@ -1,5 +1,9 @@
 # ChangeLog
 
+# 0.2.0
+New: 
+* Finished chapter 06 - "Introduction to Using Properties"
+
 # v0.1.9
 New:
 * Draft of chapter 06
