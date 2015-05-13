@@ -3,36 +3,66 @@ title: Custom Properties
 published: false
 ---
 
+{{toc}}
+
+
 {{#hidden}}
 
 ---
 
+In the previous chapter you have learned how to re-use built-in properties in Qlik Sense' property panel. Knowing that you'll probably ask yourself how we can extend the property panel to custom needs.
 
-So the question is know: How can we re-use these pre-defined assets in the property panel.
-
-### Create custom properties
+## Introduction to custom properties
 
 If you need other properties than the predefined ones you can create them as desired by adding _custom properties_.
 
-As of Qlik Sense 1.1 you can use a collection of different UI-components to display your custom properties in the property panel:
+As of Qlik Sense 1.1/2.0 you can use a collection of different UI components to display your custom properties in the property panel:
 
 * Text Box
+* Dropdown
+* Slider
 
 These UI components can be grouped into sections and headers in the property panel.
+Each of them exposes different configuration options to manipulate their behavior.
 
 Let's have a look at the most basic but at the same time also most common component, the text box and how to define it:
 
-### Grouping properties
+### Basic example
 
-### How to reference property values
+## Display & Persistence 
+Once the custom properties are defined, Qlik Sense takes care of the rest:
+* Showing the custom properties together with the built-in ones
+* Persistance of property values, so if a user changes the value of a property, you don't have to take care of persisting the property value
 
+## Referencing property values
+
+Referencing the property values of _custom properties_ is not very much different from referencing values from built-in properties, with one exception:
+
+By using `ref`you can define how the property value is exposed in the object tree. This principle applies to all _custom property_ items.
+
+Two examples:
+
+
+{{#hint}}
+
+If you are changing the properties of an existing visualization extension you might run into the issue that changes in your extension's code are not reflected in visualizations based on this specific extension.
+
+In this case remove the existing object and re-create it and you should see the changes made to the property panel.
+
+This behavior only applies if you are making changes to the `definition` property of a visualization extension, not if you are e.g. making changes in the `paint` implementation.
+
+{{/hint}}
+
+## Types
+
+
+## Grouping properties in the source code
 
 {{#hint}}
 I personally prefer to prefix all properties with `props`. Firstly this doesn't messy up the root of `layout`, secondly this approach allows me to easily iterate through all custom properties and thirdly ensures that there are not naming conflicts with the standard object of Qlik Sense (even in future versions of Qlik Sense).
 {{/hint}}
 
 ### Conditional display of properties
-
 
 
 ### Working with properties and external data
