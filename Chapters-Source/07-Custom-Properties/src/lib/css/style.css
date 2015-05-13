@@ -1,0 +1,7 @@
+/* Styles for 07 Custom Properties */
+
+/* Recommended pattern for styling your objects */
+.qv-object-exttut-07customproperties .hello-world {
+  color:#333;
+  font-weight:bold;
+}
