@@ -23,7 +23,8 @@ type:
 	* Basic custom property types
 	* How to reference properties
 	* Separate property definition to a separate file
-* 07 Hello Data
+* 07 Custom Properties
+* 08 Hello Data
 	* Allow users to define dimensions & measures
 	* Retrieve data
 	* Initial properties

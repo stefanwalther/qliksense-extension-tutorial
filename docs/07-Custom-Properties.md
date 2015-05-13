@@ -3,14 +3,11 @@ title: Custom Properties
 published: false
 ---
 
-{{toc}}
-
-
 {{#hidden}}
 
 ---
 
-In the previous chapter you have learned how to re-use built-in properties in Qlik Sense' property panel. Knowing that you'll probably ask yourself how we can extend the property panel to custom needs.
+In the previous chapter you have learned how to re-use built-in properties in Qlik Sense' property panel. In this chapter we'll cover how we can extend the property panel to custom needs.
 
 ## Introduction to custom properties
 
@@ -18,9 +15,14 @@ If you need other properties than the predefined ones you can create them as des
 
 As of Qlik Sense 1.1/2.0 you can use a collection of different UI components to display your custom properties in the property panel:
 
+* Checkbox
 * Text Box
 * Dropdown
+* Radio Button
+* Button Group
+* Switch
 * Slider
+* Range-Slider
 
 These UI components can be grouped into sections and headers in the property panel.
 Each of them exposes different configuration options to manipulate their behavior.
@@ -32,7 +34,7 @@ Let's have a look at the most basic but at the same time also most common compon
 ## Display & Persistence 
 Once the custom properties are defined, Qlik Sense takes care of the rest:
 * Showing the custom properties together with the built-in ones
-* Persistance of property values, so if a user changes the value of a property, you don't have to take care of persisting the property value
+* Persistance of property values, so if a user changes the value of a property, you don't have to take care of persisting (saving and loading) the property value
 
 ## Referencing property values
 
