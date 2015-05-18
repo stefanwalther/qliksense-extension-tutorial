@@ -70,6 +70,12 @@ type:
 	* Tips to structure your property definitions
 	* Tips to organize your references
 	* Use external sources
+* XX Advanced Techniques: Paging data
+* XX Advanced Techniques: Multiple hypercubes
+
+## Real World Examples
+* XX Communicating with backend services
+* XX 
 	
 ## Appendix
 * [Appendix:](1000-Appendix.md)
