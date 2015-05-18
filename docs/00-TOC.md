@@ -64,7 +64,7 @@ type:
 ## Advanced Techniques
 * XX Advanced Techniques: Modifying Custom Properties
 * XX Advanced Techniques: Embedding Real Time Communication
-* XX Adanced Techniques: More on Custom Properties
+* XX Advanced Techniques: More on Custom Properties
 	* More components
 	* Show conditions
 	* Tips to structure your property definitions
