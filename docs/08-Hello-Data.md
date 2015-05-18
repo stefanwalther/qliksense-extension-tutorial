@@ -30,3 +30,34 @@ definition: {
 ```
 
 This results
+
+## Initial properties
+
+{{#hidden}}
+
+## Customizing the property panel
+
+Based on the more or less default behaviour of the "Dimensions" and "Measures" section, there are several possibilities how to customize these sections:
+
+- Limiting the amount of dimensions and measures
+- 
+
+## Testing your extensions with data
+If you want to test your visualization extension a a blank, new Qlik Sense application you'll realize that Qlik Sense requires some data to be able to create a new sheet.
+
+The easiest way to achieve that - if you haven't some good test data - is the following:
+
+Go to the "Data load editor":
+
+{{image "08/08-open-data-load-editor.png"}}
+
+At the end of the script of main add the sample script using "Ctrl+0+0", then load the data, go back to the "App overview" and then you can create your sheet to test your visualization extension.
+
+{{image "08/08-sample-script.png"}}
+
+## Outlook
+
+- Paging data
+- Using multiple hypercubes
+
+{{/hidden}}
