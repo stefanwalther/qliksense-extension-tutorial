@@ -1,0 +1,79 @@
+# -------------------------------------------------------------------
+# General Settings
+# -------------------------------------------------------------------
+general:
+  # Path to the extension directory in Qlik Sense Desktop
+  LocalExtensionPath:   "d:\\documents\\Qlik\\Sense\\Extensions"
+
+  # Name of the Extension as defined in the generator
+  ExtensionName:        "08 - Hello Data"
+
+  # Name of the Extension, safe to be used for file-names
+  ExtensionNameSafe:    "08-HelloData"
+
+  # Namespace
+  ExtensionNamespace:   "exttut-"
+
+  # Description of the Extension as defined in the generator
+  ExtensionDescription: "Examples how to use data in visualization extensions."
+
+  # Version of the extension, will be re-used in several areas,
+  # e.g the generated .zip-file in the 'release' Grunt-task
+  Version:              "0.0.1"
+
+# -------------------------------------------------------------------
+# Settings for the 'dev' Grunt task
+# -------------------------------------------------------------------
+dev:
+  jshint: false
+  less: # Documentation: https://github.com/gruntjs/grunt-contrib-less
+    lessCompress: false
+    lessYuiCompress: false
+    lessCleanCss: false
+    lessOptimization: 2
+  uglify: # Documentation: https://github.com/gruntjs/grunt-contrib-uglify
+    mangle: false
+    drop_console: false
+    beautify: true
+    preserveCommments: true
+    compress: false
+
+# -------------------------------------------------------------------
+# Settings for the 'release' Grunt task
+# -------------------------------------------------------------------
+release:
+  jshint: true
+  less: # Documentation: https://github.com/gruntjs/grunt-contrib-less
+    lessCompress: true
+    lessYuiCompress: true
+    lessCleanCss: true
+    lessOptimization: 2
+  uglify: # Documentation: https://github.com/gruntjs/grunt-contrib-uglify
+    mangle: true
+    drop_console: true
+    beautify: false
+    preserveCommments: false
+    compress: true
+
+# -------------------------------------------------------------------
+# Grunt task specific default settings
+# -------------------------------------------------------------------
+jsSources:
+  dev:
+    - "../dist_dev/**/*.js"
+    - "!../dist_dev/**/*.min.js"
+  release:
+    - "../dist/**/*.js"
+    - "!../dist/**/*.min.js"
+
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# Do not make any changes below, this might break your project
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+# -------------------------------------------------------------------
+# Setup
+# Do not modify these changes afterwards, these settings are setup
+# after the questions in the Yeoman generator have been answered.
+# -------------------------------------------------------------------
+setup:
+  lessSupport: true
