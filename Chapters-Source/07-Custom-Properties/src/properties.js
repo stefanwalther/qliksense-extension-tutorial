@@ -2,34 +2,20 @@ define( [], function () {
 	'use strict';
 
 	// ****************************************************************************************
-	// Dimensions & Measures
-	// ****************************************************************************************
-	var dimensions = {
-		uses: "dimensions",
-		min: 0,
-		max: 1
-	};
-
-	var measures = {
-		uses: "measures",
-		min: 0,
-		max: 1
-	};
-
-	var sorting = {
-		uses: "sorting"
-	};
-
-	// ****************************************************************************************
-	// Other Settings
+	// Custom components
 	// ****************************************************************************************
 
-	var testSetting = {
-		ref: "props.test",
-		label: "Test Setting",
+	var myTextBox = {
+		ref: "props.myTextBox",
+		label: "My Text Box",
 		type: "string",
-		expression: "optional",
-		show: true
+		expression: "optional"
+	};
+	var myTextBox2 = {
+		ref: "props.myTextBox2",
+		label: "My Text Box 2",
+		type: "string",
+		expression: "optional"
 	};
 
 	// ****************************************************************************************
@@ -42,25 +28,21 @@ define( [], function () {
 		items: {
 			settings: {
 				type: "items",
-				label: "Settings",
+				label: "My header, containing text boxes",
 				items: {
-					testSetting: testSetting
+					myTextBox: myTextBox,
+					myTextBox2: myTextBox2
 				}
 			}
 		}
 	};
 
-	// Return values
+	// Return overall definition of the property accordion
 	return {
 		type: "items",
 		component: "accordion",
 		items: {
-			dimensions: dimensions,
-			measures: measures,
-			sorting: sorting,
-			//addons: addons,
 			appearance: appearancePanel
-
 		}
 	};
 
