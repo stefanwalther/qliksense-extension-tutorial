@@ -1,5 +1,6 @@
 'use strict';
 
+
 module.exports = function ( grunt ) {
 
 	var config = grunt.file.readYAML( './config.yml' );

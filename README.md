@@ -25,9 +25,28 @@ These are the chapters I am about to write ... and some of them are already fini
 * [02 Introduction to Qlik Sense Visualization Extensions](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/02-Introduction-to-Qlik-Sense-Visualization-Extensions.md)
 * [03 Let's Get Started: Hello World Example](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/03-Lets-Get-Started--Hello-World-Example.md)
 * [04 Debugging and Web Developer Tools](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/04-Debugging-and-Web-Developer-Tools.md)
+	* `console.x()`
+	* Debugging
+	* Object inspection
 * [05 Improving the Web Hello World Experience](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/05-Improving-the-Hello-World-Experience.md)
+	* Make _Hello World_ dynamic
+	* Define a preview image
 * [06 An Introduction to Using Properties](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/06-Introduction-to-Using-Properties.md)
-* XX More on Custom Properties
+	* Skeleton
+	* Re-using properties
+	* Basic custom property types
+	* How to reference properties
+	* Separate property definition to a separate file
+* [07 Custom Properties] (https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/07-Custom-Properties.md)
+	* Introduction to custom properties
+	* Improving readability & maintainability of properties
+	* Basic custom property - a string input box
+	* Adding a custom section header
+	* Adding a custom section
+	* Display & persistence
+	* Referencing property values
+	* Troubleshooting
+	* Source code
 * XX Working with Data
 * XX Including External Resources
 * XX More on  HyperCubes

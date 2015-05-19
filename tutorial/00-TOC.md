@@ -20,18 +20,28 @@
 	* Basic custom property types
 	* How to reference properties
 	* Separate property definition to a separate file
-* 07 Hello Data
+* [07 Custom Properties] (07-Custom-Properties.md)
+	* Introduction to custom properties
+	* Improving readability & maintainability of properties
+	* Basic custom property - a string input box
+	* Adding a custom section header
+	* Adding a custom section
+	* Display & persistence
+	* Referencing property values
+	* Troubleshooting
+	* Source code
+* 08 Hello Data
 	* Allow users to define dimensions & measures
 	* Retrieve data
 	* Initial properties
 	* Default limitations
+* XX Including External Resources
 * XX Working with Data
-	* Understanding data structure of Qlik objects / Qlik's internal data structure
+	* Understanding data structure of Qlik objects / Qlik Sense' internal data structure
 	* qHyperCube
 	* qListObject
 	* qPivotTable
 	* qExpressions
-* XX Including External Resources
 * XX Hello Data Advanced
 	* Overcome default limitations
 * XX More on HyperCubes
@@ -60,12 +70,18 @@
 ## Advanced Techniques
 * XX Advanced Techniques: Modifying Custom Properties
 * XX Advanced Techniques: Embedding Real Time Communication
-* XX Adanced Techniques: More on Custom Properties
+* XX Advanced Techniques: More on Custom Properties
 	* More components
 	* Show conditions
 	* Tips to structure your property definitions
 	* Tips to organize your references
 	* Use external sources
+* XX Advanced Techniques: Paging data
+* XX Advanced Techniques: Multiple hypercubes
+
+## Real World Examples
+* XX Communicating with backend services
+* XX 
 	
 ## Appendix
 * [Appendix:](1000-Appendix.md)
@@ -91,6 +107,6 @@
 	
 
 ---
-Qlik Sense Extension Tutorial, Version 0.2.1
+Qlik Sense Extension Tutorial, Version 0.3.0
 
 [Table of Contents](00-TOC.md)

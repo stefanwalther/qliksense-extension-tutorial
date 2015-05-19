@@ -1,10 +1,6 @@
 ---
 title: Custom Properties
-published: false
----
-
-{{#hidden}}
-
+published: true
 ---
 
 In the previous chapter you have learned how to re-use built-in properties in Qlik Sense' property panel. In this chapter we'll cover how we can extend the property panel to custom needs.
@@ -74,7 +70,7 @@ define( [],
 
 So let's start refactoring:
 
-1) Separate properties file:
+**Separate properties file:**
 
 Create a file called "properties.js" and put it into the same folder where the main file of your visualization extension is located. In this very simple example the file will look as follows:
 
@@ -98,9 +94,9 @@ define( [], function () {
 	};
 
 	// *****************************************************************************
-	// Appearance Panel
+	// Appearance Section
 	// *****************************************************************************
-	var appearancePanel = {
+	var appearanceSection = {
 		uses: "settings"
 	};
 
@@ -116,7 +112,7 @@ define( [], function () {
 		items: {
 			dimensions: dimensions,
 			measures: measures,
-			appearance: appearancePanel
+			appearance: appearanceSection
 
 		}
 	};
@@ -187,8 +183,8 @@ As we have now defined the custom property - in our case a string based text box
 
 **Code before adding `myTextBox`**:
 ```javascript
-// Appearance Panel, re-using the appearance section
-var appearancePanel = {
+// Re-using the appearance section
+var appearanceSection = {
 	uses: "settings"
 };
 
@@ -197,7 +193,7 @@ return {
 	type: "items",
 	component: "accordion",
 	items: {
-		appearance: appearancePanel
+		appearance: appearanceSection
 	}
 };
 ```
@@ -215,8 +211,8 @@ var myTextBox = {
     type: "string"
 };
 
-// Appearance Panel, now re-using the appearance section + injecting our myTextBox component
-var appearancePanel = {
+// Appearance section, now re-using the appearance section + injecting our myTextBox component
+var appearanceSection = {
 	uses: "settings",
 	items: {
 		myTextBox: myTextBox
@@ -228,7 +224,7 @@ return {
 	type: "items",
 	component: "accordion",
 	items: {
-		appearance: appearancePanel
+		appearance: appearanceSection
 	}
 };
 ```
@@ -253,66 +249,176 @@ var myTextBox2 = {
 	expression: "optional"
 };
 
-// Appearance Panel, now with two text boxes
-var appearancePanel = {
+// Appearance sectiion, now with two text boxes
+var appearanceSection = {
 	uses: "settings",
 	items: {
 		myTextBox: myTextBox,
 		myTextBox2: myTextBox2
 	}
 };
+
+// Return overall definition of the property accordion
+return {
+	type: "items",
+	component: "accordion",
+	items: {
+		appearance: appearanceSection
+	}
+};
+
 ```
 
 {{image "images/07/07-Two-Textboxes-default.png"}}
+
+## Adding a custom header
 
 That's fine, but in many case that's probably not the result we'd like to achive, it's probably more common, that we want to create a new header within a section containing several components, so something like that:
 
 {{image "images/07/07-Custom-header-with-textboxes.png"}}
 
+To achieve this result, we have to create a new header (`myNewHeader`) into the existing section "Appearance" - which is loaded by `uses: "settings"` - and add the items there:
 
-## Display & Persistence 
+```javascript
+var appearanceSection = {
+	uses: "settings",
+	items: {
+		// Here the magic happens ...
+		myNewHeader: {
+			type: "items",
+			label: "My header, containing text boxes",
+			items: {
+				myTextBox: myTextBox,
+				myTextBox2: myTextBox2
+			}
+		}
+	}
+};
+
+// NOTHING CHANGED HERE ...
+// Return overall definition of the property accordion
+return {
+	type: "items",
+	component: "accordion",
+	items: {
+		appearance: appearanceSection
+	}
+};
+
+```
+
+## Adding a custom section
+
+So fare we have
+- added custom items to the built-in section "appearance"
+- added a new section header to the built-in section "appearance"
+
+But we haven't covered so far how to create a new accordion section, so let's create one:
+
+```javascript
+myCustomSection = {
+	// not necessary to define the type, component "expandable-items" will automatically
+	// default to "items"
+	// type: "items"
+	component: "expandable-items",
+	label: "My Accordion Section",
+	items: {
+		header1: {
+			type: "items",
+			label: "Header 1",
+			items: {
+				header1_item1: header1_item1,
+				header1_item2: header1_item2
+			}
+		},
+		header2: {
+			type: "items",
+			label: "Header 2",
+			items: {
+				header2_item1: header2_item2,
+				header2_item2: header2_item2
+			}
+		}
+
+	}
+}
+```
+The key in the code above is that you add the component `expandable-items` the rest of the code works as all the other examples.
+
+Then let's again just use it:
+```javascript
+return {
+	type: "items",
+	component: "accordion",
+	items: {
+		appearance: appearanceSection,
+		customSection: myCustomSection
+	}
+};
+```
+
+
+The result is a custom accordion section with section headers and items:
+
+{{image "images/07/07-Custom-section-with-headers-and-items.png"}}
+
+
+
+## Display & persistence 
 Once the custom properties are defined, Qlik Sense takes care of the rest:
 * Showing the custom properties together with the built-in ones
-* Persistance of property values, so if a user changes the value of a property, you don't have to take care of persisting (saving and loading) the property value
+* Persistence of property values, so if a user changes the value of a property, you don't have to take care of persisting (saving and loading) the property value
 
 ## Referencing property values
 
 Referencing the property values of _custom properties_ is not very much different from referencing values from built-in properties, with one exception:
 
-By using `ref`you can define how the property value is exposed in the object tree. This principle applies to all _custom property_ items.
+By using `ref` you can define how the property value is exposed in the object tree. This principle applies to all _custom property_ items.
 
 Two examples:
 
+By defining a text box using 
+```javascript
+var myTextBox = {
+	ref: "myTextBox",
+	...
+};
+```
+the value can then be referenced in your script 
 
-{{#hint}}
+```javascript
+conosole.log( layout.myTextBox );
+```
 
+whereas
+```javascript
+var myTextBox = {
+	ref: "prop.myTextBox",
+	...
+};
+```
+will then be called using
+
+```javascript
+conosole.log( layout.prop.myTextBox );
+```
+
+{{#hint "Grouping properties in the source code"}}
+I personally prefer to prefix all properties with `props`. Firstly this doesn't messy up the root of `layout`, secondly this approach allows me to easily iterate through all custom properties and thirdly ensures that there are not naming conflicts with the standard object of Qlik Sense (even in future versions of Qlik Sense).
+{{/hint}}
+
+
+## Troubleshooting
+
+### Changes are not reflected
 If you are changing the properties of an existing visualization extension you might run into the issue that changes in your extension's code are not reflected in visualizations based on this specific extension.
 
 In this case remove the existing object and re-create it and you should see the changes made to the property panel.
 
 This behavior only applies if you are making changes to the `definition` property of a visualization extension, not if you are e.g. making changes in the `paint` implementation.
 
-{{/hint}}
-
-## Types
-
-
-## Grouping properties in the source code
-
-{{#hint}}
-I personally prefer to prefix all properties with `props`. Firstly this doesn't messy up the root of `layout`, secondly this approach allows me to easily iterate through all custom properties and thirdly ensures that there are not naming conflicts with the standard object of Qlik Sense (even in future versions of Qlik Sense).
-{{/hint}}
-
-### Conditional display of properties
-
-
-### Working with properties and external data
-In Qlik Sense 1.1 a minor but important change has been made how data for some of the properties can be defined:
+## Source code for this chapter
+You can find the source code for this chapter in the `src` folder of **./Chapters-Source/07-Custom-Properties/** ([direct link](https://github.com/stefanwalther/qliksense-extension-tutorial/tree/master/Chapters-Source/07-Custom-Properties "Direct link to the source code"))
 
 
 
-## Troubleshooting
-
-- New custom properties do not appear
-
-{{/hidden}}

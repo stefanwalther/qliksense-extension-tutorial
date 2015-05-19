@@ -1,5 +1,14 @@
 # ChangeLog
 
+# 0.3.0
+New:
+* Finished chapter 07 - Custom Properties
+
+# 0.2.2
+New:
+* Finished chapter 06 - Using Properties
+* Draft of chapter 08 - Hello Data
+
 # 0.2.1
 New: 
 * Finished chapter 06 - "Introduction to Using Properties"

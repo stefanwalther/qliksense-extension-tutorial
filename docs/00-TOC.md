@@ -23,19 +23,28 @@ type:
 	* Basic custom property types
 	* How to reference properties
 	* Separate property definition to a separate file
-* 07 Custom Properties
+* [07 Custom Properties] (07-Custom-Properties.md)
+	* Introduction to custom properties
+	* Improving readability & maintainability of properties
+	* Basic custom property - a string input box
+	* Adding a custom section header
+	* Adding a custom section
+	* Display & persistence
+	* Referencing property values
+	* Troubleshooting
+	* Source code
 * 08 Hello Data
 	* Allow users to define dimensions & measures
 	* Retrieve data
 	* Initial properties
 	* Default limitations
+* XX Including External Resources
 * XX Working with Data
-	* Understanding data structure of Qlik objects / Qlik's internal data structure
+	* Understanding data structure of Qlik objects / Qlik Sense' internal data structure
 	* qHyperCube
 	* qListObject
 	* qPivotTable
 	* qExpressions
-* XX Including External Resources
 * XX Hello Data Advanced
 	* Overcome default limitations
 * XX More on HyperCubes
