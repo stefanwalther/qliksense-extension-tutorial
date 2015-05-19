@@ -6,7 +6,7 @@ var S = require( 'string' );
 // Helpers:
 // ~~
 // - hint
-// - image
+// - image (with max width / height)
 // - todo (internal)
 // - comment
 // ****************************************************************************************
@@ -28,7 +28,6 @@ module.exports.register = function ( Handlebars, options ) {
 	 * @param title - Title of the hint, if blank, nothing will displayed, if not defined at all it defaults to "Hint:"
 	 * @todo Work on more params to pass the title
 	 * @todo Work on multiline comments using hint
-	 * @todo Test this stuff
 	 */
 	Handlebars.registerHelper( 'hint', function ( options ) {
 

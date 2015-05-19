@@ -18,7 +18,7 @@ module.exports = function ( grunt ) {
 						//'assemble-middleware-contextual'
 					],
 					//partials: 'templates/partials/**/*.hbs',
-					helpers: 'templates/helpers/**/*.js'
+					helpers: 'lib/helpers/**/*.js'
 
 				},
 				files: [{
