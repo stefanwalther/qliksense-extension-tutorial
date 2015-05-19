@@ -7,7 +7,7 @@ Since Twitter's Bootstrap library is very famous and common nowadays it's quite 
 ## But ...
 If you just start straightforward and try to load Bootstrap's CSS (which can be downloaded from here), you'll not be that happy because something definitely unwanted happens. The styling of Qlik Sense completely crashes because of CSS conflicts respectively Bootstrap's CSS is overruling some of Qlik Sense' CSS styles:
 
-![](images/5000/5000_Boostrap_Clash.png)
+![](images/5000/5000_Boostrap_Clash.png)  
 
 ## Solution
 But there's an easy solution for this problem available. What we basically have to do is to "scope" Boostrap's style only to our extension and not to the rest of the document, so something like this
@@ -54,7 +54,7 @@ bower install bootstrap
 * You'll see a folder `bower_compoents` inside the folder `BootstrapExtension`. If you look into `\BootstrapExtension\bower_components\bootstrap\less` you'll find all .less based styles of Bootstrap. The file `bootstrap.less` is the entry point for generating the entire Bootstrap CSS.
 * Create another folder called "less" where we put our main .less file (`_root.less`)
 * Your folder structure should then look like this  
-![](images/5000/5000_FolderStructure.png)
+![](images/5000/5000_FolderStructure.png)  
 * Then we have to add our `bootstrap_inside` class:
 ```css
 .bootstrap_inside {}
@@ -127,7 +127,7 @@ paint: function ( $element /*, layout*/ ) {
 
 **The output:**
 
-![](images/5000/5000_Bootstrap_styled_button.png)
+![](images/5000/5000_Bootstrap_styled_button.png)  
 
 ## Improvements
 You can certainly do some improvements to this basic concept:

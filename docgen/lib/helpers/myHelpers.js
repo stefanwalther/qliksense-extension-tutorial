@@ -51,7 +51,8 @@ module.exports.register = function ( Handlebars, options ) {
 	 */
 	Handlebars.registerHelper( 'image', function ( url ) {
 
-		return '![](' + url + ')';
+		// Add always a line break after the image.
+		return '![](' + url + ')  ';
 
 	} );
 
