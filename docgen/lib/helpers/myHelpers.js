@@ -38,7 +38,8 @@ module.exports.register = function ( Handlebars, options ) {
 
 		var content = getOptionsArg( arguments ).fn( this );
 
-		return '>**' + title + '**  \n>' + S( content ).chompLeft( '\n' ) + '  ';
+		// Add breaks before and after, otherwise the hint looks so squeezed in the output
+		return '<br/>>**' + title + '**  \n>' + S( content ).chompLeft( '\n' ) + '  \n<br/>';
 	} );
 
 	/**
@@ -86,9 +87,9 @@ module.exports.register = function ( Handlebars, options ) {
 	 *   Any comment here will be removed.
 	 * {{/hidden}}
 	 */
-	Handlebars.registerHelper( 'hidden', function (  ) {
+	Handlebars.registerHelper( 'hidden', function () {
 
-	});
+	} );
 
 	function getOptionsArg ( args ) {
 		for ( var i = 0, j = args.length; i < j; i++ ) {

@@ -120,9 +120,10 @@ Read more on:
 * [Debugging with Firebug](http://www.developerfusion.com/article/139949/debugging-javascript-with-firebug/)
 * [Debugging with Internet Explorer Developer Tools](https://msdn.microsoft.com/en-us/library/ie/gg589507%28v=vs.85%29.aspx)
 
->**Hint**  
+<br/>>**Hint**  
 >Very similar to the advice above regarding `console.x()`, do not forget to remove `debugger;` statements if you move your visualization extension to production environment.
   
+<br/>
 
 ---
 Qlik Sense Extension Tutorial, Version 0.3.0

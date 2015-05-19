@@ -68,9 +68,10 @@ The basic structure of a .qext file looks as follows:
 }
 ```
 
->**Hint**  
+<br/>>**Hint**  
 >When creating your .qext file you should double-check if this file [meets the requirements of a valid .json file.](http://jsonlint.com/)
   
+<br/>
 
 ### `name`
 
@@ -178,9 +179,10 @@ You should see something like that:
 ![](images/03/03_output.png)
 
 
->****  
+<br/>>****  
 >If this is the first time that you are working with Qlik Sense (Desktop) I've added a step by step guide to the appendix which will guide you trough creating your first app and testing this extension.
   
+<br/>
 
 
 
