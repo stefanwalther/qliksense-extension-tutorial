@@ -42,12 +42,12 @@ type:
 	* Referencing property values
 	* Troubleshooting
 	* Source code
-* XX Hello Data
+* 08 Hello Data
 	* Allow users to define dimensions & measures
 	* Retrieve data
 	* Initial properties
 	* Default limitations
-* XX Including External Resources
+* 09 Loading Resources
 * XX Create a visualization using D3
 * XX More on working with data
 	* Understanding data structure of Qlik objects / Qlik Sense' internal data structure

@@ -26,7 +26,7 @@ This is the basic skeleton of a script file for a visualization extension for Ql
 
 ``` javascript
 define( [ /* dependencies */ ],
-	function ( /* dependency arguments */ ) {
+	function ( /* returned dependencies as arguments */ ) {
 		'use strict';
 		return {
 
@@ -39,7 +39,7 @@ define( [ /* dependencies */ ],
 ```
 
 ### `define`
-`define` is a concept introduced by [requireJS](http://requirejs.org/) to define dependencies in your JavaScript files. The idea is to load external dependencies before your main script gets executed ([read more here](http://requirejs.org/docs/api.html#defsimple)).
+`define` is a concept introduced by [RequireJS](http://requirejs.org/) to define dependencies in your JavaScript files. The idea is to load external dependencies before your main script gets executed ([read more here](http://requirejs.org/docs/api.html#defsimple)).
 In our example above we do not load any dependencies, but we'll do in further chapters of this tutorial.
 
 ### `paint`
