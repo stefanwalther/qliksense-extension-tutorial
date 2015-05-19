@@ -2,11 +2,11 @@
 
 > A comprehensive tutorial how to create Qlik Sense Visualization Extensions
 
-## About this Tutorial
+# About this Tutorial
 
 In this tutorial you'll learn how to use Qlik Sense' Extension concept to bring new visualizations into the Qlik Sense Client.
 
-### Work in Progress, Always
+## Work in Progress, Always
 
 This project is work in progress and will and should always remain in this status, that's part of the concept and the idea of creating a ***living tutorial***. As soon as there are now capabilities exposed in Qlik Sense' Extension API, I will update the appropriate sections here.
 
@@ -15,10 +15,11 @@ If you want to follow the progress of this project there are some options:
 * [Join GitHub](https://github.com/join) and "watch" or "star" the project and you'll get updates
 * [Follow me on Twitter](http://twitter.com/waltherstefan), as soon as I have finished a new chapter, I'll announce it there
 
-## Chapters
+# Chapters
 
 These are the chapters I am about to write ... and some of them are already finished ;-)
 
+## Introduction to Developing Visualization Extensions
 * [00 About this Tutorial](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/00-About.md)
 * [01 Qlik Sense Extension Tutorial](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/01-Qlik-Sense-Extension-Tutorial.md)
 	* Prerequisites
@@ -55,33 +56,81 @@ These are the chapters I am about to write ... and some of them are already fini
 	* Referencing property values
 	* Troubleshooting
 	* Source code
-* XX Working with Data
+* XX Hello Data
+	* Allow users to define dimensions & measures
+	* Retrieve data
+	* Initial properties
+	* Default limitations
 * XX Including External Resources
-* XX More on  HyperCubes
+* XX Create a visualization using D3
+* XX More on working with data
+	* Understanding data structure of Qlik objects / Qlik Sense' internal data structure
+	* qHyperCube
+	* qListObject
+	* qPivotTable
+	* qExpressions
+	* Overcome default limitations
+* XX More on HyperCubes
 * XX The BackendAPI
+* XX Communicating with the Repository API
 * XX The Selection Model
 * XX Working with Variables
+	* Creating variables manually and programmatically
+	* Setting variable definitions
+	* Getting variable results
 * XX Working with a ListObjectDefinition
 * XX Working with a PivotTableDefinition
 * XX Working with Meta Data
 * XX Talking to the Repository API
+
+## Deployment
+* Deployment checklist
 * XX Setting up a Robust Development Environment
+	* Using Less
+	* Automatically deploy and zip
+	* Versioning
+	
+## Qlik Sense & AngularJS
 * XX Two Approaches, the “Classic” One & the Angular Way
-* Appendix:
-	* [Resources](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/1001-Appendix-Resources.md)
+* XX The Angular Way: Basics
+* XX The Angular Way: Directives
+* XX The Angular Way: Filter
+* XX The Angular Way: Services
+* XX Working With System Tables
+
+## Advanced Techniques
+* XX Advanced Techniques: Modifying Custom Properties
+* XX Advanced Techniques: Embedding Real Time Communication
+* XX Advanced Techniques: More on Custom Properties
+	* More components
+	* Show conditions
+	* Tips to structure your property definitions
+	* Tips to organize your references
+	* Use external sources
+* XX Advanced Techniques: Paging data
+* XX Advanced Techniques: Multiple hypercubes
+
+## Real World Examples
+* XX Communicating with backend services
+	
+## Appendix
+* [Appendix:](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/1000-Appendix.md)
 	* branch.qlik.com
 	* Basic Introduction to git & GitHub
 	* How to publish your extension to GitHub & branch.qlik.com
 	* Npm Integration
 	* Programmatic Deployment of Qlik Sense Extensions
 	* What's New
-		* [What's New in Qlik Sense 1.1](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/2011-Appendix-Whats-New-in-Qlik-Sense-1.1.md)
+		* [What's New in Qlik Sense 1.1](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/2011-Appendix-Whats-New-in-Qlik-Sense-1.1.md)
 	* Qlik Sense Extension Related Resources
-* Tools
-	* Tools: Manage Your Extensions
+	
+## How To
 * How To
-	* [... use Bootstrap styles in Qlik Sense visualization extensions](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/5000-Using-Bootstrap-CSS-in-Visualization-Extensions.md)
-
+	* [... use Bootstrap styles in Qlik Sense visualization extensions](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/5000-Using-Bootstrap-CSS-in-Visualization-Extensions.md)
+	
+## Tools
+* XX Tools
+	* Tools: Manage Your Extensions
 
 
 ## Comments, Feedback & Questions

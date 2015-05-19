@@ -42,7 +42,7 @@ type:
 	* Referencing property values
 	* Troubleshooting
 	* Source code
-* 08 Hello Data
+* XX Hello Data
 	* Allow users to define dimensions & measures
 	* Retrieve data
 	* Initial properties
@@ -98,7 +98,6 @@ type:
 
 ## Real World Examples
 * XX Communicating with backend services
-* XX 
 	
 ## Appendix
 * [Appendix:](1000-Appendix.md)
