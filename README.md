@@ -46,7 +46,7 @@ These are the chapters I am about to write ... and some of them are already fini
 	* Basic custom property types
 	* How to reference properties
 	* Separate property definition to a separate file
-* [07 Custom Properties] (https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/07-Custom-Properties.md)
+* [07 Custom Properties](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/07-Custom-Properties.md)
 	* Introduction to custom properties
 	* Improving readability & maintainability of properties
 	* Basic custom property - a string input box
