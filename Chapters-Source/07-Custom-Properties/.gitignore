@@ -4,10 +4,9 @@
 [Rr]esources/
 [Tt]ests/
 web.*.config
-/dist_dev/
+/dist/
 /**/node_modules/
 /**/bower_components/
-/build/*_dev.zip
 
 
 # =========================

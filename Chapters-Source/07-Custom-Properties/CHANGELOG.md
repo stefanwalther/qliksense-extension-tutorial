@@ -1,5 +1,10 @@
 # Change Log
 
+## Version 0.1.0
+Date: 2015-05-19
+
+* Changes to reflect changes in chapter 07.
+
 ## Version 0.0.1
 Date: 2015-05-13
 
