@@ -22,8 +22,17 @@ These are the chapters I am about to write ... and some of them are already fini
 
 * [00 About this Tutorial](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/00-About.md)
 * [01 Qlik Sense Extension Tutorial](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/01-Qlik-Sense-Extension-Tutorial.md)
+	* Prerequisites
 * [02 Introduction to Qlik Sense Visualization Extensions](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/02-Introduction-to-Qlik-Sense-Visualization-Extensions.md)
+	* Installing a visualization extension for Qlik Sense Desktop
+	* Installing a visualization extension on Qlik Sense Server
+	* Comparison between extensions in QlikView and Qlik Sense
+	* Where to find Qlik Sense visualization extensions
 * [03 Let's Get Started: Hello World Example](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/03-Lets-Get-Started--Hello-World-Example.md)
+	* The anatomy of a Qlik Sense extension
+	* Skeleton of a script file
+	* Structure of the .qext file
+	* Creating the Hello World example
 * [04 Debugging and Web Developer Tools](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/04-Debugging-and-Web-Developer-Tools.md)
 	* `console.x()`
 	* Debugging

@@ -20,10 +20,10 @@ If developed properly, the handling of _Visualization Extensions_ is identical t
 ### Nomenclature
 If you have a look into the Developer Help of Qlik Sense you'll find both the term "Extension" and also "Visualization". I keep to the term _Visualization Extension_ in this tutorial because the main idea of this concept is to create new visualizations for Qlik Sense. Talking only about _Extensions_ might be a limitation for the future since there might be additional types of extensions in the future.
 
-## Using an Existing Extension
+## Using an existing visualization extension
 Before we start developing a visualization extension in Qlik Sense we first should understand how to „install“ and use an existing extension.
 
-### Installing a Visualization Extension for Qlik Sense Desktop
+### Installing a visualization extension on Qlik Sense Desktop
 
 To make an existing visualization extension visible for Qlik Sense Desktop you have to make it available at the location where Qlik Sense Desktop is loading extensions from:
 
@@ -41,13 +41,13 @@ If you then have a look into the list of visualization objects you should see th
 [Deploying visualizations in Qlik Sense Desktop](http://help.qlik.com/sense/en-us/developer/#../Subsystems/Workbench/Content/BuildingExtensions/HowTos/deploy-extensions.htm) in the Qlik Sense Developer help.
 
 
-### Installing a Visualization Extension for Qlik Sense Server
+### Installing a visualization extension on Qlik Sense Server
 
 If you want to make your visualization extension available on Qlik Sense Server you have to import into the repository.
 
 See [Deploying visualizations in Qlik Sense](http://help.qlik.com/sense/en-us/developer/#../Subsystems/Workbench/Content/BuildingExtensions/HowTos/deploy-extensions.htm) in the Qlik Sense Developer help.
 
-## Comparison Between Extensions in QlikView and Qlik Sense
+## Comparison between extensions in QlikView and Qlik Sense
 
 Beside one exception the comparison between the concept of Extensions in QlikView and Qlik Sense is quite easy:
 
@@ -57,7 +57,7 @@ There is only a single exception to this rule:
 * There is no concept of such as a Document Extension in Qlik Sense, all Visualization Extensions are – in the nomenclature of QlikView – Object Extensions.
 
 
-## Where to Find Qlik Sense Visualization Extensions
+## Where to find Qlik Sense visualization extensions
 There are some places where you can find Extensions for Qlik Sense:
 
 * **[branch.qlik.com](http://branch.qlik.com)**  

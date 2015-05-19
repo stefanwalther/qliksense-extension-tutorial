@@ -49,7 +49,7 @@ There are a bunch of websites out there introducing the capabilities of develope
 * Inspect elements
 * Debugging
 
-### Using the Console
+### Using the console
 
 As mentioned before, instead of triggering alerts, it's much more efficient and convenient to use the console of _Web DevTools_:
 

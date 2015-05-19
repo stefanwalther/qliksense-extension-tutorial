@@ -8,7 +8,7 @@ The first example is extremely easy, let’s just create a simple „Hello World
 
 So what’s necessary to create a Qlik Sense Extension? Let’s first have a look at the anatomy of an extension:
 
-## The Anatomy of a Qlik Sense Extension
+## The anatomy of a Qlik Sense extension
 The following files are mandatory when creating a Qlik Sense Extension:
 
 * Main script file
@@ -20,7 +20,7 @@ In addition to the mandatory files an extension project may certainly have one o
 * Images, icons and fonts
 * and other resources ...
 
-## Skeleton of a Script File
+## Skeleton of a script file
 
 This is the basic skeleton of a script file for a visualization extension for Qlik Sense:
 
@@ -54,7 +54,7 @@ Parameter		| Description
 `$element`		| jQuery wrapper containing the HTML element where the visualization should be rendered.
 `layout`		| Data and properties for the visualization.
 
-## Structure of the .qext File
+## Structure of the .qext file
 
 The basic structure of a .qext file looks as follows:
 
@@ -116,7 +116,7 @@ If you want to create a preview image, choose width and height of 140px x 123px.
 author references the author of the visualization extension, so probably your name.
 Note, as of this is not visible in neither the Qlik Sense Desktop nor Qlik Sense Server, so you can only get information about the author if you open the `.qext` file.
 
-## Creating the Hello World Example
+## Creating the Hello World example
 Considering the anatomy of a Qlik Sense Visualization Extension we can now create our "Hello World" example as follows:
 
 ### Create the Container
@@ -188,7 +188,7 @@ If this is the first time that you are working with Qlik Sense (Desktop) I've ad
 
 
 {{#comment}}
-### Explanation of the Code
+### Explanation of the code
 
 
 **Some hints you should know:**
@@ -197,7 +197,7 @@ If this is the first time that you are working with Qlik Sense (Desktop) I've ad
 {{/hint}}
 {{/comment}}
 
-### But Wait, Something Went Wrong
+### But wait, something went wrong
 Before jumping to the next chapter you'll probably realize that there is something wrong with our solution.
 As soon as you resize the (browser-)window you'll recognize that our output get multiplied, so you'll end up into something like that:
 

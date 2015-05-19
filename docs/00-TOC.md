@@ -8,8 +8,17 @@ type:
 ## Introduction to Developing Visualization Extensions
 * [00 About this Tutorial](00-About.md)
 * [01 Qlik Sense Extension Tutorial](01-Qlik-Sense-Extension-Tutorial.md)
+	* Prerequisites
 * [02 Introduction to Qlik Sense Visualization Extensions](02-Introduction-to-Qlik-Sense-Visualization-Extensions.md)
+	* Installing a visualization extension for Qlik Sense Desktop
+	* Installing a visualization extension on Qlik Sense Server
+	* Comparison between extensions in QlikView and Qlik Sense
+	* Where to find Qlik Sense visualization extensions
 * [03 Let's Get Started: Hello World Example](03-Lets-Get-Started--Hello-World-Example.md)
+	* The anatomy of a Qlik Sense extension
+	* Skeleton of a script file
+	* Structure of the .qext file
+	* Creating the Hello World example
 * [04 Debugging and Web Developer Tools] (04-Debugging-and-Web-Developer-Tools.md)
 	* `console.x()`
 	* Debugging
@@ -39,13 +48,13 @@ type:
 	* Initial properties
 	* Default limitations
 * XX Including External Resources
-* XX Working with Data
+* XX Create a visualization using D3
+* XX More on working with data
 	* Understanding data structure of Qlik objects / Qlik Sense' internal data structure
 	* qHyperCube
 	* qListObject
 	* qPivotTable
 	* qExpressions
-* XX Hello Data Advanced
 	* Overcome default limitations
 * XX More on HyperCubes
 * XX The BackendAPI
@@ -59,10 +68,15 @@ type:
 * XX Working with a PivotTableDefinition
 * XX Working with Meta Data
 * XX Talking to the Repository API
+
+## Deployment
+* Deployment checklist
 * XX Setting up a Robust Development Environment
 	* Using Less
 	* Automatically deploy and zip
 	* Versioning
+	
+## Qlik Sense & AngularJS
 * XX Two Approaches, the “Classic” One & the Angular Way
 * XX The Angular Way: Basics
 * XX The Angular Way: Directives
