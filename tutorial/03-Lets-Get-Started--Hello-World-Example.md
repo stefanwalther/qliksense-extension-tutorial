@@ -181,7 +181,7 @@ You should see something like that:
 
 
 <br/>
->****  
+>**Hint:**  
 >If this is the first time that you are working with Qlik Sense (Desktop) I've added a step by step guide to the appendix which will guide you trough creating your first app and testing this extension.
   
 <br/>

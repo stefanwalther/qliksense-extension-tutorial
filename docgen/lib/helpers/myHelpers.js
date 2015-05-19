@@ -34,6 +34,8 @@ module.exports.register = function ( Handlebars, options ) {
 		var title = '';
 		if ( !_.isString( options ) ) {
 			title = 'Hint';
+		} else {
+			title = options;
 		}
 
 		var content = getOptionsArg( arguments ).fn( this );

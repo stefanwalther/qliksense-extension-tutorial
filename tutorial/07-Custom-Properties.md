@@ -406,7 +406,7 @@ conosole.log( layout.prop.myTextBox );
 ```
 
 <br/>
->****  
+>**Grouping properties in the source code**  
 >I personally prefer to prefix all properties with `props`. Firstly this doesn't messy up the root of `layout`, secondly this approach allows me to easily iterate through all custom properties and thirdly ensures that there are not naming conflicts with the standard object of Qlik Sense (even in future versions of Qlik Sense).
   
 <br/>
