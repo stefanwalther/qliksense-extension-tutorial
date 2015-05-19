@@ -170,11 +170,12 @@ Property		| Description
 **`ref`**				| Name or Id used to reference a property.
 **`label`**			| Used for defining the label that is displayed in the property panel.
 **`component`**		| Used for defining how the property is visualized in the property panel. 
- 
+
+
 >**Hint**  
 >You may be wondering yourself why we haven't defined the component in the example above: 
 In case of a UI component of type string or integer without defining a specific component Qlik Sense defaults automatically to a text box.
-  
+    
 
 
 ### Adding the component definition to the property panel
@@ -196,8 +197,8 @@ return {
 	}
 };
 ```
-***Result:***
-![](images/07/07-Default-appearance-section)
+***Result:***  
+![](images/07/07-Default-appearance-section.png)
 
 **Code after adding `myTextBox`**:
 
@@ -270,7 +271,7 @@ return {
 
 ![](images/07/07-Two-Textboxes-default.png)
 
-## Adding a custom header
+## Adding a custom section header
 
 That's fine, but in many case that's probably not the result we'd like to achive, it's probably more common, that we want to create a new header within a section containing several components, so something like that:
 
