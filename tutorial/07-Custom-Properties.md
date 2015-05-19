@@ -172,7 +172,8 @@ Property		| Description
 **`component`**		| Used for defining how the property is visualized in the property panel. 
 
 
-<br/>>**Hint**  
+<br/>
+>**Hint**  
 >You may be wondering yourself why we haven't defined the component in the example above: 
 In case of a UI component of type string or integer without defining a specific component Qlik Sense defaults automatically to a text box.
   
@@ -404,7 +405,8 @@ will then be called using
 conosole.log( layout.prop.myTextBox );
 ```
 
-<br/>>****  
+<br/>
+>****  
 >I personally prefer to prefix all properties with `props`. Firstly this doesn't messy up the root of `layout`, secondly this approach allows me to easily iterate through all custom properties and thirdly ensures that there are not naming conflicts with the standard object of Qlik Sense (even in future versions of Qlik Sense).
   
 <br/>

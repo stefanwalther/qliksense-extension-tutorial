@@ -39,7 +39,7 @@ module.exports.register = function ( Handlebars, options ) {
 		var content = getOptionsArg( arguments ).fn( this );
 
 		// Add breaks before and after, otherwise the hint looks so squeezed in the output
-		return '<br/>>**' + title + '**  \n>' + S( content ).chompLeft( '\n' ) + '  \n<br/>';
+		return '<br/>\n>**' + title + '**  \n>' + S( content ).chompLeft( '\n' ) + '  \n<br/>';
 	} );
 
 	/**
