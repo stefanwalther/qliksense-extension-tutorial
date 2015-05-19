@@ -231,7 +231,7 @@ return {
 };
 ```
 
-***Result:***
+***Result:***  
 ![](images/07/07-Textbox-property-default.png)  
 
 So what happened here?

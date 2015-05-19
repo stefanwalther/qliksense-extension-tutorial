@@ -230,7 +230,7 @@ return {
 };
 ```
 
-***Result:***
+***Result:***  
 {{image "images/07/07-Textbox-property-default.png"}}
 
 So what happened here?
