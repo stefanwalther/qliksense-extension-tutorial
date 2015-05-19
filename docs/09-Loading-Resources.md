@@ -104,36 +104,6 @@ If `$("<style>").html(cssContent).appendTo("head");` doesn't really look familia
 
 {{/hint}}
 
-***Improvements:***
-You'll find this approach in nearly every example and published extension out there, but there is a main drawback of doing it like this:
-
-* If your visualization extension is instantiated several times on a sheet `cssContent` will be injected several times to the document.
-
-So let's see use an improved version by passing a unique Id to the `style` element and only add the `style` element if there is no such element existing in the current document:
-
-```js
-
-// ~~
-// Use the second parameter id to pass a unique id, identifying your visualization extension.
-// If id is passed, addStyleToHeader will check if there has already been added a style with 
-// the given id, if yes, the css content will not be added to the header again
-// ~~
-function addStyleToHeader ( cssContent, id ) {
-	if ( id && typeof id === 'string' ) {
-		if ( !$( '#' + id ).length ) {
-			$("<style>")
-				.attr( 'id', id )
-				.html( cssContent ).appendTo( "head" );
-		}
-	} else {
-		$("<style>").html( cssContent ).appendTo("head");
-	}
-}
-```
-
-It certainly makes sense to put this and other helper methods also to a separate file, but hold on, you'll learn how to load external JavaScript libraries in a second.
-
-
 ### 2) Adding a link to a style sheet to the document's header
 
 Instead of adding a `style` element to the `head` section of a document, you could certainly also add a link, referring to the location of the CSS file:
@@ -148,25 +118,6 @@ define( [
 
 	} );
 
-```
-
-As above, the same problem applies here: If the visualization extension is instantiated multiple times, the `link` will be added several times. Here's another utility function you can use to solve this problem:
-
-```js
-function addStyleLinkToHeader( linkUrl, id ) {
-	if ( id && !_.isEmpty( id ) ) {
-		if ( !$( '#' + id ).length ) {
-			var $styleLink = $( document.createElement( 'link' ) );
-			$styleLink.attr( 'rel', 'stylesheet' );
-			$styleLink.attr( 'type', 'text/css' );
-			$styleLink.attr( 'href', linkUrl );
-			if ( id && !_.isEmpty( id ) ) {
-				$styleLink.attr( 'id', id );
-			}
-			$( 'head' ).append( $styleLink );
-		}
-	}
-}
 ```
 
 ### 3) Using the requireJS CSS plugin
