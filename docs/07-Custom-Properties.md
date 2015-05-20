@@ -274,7 +274,7 @@ return {
 
 ## Adding a custom section header
 
-That's fine, but in many case that's probably not the result we'd like to achive, it's probably more common, that we want to create a new header within a section containing several components, so something like that:
+That's fine, but in many case that's probably not the result we'd like to achieve, it's probably more common, that we want to create a new header within a section containing several components, so something like that:
 
 {{image "images/07/07-Custom-header-with-textboxes.png"}}
 
@@ -388,7 +388,7 @@ var myTextBox = {
 the value can then be referenced in your script 
 
 ```javascript
-conosole.log( layout.myTextBox );
+console.log( layout.myTextBox );
 ```
 
 whereas
@@ -401,7 +401,7 @@ var myTextBox = {
 will then be called using
 
 ```javascript
-conosole.log( layout.prop.myTextBox );
+console.log( layout.prop.myTextBox );
 ```
 
 {{#hint "Grouping properties in the source code"}}

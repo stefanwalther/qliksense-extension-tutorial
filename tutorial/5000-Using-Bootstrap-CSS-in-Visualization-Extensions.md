@@ -10,7 +10,7 @@ If you just start straightforward and try to load Bootstrap's CSS (which can be 
 ![](images/5000/5000_Boostrap_Clash.png)  
 
 ## Solution
-But there's an easy solution for this problem available. What we basically have to do is to "scope" Boostrap's style only to our extension and not to the rest of the document, so something like this
+But there's an easy solution for this problem available. What we basically have to do is to "scope" Bootstrap's style only to our extension and not to the rest of the document, so something like this
 
 ```html
 <!-- Bootstrap styles do not work -->
@@ -59,7 +59,7 @@ bower install bootstrap
 ```css
 .bootstrap_inside {}
 ```
-* Nothing exciting so far but within this class we can now also include the main file from bootstrap. By doing so all the Boostrap CSS definitions will then be "scoped" within .bootstrap_inside, so instead of generating `.btn` our less file will then generate `.bootstrap_inside .btn {}`
+* Nothing exciting so far but within this class we can now also include the main file from bootstrap. By doing so all the Bootstrap CSS definitions will then be "scoped" within .bootstrap_inside, so instead of generating `.btn` our less file will then generate `.bootstrap_inside .btn {}`
 ```css
 .bootstrap_inside {
 	@import "./../bower_components/less/bootstrap.less";
@@ -89,7 +89,7 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     less: {
-	  boostrap: {
+	  bootstrap: {
 	  	files: {
 		  "./output/scoped-bootstrap.css": "./less/_root.less"
 	  	}	
@@ -138,7 +138,7 @@ You can certainly do some improvements to this basic concept:
 
 ## References
 
-* Sample visualization extension which demonstrates what happens if you don't scope Boostrap's CSS
+* Sample visualization extension which demonstrates what happens if you don't scope Bootstrap's CSS
 	* https://github.com/stefanwalther/qsExtensionPlayground/tree/master/Bootstrap-Clash
 * Example solution how to solve the problem (as demonstrated above)
 	* https://github.com/stefanwalther/qsExtensionPlayground/tree/master/Bootstrap

@@ -7,13 +7,13 @@ In this chapter you'll learn how you can use several types of resources in your 
 
 * Style sheets / CSS files
 * Images
-* Javascript libraries
+* JavaScript libraries
 * Fonts
 * Items from the content library
 
 Before we start, let's recap how Qlik Sense manages to load resources asynchroneosly, thus using RequireJS.
 
-## Repitition: Using RequireJS
+## Repetition: Using RequireJS
 
 Qlik Sense uses [RequireJS](http://requirejs.org/) to take care of the asynchronous loading of resources.
 First of all let's remember how RequireJS works:
@@ -43,7 +43,7 @@ define( [ "jquery" ],
 ```
 
 ***Explanation:***  
-jQuery is pre-configured as an internal dependency of Qlik Sense, so there is no need to load jQuery explicitely. By just defining the dependency in first parameter of the `define` function, you can then be sure that jQuery is loaded and that the return value of this library will be passed as the first parameter in the function (second argument of `define`).  
+jQuery is pre-configured as an internal dependency of Qlik Sense, so there is no need to load jQuery explicitly. By just defining the dependency in first parameter of the `define` function, you can then be sure that jQuery is loaded and that the return value of this library will be passed as the first parameter in the function (second argument of `define`).  
 
 Since we will use RequireJS in some of the solutions below, it's important to understand how this approach works.
 
@@ -52,7 +52,7 @@ Since we will use RequireJS in some of the solutions below, it's important to un
 If you want your custom styles (defined in one ore more CSS files) to be considered in your visualization extension we have to load them first.
 There are several ways how to achieve that:
 
-1) Loading and addding the content of a CSS file to the document's header
+1) Loading and adding the content of a CSS file to the document's header
 2) Adding a link to a style sheet to the document's header
 3) Using the requireJS CSS plugin
 
@@ -65,7 +65,7 @@ A good guide can be found in the documentation: ([Styling your visualizations](h
 
 Using requireJS and the `text!` prefix in the `define` statement of your visualization extension can be used to inject the content into the header of the current document:
 
-In Qlik Sense the requireJS [plugin for loading text resources](https://github.com/requirejs/text) is included, which we can use to load a specifc CSS file:
+In Qlik Sense the requireJS [plugin for loading text resources](https://github.com/requirejs/text) is included, which we can use to load a specific CSS file:
 
 Let's assume we have the following file structure:
 
@@ -145,6 +145,16 @@ While it will work in Qlik Sense Desktop it will not work in a server environmen
 
 ## Javascript libraries
 
+Loading JavaScript files from your project is easy and we have already covered this several times in this tutorial.
+We just use RequireJS
+
+(TBC)
+
+Some notes, though:
+
+## Fonts
+
+## Items from the content library
 
 
 

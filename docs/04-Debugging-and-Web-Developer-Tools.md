@@ -28,7 +28,7 @@ It is not in contradiction to using Qlik Sense Desktop to develop your visualiza
 #### Using your favorite browser
 Even when developing using Qlik Sense Desktop you can use your favorite browser for debugging purposes at the same time:
 
-1. Open Qlik Sense Desktop (and leave it openend)
+1. Open Qlik Sense Desktop (and leave it opened)
 2. Open your favorite browser and open `http://localhost:4848`
 
 You'll see Qlik Sense' Hub and can open your browser's developer tools (most of the time by pressing `F12`).
@@ -53,7 +53,7 @@ There are a bunch of websites out there introducing the capabilities of develope
 
 As mentioned before, instead of triggering alerts, it's much more efficient and convenient to use the console of _Web DevTools_:
 
-Just use console.info or console.log to push something to the console:
+Just use `console.info` or `console.log` to push something to the console:
 
 ```javascript
 paint: function ( $element, layout ) {
