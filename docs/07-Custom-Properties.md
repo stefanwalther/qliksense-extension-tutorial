@@ -317,6 +317,19 @@ So fare we have
 But we haven't covered so far how to create a new accordion section, so let's create one:
 
 ```javascript
+
+// Some components
+var header1_item1 = {
+	ref: "props.section1.item1",
+	label: "Section 1 / Item 1",
+	type: "string",
+	expression: "optional"
+};
+
+...
+...
+
+// Define a custom section
 myCustomSection = {
 	// not necessary to define the type, component "expandable-items" will automatically
 	// default to "items"
