@@ -2,6 +2,11 @@
 title: "Chapter 03 - Let's Get Started: Hello World Example"
 published: true
 order: 30
+abstract: 
+tags:
+  - visualization extension
+  - extension
+  - Qlik Sense
 ---
 
 The first example is extremely easy, let’s just create a simple „Hello World“ visualization extension. In the following chapters we’ll improve this example and extend it with additional functionality.

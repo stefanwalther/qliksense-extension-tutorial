@@ -1,6 +1,10 @@
 ---
 title: Appendix
 published: true
+abstract:
+tags:
+  - Qlik Sense
+  - What's New
 ---
 
 In Qlik Sense 1.1 the following additions have been made to APIs which can be easily used within visualization extensions:

@@ -3,6 +3,11 @@ title: "Table of Contents"
 order: 1
 published: true
 type:
+abstract:
+tags:
+  - visualization extension
+  - extension
+  - Qlik Sense
 ---
 
 ## Introduction to Developing Visualization Extensions

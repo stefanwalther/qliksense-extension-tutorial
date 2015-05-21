@@ -2,6 +2,14 @@
 title: "Chapter 04 - Debugging an Web Developer Tools"
 order: 40
 published: true
+abstract: 
+tags: 
+  - Debugging
+  - Chrome Dev Tools
+  - Chrome Developer Tools
+  - Object Inspection
+  - console
+  - alert
 ---
 
 {{#comment}}

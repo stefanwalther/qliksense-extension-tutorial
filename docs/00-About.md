@@ -2,6 +2,11 @@
 title: About this tutorial
 order: 0
 published: true
+abstract:
+tags:
+  - Qlik Sense
+  - visualization extension
+  - extension
 ---
 In the past I was writing quite a lot of article on [my private blog](http://www.qlikblog.at) which is fine in general, but when writing a tutorial, a blog is not really the ideal format as I realized.
 

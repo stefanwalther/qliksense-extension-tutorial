@@ -3,6 +3,11 @@ title: Qlik Sense Extension Tutorial
 order: 10
 published: true
 type: chapter
+abstract: 
+tags:
+  - visualization extension
+  - extension
+  - Qlik Sense
 ---
 
 <!!-- toc -->

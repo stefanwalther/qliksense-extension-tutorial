@@ -1,6 +1,11 @@
 ---
 title: Hello Data
 published: false
+abstract:
+tags:
+  - visualization extension
+  - extension
+  - Qlik Sense
 ---
 
 OK, now we are done with the very, very basics. Let's move on to the interesting stuff, bringing data into our _visualization extension_.
