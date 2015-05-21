@@ -145,12 +145,21 @@ While it will work in Qlik Sense Desktop it will not work in a server environmen
 
 ## Javascript libraries
 
+### Loading local JavaScript files
 Loading JavaScript files from your project is easy and we have already covered this several times in this tutorial.
 We just use RequireJS
 
 (TBC)
 
 Some notes, though:
+
+
+### Loading external JavaScript files
+You might want to load resources from a content delivery network (CDN). This is the way to go:
+
+{{#hidden}}
+//code.highcharts.com/highcharts.js
+{{/hidden}}
 
 ## Fonts
 

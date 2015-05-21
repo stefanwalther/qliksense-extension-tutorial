@@ -67,6 +67,6 @@ Fortunately quite a lot of developers are publishing their extensions to GitHub.
 
 
 ---
-Qlik Sense Extension Tutorial, Version 0.3.0
+Qlik Sense Extension Tutorial, Version 0.3.2
 
 [Table of Contents](00-TOC.md)

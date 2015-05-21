@@ -160,6 +160,6 @@ Congrats, you have now created an **improved version** of your "Hello World" exa
 
 
 ---
-Qlik Sense Extension Tutorial, Version 0.3.0
+Qlik Sense Extension Tutorial, Version 0.3.2
 
 [Table of Contents](00-TOC.md)
