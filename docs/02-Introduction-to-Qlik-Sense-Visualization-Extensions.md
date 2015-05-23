@@ -66,7 +66,7 @@ There is only a single exception to this rule:
 There are some places where you can find Extensions for Qlik Sense:
 
 * **[branch.qlik.com](http://branch.qlik.com)**  
-[branch.qlik.com](http://branch.qlik.com) is an open source community where you can find a lot of completely new solutions built on top of both QlikView's and Qlik Sense' APIs, certainly there is also a dedicated section on this page only listing [visualization extensions for Qlik Sense](http://branch.qlik.com/projects/forumdisplay.php?22-Object-Extensions)
+branch.qlik.com is an open source community where you can find a lot of completely new solutions built on top of both QlikView's and Qlik Sense' APIs, certainly there is also a dedicated section on this page only listing [visualization extensions for Qlik Sense](http://branch.qlik.com/projects/forumdisplay.php?22-Object-Extensions)
 * **[market.qlik.com](http://market.qlik.com)**  
 Probably quite soon, we'll also see commercial visualization extensions for Qlik Sense on [market.qlik.com](http://market.qlik.com)
 * **[GitHub](http://github.com)**  
