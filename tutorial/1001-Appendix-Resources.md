@@ -10,6 +10,6 @@ http://blog.axc.net/tutorial-how-to-build-a-qlik-sense-extension-with-d3/
 
 
 ---
-Qlik Sense Extension Tutorial, Version 0.3.2
+Qlik Sense Extension Tutorial, Version 0.3.3
 
 [Table of Contents](00-TOC.md)

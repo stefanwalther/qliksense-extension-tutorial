@@ -442,6 +442,6 @@ You can find the source code for this chapter in the `src` folder of **./Chapter
 
 
 ---
-Qlik Sense Extension Tutorial, Version 0.3.2
+Qlik Sense Extension Tutorial, Version 0.3.3
 
 [Table of Contents](00-TOC.md)

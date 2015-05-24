@@ -23,13 +23,13 @@
 * [05 Improving the Web Hello World Experience](05-Improving-the-Hello-World-Experience.md)
 	* Make _Hello World_ dynamic
 	* Define a preview image
-* [06 An Introduction to Using Properties] (06-Introduction-to-Using-Properties.md)
+* [06 An Introduction to Using Properties](06-Introduction-to-Using-Properties.md)
 	* Skeleton
 	* Re-using properties
 	* Basic custom property types
 	* How to reference properties
 	* Separate property definition to a separate file
-* [07 Custom Properties] (07-Custom-Properties.md)
+* [07 Custom Properties](07-Custom-Properties.md)
 	* Introduction to custom properties
 	* Improving readability & maintainability of properties
 	* Basic custom property - a string input box
@@ -120,6 +120,6 @@
 	
 
 ---
-Qlik Sense Extension Tutorial, Version 0.3.2
+Qlik Sense Extension Tutorial, Version 0.3.3
 
 [Table of Contents](00-TOC.md)
