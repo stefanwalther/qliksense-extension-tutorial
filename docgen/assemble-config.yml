@@ -1,0 +1,6 @@
+tutorial:
+  version: 0.3.2
+options:
+  layouts: './lib/layouts/**/*.hbs'
+  defaultLayout: 'default-md.hbs'
+  helperFiles: './lib/helpers/html/*.js'

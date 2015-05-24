@@ -1,5 +1,5 @@
 'use strict';
-var _ = require( 'underscore' );
+var _ = require( 'lodash' );
 var S = require( 'string' );
 
 // ****************************************************************************************
@@ -91,7 +91,7 @@ module.exports.register = function ( Handlebars, options ) {
 	 * {{/hidden}}
 	 */
 	Handlebars.registerHelper( 'hidden', function () {
-
+		return '';
 	} );
 
 	function getOptionsArg ( args ) {

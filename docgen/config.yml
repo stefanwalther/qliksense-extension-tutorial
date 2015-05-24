@@ -1,5 +1,0 @@
-assemble:
-  layoutdir: './lib/layouts/'
-  layout: 'default-md.hbs'
-tutorial:
-  version: 0.3.2

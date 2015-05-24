@@ -112,9 +112,9 @@ If you do not define the preview parameter in the qext file, the icon definition
 
 {{image "images/03/03_preview.png"}}
 
-{{#note}}
+{{#hint}}
 If you want to create a preview image, choose width and height of 140px x 123px.
-{{/note}}
+{{/hint}}
 
 ### `author`
 

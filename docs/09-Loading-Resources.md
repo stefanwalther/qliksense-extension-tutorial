@@ -143,7 +143,7 @@ define( [
 	} );
 ```
 
-{{#hint "Usage before Qlik Sense 2.0}}
+{{#hint "Usage before Qlik Sense 2.0"}}
 You'll realize that some visualization examples use this approach even before Qlik Sense 2.0 was published.
 While it will work in Qlik Sense Desktop it will not work in a server environment. Official support for this way of loading CSS files has been added with Qlik Sense 2.0.
 {{/hint}}
