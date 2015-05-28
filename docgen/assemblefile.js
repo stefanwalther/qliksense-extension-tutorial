@@ -12,23 +12,27 @@ var extname = require( 'gulp-extname' );
 var glob = require( 'glob' );
 var less = require( 'gulp-less' );
 var yaml = require( 'js-yaml' );
+var logger = require( './lib/utils/logger.js' );
 
 // ****************************************************************************************
 // Config file
 // ****************************************************************************************
 var assembleCfg = yaml.load( fs.readFileSync( path.join( __dirname, './assemble-config.yml' ), 'utf-8' ) );
+logger.silly( 'assembleCfg', assembleCfg );
 
 // ****************************************************************************************
 // Helpers
 // ****************************************************************************************
-//var helperFiles = glob.sync( assembleCfg.options.helperFiles );
-//var helpers = helperFiles.reduce( function ( acc, fp ) {
-//	return extend( acc, require( path.resolve( fp ) ) );
-//}, {} );
-//console.log( 'helpers', helpers );
-//assemble.helpers( helpers );
 assemble.helper( 'markdown', require( 'helper-markdown' ) );
-assemble.helpers( require( 'handlebars-hybrid' ));
+
+var helperFiles = glob.sync( assembleCfg.options.helperFiles );
+logger.silly( 'helperFiles', helperFiles );
+var helpers = helperFiles.reduce( function ( acc, fp ) {
+	logger.silly( 'fp', fp );
+	return extend( acc, require( path.resolve( fp ) ) );
+}, {} );
+console.log( 'helpers', helpers );
+assemble.helpers( helpers );
 
 // ****************************************************************************************
 // Assemble options
@@ -39,14 +43,14 @@ assemble.option( 'layout', assembleCfg.options.defaultLayout );
 assemble.task( 'assets', function () {
 	assemble.src( './../docs/images/**/*.png' )
 		.pipe( debug() )
-		.pipe( extname() )
+		//.pipe( extname() )
 		.pipe( assemble.dest( './../tutorial/images' ) )
 } );
 
 assemble.task( 'tutorial', function () {
 	assemble.src( './../docs/**/*.md' )
 		.pipe( debug() )
-		.pipe( extname() )
+		//.pipe( extname() )
 		.pipe( assemble.dest( './../tutorial' ) )
 } );
 

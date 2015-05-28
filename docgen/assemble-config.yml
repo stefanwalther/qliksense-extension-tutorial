@@ -3,4 +3,4 @@ tutorial:
 options:
   layouts: './lib/layouts/**/*.hbs'
   defaultLayout: 'default-md.hbs'
-  helperFiles: './lib/helpers/html/*.js'
+  helperFiles: './lib/helpers/**/*.js'

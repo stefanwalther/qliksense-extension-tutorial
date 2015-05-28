@@ -3,22 +3,23 @@
   "version": "0.0.2",
   "description": "",
   "main": "assemblefile.js",
-  "dependencies": {},
-  "devDependencies": {
-    "assemble": "git://github.com/assemble/assemble.git#v0.6.0",
+  "dependencies": {
+    "assemble": "^0.4.42",
     "assemble-middleware-contextual": "^0.2.2",
-    "chai": "^2.3.0",
     "extend-shallow": "^1.1.4",
-    "glob": "^5.0.9",
+    "glob": "^5.0.10",
     "gulp-debug": "^2.0.1",
     "gulp-extname": "^0.2.0",
     "gulp-less": "^3.0.3",
     "handlebars": "^3.0.3",
-    "handlebars-hybrid": "^0.2.2",
     "helper-markdown": "^0.1.1",
     "js-yaml": "^3.3.1",
-    "lodash": "^3.9.1",
-    "string": "^3.1.1"
+    "lodash": "^3.9.3",
+    "string": "^3.1.1",
+    "winston": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0"
   },
   "scripts": {
     "test": ""
