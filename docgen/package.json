@@ -11,6 +11,7 @@
     "glob": "^5.0.10",
     "gulp-debug": "^2.0.1",
     "gulp-extname": "^0.2.0",
+    "gulp-git": "^1.2.4",
     "gulp-less": "^3.0.3",
     "handlebars": "^3.0.3",
     "handlebars-hybrid": "^0.2.2",

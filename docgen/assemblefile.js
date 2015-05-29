@@ -14,6 +14,7 @@ var less = require( 'gulp-less' );
 var yaml = require( 'js-yaml' );
 var logger = require( './lib/utils/logger.js' );
 var del = require( 'del' );
+var gulpGit = require( 'gulp-git' );
 
 // ****************************************************************************************
 // Config file
@@ -33,7 +34,7 @@ assemble.helper( 'markdown', require( 'helper-markdown' ) );
 //	return extend( acc, require( path.resolve( fp ) ) );
 //}, {} );
 
-assemble.helpers( require( 'handlebars-hybrid' ).init( 'markdown' ) );
+assemble.helpers( require( 'handlebars-hybrid' )( 'markdown' ) );
 
 // ****************************************************************************************
 // Assemble options
@@ -62,4 +63,10 @@ assemble.task( 'tutorial', function () {
 		.pipe( assemble.dest( './../tutorial' ) )
 } );
 
-assemble.task( 'default', ['clean:tutorial', 'assets', 'tutorial'] );
+assemble.task( 'git:add', function () {
+	assemble.src( './../tutorial/**/*' )
+		.pipe( gulpGit.add() )
+		.pipe( assemble.dest( './../tutorial' ) )
+} );
+
+assemble.task( 'default', ['clean:tutorial', 'assets', 'tutorial', 'git:add'] );
