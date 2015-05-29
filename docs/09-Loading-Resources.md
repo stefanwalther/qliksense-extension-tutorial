@@ -1,5 +1,6 @@
 ---
 title: Loading Resources
+lastUpdate: "2015-05-29"
 abstract:
 tags:
   - visualization extension

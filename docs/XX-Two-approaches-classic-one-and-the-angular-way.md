@@ -1,5 +1,6 @@
 ---
 title: "Two Approaches, the 'Classic' One & the Angular Way"
+lastUpdate: "2015-05-29"
 type: chapter
 order: -1
 draft: true

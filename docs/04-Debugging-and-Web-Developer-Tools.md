@@ -1,5 +1,6 @@
 ---
 title: "Chapter 04 - Debugging an Web Developer Tools"
+lastUpdate: "2015-05-29"
 order: 40
 abstract: 
 tags: 

@@ -1,5 +1,6 @@
 ---
 title: Creating a visualization extension using D3
+lastUpdate: "2015-05-29"
 draft: true
 tags:
 	- D3

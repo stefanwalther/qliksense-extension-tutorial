@@ -1,5 +1,6 @@
 ---
 title: Introduction to Using Properties
+lastUpdate: "2015-05-29"
 tags:
   - visualization extension
   - extension
