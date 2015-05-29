@@ -8,6 +8,9 @@ tags:
   - Qlik Sense
   - CDN
   - RequireJS
+  - CSS
+  - images
+  - include
 draft: true
 ---
 
