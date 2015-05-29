@@ -1,6 +1,5 @@
 ---
 title: Appendix
-published: true
 abstract:
 tags:
   - Qlik Sense

@@ -6,7 +6,6 @@ tags:
   - extension
   - Qlik Sense
   - Hello World
-published: true
 ---
 
 OK, let's improve the _Hello World_ experience.

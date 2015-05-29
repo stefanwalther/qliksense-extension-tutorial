@@ -2,7 +2,7 @@
 title: "Two Approaches, the 'Classic' One & the Angular Way"
 type: chapter
 order: -1
-published: false
+draft: true
 ---
 Qlik Sense offers two different approaches to develop your visualization extension. One of the approaches is very similar to the extension concept in QlikView, I call it the „Classic Approach“:
 

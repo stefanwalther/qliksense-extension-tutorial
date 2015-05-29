@@ -1,7 +1,6 @@
 ---
 title: "Table of Contents"
 order: 1
-published: true
 type:
 abstract:
 tags:
@@ -47,13 +46,16 @@ tags:
 	* Referencing property values
 	* Troubleshooting
 	* Source code
-* 08 Hello Data
+* 09 Hello Data
 	* Allow users to define dimensions & measures
 	* Retrieve data
 	* Initial properties
 	* Default limitations
-* 09 Loading Resources
-* XX Create a visualization using D3
+* 10 Loading Resources
+* 11 Create a visualization using D3
+
+Intermediate:
+* XX Custom Property Components
 * XX More on working with data
 	* Understanding data structure of Qlik objects / Qlik Sense' internal data structure
 	* qHyperCube

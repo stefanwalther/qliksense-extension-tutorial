@@ -1,6 +1,5 @@
 ---
 title: Loading Resources
-published: false
 abstract:
 tags:
   - visualization extension
@@ -8,6 +7,7 @@ tags:
   - Qlik Sense
   - CDN
   - RequireJS
+draft: true
 ---
 
 In this chapter you'll learn how you can use several types of resources in your visualization extensions, e.g.

@@ -2,7 +2,7 @@
 title: An Introduction to Custom Properties
 type: chapter
 order: 60
-published: false
+draft: true
 ---
 
 In the previous chapter we've use some very basic custom properties.

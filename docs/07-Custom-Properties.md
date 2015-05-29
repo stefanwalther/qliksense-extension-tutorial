@@ -1,6 +1,5 @@
 ---
 title: Custom Properties
-published: true
 abstract:
 tags:
   - visualization extension

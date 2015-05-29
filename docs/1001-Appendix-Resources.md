@@ -1,7 +1,6 @@
 ---
 title: Resources & Articles
 order: 10010
-published: true
 abstract:
 tags:
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Typography
-published: false
+draft: true
 ---
 
 # Heading 1
