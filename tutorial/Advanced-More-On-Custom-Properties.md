@@ -1,3 +1,6 @@
+	---
+	draft: true
+	---
 	* More components
 	* Show conditions
 	* Tips to structure your property definitions
