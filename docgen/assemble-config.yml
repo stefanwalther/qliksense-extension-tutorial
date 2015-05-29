@@ -1,8 +1,8 @@
-tutorial:
+meta:
   version: 0.4.1
 options:
   layouts: './lib/layouts/**/*.hbs'
-  defaultLayout: 'default-md.hbs'
+  defaultLayout: 'default'
 images:
   src: './../docs/images/**/*.png'
   target: './../tutorial/images'

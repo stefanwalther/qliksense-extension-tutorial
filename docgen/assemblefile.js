@@ -17,6 +17,8 @@ var del = require( 'del' );
 //var gulpGit = require( 'gulp-git' );
 //var wait = require( 'gulp-wait' );
 
+var files = [];
+
 // ****************************************************************************************
 // Config file
 // ****************************************************************************************
@@ -46,6 +48,7 @@ assemble.helpers( require( 'handlebars-hybrid' )( 'markdown' ) );
 // Assemble options
 // ***************************************************************************************
 assemble.layouts( cfg.options.layouts );
+assemble.set( 'layouts', cfg.options.layouts );
 assemble.option( 'layout', cfg.options.defaultLayout );
 
 // ****************************************************************************************
@@ -75,8 +78,18 @@ assemble.postRender( /\.(md|png)$/, function ( file, next ) {
 	// file.relative
 	// file.base
 	// file.path
-	logger.silly( 'file', file.path );
+	//logger.silly( 'file', file.relative );
+	files.push( file.path );
 	next( null, file );
+} );
+
+//assemble.end( function () {
+//	logger.silly( 'assemble.onEnd' );
+//} );
+
+assemble.task( 'qliksite.yml', function ( cb ) {
+	logger.silly( 'files', files );
+	cb();
 } );
 
 //assemble.task( 'git:add', function () {
@@ -86,4 +99,4 @@ assemble.postRender( /\.(md|png)$/, function ( file, next ) {
 //		.pipe( assemble.dest( './../tutorial' ) )
 //} );
 
-assemble.task( 'default', ['clean:tutorial', 'assets', 'tutorial'] );
+assemble.task( 'default', ['clean:tutorial', 'assets', 'tutorial', 'qliksite.yml'] );
