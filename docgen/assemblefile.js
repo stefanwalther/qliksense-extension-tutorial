@@ -20,8 +20,8 @@ var del = require( 'del' );
 // ****************************************************************************************
 // Config file
 // ****************************************************************************************
-var assembleCfg = yaml.load( fs.readFileSync( path.join( __dirname, './assemble-config.yml' ), 'utf-8' ) );
-//logger.silly( 'assembleCfg', assembleCfg );
+var cfg = yaml.load( fs.readFileSync( path.join( __dirname, './assemble-config.yml' ), 'utf-8' ) );
+//logger.silly( 'assembleCfg', cfg );
 
 // ****************************************************************************************
 // Helpers
@@ -40,29 +40,35 @@ assemble.helpers( require( 'handlebars-hybrid' )( 'markdown' ) );
 // ****************************************************************************************
 // Assemble options
 // ***************************************************************************************
-assemble.layouts( assembleCfg.options.layouts );
-assemble.option( 'layout', assembleCfg.options.defaultLayout );
+assemble.layouts( cfg.options.layouts );
+assemble.option( 'layout', cfg.options.defaultLayout );
 
 // ****************************************************************************************
 // Assemble tasks
 // ****************************************************************************************
 
 assemble.task( 'clean:tutorial', function ( cb ) {
-	del( [
+	del.sync( [
 		'./../tutorial/**/*'
-	], {force: true}, cb )
+	], {force: true} );
+	cb();
 } );
 
 assemble.task( 'assets', function () {
-	return assemble.copy( './../docs/images/**/*.png', './../tutorial/images' );
+	return assemble.copy( cfg.images.src, cfg.images.target );
 } );
 
 assemble.task( 'tutorial', function () {
 	assemble.src( './../docs/**/*.md' )
-		.pipe( debug() )
+		//.pipe( debug() )
 		//.pipe( extname() )
-		.pipe( assemble.dest( './../tutorial' ) )
+		.pipe( assemble.dest( cfg.docs.target ) )
 } );
+
+//assemble.onLoad( /\.md$/, function ( file, next ) {
+//	console.log( 'onLoad', file );
+//	next();
+//} );
 
 //assemble.task( 'git:add', function () {
 //	assemble.src( './../tutorial/**/*' )

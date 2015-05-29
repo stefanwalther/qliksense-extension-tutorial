@@ -3,3 +3,8 @@ tutorial:
 options:
   layouts: './lib/layouts/**/*.hbs'
   defaultLayout: 'default-md.hbs'
+images:
+  src: './../docs/images/**/*.png'
+  target: './../tutorial/images'
+docs:
+  target: './../tutorial'
