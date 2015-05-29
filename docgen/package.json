@@ -6,6 +6,7 @@
   "dependencies": {
     "assemble": "^0.4.42",
     "assemble-middleware-contextual": "^0.2.2",
+    "assemble-middleware-drafts": "^0.1.5",
     "del": "^1.2.0",
     "extend-shallow": "^1.1.4",
     "glob": "^5.0.10",

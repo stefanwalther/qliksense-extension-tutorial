@@ -38,6 +38,11 @@ assemble.helper( 'markdown', require( 'helper-markdown' ) );
 assemble.helpers( require( 'handlebars-hybrid' )( 'markdown' ) );
 
 // ****************************************************************************************
+// Assemble middleware
+// ****************************************************************************************
+//assemble.option( 'middleware', ['assemble-middleware-drafts'] );
+
+// ****************************************************************************************
 // Assemble options
 // ***************************************************************************************
 assemble.layouts( cfg.options.layouts );
@@ -65,10 +70,14 @@ assemble.task( 'tutorial', function () {
 		.pipe( assemble.dest( cfg.docs.target ) )
 } );
 
-//assemble.onLoad( /\.md$/, function ( file, next ) {
-//	console.log( 'onLoad', file );
-//	next();
-//} );
+assemble.postRender( /\.(md|png)$/, function ( file, next ) {
+	// you might need to use `file.data.layout`
+	// file.relative
+	// file.base
+	// file.path
+	logger.silly( 'file', file.path );
+	next( null, file );
+} );
 
 //assemble.task( 'git:add', function () {
 //	assemble.src( './../tutorial/**/*' )

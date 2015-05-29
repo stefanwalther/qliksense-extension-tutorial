@@ -1,5 +1,5 @@
 tutorial:
-  version: 0.4.0
+  version: 0.4.1
 options:
   layouts: './lib/layouts/**/*.hbs'
   defaultLayout: 'default-md.hbs'
