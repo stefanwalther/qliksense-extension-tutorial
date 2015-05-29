@@ -1,5 +1,3 @@
-# Table of Contents
-
 
 
 ## Introduction to Developing Visualization Extensions
@@ -118,8 +116,3 @@
 ## Resources
 * [Resources](1001-Appendix-Resources.md)
 	
-
----
-Qlik Sense Extension Tutorial, Version 0.3.3
-
-[Table of Contents](00-TOC.md)

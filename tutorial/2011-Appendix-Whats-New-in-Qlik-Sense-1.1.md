@@ -1,5 +1,3 @@
-# Appendix
-
 
 
 In Qlik Sense 1.1 the following additions have been made to APIs which can be easily used within visualization extensions:
@@ -44,9 +42,3 @@ In Qlik Sense 1.1 the following additions have been made to APIs which can be ea
 * `qlik.global.getQTProduct` (&#8658; [doc](http://help.qlik.com/sense/en-us/developer/#../Subsystems/Workbench/Content/BuildingWebsites/API/Methods/getQTProduct-method.htm%3FTocPath%3DQlik%2520Sense%2520Workbench%7CAPI%2520reference%7CQlik%2520Sense%2520Mashups%2520API%2520reference%7Cqlik.global%7C_____5))  
 * `qlik.global.getQvVersionq` (&#8658; [doc](http://help.qlik.com/sense/en-us/developer/#../Subsystems/Workbench/Content/BuildingWebsites/API/Methods/getQvVersion-method.htm%3FTocPath%3DQlik%2520Sense%2520Workbench%7CAPI%2520reference%7CQlik%2520Sense%2520Mashups%2520API%2520reference%7Cqlik.global%7C_____6))  
 * `qlik.global.isPersonalMode` (&#8658; [doc](http://help.qlik.com/sense/en-us/developer/#../Subsystems/Workbench/Content/BuildingWebsites/API/Methods/isPersonalMode-method.htm%3FTocPath%3DQlik%2520Sense%2520Workbench%7CAPI%2520reference%7CQlik%2520Sense%2520Mashups%2520API%2520reference%7Cqlik.global%7C_____7))  
-
-
----
-Qlik Sense Extension Tutorial, Version 0.3.3
-
-[Table of Contents](00-TOC.md)

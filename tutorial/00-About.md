@@ -1,5 +1,3 @@
-# About this tutorial
-
 
 In the past I was writing quite a lot of article on [my private blog](http://www.qlikblog.at) which is fine in general, but when writing a tutorial, a blog is not really the ideal format as I realized.
 
@@ -22,9 +20,3 @@ Folder				| Description
 **grunt**			| Grunt tasks for my internal deployment system, you can ignore it as of now. I'll talk about it in some of the later chapters.
 **src**				| The **source code** used for the given chapter
 
-
-
----
-Qlik Sense Extension Tutorial, Version 0.3.3
-
-[Table of Contents](00-TOC.md)

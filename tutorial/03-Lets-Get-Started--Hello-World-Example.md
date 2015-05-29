@@ -1,5 +1,3 @@
-# Chapter 03 - Let&#x27;s Get Started: Hello World Example
-
 
 
 The first example is extremely easy, let’s just create a simple „Hello World“ visualization extension. In the following chapters we’ll improve this example and extend it with additional functionality.
@@ -68,12 +66,9 @@ The basic structure of a .qext file looks as follows:
 }
 ```
 
-<br/>
->**Hint**  
->When creating your .qext file you should double-check if this file [meets the requirements of a valid .json file.](http://jsonlint.com/)
+>**Hint:**
+> When creating your .qext file you should double-check if this file [meets the requirements of a valid .json file.](http://jsonlint.com/)
   
-<br/>
-
 ### `name`
 
 The property `name` will be re-used in the list of visualizations and the preview:
@@ -107,8 +102,9 @@ If you do not define the preview parameter in the qext file, the icon definition
 
 ![](images/03/03_preview.png)  
 
-
-
+>**Hint:**
+> If you want to create a preview image, choose width and height of 140px x 123px.
+  
 ### `author`
 
 author references the author of the visualization extension, so probably your name.
@@ -180,13 +176,9 @@ You should see something like that:
 ![](images/03/03_output.png)  
 
 
-<br/>
->**Hint:**  
->If this is the first time that you are working with Qlik Sense (Desktop) I've added a step by step guide to the appendix which will guide you trough creating your first app and testing this extension.
+>**Hint:**
+> If this is the first time that you are working with Qlik Sense (Desktop) I've added a step by step guide to the appendix which will guide you trough creating your first app and testing this extension.
   
-<br/>
-
-
 
 
 ### But wait, something went wrong
@@ -238,9 +230,3 @@ I leave it to you whether you decide to go with better performance or better rea
 
 > To improve readability of code examples in this tutorial I'll in general stick to the `empty()` pattern.
 
-
-
----
-Qlik Sense Extension Tutorial, Version 0.3.3
-
-[Table of Contents](00-TOC.md)

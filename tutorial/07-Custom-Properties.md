@@ -1,5 +1,3 @@
-# Custom Properties
-
 
 
 In the previous chapter you have learned how to re-use built-in properties in Qlik Sense' property panel. In this chapter we'll cover how we can extend the property panel to custom needs.
@@ -172,13 +170,10 @@ Property		| Description
 **`component`**		| Used for defining how the property is visualized in the property panel. 
 
 
-<br/>
->**Hint**  
->You may be wondering yourself why we haven't defined the component in the example above: 
-In case of a UI component of type string or integer without defining a specific component Qlik Sense defaults automatically to a text box.
+>**Hint:**
+> You may be wondering yourself why we haven't defined the component in the example above: 
+> In case of a UI component of type string or integer without defining a specific component Qlik Sense defaults automatically to a text box.
   
-<br/>  
-
 
 ### Adding the component definition to the property panel
 As we have now defined the custom property - in our case a string based text box - we now have to add it to the accordion. The easiest approach to achieve that is to add the new custom property to the built-in "Appearance" section:
@@ -418,12 +413,9 @@ will then be called using
 console.log( layout.prop.myTextBox );
 ```
 
-<br/>
->**Grouping properties in the source code**  
->I personally prefer to prefix all properties with `props`. Firstly this doesn't messy up the root of `layout`, secondly this approach allows me to easily iterate through all custom properties and thirdly ensures that there are not naming conflicts with the standard object of Qlik Sense (even in future versions of Qlik Sense).
+>**Grouping properties in the source code**
+> I personally prefer to prefix all properties with `props`. Firstly this doesn't messy up the root of `layout`, secondly this approach allows me to easily iterate through all custom properties and thirdly ensures that there are not naming conflicts with the standard object of Qlik Sense (even in future versions of Qlik Sense).
   
-<br/>
-
 
 ## Troubleshooting
 
@@ -439,9 +431,3 @@ You can find the source code for this chapter in the `src` folder of **./Chapter
 
 
 
-
-
----
-Qlik Sense Extension Tutorial, Version 0.3.3
-
-[Table of Contents](00-TOC.md)

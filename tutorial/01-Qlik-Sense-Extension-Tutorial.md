@@ -1,5 +1,3 @@
-# Qlik Sense Extension Tutorial
-
 
 
 The intention of this tutorial is to help you to start developing Extensions in Qlik Sense. If you have already spent some time with the concept of Extensions in QlikView you’ll see some similarities in the first chapters, but at the same time you’ll recognize how much cleaner and better the Extension API in Qlik Sense is in comparison to the one in QlikView.
@@ -23,9 +21,3 @@ In addition to Qlik Sense you'll need a code editor, basically every basic edito
 
 ## Code Download
 All code samples in this tutorial are available on GitHub. At the beginning and end of each chapter you’ll find a short note how to download the corresponding code to a specific chapter.
-
-
----
-Qlik Sense Extension Tutorial, Version 0.3.3
-
-[Table of Contents](00-TOC.md)
