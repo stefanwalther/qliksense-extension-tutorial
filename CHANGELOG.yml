@@ -1,3 +1,8 @@
+v0.4.0:
+  date: "2015-05-29"
+  enhancements:
+    - Changed to assemble v0.6.0 instead of assemble 0.4.42
+    - Added support to add files in `tutorial` automatically to git
 v0.3.3:
   date: "2015-05-20"
   enhancements:

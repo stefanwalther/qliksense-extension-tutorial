@@ -14,7 +14,8 @@ var less = require( 'gulp-less' );
 var yaml = require( 'js-yaml' );
 var logger = require( './lib/utils/logger.js' );
 var del = require( 'del' );
-var gulpGit = require( 'gulp-git' );
+//var gulpGit = require( 'gulp-git' );
+//var wait = require( 'gulp-wait' );
 
 // ****************************************************************************************
 // Config file
@@ -63,10 +64,11 @@ assemble.task( 'tutorial', function () {
 		.pipe( assemble.dest( './../tutorial' ) )
 } );
 
-assemble.task( 'git:add', function () {
-	assemble.src( './../tutorial/**/*' )
-		.pipe( gulpGit.add() )
-		.pipe( assemble.dest( './../tutorial' ) )
-} );
+//assemble.task( 'git:add', function () {
+//	assemble.src( './../tutorial/**/*' )
+//		.pipe( wait( 1500 ) )
+//		.pipe( gulpGit.add() )
+//		.pipe( assemble.dest( './../tutorial' ) )
+//} );
 
-assemble.task( 'default', ['clean:tutorial', 'assets', 'tutorial', 'git:add'] );
+assemble.task( 'default', ['clean:tutorial', 'assets', 'tutorial'] );
