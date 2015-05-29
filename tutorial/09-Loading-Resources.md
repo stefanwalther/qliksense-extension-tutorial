@@ -53,12 +53,10 @@ There are several ways how to achieve that:
 2) Adding a link to a style sheet to the document's header
 3) Using the requireJS CSS plugin
 
-<br/>
->**Hint**  
->When creating style sheets, always make sure to prevent conflicts with existing styles or style definitions from other visualization extensions.
-A good guide can be found in the documentation: ([Styling your visualizations](http://help.qlik.com/sense/en-us/developer/#../Subsystems/Workbench/Content/BuildingExtensions/HowTos/working-with-styling.htm)).
+>**Hint:**
+> When creating style sheets, always make sure to prevent conflicts with existing styles or style definitions from other visualization extensions.
+> A good guide can be found in the documentation: ([Styling your visualizations](http://help.qlik.com/sense/en-us/developer/#../Subsystems/Workbench/Content/BuildingExtensions/HowTos/working-with-styling.htm)).
   
-<br/>
 ### 1) Loading and adding the content to the document's header
 
 Using requireJS and the `text!` prefix in the `define` statement of your visualization extension can be used to inject the content into the header of the current document:
@@ -93,16 +91,14 @@ define( [
 	} );
 ```
 
-<br/>
->**Explanation for jQuery novices**  
->If `$("<style>").html(cssContent).appendTo("head");` doesn't really look familiar for you, here's a short explanation:
-
-* `$("<style>")` creates a new style object.
-* Then the content of the variable `cssContent` will be assigned to the inner content of the `style` object.
-* Finally the style object (now including the CSS content) will be added to `<head>` section of the current document.
-
+>**Explanation for jQuery novices**
+> If `$("<style>").html(cssContent).appendTo("head");` doesn't really look familiar for you, here's a short explanation:
+> 
+> * `$("<style>")` creates a new style object.
+> * Then the content of the variable `cssContent` will be assigned to the inner content of the `style` object.
+> * Finally the style object (now including the CSS content) will be added to `<head>` section of the current document.
+> 
   
-<br/>
 ### 2) Adding a link to a style sheet to the document's header
 
 Instead of adding a `style` element to the `head` section of a document, you could certainly also add a link, referring to the location of the CSS file:
@@ -135,12 +131,10 @@ define( [
 	} );
 ```
 
-<br/>
->**Usage before Qlik Sense 2.0**  
->You'll realize that some visualization examples use this approach even before Qlik Sense 2.0 was published.
-While it will work in Qlik Sense Desktop it will not work in a server environment. Official support for this way of loading CSS files has been added with Qlik Sense 2.0.
+>**Usage before Qlik Sense 2.0**
+> You'll realize that some visualization examples use this approach even before Qlik Sense 2.0 was published.
+> While it will work in Qlik Sense Desktop it will not work in a server environment. Official support for this way of loading CSS files has been added with Qlik Sense 2.0.
   
-<br/>
 ## Images
 
 ## Javascript libraries

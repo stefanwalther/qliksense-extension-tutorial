@@ -66,11 +66,9 @@ The basic structure of a .qext file looks as follows:
 }
 ```
 
-<br/>
->**Hint**  
->When creating your .qext file you should double-check if this file [meets the requirements of a valid .json file.](http://jsonlint.com/)
+>**Hint:**
+> When creating your .qext file you should double-check if this file [meets the requirements of a valid .json file.](http://jsonlint.com/)
   
-<br/>
 ### `name`
 
 The property `name` will be re-used in the list of visualizations and the preview:
@@ -104,11 +102,9 @@ If you do not define the preview parameter in the qext file, the icon definition
 
 ![](images/03/03_preview.png)  
 
-<br/>
->**Hint**  
->If you want to create a preview image, choose width and height of 140px x 123px.
+>**Hint:**
+> If you want to create a preview image, choose width and height of 140px x 123px.
   
-<br/>
 ### `author`
 
 author references the author of the visualization extension, so probably your name.
@@ -180,11 +176,9 @@ You should see something like that:
 ![](images/03/03_output.png)  
 
 
-<br/>
->**Hint:**  
->If this is the first time that you are working with Qlik Sense (Desktop) I've added a step by step guide to the appendix which will guide you trough creating your first app and testing this extension.
+>**Hint:**
+> If this is the first time that you are working with Qlik Sense (Desktop) I've added a step by step guide to the appendix which will guide you trough creating your first app and testing this extension.
   
-<br/>
 
 
 ### But wait, something went wrong
