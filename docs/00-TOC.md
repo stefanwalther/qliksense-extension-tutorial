@@ -52,9 +52,14 @@ tags:
 	* Initial properties
 	* Default limitations
 * 10 Loading Resources
+	* Style sheets / CSS files
+	* Images
+	* JavaScript libraries
+	* Fonts
+	* Items from the content library
 * 11 Create a visualization using D3
 
-Intermediate:
+Intermediate - More Visualization Extension related concepts:
 * XX Custom Property Components
 * XX More on working with data
 	* Understanding data structure of Qlik objects / Qlik Sense' internal data structure
