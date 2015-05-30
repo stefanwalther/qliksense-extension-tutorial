@@ -1,3 +1,7 @@
+# About this tutorial
+
+
+
 
 In the past I was writing quite a lot of article on [my private blog](http://www.qlikblog.at) which is fine in general, but when writing a tutorial, a blog is not really the ideal format as I realized.
 
@@ -9,7 +13,7 @@ So I invite you not only to consume but also to participate!
 
 This initiative is somehow related to one of the articles I have written two years ago: [Plea for Open Source Development in the Qlik(View) World](http://www.qlikblog.at/3040/plea-for-open-source-development-in-the-qlikview-world/)
 
-# Folder structure for sample code
+## Folder structure for sample code
 
 If there is some code related to a chapter, the code folder is always structured the same way:
 
@@ -20,3 +24,10 @@ Folder				| Description
 **grunt**			| Grunt tasks for my internal deployment system, you can ignore it as of now. I'll talk about it in some of the later chapters.
 **src**				| The **source code** used for the given chapter
 
+
+
+---
+Qlik Sense Visualization Extension Tutorial, Version 
+Last update: 2015-05-29
+
+[Table of Contents](00-TOC.md)

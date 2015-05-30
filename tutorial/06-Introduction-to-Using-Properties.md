@@ -1,3 +1,5 @@
+# Introduction to Using Properties
+
 
 
 Before we start with the real fun stuff, let's spend a chapter or some minutes to understand the basic principles behind defining and using properties in Qlik Sense _Visualization Extensions_.
@@ -191,3 +193,10 @@ Great, you now can use built-in properties in your _visualization extension_ in 
 
 
 
+
+
+---
+Qlik Sense Visualization Extension Tutorial, Version 
+Last update: 2015-05-29
+
+[Table of Contents](00-TOC.md)

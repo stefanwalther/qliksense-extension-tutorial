@@ -1,4 +1,7 @@
+# Table of Contents
 
+
+<!--include "./includes/toc.md"-->
 
 ## Introduction to Developing Visualization Extensions
 * [00 About this Tutorial](00-About.md)
@@ -43,17 +46,33 @@
 	* Initial properties
 	* Default limitations
 * 10 Loading Resources
+	* Style sheets / CSS files
+	* Images
+	* JavaScript libraries
+	* Fonts
+	* Items from the content library
 * 11 Create a visualization using D3
 
-Intermediate:
-* XX Custom Property Components
+	
+## Qlik Sense Visualization Extensions & AngularJS
+* XX Two Approaches, the “Classic” One & the Angular Way
+* XX The Angular Way: Basics
+* XX The Angular Way: Directives
+* XX The Angular Way: Filter
+* XX The Angular Way: Services
+* XX Working With System Tables
+
+
+## Basic concepts when working with Qlik Sense visualization extensions:
+* XX Custom property components
 * XX More on working with data
-	* Understanding data structure of Qlik objects / Qlik Sense' internal data structure
-	* qHyperCube
-	* qListObject
-	* qPivotTable
-	* qExpressions
-	* Overcome default limitations
+	* Understanding data structure of Qlik objects / Qlik Sense's internal data structure
+	* genericObject
+		* qHyperCube
+		* qListObject
+		* qPivotTable
+		* qExpressions
+	* Overcome default behavior
 * XX More on HyperCubes
 * XX The BackendAPI
 * XX Communicating with the Repository API
@@ -67,20 +86,12 @@ Intermediate:
 * XX Working with Meta Data
 * XX Talking to the Repository API
 
-## Deployment
+## Deployment of Qlik Sense Visualization Extensions
 * Deployment checklist
 * XX Setting up a Robust Development Environment
 	* Using Less
 	* Automatically deploy and zip
 	* Versioning
-	
-## Qlik Sense & AngularJS
-* XX Two Approaches, the “Classic” One & the Angular Way
-* XX The Angular Way: Basics
-* XX The Angular Way: Directives
-* XX The Angular Way: Filter
-* XX The Angular Way: Services
-* XX Working With System Tables
 
 ## Advanced Techniques
 * XX Advanced Techniques: Modifying Custom Properties
@@ -96,6 +107,8 @@ Intermediate:
 
 ## Real World Examples
 * XX Communicating with backend services
+* XX An advanced visualization extension based on D3
+* XX Embedding real-time communication
 	
 ## Appendix
 * [Appendix:](1000-Appendix.md)
@@ -119,3 +132,9 @@ Intermediate:
 ## Resources
 * [Resources](1001-Appendix-Resources.md)
 	
+
+---
+Qlik Sense Visualization Extension Tutorial, Version 
+Last update: 2015-05-29
+
+[Table of Contents](00-TOC.md)

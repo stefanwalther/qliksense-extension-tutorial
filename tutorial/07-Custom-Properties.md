@@ -1,3 +1,5 @@
+# Custom Properties
+
 
 
 In the previous chapter you have learned how to re-use built-in properties in Qlik Sense' property panel. In this chapter we'll cover how we can extend the property panel to custom needs.
@@ -431,3 +433,10 @@ You can find the source code for this chapter in the `src` folder of **./Chapter
 
 
 
+
+
+---
+Qlik Sense Visualization Extension Tutorial, Version 
+Last update: 2015-05-29
+
+[Table of Contents](00-TOC.md)

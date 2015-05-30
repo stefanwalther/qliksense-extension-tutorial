@@ -1,3 +1,5 @@
+# Chapter 04 - Debugging an Web Developer Tools
+
 
 
 
@@ -120,3 +122,8 @@ Read more on:
 >**Hint:**
 > Very similar to the advice above regarding `console.x()`, do not forget to remove `debugger;` statements if you move your visualization extension to production environment.
   
+---
+Qlik Sense Visualization Extension Tutorial, Version 
+Last update: 2015-05-29
+
+[Table of Contents](00-TOC.md)
