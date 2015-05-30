@@ -152,7 +152,7 @@ Congrats, you have now created an **improved version** of your "Hello World" exa
 
 
 ---
-Qlik Sense Visualization Extension Tutorial, Version 0.4.2
-Last update: 2015-05-29
+Qlik Sense Visualization Extension Tutorial, Version 0.4.2<br/>
+Last update: 2015-05-29<br/>{
 
 [Table of Contents](00-TOC.md)
