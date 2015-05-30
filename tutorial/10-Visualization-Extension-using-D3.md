@@ -34,6 +34,6 @@ Before I start incorporating a D3 based chart into a Qlik Sense visualization ex
 
 ---
 Qlik Sense Visualization Extension Tutorial, Version 0.4.2<br/>
-{
+
 
 [Table of Contents](00-TOC.md)

@@ -27,6 +27,6 @@ All code samples in this tutorial are available on GitHub. At the beginning and 
 
 ---
 Qlik Sense Visualization Extension Tutorial, Version 0.4.2<br/>
-Last update: 2015-05-29<br/>{
+Last update: 2015-05-29<br/>
 
 [Table of Contents](00-TOC.md)

@@ -197,6 +197,6 @@ Great, you now can use built-in properties in your _visualization extension_ in 
 
 ---
 Qlik Sense Visualization Extension Tutorial, Version 0.4.2<br/>
-Last update: 2015-05-29<br/>{
+Last update: 2015-05-29<br/>
 
 [Table of Contents](00-TOC.md)
