@@ -18,21 +18,22 @@ Before we dig into details, let me introduce you to D3:
 First of all you need to now which chart type you want to include. There are several great resources out there where you can browse through existing examples.
 If you've found what you are looking for I recommend the following approach:
 
-1) Review the code
+1) Get the chart working locally
 2) Get an example running on your local machine
 3) Integrate the example into Qlik Sense
 4) Make your chart configurable
 
 ## Our D3 based chart - a "Step Chart"
 
-### Review the code
+### Get the chart working locally
+Before I start incorporating a D3 based chart into a Qlik Sense visualization extension, I always try to get the code working locally. This is one of my "golden rules" ;-) In the past I spent just too much time getting a D3 chart to work within a visualization extension, but then I realized that tha D3 based solution itself was not working, so in the end I just wasted a lot of time.
 
 ### Get the example running
 
 ### 
 
 ---
-Qlik Sense Visualization Extension Tutorial, Version 
+Qlik Sense Visualization Extension Tutorial, Version 0.4.2
 
 
 [Table of Contents](00-TOC.md)

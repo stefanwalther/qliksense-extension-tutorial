@@ -10,7 +10,7 @@ http://blog.axc.net/tutorial-how-to-build-a-qlik-sense-extension-with-d3/
 
 
 ---
-Qlik Sense Visualization Extension Tutorial, Version 
+Qlik Sense Visualization Extension Tutorial, Version 0.4.2
 Last update: 2015-05-29
 
 [Table of Contents](00-TOC.md)

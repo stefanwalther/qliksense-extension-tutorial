@@ -27,7 +27,7 @@ Folder				| Description
 
 
 ---
-Qlik Sense Visualization Extension Tutorial, Version 
+Qlik Sense Visualization Extension Tutorial, Version 0.4.2
 Last update: 2015-05-29
 
 [Table of Contents](00-TOC.md)

@@ -14,16 +14,15 @@ var less = require( 'gulp-less' );
 var yaml = require( 'js-yaml' );
 var logger = require( './lib/utils/logger.js' );
 var del = require( 'del' );
-//var gulpGit = require( 'gulp-git' );
-//var wait = require( 'gulp-wait' );
 
-var files = [];
+//var files = [];
 
 // ****************************************************************************************
 // Config file
 // ****************************************************************************************
 var cfg = yaml.load( fs.readFileSync( path.join( __dirname, './assemble-config.yml' ), 'utf-8' ) );
-//logger.silly( 'assembleCfg', cfg );
+console.log( 'cfg.data >> ', cfg.options.data );
+assemble.data( cfg.data );
 
 // ****************************************************************************************
 // Helpers
@@ -68,7 +67,7 @@ assemble.task( 'assets', function () {
 
 assemble.task( 'tutorial', function () {
 	assemble.src( './../docs/**/*.md' )
-		//.pipe( debug() )
+		.pipe( debug() )
 		//.pipe( extname() )
 		.pipe( assemble.dest( cfg.docs.target ) )
 } );
@@ -79,7 +78,7 @@ assemble.postRender( /\.(md|png)$/, function ( file, next ) {
 	// file.base
 	// file.path
 	//logger.silly( 'file', file.relative );
-	files.push( file.path );
+	//files.push( file.path );
 	next( null, file );
 } );
 
@@ -88,7 +87,7 @@ assemble.postRender( /\.(md|png)$/, function ( file, next ) {
 //} );
 
 assemble.task( 'qliksite.yml', function ( cb ) {
-	logger.silly( 'files', files );
+	//logger.silly( 'files', files );
 	cb();
 } );
 
