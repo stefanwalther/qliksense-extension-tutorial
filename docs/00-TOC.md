@@ -60,6 +60,7 @@ tags:
 	* Fonts
 	* Items from the content library
 * 11 Create a visualization using D3
+* 12 Create a visualization using HighCharts
 
 	
 ## Qlik Sense Visualization Extensions & AngularJS
@@ -69,6 +70,7 @@ tags:
 * XX The Angular Way: Filter
 * XX The Angular Way: Services
 * XX Working With System Tables
+* XX Testing AngularJS based visualization extensions
 
 
 ## Basic concepts when working with Qlik Sense visualization extensions:
