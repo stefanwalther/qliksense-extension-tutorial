@@ -81,6 +81,7 @@ tags:
 		* qPivotTable
 		* qExpressions
 	* Overcome default behavior
+* XX Events
 * XX More on HyperCubes
 * XX The BackendAPI
 * XX Communicating with the Repository API
