@@ -35,7 +35,12 @@ definition: {
 }
 ```
 
-This results
+This results to the following property panel:
+
+
+If the user now adds the visualization extension to a sheet the following will be shown to guide the user:
+
+
 
 ## Initial properties
 
@@ -49,7 +54,7 @@ Based on the more or less default behaviour of the "Dimensions" and "Measures" s
 - 
 
 ## Testing your extensions with data
-If you want to test your visualization extension a a blank, new Qlik Sense application you'll realize that Qlik Sense requires some data to be able to create a new sheet.
+If you want to test your visualization extension in a blank, new Qlik Sense application you'll realize that Qlik Sense requires some data to be able to create a new sheet.
 
 The easiest way to achieve that - if you haven't some good test data - is the following:
 
@@ -67,3 +72,7 @@ At the end of the script of main add the sample script using "Ctrl+0+0", then lo
 - Using multiple hypercubes
 
 {{/hidden}}
+
+
+## Hmm, we are done ? Nearly !
+I think we are (nearly) done with the basics. There's just another topic we have to look into: How to load external resources, which will be covered in the next chapter.

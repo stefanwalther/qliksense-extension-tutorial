@@ -52,6 +52,7 @@
 	* Fonts
 	* Items from the content library
 * 11 Create a visualization using D3
+* 12 Create a visualization using HighCharts
 
 	
 ## Qlik Sense Visualization Extensions & AngularJS
@@ -60,7 +61,9 @@
 * XX The Angular Way: Directives
 * XX The Angular Way: Filter
 * XX The Angular Way: Services
+* The Angular Way: Events
 * XX Working With System Tables
+* XX Testing AngularJS based visualization extensions
 
 
 ## Basic concepts when working with Qlik Sense visualization extensions:
@@ -73,6 +76,7 @@
 		* qPivotTable
 		* qExpressions
 	* Overcome default behavior
+* XX Events
 * XX More on HyperCubes
 * XX The BackendAPI
 * XX Communicating with the Repository API
