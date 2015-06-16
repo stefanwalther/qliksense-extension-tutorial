@@ -41,15 +41,6 @@ function ($, /*_,*/ props, initProps, extensionUtils, cssContent) {
 
         paint: function ( $element /*, layout*/ ) {
 
-            /*
-            console.groupCollapsed('Basic Objects');
-            console.info('$element:');
-            console.log($element);
-            console.info('layout:');
-            console.log(layout);
-            console.groupEnd();
-            */
-
             $element.empty();
             var $helloWorld = $(document.createElement('div'));
             $helloWorld.addClass('hello-world');
