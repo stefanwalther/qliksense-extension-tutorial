@@ -69,21 +69,21 @@ tags:
 * XX The Angular Way: Directives
 * XX The Angular Way: Filter
 * XX The Angular Way: Services
+* [The Angular Way: Events](NG01-The-Angular-Way--Events.md)
 * XX Working With System Tables
 * XX Testing AngularJS based visualization extensions
 
 
-## Basic concepts when working with Qlik Sense visualization extensions:
+## Advanced concepts when working with Qlik Sense visualization extensions
 * XX Custom property components
 * XX More on working with data
 	* Understanding data structure of Qlik objects / Qlik Sense's internal data structure
-	* genericObject
+		* genericObject
 		* qHyperCube
 		* qListObject
 		* qPivotTable
 		* qExpressions
 	* Overcome default behavior
-* XX Events
 * XX More on HyperCubes
 * XX The BackendAPI
 * XX Communicating with the Repository API
