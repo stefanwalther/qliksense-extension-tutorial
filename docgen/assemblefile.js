@@ -15,7 +15,9 @@ var yaml = require( 'js-yaml' );
 var logger = require( './lib/utils/logger.js' );
 var del = require( 'del' );
 
-//var files = [];
+// experimental
+var sitemap = require( 'gulp-sitemap' );
+var filelist = require( 'gulp-filelist' );
 
 // ****************************************************************************************
 // Config file
@@ -72,24 +74,31 @@ assemble.task( 'tutorial', function () {
 		.pipe( assemble.dest( cfg.docs.target ) )
 } );
 
-assemble.postRender( /\.(md|png)$/, function ( file, next ) {
-	// you might need to use `file.data.layout`
-	// file.relative
-	// file.base
-	// file.path
-	//logger.silly( 'file', file.relative );
-	//files.push( file.path );
-	next( null, file );
-} );
-
-//assemble.end( function () {
-//	logger.silly( 'assemble.onEnd' );
+// Noop
+//assemble.task( 'sitemap', function () {
+//	assemble.src( './../docs/**/*.md' )
+//		.pipe( debug() )
+//		.pipe( sitemap( {siteUrl: 'http://www.foo.bar', fileName: 'sitemap.xml'} ) )
+//		.pipe( assemble.dest( './../' ) );
 //} );
 
-assemble.task( 'qliksite.yml', function ( cb ) {
-	//logger.silly( 'files', files );
-	cb();
-} );
+// OK, for a single file, see https://github.com/assemble/assemble/issues/715
+//assemble.postRender( /\.(md|png)$/, function ( file, next ) {
+//	// you might need to use `file.data.layout`
+//	// file.relative
+//	// file.base
+//	// file.path
+//	//logger.silly( 'file', file.relative );
+//	//files.push( file.path );
+//	next( null, file );
+//} );
+
+//assemble.task( 'filelist', function () {
+//	assemble.src( './../docs/**/*.md' )
+//		.pipe( debug() )
+//		.pipe( filelist() )
+//		.pipe( assemble.dest( './../filelist.json' ) )
+//} );
 
 //assemble.task( 'git:add', function () {
 //	assemble.src( './../tutorial/**/*' )
@@ -98,4 +107,4 @@ assemble.task( 'qliksite.yml', function ( cb ) {
 //		.pipe( assemble.dest( './../tutorial' ) )
 //} );
 
-assemble.task( 'default', ['clean:tutorial', 'assets', 'tutorial', 'qliksite.yml'] );
+assemble.task( 'default', ['clean:tutorial', 'assets', 'tutorial'] );
