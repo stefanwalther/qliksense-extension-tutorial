@@ -50,4 +50,4 @@ In Qlik Sense 1.1 the following additions have been made to APIs which can be ea
 **Qlik Sense Visualization Extension Tutorial**, Version 0.5.0<br/>
 Last update: 2015-05-29<br/>
 
-[Table of Contents](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/default.md)
+[Table of Contents](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)
