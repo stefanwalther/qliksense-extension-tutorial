@@ -135,7 +135,7 @@
 	
 
 ---
-**Qlik Sense Visualization Extension Tutorial**, Version 0.4.2<br/>
+**Qlik Sense Visualization Extension Tutorial**, Version 0.5.0<br/>
 Last update: 2015-06-16<br/>
 
 [Table of Contents](00-TOC.md)

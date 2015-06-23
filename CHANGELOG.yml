@@ -1,3 +1,8 @@
+v0.5.0:
+  date: "2015-06-24"
+  enhancements:
+    - Restructure the entire tutorial
+    - Generate the Readme.md now to prevent broken links
 v0.4.1:
   date: "2015-06-23"
   new:
