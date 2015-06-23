@@ -56,7 +56,7 @@ assemble.option( 'layout', cfg.options.defaultLayout );
 // Assemble data
 // ****************************************************************************************
 assemble.data( {
-	baseUrl: 'https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/'
+	baseUrl: ''
 } );
 
 // ****************************************************************************************
