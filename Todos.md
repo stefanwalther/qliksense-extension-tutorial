@@ -8,4 +8,4 @@
 - Change package.json version automatically
 
 ## Content
-- Redo some of the screenshots
+- Redo some of the screenshots (especially in the custom properties section)
