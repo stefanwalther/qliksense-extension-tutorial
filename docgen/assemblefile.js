@@ -92,7 +92,7 @@ assemble.task( 'readme', function () {
 } );
 
 assemble.task( 'tutorial', function () {
-	assemble.src( './../docs/part*/**/*.md' )
+	assemble.src( './../docs/**/*.md' )
 		.pipe( debug() )
 		.pipe( assemble.dest( cfg.docs.target ) )
 } );
