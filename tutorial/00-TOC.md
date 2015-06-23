@@ -3,33 +3,33 @@
 
 
 ## Part I: Introduction to Developing Visualization Extensions
-* [00 About this Tutorial]({%= baseUrl%}00-About.md)
-* [01 Qlik Sense Extension Tutorial]({%= baseUrl%}01-Qlik-Sense-Extension-Tutorial.md)
+* [00 About this Tutorial](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/00-About.md)
+* [01 Qlik Sense Extension Tutorial](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/01-Qlik-Sense-Extension-Tutorial.md)
 	* Prerequisites
-* [02 Introduction to Qlik Sense Visualization Extensions]({%= baseUrl%}02-Introduction-to-Qlik-Sense-Visualization-Extensions.md)
+* [02 Introduction to Qlik Sense Visualization Extensions](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/02-Introduction-to-Qlik-Sense-Visualization-Extensions.md)
 	* Installing a visualization extension for Qlik Sense Desktop
 	* Installing a visualization extension on Qlik Sense Server
 	* Comparison between extensions in QlikView and Qlik Sense
 	* Where to find Qlik Sense visualization extensions
-* [03 Let's Get Started: Hello World Example]({%= baseUrl%}03-Lets-Get-Started--Hello-World-Example.md)
+* [03 Let's Get Started: Hello World Example](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/03-Lets-Get-Started--Hello-World-Example.md)
 	* The anatomy of a Qlik Sense extension
 	* Skeleton of a script file
 	* Structure of the .qext file
 	* Creating the Hello World example
-* [04 Debugging and Web Developer Tools] ({%= baseUrl%}04-Debugging-and-Web-Developer-Tools.md)
+* [04 Debugging and Web Developer Tools] (https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/04-Debugging-and-Web-Developer-Tools.md)
 	* `console.x()`
 	* Debugging
 	* Object inspection
-* [05 Improving the Web Hello World Experience]({%= baseUrl%}05-Improving-the-Hello-World-Experience.md)
+* [05 Improving the Web Hello World Experience](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/05-Improving-the-Hello-World-Experience.md)
 	* Make _Hello World_ dynamic
 	* Define a preview image
-* [06 An Introduction to Using Properties]({%= baseUrl%}06-Introduction-to-Using-Properties.md)
+* [06 An Introduction to Using Properties](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/06-Introduction-to-Using-Properties.md)
 	* Skeleton
 	* Re-using properties
 	* Basic custom property types
 	* How to reference properties
 	* Separate property definition to a separate file
-* [07 Custom Properties]({%= baseUrl%}07-Custom-Properties.md)
+* [07 Custom Properties](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/07-Custom-Properties.md)
 	* Introduction to custom properties
 	* Improving readability & maintainability of properties
 	* Basic custom property - a string input box
@@ -55,12 +55,12 @@
 
 	
 ## Part II: Qlik Sense Visualization Extensions & AngularJS
-* 01 Two Approaches, the “Classic” One & the Angular Way
+* 01 Two Approaches, the �Classic� One & the Angular Way
 * 02 The Angular Way: Basics
 * 03 The Angular Way: Directives
 * 04 The Angular Way: Filter
 * 05 The Angular Way: Services
-* [The Angular Way: Events]({%= baseUrl%}NG06-The-Angular-Way--Events.md)
+* [The Angular Way: Events](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/NG06-The-Angular-Way--Events.md)
 * 07 Testing AngularJS based visualization extensions
 
 
@@ -114,7 +114,7 @@
 
 ## Part VII: How To
 * How To
-	* [... use Bootstrap styles in Qlik Sense visualization extensions]({%= baseUrl%}5000-Using-Bootstrap-CSS-in-Visualization-Extensions.md)
+	* [... use Bootstrap styles in Qlik Sense visualization extensions](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/5000-Using-Bootstrap-CSS-in-Visualization-Extensions.md)
 
 ## Part VIII: Tools
 * XX Tools
@@ -122,16 +122,16 @@
 
 	
 ## Part IX: Appendix
-* [Appendix:]({%= baseUrl%}1000-Appendix.md)
+* [Appendix:](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/1000-Appendix.md)
 	* branch.qlik.com
 	* Basic Introduction to git & GitHub
 	* How to publish your extension to GitHub & branch.qlik.com
 	* Npm Integration
 	* Programmatic Deployment of Qlik Sense Extensions
 	* What's New
-		* [What's New in Qlik Sense 1.1]({%= baseUrl%}2011-Appendix-Whats-New-in-Qlik-Sense-1.1.md)
+		* [What's New in Qlik Sense 1.1](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/2011-Appendix-Whats-New-in-Qlik-Sense-1.1.md)
 	* Qlik Sense Extension Related Resources
-	* [Resources]({%= baseUrl%}1001-Appendix-Resources.md)
+	* [Resources](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/1001-Appendix-Resources.md)
 	
 
 ---

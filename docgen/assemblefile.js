@@ -14,6 +14,7 @@ var less = require( 'gulp-less' );
 var yaml = require( 'js-yaml' );
 var logger = require( './lib/utils/logger.js' );
 var del = require( 'del' );
+var concat = require( 'gulp-concat' );
 
 // experimental
 var sitemap = require( 'gulp-sitemap' );
@@ -23,7 +24,8 @@ var filelist = require( 'gulp-filelist' );
 // Config file
 // ****************************************************************************************
 var cfg = yaml.load( fs.readFileSync( path.join( __dirname, './assemble-config.yml' ), 'utf-8' ) );
-console.log( 'cfg.data >> ', cfg.options.data );
+//console.log( 'cfg >> ', cfg );
+console.log( 'cfg.data >> ', cfg.data );
 assemble.data( cfg.data );
 
 // ****************************************************************************************
@@ -39,6 +41,10 @@ assemble.helper( 'markdown', require( 'helper-markdown' ) );
 //}, {} );
 
 assemble.helpers( require( 'helper-hybrid' )( 'markdown' ) );
+//assemble.helpers( require('handlebars-helpers'));
+//assemble.helpers( require('helper-related'));
+//assemble.helper( 'include', require('handlebars-helper-include'));
+//assemble.helper( 'partial', require('handlebars-helper-partial'));
 
 // ****************************************************************************************
 // Assemble middleware
@@ -48,16 +54,18 @@ assemble.helpers( require( 'helper-hybrid' )( 'markdown' ) );
 // ****************************************************************************************
 // Assemble options
 // ***************************************************************************************
+assemble.engine( '.md', require( 'engine-assemble' ) );
+
 assemble.layouts( cfg.options.layouts );
 assemble.set( 'layouts', cfg.options.layouts );
 assemble.option( 'layout', cfg.options.defaultLayout );
 
+assemble.create( 'doc' );
+assemble.docs( './../docs/includes/toc.md' );
+
 // ****************************************************************************************
 // Assemble data
 // ****************************************************************************************
-assemble.data( {
-	baseUrl: ''
-} );
 
 // ****************************************************************************************
 // Assemble tasks
@@ -74,17 +82,27 @@ assemble.task( 'assets', function () {
 	return assemble.copy( cfg.images.src, cfg.images.target );
 } );
 
+assemble.task( 'readme', function () {
+	return assemble.src( './../docs/includes/README.md' )
+		.on( 'data', function ( data ) {
+			//console.log( 'doc', assemble.views.docs );
+		} )
+		.pipe(concat('README.md'))
+		.pipe( assemble.dest( './../' ) );
+} );
+
 assemble.task( 'tutorial', function () {
 	assemble.src( './../docs/**/*.md' )
 		.pipe( debug() )
-		//.pipe( extname() )
 		.pipe( assemble.dest( cfg.docs.target ) )
 } );
 
-assemble.task( 'readme', function () {
-	assemble.src( './../.readme.md' )
-		.pipe( assemble.dest( './../README.md' ) )
-} );
+//assemble.task( 'readme', function () {
+//	assemble.src( './../docs/.README.md' )
+//		.pipe( concat( 'README.md' ) )
+//		.pipe( debug())
+//		.pipe( assemble.dest( './../' ) )
+//} );
 
 // Noop
 //assemble.task( 'sitemap', function () {
@@ -119,4 +137,4 @@ assemble.task( 'readme', function () {
 //		.pipe( assemble.dest( './../tutorial' ) )
 //} );
 
-assemble.task( 'default', ['clean:tutorial', 'assets', 'tutorial'] );
+assemble.task( 'default', ['clean:tutorial', 'assets', 'tutorial', 'readme'] );
