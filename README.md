@@ -22,34 +22,34 @@ If you want to follow the progress of this project there are some options:
 These are the chapters I am about to write ... and some of them are already finished ;-)
 
 
-## Part I: Introduction to Developing Visualization Extensions
-* [00 About this Tutorial](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/00-About.md)
-* [01 Qlik Sense Extension Tutorial](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/01-Qlik-Sense-Extension-Tutorial.md)
+## Part I: Introduction to Developing Visualization Extensions for Qlik Sense
+* [00 About this Tutorial](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-01/00-About.md)
+* [01 Qlik Sense Extension Tutorial](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-01/01-Qlik-Sense-Extension-Tutorial.md)
 	* Prerequisites
-* [02 Introduction to Qlik Sense Visualization Extensions](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/02-Introduction-to-Qlik-Sense-Visualization-Extensions.md)
+* [02 Introduction to Qlik Sense Visualization Extensions](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-01/02-Introduction-to-Qlik-Sense-Visualization-Extensions.md)
 	* Installing a visualization extension for Qlik Sense Desktop
 	* Installing a visualization extension on Qlik Sense Server
 	* Comparison between extensions in QlikView and Qlik Sense
 	* Where to find Qlik Sense visualization extensions
-* [03 Let's Get Started: Hello World Example](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/03-Lets-Get-Started--Hello-World-Example.md)
+* [03 Let's Get Started: Hello World Example](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-01/03-Lets-Get-Started--Hello-World-Example.md)
 	* The anatomy of a Qlik Sense extension
 	* Skeleton of a script file
 	* Structure of the .qext file
 	* Creating the Hello World example
-* [04 Debugging and Web Developer Tools] (https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/04-Debugging-and-Web-Developer-Tools.md)
+* [04 Debugging and Web Developer Tools] (https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-01/04-Debugging-and-Web-Developer-Tools.md)
 	* `console.x()`
 	* Debugging
 	* Object inspection
-* [05 Improving the Web Hello World Experience](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/05-Improving-the-Hello-World-Experience.md)
+* [05 Improving the Web Hello World Experience](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-01/05-Improving-the-Hello-World-Experience.md)
 	* Make _Hello World_ dynamic
 	* Define a preview image
-* [06 An Introduction to Using Properties](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/06-Introduction-to-Using-Properties.md)
+* [06 An Introduction to Using Properties](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-01/06-Introduction-to-Using-Properties.md)
 	* Skeleton
 	* Re-using properties
 	* Basic custom property types
 	* How to reference properties
 	* Separate property definition to a separate file
-* [07 Custom Properties](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/07-Custom-Properties.md)
+* [07 Custom Properties](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-01/07-Custom-Properties.md)
 	* Introduction to custom properties
 	* Improving readability & maintainability of properties
 	* Basic custom property - a string input box
@@ -80,11 +80,11 @@ These are the chapters I am about to write ... and some of them are already fini
 * 03 The Angular Way: Directives
 * 04 The Angular Way: Filter
 * 05 The Angular Way: Services
-* [The Angular Way: Events](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/NG06-The-Angular-Way--Events.md)
+* [06 The Angular Way: Events](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/NG06-The-Angular-Way--Events.md)
 * 07 Testing AngularJS based visualization extensions
 
 
-## Part III: Advanced concepts when working with Qlik Sense visualization extensions
+## Part III: Advanced Concepts When Working With Qlik Sense Visualization Extensions
 * XX Working With System Tables
 * XX Custom property components
 * XX More on working with data

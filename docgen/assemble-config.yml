@@ -4,7 +4,7 @@ options:
 data:
     - './lib/data/config.yml'
 images:
-  src: './../docs/images/**/*.png'
-  target: './../tutorial/images'
+  src: './../docs/**/*.png'
+  target: './../tutorial/'
 docs:
   target: './../tutorial'
