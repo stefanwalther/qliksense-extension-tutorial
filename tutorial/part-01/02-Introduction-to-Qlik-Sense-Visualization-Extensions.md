@@ -70,4 +70,4 @@ Fortunately quite a lot of developers are publishing their extensions to GitHub.
 **Qlik Sense Visualization Extension Tutorial**, Version 0.5.0<br/>
 Last update: 2015-05-29<br/>
 
-[Table of Contents](00-TOC.md)
+[Table of Contents](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/default.md)

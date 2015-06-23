@@ -5,3 +5,6 @@ title: Qlik Sense Extension Tutorial
 draft: true
 ---
 
+Table of Contents
+
+{{doc "toc"}}
