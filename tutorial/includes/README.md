@@ -75,7 +75,7 @@ These are the chapters I am about to write ... and some of them are already fini
 
 	
 ## Part II: Qlik Sense Visualization Extensions & AngularJS
-* 01 Two Approaches, the �Classic� One & the Angular Way
+* 01 Two Approaches, the "Classic" One & the Angular Way
 * 02 The Angular Way: Basics
 * 03 The Angular Way: Directives
 * 04 The Angular Way: Filter
