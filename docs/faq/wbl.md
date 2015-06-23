@@ -1,6 +1,6 @@
 ---
 title: What's a .WBL file?
-published: true
+draft: false
 ---
 
 > The Workbench load file (WBL) is used by the Mashup editor and lists the name of all files included in the mashup project. When you save a mashup project from the Mashup editor, a WBL file is automatically included in the project.

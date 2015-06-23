@@ -1,36 +1,35 @@
 # Table of Contents
 
 
-<!--include "./includes/toc.md"-->
 
-## Introduction to Developing Visualization Extensions
-* [00 About this Tutorial](00-About.md)
-* [01 Qlik Sense Extension Tutorial](01-Qlik-Sense-Extension-Tutorial.md)
+## Part I: Introduction to Developing Visualization Extensions
+* [00 About this Tutorial]({%= baseUrl%}00-About.md)
+* [01 Qlik Sense Extension Tutorial]({%= baseUrl%}01-Qlik-Sense-Extension-Tutorial.md)
 	* Prerequisites
-* [02 Introduction to Qlik Sense Visualization Extensions](02-Introduction-to-Qlik-Sense-Visualization-Extensions.md)
+* [02 Introduction to Qlik Sense Visualization Extensions]({%= baseUrl%}02-Introduction-to-Qlik-Sense-Visualization-Extensions.md)
 	* Installing a visualization extension for Qlik Sense Desktop
 	* Installing a visualization extension on Qlik Sense Server
 	* Comparison between extensions in QlikView and Qlik Sense
 	* Where to find Qlik Sense visualization extensions
-* [03 Let's Get Started: Hello World Example](03-Lets-Get-Started--Hello-World-Example.md)
+* [03 Let's Get Started: Hello World Example]({%= baseUrl%}03-Lets-Get-Started--Hello-World-Example.md)
 	* The anatomy of a Qlik Sense extension
 	* Skeleton of a script file
 	* Structure of the .qext file
 	* Creating the Hello World example
-* [04 Debugging and Web Developer Tools] (04-Debugging-and-Web-Developer-Tools.md)
+* [04 Debugging and Web Developer Tools] ({%= baseUrl%}04-Debugging-and-Web-Developer-Tools.md)
 	* `console.x()`
 	* Debugging
 	* Object inspection
-* [05 Improving the Web Hello World Experience](05-Improving-the-Hello-World-Experience.md)
+* [05 Improving the Web Hello World Experience]({%= baseUrl%}05-Improving-the-Hello-World-Experience.md)
 	* Make _Hello World_ dynamic
 	* Define a preview image
-* [06 An Introduction to Using Properties](06-Introduction-to-Using-Properties.md)
+* [06 An Introduction to Using Properties]({%= baseUrl%}06-Introduction-to-Using-Properties.md)
 	* Skeleton
 	* Re-using properties
 	* Basic custom property types
 	* How to reference properties
 	* Separate property definition to a separate file
-* [07 Custom Properties](07-Custom-Properties.md)
+* [07 Custom Properties]({%= baseUrl%}07-Custom-Properties.md)
 	* Introduction to custom properties
 	* Improving readability & maintainability of properties
 	* Basic custom property - a string input box
@@ -55,28 +54,27 @@
 * 12 Create a visualization using HighCharts
 
 	
-## Qlik Sense Visualization Extensions & AngularJS
-* XX Two Approaches, the “Classic” One & the Angular Way
-* XX The Angular Way: Basics
-* XX The Angular Way: Directives
-* XX The Angular Way: Filter
-* XX The Angular Way: Services
-* The Angular Way: Events
+## Part II: Qlik Sense Visualization Extensions & AngularJS
+* 01 Two Approaches, the “Classic” One & the Angular Way
+* 02 The Angular Way: Basics
+* 03 The Angular Way: Directives
+* 04 The Angular Way: Filter
+* 05 The Angular Way: Services
+* [The Angular Way: Events]({%= baseUrl%}NG06-The-Angular-Way--Events.md)
+* 07 Testing AngularJS based visualization extensions
+
+
+## Part III: Advanced concepts when working with Qlik Sense visualization extensions
 * XX Working With System Tables
-* XX Testing AngularJS based visualization extensions
-
-
-## Basic concepts when working with Qlik Sense visualization extensions:
 * XX Custom property components
 * XX More on working with data
 	* Understanding data structure of Qlik objects / Qlik Sense's internal data structure
-	* genericObject
+		* genericObject
 		* qHyperCube
 		* qListObject
 		* qPivotTable
 		* qExpressions
 	* Overcome default behavior
-* XX Events
 * XX More on HyperCubes
 * XX The BackendAPI
 * XX Communicating with the Repository API
@@ -90,14 +88,14 @@
 * XX Working with Meta Data
 * XX Talking to the Repository API
 
-## Deployment of Qlik Sense Visualization Extensions
+## Part IV: Deployment of Qlik Sense Visualization Extensions
 * Deployment checklist
 * XX Setting up a Robust Development Environment
 	* Using Less
 	* Automatically deploy and zip
 	* Versioning
 
-## Advanced Techniques
+## Part V: Advanced Techniques
 * XX Advanced Techniques: Modifying Custom Properties
 * XX Advanced Techniques: Embedding Real Time Communication
 * XX Advanced Techniques: More on Custom Properties
@@ -109,36 +107,35 @@
 * XX Advanced Techniques: Paging data
 * XX Advanced Techniques: Multiple hypercubes
 
-## Real World Examples
+## Part VI: Real World Examples
 * XX Communicating with backend services
 * XX An advanced visualization extension based on D3
 * XX Embedding real-time communication
+
+## Part VII: How To
+* How To
+	* [... use Bootstrap styles in Qlik Sense visualization extensions]({%= baseUrl%}5000-Using-Bootstrap-CSS-in-Visualization-Extensions.md)
+
+## Part VIII: Tools
+* XX Tools
+	* Tools: Manage Your Extensions
+
 	
-## Appendix
-* [Appendix:](1000-Appendix.md)
+## Part IX: Appendix
+* [Appendix:]({%= baseUrl%}1000-Appendix.md)
 	* branch.qlik.com
 	* Basic Introduction to git & GitHub
 	* How to publish your extension to GitHub & branch.qlik.com
 	* Npm Integration
 	* Programmatic Deployment of Qlik Sense Extensions
 	* What's New
-		* [What's New in Qlik Sense 1.1](2011-Appendix-Whats-New-in-Qlik-Sense-1.1.md)
+		* [What's New in Qlik Sense 1.1]({%= baseUrl%}2011-Appendix-Whats-New-in-Qlik-Sense-1.1.md)
 	* Qlik Sense Extension Related Resources
-	
-## How To
-* How To
-	* [... use Bootstrap styles in Qlik Sense visualization extensions](5000-Using-Bootstrap-CSS-in-Visualization-Extensions.md)
-	
-## Tools
-* XX Tools
-	* Tools: Manage Your Extensions
-	
-## Resources
-* [Resources](1001-Appendix-Resources.md)
+	* [Resources]({%= baseUrl%}1001-Appendix-Resources.md)
 	
 
 ---
 **Qlik Sense Visualization Extension Tutorial**, Version 0.4.2<br/>
-Last update: 2015-05-29<br/>
+Last update: 2015-06-16<br/>
 
 [Table of Contents](00-TOC.md)

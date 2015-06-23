@@ -148,8 +148,10 @@ define( [
 ```
 
 {{#hint "Usage before Qlik Sense 2.0"}}
-You'll realize that some visualization examples use this approach even before Qlik Sense 2.0 was published.
+You'll realize that some visualization extension examples use this approach even before Qlik Sense 2.0 was published.
 While it will work in Qlik Sense Desktop it will not work in a server environment. Official support for this way of loading CSS files has been added with Qlik Sense 2.0.
+
+If you want to develop a visualization extension being compliant with earlier versions than Qlik Sense 2.0, it is NOT recommended to use this approach.
 {{/hint}}
 
 ## Images
