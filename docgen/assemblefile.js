@@ -38,7 +38,7 @@ assemble.helper( 'markdown', require( 'helper-markdown' ) );
 //	return extend( acc, require( path.resolve( fp ) ) );
 //}, {} );
 
-assemble.helpers( require( 'handlebars-hybrid' )( 'markdown' ) );
+assemble.helpers( require( 'helper-hybrid' )( 'markdown' ) );
 
 // ****************************************************************************************
 // Assemble middleware
@@ -51,6 +51,13 @@ assemble.helpers( require( 'handlebars-hybrid' )( 'markdown' ) );
 assemble.layouts( cfg.options.layouts );
 assemble.set( 'layouts', cfg.options.layouts );
 assemble.option( 'layout', cfg.options.defaultLayout );
+
+// ****************************************************************************************
+// Assemble data
+// ****************************************************************************************
+assemble.data( {
+	baseUrl: 'https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/'
+} );
 
 // ****************************************************************************************
 // Assemble tasks
@@ -72,6 +79,11 @@ assemble.task( 'tutorial', function () {
 		.pipe( debug() )
 		//.pipe( extname() )
 		.pipe( assemble.dest( cfg.docs.target ) )
+} );
+
+assemble.task( 'readme', function () {
+	assemble.src( './../.readme.md' )
+		.pipe( assemble.dest( './../README.md' ) )
 } );
 
 // Noop
