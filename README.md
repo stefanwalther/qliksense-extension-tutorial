@@ -80,7 +80,7 @@ These are the chapters I am about to write ... and some of them are already fini
 * 03 The Angular Way: Directives
 * 04 The Angular Way: Filter
 * 05 The Angular Way: Services
-* [06 The Angular Way: Events](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/NG06-The-Angular-Way--Events.md)
+* [06 The Angular Way: Events](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-02/NG06-The-Angular-Way--Events.md)
 * 07 Testing AngularJS based visualization extensions
 
 
@@ -134,7 +134,7 @@ These are the chapters I am about to write ... and some of them are already fini
 
 ## Part VII: How To
 * How To
-	* [... use Bootstrap styles in Qlik Sense visualization extensions](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/5000-Using-Bootstrap-CSS-in-Visualization-Extensions.md)
+	* [... use Bootstrap styles in Qlik Sense visualization extensions](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-07/5000-Using-Bootstrap-CSS-in-Visualization-Extensions.md)
 
 ## Part VIII: Tools
 * XX Tools
@@ -142,16 +142,16 @@ These are the chapters I am about to write ... and some of them are already fini
 
 	
 ## Part IX: Appendix
-* [Appendix:](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/1000-Appendix.md)
+* [Appendix:](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-09/1000-Appendix.md)
 	* branch.qlik.com
 	* Basic Introduction to git & GitHub
 	* How to publish your extension to GitHub & branch.qlik.com
 	* Npm Integration
 	* Programmatic Deployment of Qlik Sense Extensions
 	* What's New
-		* [What's New in Qlik Sense 1.1](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/2011-Appendix-Whats-New-in-Qlik-Sense-1.1.md)
+		* [What's New in Qlik Sense 1.1](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-09/2011-Appendix-Whats-New-in-Qlik-Sense-1.1.md)
 	* Qlik Sense Extension Related Resources
-	* [Resources](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/1001-Appendix-Resources.md)
+	* [Resources](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-09/1001-Appendix-Resources.md)
 
 
 ## Comments, Feedback & Questions

@@ -56,7 +56,7 @@
 * 03 The Angular Way: Directives
 * 04 The Angular Way: Filter
 * 05 The Angular Way: Services
-* [06 The Angular Way: Events]({{config.baseUrl}}NG06-The-Angular-Way--Events.md)
+* [06 The Angular Way: Events]({{config.baseUrl}}part-02/NG06-The-Angular-Way--Events.md)
 * 07 Testing AngularJS based visualization extensions
 
 
@@ -110,7 +110,7 @@
 
 ## Part VII: How To
 * How To
-	* [... use Bootstrap styles in Qlik Sense visualization extensions]({{config.baseUrl}}5000-Using-Bootstrap-CSS-in-Visualization-Extensions.md)
+	* [... use Bootstrap styles in Qlik Sense visualization extensions]({{config.baseUrl}}part-07/5000-Using-Bootstrap-CSS-in-Visualization-Extensions.md)
 
 ## Part VIII: Tools
 * XX Tools
@@ -118,13 +118,13 @@
 
 	
 ## Part IX: Appendix
-* [Appendix:]({{config.baseUrl}}1000-Appendix.md)
+* [Appendix:]({{config.baseUrl}}part-09/1000-Appendix.md)
 	* branch.qlik.com
 	* Basic Introduction to git & GitHub
 	* How to publish your extension to GitHub & branch.qlik.com
 	* Npm Integration
 	* Programmatic Deployment of Qlik Sense Extensions
 	* What's New
-		* [What's New in Qlik Sense 1.1]({{config.baseUrl}}2011-Appendix-Whats-New-in-Qlik-Sense-1.1.md)
+		* [What's New in Qlik Sense 1.1]({{config.baseUrl}}part-09/2011-Appendix-Whats-New-in-Qlik-Sense-1.1.md)
 	* Qlik Sense Extension Related Resources
-	* [Resources]({{config.baseUrl}}1001-Appendix-Resources.md)
+	* [Resources]({{config.baseUrl}}part-09/1001-Appendix-Resources.md)
