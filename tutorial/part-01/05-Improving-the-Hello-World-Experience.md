@@ -1,6 +1,16 @@
 # Chapter 05 - Improving the Hello World Experience
 
+## Table of Contents
 
+<!-- toc -->
+
+- [Scope of this Chapter](#scope-of-this-chapter)
+- [Making "Hello World" Dynamic](#making--hello-world--dynamic)
+  * [A custom string property](#a-custom-string-property)
+  * [Use the custom string property](#use-the-custom-string-property)
+- [Adding a preview image](#adding-a-preview-image)
+
+<!-- tocstop -->
 
 OK, let's improve the _Hello World_ experience.
 In this chapter we'll make the _Hello World_ example a bit more dynamic:
@@ -149,10 +159,8 @@ For modifying the displayed preview image, do the following:
 
 Congrats, you have now created an **improved version** of your "Hello World" example, although there is certainly still room for improvement ;-)
 
-
-
 ---
-**Qlik Sense Visualization Extension Tutorial**, Version 0.5.0<br/>
+**Qlik Sense Visualization Extension Tutorial**, Version 0.6.0<br/>
 Last update: 2015-05-29<br/>
 
 [Table of Contents](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)

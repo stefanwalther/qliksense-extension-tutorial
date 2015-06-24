@@ -11,8 +11,7 @@ tags:
 ---
 
 ## Table of Contents
-
-{{toc './../docs/part-01/00-About.md'}}
+<!-- toc -->
 
 
 In the past I was writing quite a lot of article on [my private blog](http://www.qlikblog.at) which is fine in general, but when writing a tutorial, a blog is not really the ideal format as I realized.

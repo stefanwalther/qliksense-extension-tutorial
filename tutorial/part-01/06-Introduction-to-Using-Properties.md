@@ -1,6 +1,17 @@
 # Introduction to Using Properties
 
+## Table of Contents
 
+<!-- toc -->
+
+- [The Idea Behind Properties](#the-idea-behind-properties)
+- [The property panel](#the-property-panel)
+- [Property panel definition in your JavaScript file](#property-panel-definition-in-your-javascript-file)
+- [Built-in vs. custom properties](#built-in-vs-custom-properties)
+  * [Re-use existing properties](#re-use-existing-properties)
+    + [Referencing properties](#referencing-properties)
+
+<!-- tocstop -->
 
 Before we start with the real fun stuff, let's spend a chapter or some minutes to understand the basic principles behind defining and using properties in Qlik Sense _Visualization Extensions_.
 
@@ -189,14 +200,8 @@ paint: function ( $element, layout ) {
 
 Great, you now can use built-in properties in your _visualization extension_ in the next chapter we'll explore how to customize the property panel to get our very custom properties into there to allow users to configure the behavior of your _visualization extension_.
 
-
-
-
-
-
-
 ---
-**Qlik Sense Visualization Extension Tutorial**, Version 0.5.0<br/>
+**Qlik Sense Visualization Extension Tutorial**, Version 0.6.0<br/>
 Last update: 2015-05-29<br/>
 
 [Table of Contents](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)

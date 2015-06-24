@@ -22,6 +22,9 @@ var nodeInspector = require('gulp-node-inspector');
 var sitemap = require( 'gulp-sitemap' );
 var filelist = require( 'gulp-filelist' );
 
+//toc
+var toc = require('template-toc');
+
 // ****************************************************************************************
 // Config file
 // ****************************************************************************************
@@ -34,7 +37,6 @@ assemble.data( cfg.data );
 // Helpers
 // ****************************************************************************************
 assemble.helper( 'markdown', require( 'helper-markdown' ) );
-assemble.helper( 'toc', require( 'helper-toc' )() );
 
 //var helperFiles = glob.sync( assembleCfg.options.helperFiles );
 //logger.silly( 'helperFiles', helperFiles );
@@ -52,7 +54,7 @@ assemble.helpers( require( 'helper-hybrid' )( 'markdown' ) );
 // ****************************************************************************************
 // Assemble middleware
 // ****************************************************************************************
-//assemble.option( 'middleware', ['assemble-middleware-drafts'] );
+assemble.option( 'middleware', ['template-toc'] );
 
 // ****************************************************************************************
 // Assemble options
@@ -65,6 +67,11 @@ assemble.option( 'layout', cfg.options.defaultLayout );
 
 assemble.create( 'doc' );
 assemble.docs( './../docs/includes/toc.md' );
+
+// ****************************************************************************************
+// Assemble preRender
+// ****************************************************************************************
+assemble.preRender(/\.md$/, toc(assemble));
 
 // ****************************************************************************************
 // Assemble data

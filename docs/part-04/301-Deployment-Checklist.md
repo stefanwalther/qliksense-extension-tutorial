@@ -3,6 +3,10 @@ title: Deployment Checklist
 draft: true
 ---
 
+## Table of Contents
+<!-- toc -->
+
+## Some basic rules to follow
 * Remove all `console.%()` statements.
 * Remove all `debugger;` statements.
 

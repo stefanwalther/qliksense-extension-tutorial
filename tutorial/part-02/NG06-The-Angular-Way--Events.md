@@ -1,6 +1,12 @@
 # 
 
+## Table of Contents
 
+<!-- toc -->
+
+- [Usage example](#usage-example)
+
+<!-- tocstop -->
 
 When using AngularJS based visualization extensions you can consume the following events being exposed to the model of the extension object:
 
@@ -58,7 +64,7 @@ controller: ['$scope', function ( $scope ) {
 ```
 
 ---
-**Qlik Sense Visualization Extension Tutorial**, Version 0.5.0<br/>
+**Qlik Sense Visualization Extension Tutorial**, Version 0.6.0<br/>
 
 
 [Table of Contents](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)

@@ -15,6 +15,9 @@ tags:
 draft: false
 ---
 
+## Table of Contents
+<!-- toc -->
+
 When using AngularJS based visualization extensions you can consume the following events being exposed to the model of the extension object:
 
 * **`Validated`** - Occurs if the data has been recalculated and new valid data is available.

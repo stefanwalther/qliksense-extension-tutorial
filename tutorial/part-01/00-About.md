@@ -1,15 +1,12 @@
 # About this tutorial
 
-
-
 ## Table of Contents
 
-**[-](..\docs\part-01\00-About.md)**
+<!-- toc -->
 
-- [Table of Contents](..\docs\part-01\00-About.md/#table-of-contents)
-- [Folder structure for sample code](..\docs\part-01\00-About.md/#folder-structure-for-sample-code)
+- [Folder structure for sample code](#folder-structure-for-sample-code)
 
-
+<!-- tocstop -->
 
 In the past I was writing quite a lot of article on [my private blog](http://www.qlikblog.at) which is fine in general, but when writing a tutorial, a blog is not really the ideal format as I realized.
 
@@ -32,10 +29,8 @@ Folder				| Description
 **grunt**			| Grunt tasks for my internal deployment system, you can ignore it as of now. I'll talk about it in some of the later chapters.
 **src**				| The **source code** used for the given chapter
 
-
-
 ---
-**Qlik Sense Visualization Extension Tutorial**, Version 0.5.0<br/>
+**Qlik Sense Visualization Extension Tutorial**, Version 0.6.0<br/>
 Last update: 2015-05-29<br/>
 
 [Table of Contents](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)

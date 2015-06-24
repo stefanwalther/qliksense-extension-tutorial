@@ -1,6 +1,20 @@
 # Chapter 04 - Debugging an Web Developer Tools
 
+## Table of Contents
 
+<!-- toc -->
+
+- [Web Developer Tools](#web-developer-tools)
+  * [Developing using Qlik Sense Desktop & Chrome?](#developing-using-qlik-sense-desktop---chrome-)
+    + [Using your favorite browser](#using-your-favorite-browser)
+    + [Using developer tools within Qlik Sense Desktop](#using-developer-tools-within-qlik-sense-desktop)
+- [Chrome Web DevTools](#chrome-web-devtools)
+  * [Using the console](#using-the-console)
+    + [But ...](#but-)
+  * [Inspect Elements](#inspect-elements)
+  * [Debugging](#debugging)
+
+<!-- tocstop -->
 
 
 Before we continue improving our Hello World example I think it's now the right moment to talk a little bit about debugging.
@@ -123,7 +137,7 @@ Read more on:
 > Very similar to the advice above regarding `console.x()`, do not forget to remove `debugger;` statements if you move your visualization extension to production environment.
   
 ---
-**Qlik Sense Visualization Extension Tutorial**, Version 0.5.0<br/>
+**Qlik Sense Visualization Extension Tutorial**, Version 0.6.0<br/>
 Last update: 2015-05-29<br/>
 
 [Table of Contents](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)
