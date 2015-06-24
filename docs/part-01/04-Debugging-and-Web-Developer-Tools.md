@@ -13,7 +13,10 @@ tags:
 ---
 
 **Table of Contents**
+
 <!-- toc -->
+
+---
 
 {{#comment}}
 

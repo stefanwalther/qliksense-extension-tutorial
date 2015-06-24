@@ -27,6 +27,8 @@
 
 <!-- tocstop -->
 
+---
+
 The first example is extremely easy, let’s just create a simple „Hello World“ visualization extension. In the following chapters we’ll improve this example and extend it with additional functionality.
 
 So what’s necessary to create a Qlik Sense Extension? Let’s first have a look at the anatomy of an extension:
@@ -263,4 +265,4 @@ I leave it to you whether you decide to go with better performance or better rea
 **Qlik Sense Visualization Extension Tutorial**, Version 0.7.0<br/>
 Last update: 2015-05-29<br/>
 
-[Table of Contents](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)
+[Overview of all chapters](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)

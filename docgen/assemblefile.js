@@ -29,8 +29,6 @@ var toc = require('template-toc');
 // Config file
 // ****************************************************************************************
 var cfg = yaml.load( fs.readFileSync( path.join( __dirname, './assemble-config.yml' ), 'utf-8' ) );
-//console.log( 'cfg >> ', cfg );
-console.log( 'cfg.data >> ', cfg.data );
 assemble.data( cfg.data );
 
 // ****************************************************************************************

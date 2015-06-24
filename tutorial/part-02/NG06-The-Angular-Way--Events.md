@@ -10,6 +10,8 @@
 
 <!-- tocstop -->
 
+---
+
 When using AngularJS based visualization extensions you can consume the following events being exposed to the model of the extension object:
 
 * **`Validated`** - Occurs if the data has been recalculated and new valid data is available.
@@ -69,4 +71,4 @@ controller: ['$scope', function ( $scope ) {
 **Qlik Sense Visualization Extension Tutorial**, Version 0.7.0<br/>
 Last update: 2015-06-16<br/>
 
-[Table of Contents](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)
+[Overview of all chapters](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)

@@ -1,6 +1,20 @@
 # Qlik Sense Extension Tutorial - Table of Contents
 
+<!-- toc -->
 
+- [Part I: Introduction to Developing Visualization Extensions for Qlik Sense](#part-i--introduction-to-developing-visualization-extensions-for-qlik-sense)
+- [Part II: Qlik Sense Visualization Extensions & AngularJS](#part-ii--qlik-sense-visualization-extensions---angularjs)
+- [Part III: Advanced Concepts When Working With Qlik Sense Visualization Extensions](#part-iii--advanced-concepts-when-working-with-qlik-sense-visualization-extensions)
+- [Part IV: Deployment of Qlik Sense Visualization Extensions](#part-iv--deployment-of-qlik-sense-visualization-extensions)
+- [Part V: Advanced Techniques](#part-v--advanced-techniques)
+- [Part VI: Real World Examples](#part-vi--real-world-examples)
+- [Part VII: How To](#part-vii--how-to)
+- [Part VIII: Tools](#part-viii--tools)
+- [Part IX: Appendix](#part-ix--appendix)
+
+<!-- tocstop -->
+
+---
 
 ## Part I: Introduction to Developing Visualization Extensions for Qlik Sense
 * [00 About this Tutorial](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-01/00-About.md)
@@ -137,4 +151,4 @@
 **Qlik Sense Visualization Extension Tutorial**, Version 0.7.0<br/>
 Last update: 2015-05-29<br/>
 
-[Table of Contents](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)
+[Overview of all chapters](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)

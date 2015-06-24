@@ -8,7 +8,10 @@ tags:
 ---
 
 **Table of Contents**
+
 <!-- toc -->
+
+---
 
 Before we start with the real fun stuff, let's spend a chapter or some minutes to understand the basic principles behind defining and using properties in Qlik Sense _Visualization Extensions_.
 

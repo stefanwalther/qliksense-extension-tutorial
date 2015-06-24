@@ -15,6 +15,8 @@
 
 <!-- tocstop -->
 
+---
+
 Since Twitter's Bootstrap library is very famous and common nowadays it's quite natural that you might want to use [Bootstrap](http://getbootstrap.com/) styles within your Qlik Sense visualization extensions.
 
 ## But ...
@@ -161,4 +163,4 @@ You can certainly do some improvements to this basic concept:
 **Qlik Sense Visualization Extension Tutorial**, Version 0.7.0<br/>
 Last update: 2015-05-29<br/>
 
-[Table of Contents](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)
+[Overview of all chapters](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)

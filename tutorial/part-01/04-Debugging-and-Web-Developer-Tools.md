@@ -18,6 +18,9 @@
 
 <!-- tocstop -->
 
+---
+
+
 Before we continue improving our Hello World example I think it's now the right moment to talk a little bit about debugging.
 
 In old days JavaScript developers often used [`alert()`](http://www.w3schools.com/jsref/met_win_alert.asp) to bring some debug messages to the front. Certainly you can still use this approach, but it becomes very soon more than annoying ... 
@@ -141,4 +144,4 @@ Read more on:
 **Qlik Sense Visualization Extension Tutorial**, Version 0.7.0<br/>
 Last update: 2015-05-29<br/>
 
-[Table of Contents](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)
+[Overview of all chapters](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)
