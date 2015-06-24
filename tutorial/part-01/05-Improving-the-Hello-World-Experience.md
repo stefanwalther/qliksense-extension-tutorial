@@ -1,5 +1,7 @@
 # Chapter 05 - Improving the Hello World Experience
 
+
+
 ## Table of Contents
 
 <!-- toc -->
@@ -158,6 +160,8 @@ For modifying the displayed preview image, do the following:
   
 
 Congrats, you have now created an **improved version** of your "Hello World" example, although there is certainly still room for improvement ;-)
+
+
 
 ---
 **Qlik Sense Visualization Extension Tutorial**, Version 0.6.0<br/>

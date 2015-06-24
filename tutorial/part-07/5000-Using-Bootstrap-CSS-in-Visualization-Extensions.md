@@ -1,5 +1,7 @@
 # Using Bootstrap CSS in Qlik Sense Visualization Extensions
 
+
+
 ## Table of Contents
 
 <!-- toc -->
@@ -153,6 +155,7 @@ You can certainly do some improvements to this basic concept:
 	* https://github.com/stefanwalther/qsExtensionPlayground/tree/master/Bootstrap-Clash
 * Example solution how to solve the problem (as demonstrated above)
 	* https://github.com/stefanwalther/qsExtensionPlayground/tree/master/Bootstrap
+
 
 ---
 **Qlik Sense Visualization Extension Tutorial**, Version 0.6.0<br/>

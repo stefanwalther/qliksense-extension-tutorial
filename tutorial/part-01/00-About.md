@@ -1,5 +1,7 @@
 # About this tutorial
 
+
+
 ## Table of Contents
 
 <!-- toc -->
@@ -28,6 +30,8 @@ Folder				| Description
 **dist**			| Introduced in later chapters
 **grunt**			| Grunt tasks for my internal deployment system, you can ignore it as of now. I'll talk about it in some of the later chapters.
 **src**				| The **source code** used for the given chapter
+
+
 
 ---
 **Qlik Sense Visualization Extension Tutorial**, Version 0.6.0<br/>

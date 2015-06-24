@@ -1,5 +1,7 @@
 # Custom Properties
 
+
+
 ## Table of Contents
 
 <!-- toc -->
@@ -446,6 +448,10 @@ This behavior only applies if you are making changes to the `definition` propert
 
 ## Source code for this chapter
 You can find the source code for this chapter in the `src` folder of **./Chapters-Source/07-Custom-Properties/** ([direct link](https://github.com/stefanwalther/qliksense-extension-tutorial/tree/master/Chapters-Source/07-Custom-Properties "Direct link to the source code"))
+
+
+
+
 
 ---
 **Qlik Sense Visualization Extension Tutorial**, Version 0.6.0<br/>

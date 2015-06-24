@@ -1,5 +1,7 @@
 # Qlik Sense Extension Tutorial
 
+
+
 ## Table of Contents
 
 <!-- toc -->
@@ -32,6 +34,7 @@ In addition to Qlik Sense you'll need a code editor, basically every basic edito
 
 ## Code Download
 All code samples in this tutorial are available on GitHub. At the beginning and end of each chapter you’ll find a short note how to download the corresponding code to a specific chapter.
+
 
 ---
 **Qlik Sense Visualization Extension Tutorial**, Version 0.6.0<br/>

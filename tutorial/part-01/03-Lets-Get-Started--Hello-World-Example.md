@@ -1,5 +1,7 @@
 # Chapter 03 - Let&#x27;s Get Started: Hello World Example
 
+
+
 ## Table of Contents
 
 <!-- toc -->
@@ -21,7 +23,6 @@
   * [Create a .qext file](#create-a-qext-file)
   * [The Script File](#the-script-file)
   * [Test It](#test-it)
-  * [Explanation of the code](#explanation-of-the-code)
   * [But wait, something went wrong](#but-wait--something-went-wrong)
 
 <!-- tocstop -->
@@ -255,6 +256,8 @@ http://jsperf.com/emptyorreuse
 I leave it to you whether you decide to go with better performance or better readability of your code ...
 
 > To improve readability of code examples in this tutorial I'll in general stick to the `empty()` pattern.
+
+
 
 ---
 **Qlik Sense Visualization Extension Tutorial**, Version 0.6.0<br/>

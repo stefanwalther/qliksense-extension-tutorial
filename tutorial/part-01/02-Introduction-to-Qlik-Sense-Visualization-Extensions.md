@@ -1,5 +1,7 @@
 # Introduction to Qlik Sense Visualization Extensions
 
+
+
 ## Table of Contents
 
 <!-- toc -->
@@ -76,6 +78,8 @@ branch.qlik.com is an open source community where you can find a lot of complete
 Probably quite soon, we'll also see commercial visualization extensions for Qlik Sense on [market.qlik.com](http://market.qlik.com)
 * **[GitHub](http://github.com)**  
 Fortunately quite a lot of developers are publishing their extensions to GitHub.
+
+
 
 ---
 **Qlik Sense Visualization Extension Tutorial**, Version 0.6.0<br/>

@@ -1,5 +1,7 @@
 # Chapter 04 - Debugging an Web Developer Tools
 
+
+
 ## Table of Contents
 
 <!-- toc -->
@@ -15,7 +17,6 @@
   * [Debugging](#debugging)
 
 <!-- tocstop -->
-
 
 Before we continue improving our Hello World example I think it's now the right moment to talk a little bit about debugging.
 
