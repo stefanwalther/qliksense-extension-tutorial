@@ -2,6 +2,7 @@ v0.6.0:
   date: "2015-06-25"
   enhancements:
     - Added ability to add a TOC to single files
+    - Remove verb
 v0.5.0:
   date: "2015-06-24"
   enhancements:
