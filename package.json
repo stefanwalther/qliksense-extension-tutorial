@@ -34,7 +34,5 @@
     "url": "https://github.com/stefanwalther/qliksense-extension-tutorial/issues"
   },
   "homepage": "https://github.com/stefanwalther/qliksense-extension-tutorial",
-  "dependencies": {
-    "verb": "verbose/verb"
-  }
+  "dependencies": {}
 }
