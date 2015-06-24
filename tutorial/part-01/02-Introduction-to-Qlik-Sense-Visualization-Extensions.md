@@ -1,6 +1,21 @@
 # Introduction to Qlik Sense Visualization Extensions
 
 
+
+## Table of Contents
+
+<!-- toc -->
+
+  * [_Visualization Extensions_ can be:](#-visualization-extensions--can-be-)
+  * [Nomenclature](#nomenclature)
+- [Using an existing visualization extension](#using-an-existing-visualization-extension)
+  * [Installing a visualization extension on Qlik Sense Desktop](#installing-a-visualization-extension-on-qlik-sense-desktop)
+  * [Installing a visualization extension on Qlik Sense Server](#installing-a-visualization-extension-on-qlik-sense-server)
+- [Comparison between extensions in QlikView and Qlik Sense](#comparison-between-extensions-in-qlikview-and-qlik-sense)
+- [Where to find Qlik Sense visualization extensions](#where-to-find-qlik-sense-visualization-extensions)
+
+<!-- tocstop -->
+
 Visualization Extensions are a possibility to extend the visualization capabilities of Qlik Sense by using only standard web-technologies. The concept of extensions in general can also be seen as a plugin-mechanism which allows developers to combine the power of Qlik Sense’ APIs with the nearly unlimited capabilities of the web.
 
 Extensions are so powerful in Qlik Sense because they use exactly the same set of technologies as standard objects in Qlik Sense do, so you are basically using the same set of technologies as Qlik’s R&D does!
@@ -67,7 +82,7 @@ Fortunately quite a lot of developers are publishing their extensions to GitHub.
 
 
 ---
-**Qlik Sense Visualization Extension Tutorial**, Version 0.5.0<br/>
+**Qlik Sense Visualization Extension Tutorial**, Version 0.6.0<br/>
 Last update: 2015-05-29<br/>
 
 [Table of Contents](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)

@@ -2,6 +2,24 @@
 
 
 
+## Table of Contents
+
+<!-- toc -->
+
+- [Introduction to custom properties](#introduction-to-custom-properties)
+- [Improving readability & maintainability of properties](#improving-readability---maintainability-of-properties)
+- [Basic custom property - a string input box](#basic-custom-property---a-string-input-box)
+  * [Adding the component definition to the property panel](#adding-the-component-definition-to-the-property-panel)
+- [Adding a custom section header](#adding-a-custom-section-header)
+- [Adding a custom section](#adding-a-custom-section)
+- [Display & persistence](#display---persistence)
+- [Referencing property values](#referencing-property-values)
+- [Troubleshooting](#troubleshooting)
+  * [Changes are not reflected](#changes-are-not-reflected)
+- [Source code for this chapter](#source-code-for-this-chapter)
+
+<!-- tocstop -->
+
 In the previous chapter you have learned how to re-use built-in properties in Qlik Sense' property panel. In this chapter we'll cover how we can extend the property panel to custom needs.
 
 ## Introduction to custom properties
@@ -436,7 +454,7 @@ You can find the source code for this chapter in the `src` folder of **./Chapter
 
 
 ---
-**Qlik Sense Visualization Extension Tutorial**, Version 0.5.0<br/>
+**Qlik Sense Visualization Extension Tutorial**, Version 0.6.0<br/>
 Last update: 2015-05-29<br/>
 
 [Table of Contents](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)

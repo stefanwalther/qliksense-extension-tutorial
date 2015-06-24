@@ -2,6 +2,13 @@
 
 
 
+## Table of Contents
+
+<!-- toc -->
+
+- [Folder structure for sample code](#folder-structure-for-sample-code)
+
+<!-- tocstop -->
 
 In the past I was writing quite a lot of article on [my private blog](http://www.qlikblog.at) which is fine in general, but when writing a tutorial, a blog is not really the ideal format as I realized.
 
@@ -27,7 +34,7 @@ Folder				| Description
 
 
 ---
-**Qlik Sense Visualization Extension Tutorial**, Version 0.5.0<br/>
+**Qlik Sense Visualization Extension Tutorial**, Version 0.6.0<br/>
 Last update: 2015-05-29<br/>
 
 [Table of Contents](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)

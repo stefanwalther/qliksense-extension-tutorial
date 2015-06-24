@@ -9,6 +9,9 @@ tags:
 draft: false
 ---
 
+## Table of Contents
+<!-- toc -->
+
 In the previous chapter you have learned how to re-use built-in properties in Qlik Sense' property panel. In this chapter we'll cover how we can extend the property panel to custom needs.
 
 ## Introduction to custom properties

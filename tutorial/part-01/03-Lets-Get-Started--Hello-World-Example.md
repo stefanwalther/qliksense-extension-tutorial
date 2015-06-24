@@ -2,6 +2,31 @@
 
 
 
+## Table of Contents
+
+<!-- toc -->
+
+- [The anatomy of a Qlik Sense extension](#the-anatomy-of-a-qlik-sense-extension)
+- [Skeleton of a script file](#skeleton-of-a-script-file)
+  * [`define`](#-define-)
+  * [`paint`](#-paint-)
+- [Structure of the .qext file](#structure-of-the-qext-file)
+  * [`name`](#-name-)
+  * [`description`](#-description-)
+  * [`icon`](#-icon-)
+  * [`type`](#-type-)
+  * [`version`](#-version-)
+  * [`preview`](#-preview-)
+  * [`author`](#-author-)
+- [Creating the Hello World example](#creating-the-hello-world-example)
+  * [Create the Container](#create-the-container)
+  * [Create a .qext file](#create-a-qext-file)
+  * [The Script File](#the-script-file)
+  * [Test It](#test-it)
+  * [But wait, something went wrong](#but-wait--something-went-wrong)
+
+<!-- tocstop -->
+
 The first example is extremely easy, let’s just create a simple „Hello World“ visualization extension. In the following chapters we’ll improve this example and extend it with additional functionality.
 
 So what’s necessary to create a Qlik Sense Extension? Let’s first have a look at the anatomy of an extension:
@@ -235,7 +260,7 @@ I leave it to you whether you decide to go with better performance or better rea
 
 
 ---
-**Qlik Sense Visualization Extension Tutorial**, Version 0.5.0<br/>
+**Qlik Sense Visualization Extension Tutorial**, Version 0.6.0<br/>
 Last update: 2015-05-29<br/>
 
 [Table of Contents](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)

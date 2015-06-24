@@ -9,6 +9,9 @@ tags:
 draft: true
 ---
 
+## Table of Contents
+<!-- toc -->
+
 OK, now we are done with the very, very basics. Let's move on to the interesting stuff, bringing data into our _visualization extension_.
 
 ## Getting data into visualization extension

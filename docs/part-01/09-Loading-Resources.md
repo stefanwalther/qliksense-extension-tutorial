@@ -14,6 +14,9 @@ tags:
 draft: true
 ---
 
+## Table of Contents
+<!-- toc -->
+
 In this chapter you'll learn how you can use several types of resources in your visualization extensions, e.g.
 
 * Style sheets / CSS files

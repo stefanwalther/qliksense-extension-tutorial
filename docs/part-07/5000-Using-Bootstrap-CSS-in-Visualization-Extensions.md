@@ -3,6 +3,9 @@ title: Using Bootstrap CSS in Qlik Sense Visualization Extensions
 lastUpdate: "2015-05-29"
 ---
 
+## Table of Contents
+<!-- toc -->
+
 Since Twitter's Bootstrap library is very famous and common nowadays it's quite natural that you might want to use [Bootstrap](http://getbootstrap.com/) styles within your Qlik Sense visualization extensions.
 
 ## But ...

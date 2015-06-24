@@ -1,5 +1,5 @@
 ---
-title: The Angular Way: Events
+title: "The Angular Way: Events"
 lastUpdate: "2015-06-16"
 abstract: Consume events in AngularJS based visualization extensions.
 tags:
@@ -14,6 +14,9 @@ tags:
   - Validating
 draft: false
 ---
+
+## Table of Contents
+<!-- toc -->
 
 When using AngularJS based visualization extensions you can consume the following events being exposed to the model of the extension object:
 

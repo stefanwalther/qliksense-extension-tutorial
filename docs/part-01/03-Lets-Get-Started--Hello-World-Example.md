@@ -9,6 +9,9 @@ tags:
   - Qlik Sense
 ---
 
+## Table of Contents
+<!-- toc -->
+
 The first example is extremely easy, let’s just create a simple „Hello World“ visualization extension. In the following chapters we’ll improve this example and extend it with additional functionality.
 
 So what’s necessary to create a Qlik Sense Extension? Let’s first have a look at the anatomy of an extension:

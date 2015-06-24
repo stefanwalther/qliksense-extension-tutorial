@@ -16,9 +16,14 @@ var logger = require( './lib/utils/logger.js' );
 var del = require( 'del' );
 var concat = require( 'gulp-concat' );
 
+var nodeInspector = require('gulp-node-inspector');
+
 // experimental
 var sitemap = require( 'gulp-sitemap' );
 var filelist = require( 'gulp-filelist' );
+
+//toc
+var toc = require('template-toc');
 
 // ****************************************************************************************
 // Config file
@@ -49,7 +54,7 @@ assemble.helpers( require( 'helper-hybrid' )( 'markdown' ) );
 // ****************************************************************************************
 // Assemble middleware
 // ****************************************************************************************
-//assemble.option( 'middleware', ['assemble-middleware-drafts'] );
+assemble.option( 'middleware', ['template-toc'] );
 
 // ****************************************************************************************
 // Assemble options
@@ -64,12 +69,22 @@ assemble.create( 'doc' );
 assemble.docs( './../docs/includes/toc.md' );
 
 // ****************************************************************************************
+// Assemble preRender
+// ****************************************************************************************
+assemble.postRender(/\.md$/, toc(assemble));
+
+// ****************************************************************************************
 // Assemble data
 // ****************************************************************************************
 
 // ****************************************************************************************
 // Assemble tasks
 // ****************************************************************************************
+
+assemble.task('debug', function() {
+	assemble.src([])
+		.pipe(nodeInspector());
+});
 
 assemble.task( 'clean:tutorial', function ( cb ) {
 	del.sync( [
@@ -87,7 +102,7 @@ assemble.task( 'readme', function () {
 		.on( 'data', function ( data ) {
 			//console.log( 'doc', assemble.views.docs );
 		} )
-		.pipe(concat('README.md'))
+		.pipe( concat( 'README.md' ) )
 		.pipe( assemble.dest( './../' ) );
 } );
 
