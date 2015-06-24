@@ -10,7 +10,7 @@ tags:
   - Qlik Sense
 ---
 
-## Table of Contents
+**Table of Contents**
 <!-- toc -->
 
 The intention of this tutorial is to help you to start developing Extensions in Qlik Sense. If you have already spent some time with the concept of Extensions in QlikView you’ll see some similarities in the first chapters, but at the same time you’ll recognize how much cleaner and better the Extension API in Qlik Sense is in comparison to the one in QlikView.

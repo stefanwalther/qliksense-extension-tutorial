@@ -6,7 +6,7 @@ order: -1
 draft: true
 ---
 
-## Table of Contents
+**Table of Contents**
 <!-- toc -->
 
 Qlik Sense offers two different approaches to develop your visualization extension. One of the approaches is very similar to the extension concept in QlikView, I call it the „Classic Approach“:

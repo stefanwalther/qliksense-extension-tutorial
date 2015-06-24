@@ -9,7 +9,7 @@ tags:
   - Hello World
 ---
 
-## Table of Contents
+**Table of Contents**
 <!-- toc -->
 
 OK, let's improve the _Hello World_ experience.

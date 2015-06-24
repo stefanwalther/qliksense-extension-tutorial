@@ -3,7 +3,7 @@ title: Deployment Checklist
 draft: true
 ---
 
-## Table of Contents
+**Table of Contents**
 <!-- toc -->
 
 ## Some basic rules to follow
