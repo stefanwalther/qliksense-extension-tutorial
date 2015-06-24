@@ -59,7 +59,8 @@
 * 04 The Angular Way: Filter
 * 05 The Angular Way: Services
 * [06 The Angular Way: Events](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-02/NG06-The-Angular-Way--Events.md)
-* 07 Testing AngularJS based visualization extensions
+* 07 The Angular Way: Bringing all together
+* 08 Testing AngularJS based visualization extensions
 
 
 ## Part III: Advanced Concepts When Working With Qlik Sense Visualization Extensions

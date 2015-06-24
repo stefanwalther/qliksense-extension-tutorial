@@ -1,4 +1,3 @@
-- TOC
 - Generate qliksite.yml file
 - git add
 - ideally change lastUpdate programmatically
