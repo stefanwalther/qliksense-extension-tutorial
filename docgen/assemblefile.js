@@ -16,6 +16,8 @@ var logger = require( './lib/utils/logger.js' );
 var del = require( 'del' );
 var concat = require( 'gulp-concat' );
 
+var nodeInspector = require('gulp-node-inspector');
+
 // experimental
 var sitemap = require( 'gulp-sitemap' );
 var filelist = require( 'gulp-filelist' );
@@ -32,6 +34,7 @@ assemble.data( cfg.data );
 // Helpers
 // ****************************************************************************************
 assemble.helper( 'markdown', require( 'helper-markdown' ) );
+assemble.helper( 'toc', require( 'helper-toc' )() );
 
 //var helperFiles = glob.sync( assembleCfg.options.helperFiles );
 //logger.silly( 'helperFiles', helperFiles );
@@ -71,6 +74,11 @@ assemble.docs( './../docs/includes/toc.md' );
 // Assemble tasks
 // ****************************************************************************************
 
+assemble.task('debug', function() {
+	assemble.src([])
+		.pipe(nodeInspector());
+});
+
 assemble.task( 'clean:tutorial', function ( cb ) {
 	del.sync( [
 		'./../tutorial/**/*'
@@ -87,7 +95,7 @@ assemble.task( 'readme', function () {
 		.on( 'data', function ( data ) {
 			//console.log( 'doc', assemble.views.docs );
 		} )
-		.pipe(concat('README.md'))
+		.pipe( concat( 'README.md' ) )
 		.pipe( assemble.dest( './../' ) );
 } );
 

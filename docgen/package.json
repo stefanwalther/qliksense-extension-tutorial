@@ -18,6 +18,7 @@
     "gulp-extname": "^0.2.0",
     "gulp-filelist": "^0.2.0",
     "gulp-less": "^3.0.3",
+    "gulp-node-inspector": "0.0.4",
     "gulp-sitemap": "^2.1.1",
     "handlebars": "^3.0.3",
     "handlebars-helper-include": "^0.2.0",
@@ -26,6 +27,7 @@
     "helper-related": "^0.8.0",
     "js-yaml": "^3.3.1",
     "lodash": "^3.9.3",
+    "markdown-toc": "^0.11.4",
     "string": "^3.1.1",
     "winston": "^1.0.0"
   },

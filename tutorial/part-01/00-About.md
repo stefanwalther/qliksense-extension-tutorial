@@ -2,6 +2,14 @@
 
 
 
+## Table of Contents
+
+**[-](..\docs\part-01\00-About.md)**
+
+- [Table of Contents](..\docs\part-01\00-About.md/#table-of-contents)
+- [Folder structure for sample code](..\docs\part-01\00-About.md/#folder-structure-for-sample-code)
+
+
 
 In the past I was writing quite a lot of article on [my private blog](http://www.qlikblog.at) which is fine in general, but when writing a tutorial, a blog is not really the ideal format as I realized.
 
