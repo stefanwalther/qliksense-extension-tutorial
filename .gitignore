@@ -4,6 +4,7 @@
 web.*.config
 /**/node_modules/
 Todos.md
+.settings/
 
 # As of now, always ignore the /dist/ folders, maybe introduce this later on ...
 /**/dist/
