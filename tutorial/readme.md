@@ -127,7 +127,7 @@
 	
 ## Part IX: Appendix
 * [Appendix:](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-09/1000-Appendix.md)
-	* [FAQ & Troubleshooting](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part09/1002-Troubleshooting-FAQ.md)
+	* [FAQ & Troubleshooting](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-09/1002-Troubleshooting-FAQ.md)
 	* branch.qlik.com
 	* Basic Introduction to git & GitHub
 	* How to publish your extension to GitHub & branch.qlik.com

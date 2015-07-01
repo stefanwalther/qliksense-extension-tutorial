@@ -5,7 +5,7 @@ draft: false
 
 <!-- toc -->
 
-## What is a .wbl file##
+## What is a .wbl file
 {{faq "wbl"}}
 
 ## Changes made in a visualization extension are not reflected
