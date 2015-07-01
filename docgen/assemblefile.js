@@ -66,6 +66,9 @@ assemble.option( 'layout', cfg.options.defaultLayout );
 assemble.create( 'doc' );
 assemble.docs( './../docs/includes/toc.md' );
 
+assemble.create('faq');
+assemble.faqs('./../docs/faq/*.md');
+
 // ****************************************************************************************
 // Assemble preRender
 // ****************************************************************************************
