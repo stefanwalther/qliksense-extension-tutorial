@@ -23,11 +23,12 @@
     "handlebars": "^3.0.3",
     "handlebars-helper-include": "^0.2.0",
     "handlebars-helpers": "^0.5.8",
+    "helper-hybrid": "^0.2.2",
     "helper-markdown": "^0.1.1",
     "helper-related": "^0.8.0",
     "js-yaml": "^3.3.1",
     "lodash": "^3.9.3",
-    "markdown-toc": "^0.11.4",
+    "markdown-toc": "^0.11.5",
     "string": "^3.1.1",
     "template-toc": "^0.3.3",
     "winston": "^1.0.0"
