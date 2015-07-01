@@ -19,4 +19,4 @@ If you want to **completely disable browser caching** e.g. in Chrome you can con
 - Check "Disable cache (while DevTools is open)
 
 
-{{image "faq/images/changes-not-reflected_DevToolsSettings.png"}}
+{{image "../faq/images/changes-not-reflected_DevToolsSettings.png"}}
