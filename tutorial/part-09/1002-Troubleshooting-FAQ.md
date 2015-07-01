@@ -12,6 +12,8 @@
 
 Note: This file is not necessary for using a visualization extension, just in case you have added some files to Workbench and you want to edit those files in Workbench.
 
+---
+
 ## Changes made in a visualization extension are not reflected
 * When developing visualization extensions and testing them in Qlik Sense Desktop it might happen that you don't immediately see the changes.
 The reason for this behavior is that Qlik Sense Desktop is using the Chromium browser and because of current settings the Chromium browser is aggressively caching websites.
@@ -28,7 +30,10 @@ If you want to **completely disable browser caching** e.g. in Chrome you can con
 - Check "Disable cache (while DevTools is open)
 
 
-![](images/changes-not-reflected_DevToolsSettings.png)  
+![](faq/images/changes-not-reflected_DevToolsSettings.png)  
+
+--- 
+
 
 ---
 **Qlik Sense Visualization Extension Tutorial**, Version 0.8.0<br/>
