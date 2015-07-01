@@ -37,7 +37,7 @@ Folder				| Description
 
 
 ---
-**Qlik Sense Visualization Extension Tutorial**, Version 0.7.0<br/>
+**Qlik Sense Visualization Extension Tutorial**, Version 0.8.0<br/>
 Last update: 2015-05-29<br/>
 
 [Overview of all chapters](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)

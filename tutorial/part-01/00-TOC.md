@@ -124,6 +124,7 @@
 	
 ## Part IX: Appendix
 * [Appendix:](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-09/1000-Appendix.md)
+	* [FAQ & Troubleshooting](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part09/1002-Troubleshooting-FAQ.md)
 	* branch.qlik.com
 	* Basic Introduction to git & GitHub
 	* How to publish your extension to GitHub & branch.qlik.com
@@ -136,7 +137,7 @@
 	
 
 ---
-**Qlik Sense Visualization Extension Tutorial**, Version 0.7.0<br/>
+**Qlik Sense Visualization Extension Tutorial**, Version 0.8.0<br/>
 Last update: 2015-06-16<br/>
 
 [Overview of all chapters](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)

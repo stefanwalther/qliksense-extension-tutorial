@@ -120,6 +120,7 @@
 	
 ## Part IX: Appendix
 * [Appendix:]({{config.baseUrl}}part-09/1000-Appendix.md)
+	* [FAQ & Troubleshooting]({{config.baseUrl}}part09/1002-Troubleshooting-FAQ.md)
 	* branch.qlik.com
 	* Basic Introduction to git & GitHub
 	* How to publish your extension to GitHub & branch.qlik.com
