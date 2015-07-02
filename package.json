@@ -1,5 +1,5 @@
 {
-  "name": "qliksense-extension-tutorial",
+cd  "name": "qliksense-extension-tutorial",
   "version": "0.8.0",
   "description": "Comprehensive tutorial for Qlik Sense Extensions.",
   "main": "-",
@@ -34,5 +34,6 @@
     "url": "https://github.com/stefanwalther/qliksense-extension-tutorial/issues"
   },
   "homepage": "https://github.com/stefanwalther/qliksense-extension-tutorial",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {}
 }

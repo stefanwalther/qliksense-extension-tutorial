@@ -15,21 +15,42 @@ var yaml = require( 'js-yaml' );
 var logger = require( './lib/utils/logger.js' );
 var del = require( 'del' );
 var concat = require( 'gulp-concat' );
+var async = require( 'async' );
 
-var nodeInspector = require('gulp-node-inspector');
+var nodeInspector = require( 'gulp-node-inspector' );
 
 // experimental
 var sitemap = require( 'gulp-sitemap' );
-var filelist = require( 'gulp-filelist' );
+var f2Json = require( 'gulp-files-to-json' );
 
 //toc
-var toc = require('template-toc');
+var toc = require( 'template-toc' );
 
 // ****************************************************************************************
 // Config file
 // ****************************************************************************************
 var cfg = yaml.load( fs.readFileSync( path.join( __dirname, './assemble-config.yml' ), 'utf-8' ) );
 assemble.data( cfg.data );
+
+// ****************************************************************************************
+// Assemble middleware
+// ****************************************************************************************
+
+// ****************************************************************************************
+// Assemble options
+// ***************************************************************************************
+assemble.engine( '.md}', require( 'engine-assemble' ) );
+//assemble.enable('minimal config'); // Cave: necessary to get some gulp plugins working (see https://github.com/assemble/assemble/issues/717)
+
+assemble.layouts( cfg.options.layouts );
+assemble.set( 'layouts', cfg.options.layouts );
+assemble.option( 'layout', cfg.options.defaultLayout );
+
+assemble.create( 'doc' );
+assemble.docs( './../docs/includes/toc.md' );
+
+assemble.create( 'faq' );
+assemble.faqs( './../docs/faq/*.md' );
 
 // ****************************************************************************************
 // Helpers
@@ -49,30 +70,50 @@ assemble.helpers( require( 'helper-hybrid' )( 'markdown' ) );
 //assemble.helper( 'include', require('handlebars-helper-include'));
 //assemble.helper( 'partial', require('handlebars-helper-partial'));
 
+assemble.asyncHelper( 'renderfaqs', function ( options, cb ) {
+
+	//console.log('faqs');
+
+	if ( typeof options === 'function' ) {
+		cb = options;
+		options = {};
+	}
+	var ctx = this.context;
+	//console.log('views', this.app.views);
+	//console.log('faqs', this.app.views.faqs);
+	var views = this.app.views.faqs;
+	var keys = Object.keys( views );
+
+	async.map( keys, function ( key, next ) {
+
+		//console.log('content', views[key]);
+
+		views[key].render( ctx, function ( err, content ) {
+			if ( err ) {
+				return next( err );
+			}
+
+			next( null, content );
+		} );
+	}, function ( err, res ) {
+		if ( err ) {
+			return cb( err );
+		}
+		//console.log( res );
+		cb( null, res.join( '\n' ) );
+	} );
+} );
+
 // ****************************************************************************************
-// Assemble middleware
+// Assemble preRender/postRender
 // ****************************************************************************************
+assemble.postRender( /\.md$/, toc( assemble ) );
 
-
-// ****************************************************************************************
-// Assemble options
-// ***************************************************************************************
-assemble.engine( '.md', require( 'engine-assemble' ) );
-
-assemble.layouts( cfg.options.layouts );
-assemble.set( 'layouts', cfg.options.layouts );
-assemble.option( 'layout', cfg.options.defaultLayout );
-
-assemble.create( 'doc' );
-assemble.docs( './../docs/includes/toc.md' );
-
-assemble.create('faq');
-assemble.faqs('./../docs/faq/*.md');
-
-// ****************************************************************************************
-// Assemble preRender
-// ****************************************************************************************
-assemble.postRender(/\.md$/, toc(assemble));
+assemble.postRender( /\.md$/, function ( file, next ) {
+	//console.log(file);
+	//console.log('all', file.data.title, file.data.src.dirname, file.data.src.name);
+	next();
+});
 
 // ****************************************************************************************
 // Assemble data
@@ -82,10 +123,10 @@ assemble.postRender(/\.md$/, toc(assemble));
 // Assemble tasks
 // ****************************************************************************************
 
-assemble.task('debug', function() {
-	assemble.src([])
-		.pipe(nodeInspector());
-});
+assemble.task( 'debug', function () {
+	assemble.src( [] )
+		.pipe( nodeInspector() );
+} );
 
 assemble.task( 'clean:tutorial', function ( cb ) {
 	del.sync( [
@@ -107,18 +148,20 @@ assemble.task( 'readme', function () {
 		.pipe( assemble.dest( './../' ) );
 } );
 
+// Note: as of now assemble.enable('minimal config'); is necessary for this task
+assemble.task( 'filelist:faq', function () {
+	return assemble.src( './../docs/faq/**/*.md' )
+		.pipe( debug( {title: 'filelist:faq', minimal: true}) )
+		.pipe( f2Json( 'filelist.json' ) )
+		.pipe( assemble.dest( './.tmp/' ) );
+} );
+
 assemble.task( 'tutorial', function () {
-	assemble.src( './../docs/**/*.md' )
-		.pipe( debug() )
+	return assemble.src( './../docs/**/*.md' )
+		//.pipe( debug() )
 		.pipe( assemble.dest( cfg.docs.target ) )
 } );
 
-//assemble.task( 'readme', function () {
-//	assemble.src( './../docs/.README.md' )
-//		.pipe( concat( 'README.md' ) )
-//		.pipe( debug())
-//		.pipe( assemble.dest( './../' ) )
-//} );
 
 // Noop
 //assemble.task( 'sitemap', function () {
@@ -139,12 +182,6 @@ assemble.task( 'tutorial', function () {
 //	next( null, file );
 //} );
 
-//assemble.task( 'filelist', function () {
-//	assemble.src( './../docs/**/*.md' )
-//		.pipe( debug() )
-//		.pipe( filelist() )
-//		.pipe( assemble.dest( './../filelist.json' ) )
-//} );
 
 //assemble.task( 'git:add', function () {
 //	assemble.src( './../tutorial/**/*' )
@@ -153,4 +190,4 @@ assemble.task( 'tutorial', function () {
 //		.pipe( assemble.dest( './../tutorial' ) )
 //} );
 
-assemble.task( 'default', ['clean:tutorial', 'assets', 'tutorial', 'readme'] );
+assemble.task( 'default', ['filelist:faq', 'clean:tutorial', 'assets', 'tutorial', 'readme'] );

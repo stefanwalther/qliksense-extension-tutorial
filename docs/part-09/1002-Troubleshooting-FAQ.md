@@ -5,6 +5,18 @@ draft: false
 
 <!-- toc -->
 
+---
+
+{{#hidden}}
+Loop:
+
+{{#eachIndex faqs}}
+	{{index}}
+{{/eachIndex}}
+
+---
+{{/hidden}}
+
 ## What is a .wbl file
 {{faq "wbl"}}
 
