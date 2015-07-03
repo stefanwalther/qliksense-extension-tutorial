@@ -1,0 +1,9 @@
+{
+	"name" : "10-Hello-Data-Performancetest",
+	"description" : "Comparing performance between html injection and dom object creation.",
+	"icon" : "extension",
+	"type" : "visualization",
+	"version": "@@version",
+	"preview" : "10-hello-data-performancetest.png",
+	"author": "Stefan Walther"
+}
