@@ -20,7 +20,7 @@
 	* Structure of the .qext file
 	* Creating the Hello World example
 * [04 Debugging and Web Developer Tools] (https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-01/04-Debugging-and-Web-Developer-Tools.md)
-	* `console.x()`
+	* console.x()
 	* Debugging
 	* Object inspection
 * [05 Improving the Web Hello World Experience](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-01/05-Improving-the-Hello-World-Experience.md)
