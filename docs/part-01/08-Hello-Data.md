@@ -6,7 +6,7 @@ tags:
   - visualization extension
   - extension
   - Qlik Sense
-draft: false
+draft: true
 ---
 
 **Table of Contents**
