@@ -1,9 +1,0 @@
-{
-	"name" : "10 - Visualization Extension using D3",
-	"description" : "Example how to create a visualization extension based on a D3 chart.",
-	"icon" : "extension",
-	"type" : "visualization",
-	"version": "@@version",
-	"preview" : "10-visualizationextensionusingd3.png",
-	"author": "Stefan Walther"
-}

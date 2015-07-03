@@ -1,21 +1,22 @@
----
-title: Loading Resources
-lastUpdate: "2015-07-03"
-abstract:
-tags:
-  - visualization extension
-  - extension
-  - Qlik Sense
-  - CDN
-  - RequireJS
-  - CSS
-  - images
-  - include
-draft: false
----
+# Loading Resources
+
+
 
 **Table of Contents**
+
 <!-- toc -->
+
+- [Repetition: Using RequireJS](#repetition--using-requirejs)
+- [Stylesheets / CSS files](#stylesheets---css-files)
+  * [1) Loading and adding the content to the document's header](#1--loading-and-adding-the-content-to-the-document-s-header)
+  * [2) Adding a link to a style sheet to the document's header](#2--adding-a-link-to-a-style-sheet-to-the-document-s-header)
+  * [3) Using the RequireJS CSS plugin](#3--using-the-requirejs-css-plugin)
+- [Javascript libraries](#javascript-libraries)
+  * [Loading local JavaScript files](#loading-local-javascript-files)
+  * [Loading external JavaScript files](#loading-external-javascript-files)
+- [Images](#images)
+
+<!-- tocstop -->
 
 ---
 
@@ -70,11 +71,10 @@ There are several ways how to achieve that:
 2. Adding a link to a style sheet to the document's header
 3. Using the RequireJS CSS plugin
 
-{{#hint}}
-When creating style sheets, always make sure to prevent conflicts with existing styles or style definitions from other visualization extensions.
-A good guide can be found in the official Qlik Sense developer documentation: ([Styling your visualizations](http://help.qlik.com/sense/2.0/en-us/developer/Subsystems/Extensions/Content/Howtos/working-with-styling.htm)).
-{{/hint}}
-
+>**Hint:**
+> When creating style sheets, always make sure to prevent conflicts with existing styles or style definitions from other visualization extensions.
+> A good guide can be found in the official Qlik Sense developer documentation: ([Styling your visualizations](http://help.qlik.com/sense/2.0/en-us/developer/Subsystems/Extensions/Content/Howtos/working-with-styling.htm)).
+  
 ### 1) Loading and adding the content to the document's header
 
 Using RequireJS and the `text!` prefix in the `define` statement of your visualization extension can be used to inject the content into the header of the current document:
@@ -109,14 +109,13 @@ define( [
 	} );
 ```
 
-{{#hint "Explanation for jQuery novices"}}
-If `$("<style>").html(cssContent).appendTo("head");` doesn't really look familiar to you, here's a short explanation:
-
-* `$("<style>")` creates a new style object.
-* Then the content of the variable `cssContent` will be assigned to the inner content of the `style` object.
-* Finally the style object (now including the CSS content) will be added to `<head>` section of the current document.
-{{/hint}}
-
+>**Explanation for jQuery novices**
+> If `$("<style>").html(cssContent).appendTo("head");` doesn't really look familiar to you, here's a short explanation:
+> 
+> * `$("<style>")` creates a new style object.
+> * Then the content of the variable `cssContent` will be assigned to the inner content of the `style` object.
+> * Finally the style object (now including the CSS content) will be added to `<head>` section of the current document.
+  
 ### 2) Adding a link to a style sheet to the document's header
 
 Instead of adding a `style` element to the `head` section of a document, you could certainly also add a link, referring to the location of the CSS file:
@@ -149,13 +148,12 @@ define( [
 	} );
 ```
 
-{{#hint "Usage before Qlik Sense 2.0"}}
-You'll realize that some visualization extension examples use this approach even before Qlik Sense 2.0 was published.
-While it will work in Qlik Sense Desktop it will not work in a server environment. Official support for this way of loading CSS files has been added with Qlik Sense 2.0.
-
-If you want to develop a visualization extension being compliant with earlier versions than Qlik Sense 2.0, it is NOT recommended to use this approach.
-{{/hint}}
-
+>**Usage before Qlik Sense 2.0**
+> You'll realize that some visualization extension examples use this approach even before Qlik Sense 2.0 was published.
+> While it will work in Qlik Sense Desktop it will not work in a server environment. Official support for this way of loading CSS files has been added with Qlik Sense 2.0.
+> 
+> If you want to develop a visualization extension being compliant with earlier versions than Qlik Sense 2.0, it is NOT recommended to use this approach.
+  
 ## Javascript libraries
 
 ### Loading local JavaScript files
@@ -202,12 +200,11 @@ function ( highCharts ) {
 });
 ```
 
-{{#hint}}
-Loading a JavaScript file from a content delivery network is a good approach if you
-* Use the same library in several extensions, because your browser won't have to load the resource again and again
-* Know that the users using your visualization extension definitely have internet access (which is nowadays in most cases probably not a big problem)
-{{/hint}}
-
+>**Hint:**
+> Loading a JavaScript file from a content delivery network is a good approach if you
+> * Use the same library in several extensions, because your browser won't have to load the resource again and again
+> * Know that the users using your visualization extension definitely have internet access (which is nowadays in most cases probably not a big problem)
+  
 
 ## Images
 There are no special requirements or obstacles when including images in your visualization extension. You just need to know to to reference the path correctly that the image works in both Qlik Sense Desktop but also in a server environment.
@@ -228,3 +225,10 @@ paint: function ( $element, layout ) {
 
 }
 ```
+
+
+---
+**Qlik Sense Visualization Extension Tutorial**, Version 0.9.0<br/>
+Last update: 2015-07-03<br/>
+
+[Overview of all chapters](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)

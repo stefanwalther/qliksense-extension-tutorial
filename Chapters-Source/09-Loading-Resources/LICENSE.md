@@ -1,4 +1,4 @@
-**10 - Visualization Extension using D3 Qlik Sense Extension** is licensed under the "MIT" license:
+**09 - Loading Resources Qlik Sense Extension** is licensed under the "MIT" license:
 
 * [License](#license)
 * [External Libraries](#external libraries)

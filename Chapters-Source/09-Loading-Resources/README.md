@@ -1,5 +1,5 @@
-# 10 - Visualization Extension using D3
-> Example how to create a visualization extension based on a D3 chart.
+# 09 - Loading Resources
+> Examples how to load several kinds of resources in a Qlik Sense visualization extension.
 
 ## Purpose and Description
 
@@ -9,7 +9,7 @@
 
 1. Download the latest version
 2. Qlik Sense Desktop
-	* To install, copy all files in the .zip file to folder "C:\Users\[%Username%]\Documents\Qlik\Sense\Extensions\10-VisualizationExtensionusingD3"
+	* To install, copy all files in the .zip file to folder "C:\Users\[%Username%]\Documents\Qlik\Sense\Extensions\09-LoadingResources"
 3. Qlik Sense Server
 	* See instructions [how to import an extension on Qlik Sense Server](http://help.qlik.com/sense/en-us/developer/#../Subsystems/Workbench/Content/BuildingExtensions/HowTos/deploy-extensions.htm)
 
@@ -33,7 +33,7 @@ I cannot guarantee that I will merge all PRs but I will evaluate them all.
 
 ## Change Log
 
-See [CHANGELOG.md](CHANGELOG.md)
+See [CHANGELOG](CHANGELOG.yml)
 
 ## License & Copyright
 The software is made available "AS IS" without any warranty of any kind under the MIT License (MIT).

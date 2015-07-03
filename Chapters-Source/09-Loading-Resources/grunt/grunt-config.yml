@@ -6,16 +6,16 @@ general:
   LocalExtensionPath:   "d:\\documents\\Qlik\\Sense\\Extensions"
 
   # Name of the Extension as defined in the generator
-  ExtensionName:        "10 - Visualization Extension using D3"
+  ExtensionName:        "09 - Loading Resources"
 
   # Name of the Extension, safe to be used for file-names
-  ExtensionNameSafe:    "10-VisualizationExtensionusingD3"
+  ExtensionNameSafe:    "09-LoadingResources"
 
   # Namespace
   ExtensionNamespace:   "exttut-"
 
   # Description of the Extension as defined in the generator
-  ExtensionDescription: "Example how to create a visualization extension based on a D3 chart."
+  ExtensionDescription: "Examples how to load several kinds of resources in a Qlik Sense visualization extension."
 
   # Version of the extension, will be re-used in several areas,
   # e.g the generated .zip-file in the 'release' Grunt-task

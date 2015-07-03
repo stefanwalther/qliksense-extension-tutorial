@@ -1,7 +1,7 @@
 {
-  "name": "Grunt-Deployment-10-VisualizationExtensionusingD3",
+  "name": "Grunt-Deployment-09-LoadingResources",
   "version": "0.0.1",
-  "description": "Grunt tasks (dev + release) for the Qlik Sense extension 10 - Visualization Extension using D3",
+  "description": "Grunt tasks (dev + release) for the Qlik Sense extension 09 - Loading Resources",
   "main": "gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

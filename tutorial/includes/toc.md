@@ -44,12 +44,10 @@
 	* Changing the initial properties
 	* Rendering table data
 	* Some golden rules
-* 09 Loading Resources
+* [09 Loading Resources](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-01/09-Loading-Resources.md)
 	* Style sheets / CSS files
-	* Images
 	* JavaScript libraries
-	* Fonts
-	* Items from the content library
+	* Images
 * 10 Hello Data - Improved
 	* Vertical scrolling
 	* Data paging
