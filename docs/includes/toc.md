@@ -35,19 +35,19 @@
 	* Referencing property values
 	* Troubleshooting
 	* Source code
-* 09 Hello Data
+* 08 Hello Data
 	* Allow users to define dimensions & measures
 	* Retrieve data
 	* Initial properties
 	* Default limitations
-* 10 Loading Resources
+* 09 Loading Resources
 	* Style sheets / CSS files
 	* Images
 	* JavaScript libraries
 	* Fonts
 	* Items from the content library
-* 11 Create a visualization using D3
-* 12 Create a visualization using HighCharts
+* 10 Create a visualization using D3
+* 11 Create a visualization using HighCharts
 
 	
 ## Part II: Qlik Sense Visualization Extensions & AngularJS

@@ -227,6 +227,7 @@ To get first all dimensions let's iterate through all existing dimensions using 
 ```
 
 The result so far:
+
 ![](images/08/08_Thead_Dims.png)
 
 Now let's do the same for measures (by adding additional table headings) and you should come up with:
@@ -285,7 +286,7 @@ If you are changing `initialProperties` just reloading the browser will not refl
 By doing so the Engine will then return a maximum of 10 columns and 100 rows.
 {{/note}}
 
-Every row has now 5 cells:
+Every row has now 5 cells:  
 ![](images/08/08_Custom_qInitialDataFetch.png)
 
 {{#hidden}}
