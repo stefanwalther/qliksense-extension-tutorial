@@ -1,7 +1,5 @@
-define( [
-		'jquery'
-	],
-	function ( $ ) {
+define( [],
+	function ( ) {
 		'use strict';
 
 		return {
@@ -39,8 +37,9 @@ define( [
 			paint: function ( $element, layout ) {
 
 				var hc = layout.qHyperCube;
-				console.log( 'Data returned: ', hc );
+				//console.log( 'Data returned: ', hc );
 
+				// Default rendering with HTML injection
 				$element.empty();
 				var table = '<table border="1">';
 
@@ -56,9 +55,19 @@ define( [
 					table += '</thead>';
 
 					table += '<tbody>';
+						for (var r = 0; r < hc.qDataPages[0].qMatrix.length; r++) {
+							table += '<tr>';
+							for (var c = 0; c < hc.qDataPages[0].qMatrix[r].length; c++) {
+								table += '<td>';
+									table += hc.qDataPages[0].qMatrix[r][c].qText;
+								table += '</td>';
+							}
+							table += '</tr>';
+						}
 					table += '</tbody>';
 				table += '</table>';
 				$element.append( table );
+
 			}
 		};
 
