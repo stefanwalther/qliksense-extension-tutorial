@@ -158,7 +158,7 @@ assemble.task( 'filelist:faq', function () {
 
 assemble.task( 'tutorial', function () {
 	return assemble.src( './../docs/**/*.md' )
-		//.pipe( debug() )
+		.pipe( debug() )
 		.pipe( assemble.dest( cfg.docs.target ) )
 } );
 
@@ -190,4 +190,4 @@ assemble.task( 'tutorial', function () {
 //		.pipe( assemble.dest( './../tutorial' ) )
 //} );
 
-assemble.task( 'default', ['filelist:faq', 'clean:tutorial', 'assets', 'tutorial', 'readme'] );
+assemble.task( 'default', [/*'filelist:faq', */'clean:tutorial', 'assets', 'tutorial', 'readme'] );

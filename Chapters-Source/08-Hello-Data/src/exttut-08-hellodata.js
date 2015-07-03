@@ -1,62 +1,65 @@
-define([
-        'jquery',
-        /*'underscore',*/
-        './properties',
-        './initialproperties',
-        './lib/js/extensionUtils',
-        'text!./lib/css/style.css'
-],
-function ($, /*_,*/ props, initProps, extensionUtils, cssContent) {
-    'use strict';
+define( [
+		'jquery'
+	],
+	function ( $ ) {
+		'use strict';
 
-    extensionUtils.addStyleToHeader(cssContent);
+		return {
 
-    console.log('Initializing - remove me');
+			definition: {
+				type: "items",
+				component: "accordion",
+				items: {
+					dimensions: {
+						uses: "dimensions"
+					},
+					measures: {
+						uses: "measures"
+					},
+					sorting: {
+						uses: "sorting"
+					},
+					appearance: {
+						uses: "settings"
+					}
+				}
+			},
+			initialProperties: {
+				qHyperCubeDef: {
+					qDimensions: [],
+					qMeasures: [],
+					qInitialDataFetch: [
+						{
+							qWidth: 10,
+							qHeight: 100
+						}
+					]
+				}
+			},
+			paint: function ( $element, layout ) {
 
-    return {
+				var hc = layout.qHyperCube;
+				console.log( 'Data returned: ', hc );
 
-        definition: props,
+				$element.empty();
+				var table = '<table border="1">';
 
-        initialProperties: initProps,
+					table += '<thead>';
+						table += '<tr>';
+						for (var i = 0; i < hc.qDimensionInfo.length; i++) {
+							table += '<th>' + hc.qDimensionInfo[i].qFallbackTitle + '</th>';
+						}
+						for (var i = 0; i < hc.qMeasureInfo.length; i++) {
+							table += '<th>' + hc.qMeasureInfo[i].qFallbackTitle + '</th>';
+						}
+					table += '</tr>';
+					table += '</thead>';
 
-        snapshot: { canTakeSnapshot: true },
+					table += '<tbody>';
+					table += '</tbody>';
+				table += '</table>';
+				$element.append( table );
+			}
+		};
 
-        resize : function( /*$element, layout*/ ) {
-            //do nothing
-        },
-
-		//clearSelectedValues : function($element) {
-		//
-		//},
-
-
-        // Angular Support (uncomment to use)
-        //template: '',
-
-        // Angular Controller
-        //controller: ['$scope', function ($scope) {
-		//
-        //}],
-
-
-        paint: function ( $element /*, layout*/ ) {
-
-            /*
-            console.groupCollapsed('Basic Objects');
-            console.info('$element:');
-            console.log($element);
-            console.info('layout:');
-            console.log(layout);
-            console.groupEnd();
-            */
-
-            $element.empty();
-            var $helloWorld = $(document.createElement('div'));
-            $helloWorld.addClass('hello-world');
-            $helloWorld.html('Hello World from the extension "08 - Hello Data"');
-            $element.append($helloWorld);
-
-        }
-    };
-
-});
+	} );
