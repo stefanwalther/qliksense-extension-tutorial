@@ -12,7 +12,7 @@
 	* Skeleton of a script file
 	* Structure of the .qext file
 	* Creating the Hello World example
-* [04 Debugging and Web Developer Tools] ({{config.baseUrl}}part-01/04-Debugging-and-Web-Developer-Tools.md)
+* [04 Debugging and Web Developer Tools]({{config.baseUrl}}part-01/04-Debugging-and-Web-Developer-Tools.md)
 	* console.x()
 	* Debugging
 	* Object inspection
