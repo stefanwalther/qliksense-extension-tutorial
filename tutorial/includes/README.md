@@ -59,17 +59,24 @@ These are the chapters I am about to write ... and some of them are already fini
 	* Referencing property values
 	* Troubleshooting
 	* Source code
-* 09 Hello Data
-	* Allow users to define dimensions & measures
-	* Retrieve data
-	* Initial properties
-	* Default limitations
-* 10 Loading Resources
+* [08 Hello Data](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-01/08-Hello-Data.md)
+	* Create your Hello-Data visualization extension
+	* Getting data into visualization extension
+	* Testing your extensions with data
+	* Changing the initial properties
+	* Rendering table data
+	* Some golden rules
+* 09 Loading Resources
 	* Style sheets / CSS files
 	* Images
 	* JavaScript libraries
 	* Fonts
 	* Items from the content library
+* 10 Hello Data - Improved
+	* Vertical scrolling
+	* Data paging
+	* Using external styles
+	* Making selections
 * 11 Create a visualization using D3
 * 12 Create a visualization using HighCharts
 

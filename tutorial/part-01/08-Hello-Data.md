@@ -1,17 +1,28 @@
----
-title: Hello Data
-lastUpdate: "2015-05-29"
-abstract: Working with data in a Qlik Sense visualization extension.
-tags:
-  - visualization extension
-  - extension
-  - Qlik Sense
-draft: false
----
+# Hello Data
+
+
 
 **Table of Contents**
 
 <!-- toc -->
+
+- [Create your Hello-Data visualization extension](#create-your-hello-data-visualization-extension)
+- [Getting data into visualization extension](#getting-data-into-visualization-extension)
+- [Testing your extensions with data](#testing-your-extensions-with-data)
+  * [Testing with more data](#testing-with-more-data)
+- [Visualizing the data returned from the Qlik Engine](#visualizing-the-data-returned-from-the-qlik-engine)
+- [How to retrieve the data in your extension](#how-to-retrieve-the-data-in-your-extension)
+- [Let's create an HTML table](#let-s-create-an-html-table)
+  * [Skeleton](#skeleton)
+  * [Table header: dimensions & measures](#table-header--dimensions---measures)
+  * [Table data](#table-data)
+- [Changing the initial properties](#changing-the-initial-properties)
+- [Rendering table data](#rendering-table-data)
+  * [Issues with the current implementation](#issues-with-the-current-implementation)
+- [Some golden rules](#some-golden-rules)
+- [Final code](#final-code)
+
+<!-- tocstop -->
 
 ---
 
@@ -83,9 +94,6 @@ If you add the visualization onto a sheet you'll furthermore realize that in _Ed
 
 ![](images/08/08_Default_Object_Display.png)
 
-{{#note}}
-Don't forget to reload the entire Qlik Sense client in your browser after you have made changes to your script file.
-{{/note}}
 
 ## Testing your extensions with data
 If you want to test your visualization extension in a blank, new Qlik Sense application you'll realize that Qlik Sense requires some data to be able to create a new sheet.
@@ -232,10 +240,9 @@ Now let's do the same for measures (by adding additional table headings) and you
 
 ![](images/08/08_Thead_All.png)
 
-{{#hint}}
-At this stage I highly recommend that you follow the creation of this simple table-output step by step and make yourself familiar with the concept. Sure, creating a table might not be a very useful and common requirement, but for the majority of visualizations extensions it is essential do deal with data and understanding the underlying data-structure - the structure of the HyperCube.
-{{/hint}}
-
+>**Hint:**
+> At this stage I highly recommend that you follow the creation of this simple table-output step by step and make yourself familiar with the concept. Sure, creating a table might not be a very useful and common requirement, but for the majority of visualizations extensions it is essential do deal with data and understanding the underlying data-structure - the structure of the HyperCube.
+  
 ### Table data
 Before we add the table data, let's have a look again the the console output and especially at `qDataPages`:
 If you expand the qDataPages node we recognize that
@@ -276,13 +283,6 @@ initialProperties: {
 },
 ```
 
-{{#note}}
-If you are changing `initialProperties` just reloading the browser will not reflect your changes. In this case you have to 
-1. refresh the browser (and therefore your extension), then 
-2. remove and 
-3. add it again to the sheet.
-By doing so the Engine will then return a maximum of 10 columns and 100 rows.
-{{/note}}
 
 Every row has now 5 cells:  
 ![](images/08/08_Custom_qInitialDataFetch.png)
@@ -419,3 +419,9 @@ define( [],
 	} );
 
 ```
+
+---
+**Qlik Sense Visualization Extension Tutorial**, Version 0.9.0<br/>
+Last update: 2015-05-29<br/>
+
+[Overview of all chapters](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)

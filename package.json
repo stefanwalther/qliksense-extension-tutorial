@@ -1,6 +1,6 @@
 {
-cd  "name": "qliksense-extension-tutorial",
-  "version": "0.8.0",
+"name": "qliksense-extension-tutorial",
+  "version": "0.9.0",
   "description": "Comprehensive tutorial for Qlik Sense Extensions.",
   "main": "-",
   "directories": {
