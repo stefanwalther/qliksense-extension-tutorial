@@ -127,7 +127,7 @@ define( [
 		"jquery"
 	], function ( $ ) {
 
-		$('<link rel="stylesheet" type="text/css" href="/extensions/my-extension/css/myStyle.css").appendTo("head");
+		$('<link rel="stylesheet" type="text/css" href="/extensions/my-extension/css/myStyle.css">').appendTo("head");
 
 	} );
 

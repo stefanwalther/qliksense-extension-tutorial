@@ -10,6 +10,10 @@ draft: true
 ---
 
 ## Styling your table
+Adding a nice style for your table is now really a piece of cake:
+
+1. Create a style-sheet
+2. 
 
 ## Enabling vertical scrolling
 
