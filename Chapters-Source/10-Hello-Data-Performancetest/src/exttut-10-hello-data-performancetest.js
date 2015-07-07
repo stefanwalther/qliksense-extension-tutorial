@@ -18,15 +18,23 @@ define( [
 
 				var hc = layout.qHyperCube;
 
-				var perf = function ( testName, fn ) {
+				var perfTest = function ( testName, fn ) {
 					var startTime = new Date().getTime();
 					fn();
 					var endTime = new Date().getTime();
 					console.log( testName + ": " + (endTime - startTime) + "ms" );
 				};
 
+				var $container;
+
+				function ensureContainer() {
+					$container = $(document.createElement('div') ).addClass('divContainer');
+					$element.append($container);
+				}
+
 				function htmlInject () {
 
+					ensureContainer();
 					// Default rendering with HTML injection
 
 					var table = '<table border="1">';
@@ -43,6 +51,7 @@ define( [
 					table += '</thead>';
 
 					table += '<tbody>';
+					console.log('> rows > ', hc.qDataPages[0].qMatrix.length);
 					for ( var r = 0; r < hc.qDataPages[0].qMatrix.length; r++ ) {
 						table += '<tr>';
 						for ( var c = 0; c < hc.qDataPages[0].qMatrix[r].length; c++ ) {
@@ -54,11 +63,12 @@ define( [
 					}
 					table += '</tbody>';
 					table += '</table>';
-					$element.append( table );
+					$container.append( table );
 				}
 
 				function htmlInjectArray () {
 
+					ensureContainer();
 					// Default rendering with HTML injection
 
 					var table = [];
@@ -75,6 +85,7 @@ define( [
 					table.push('</tr>');
 					table.push('</thead>');
 
+					console.log('> rows > ', hc.qDataPages[0].qMatrix.length);
 					table.push('<tbody>');
 					for ( var r = 0; r < hc.qDataPages[0].qMatrix.length; r++ ) {
 						table.push('<tr>');
@@ -87,10 +98,12 @@ define( [
 					}
 					table.push('</tbody>');
 					table.push('</table>');
-					$element.append(table.join(''));
+					$container.append(table.join(''));
 				}
 
 				function domCreation () {
+
+					ensureContainer();
 
 					var $table = $( document.createElement( 'table' ) );
 
@@ -107,9 +120,8 @@ define( [
 					$thead.append( $trThead );
 					$table.append( $thead );
 
-
+					console.log('> rows > ', hc.qDataPages[0].qMatrix.length);
 					var $tbody = $( document.createElement( 'tbody' ) );
-
 					for (var r = 0; r < hc.qDataPages[0].qMatrix.length; r++) {
 						var $tr = $(document.createElement('tr'));
 						for (var c = 0; c < hc.qDataPages[0].qMatrix[r].length; c++) {
@@ -121,18 +133,57 @@ define( [
 
 
 					$table.append($tbody);
-					$element.append( $table );
+					$container.append( $table );
 
 				}
 
+				// Immediately appending
+				function domCreation2 () {
+
+					ensureContainer();
+					var $table = $( document.createElement( 'table' ) );
+					$container.append( $table );
+
+					var $thead = $( document.createElement( 'thead' ) );
+					$table.append($thead);
+
+					var $trThead = $( document.createElement( 'tr' ) );
+					$thead.append($trThead);
+
+					for ( var i = 0; i < hc.qDimensionInfo.length; i++ ) {
+						var $th = $( document.createElement( 'th' ) ).html( hc.qDimensionInfo[i].qFallbackTitle );
+						$trThead.append( $th );
+					}
+					for ( var i = 0; i < hc.qMeasureInfo.length; i++ ) {
+						var $th = $( document.createElement( 'th' ) ).html(hc.qMeasureInfo[i].qFallbackTitle);
+						$trThead.append( $th );
+					}
+
+					console.log('> rows > ', hc.qDataPages[0].qMatrix.length);
+					var $tbody = $( document.createElement( 'tbody' ) );
+					$table.append($tbody);
+					for (var r = 0; r < hc.qDataPages[0].qMatrix.length; r++) {
+						var $tr = $(document.createElement('tr'));
+						for (var c = 0; c < hc.qDataPages[0].qMatrix[r].length; c++) {
+							var $td = $(document.createElement('td') ).html(hc.qDataPages[0].qMatrix[r][c].qText);
+							$tr.append($td);
+						}
+						$tbody.append($tr);
+					}
+				}
+
+				console.clear();
 				$element.empty();
-				perf( 'htmlInject', htmlInject );
+				perfTest( 'htmlInject - string concatenation', htmlInject );
 
 				$element.empty();
-				perf( 'htmlInjectArray', htmlInjectArray );
+				perfTest( 'htmlInjectArray - string array', htmlInjectArray );
 
 				$element.empty();
-				perf( 'domCreation', domCreation );
+				perfTest( 'Using createElement & append at the end', domCreation );
+
+				$element.empty();
+				perfTest( 'Using createElement and append immediately', domCreation2 );
 
 			}
 		};
