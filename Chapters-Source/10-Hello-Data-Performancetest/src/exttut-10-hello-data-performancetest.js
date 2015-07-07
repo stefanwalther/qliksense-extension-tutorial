@@ -27,12 +27,12 @@ define( [
 
 				var $container;
 
-				function ensureContainer() {
-					$container = $(document.createElement('div') ).addClass('divContainer');
-					$element.append($container);
+				function ensureContainer () {
+					$container = $( document.createElement( 'div' ) ).addClass( 'divContainer' );
+					$element.append( $container );
 				}
 
-				function htmlInject () {
+				function tableHtmlInject () {
 
 					ensureContainer();
 					// Default rendering with HTML injection
@@ -51,7 +51,6 @@ define( [
 					table += '</thead>';
 
 					table += '<tbody>';
-					console.log('> rows > ', hc.qDataPages[0].qMatrix.length);
 					for ( var r = 0; r < hc.qDataPages[0].qMatrix.length; r++ ) {
 						table += '<tr>';
 						for ( var c = 0; c < hc.qDataPages[0].qMatrix[r].length; c++ ) {
@@ -66,42 +65,41 @@ define( [
 					$container.append( table );
 				}
 
-				function htmlInjectArray () {
+				function tableHtmlInjectArray () {
 
 					ensureContainer();
 					// Default rendering with HTML injection
 
 					var table = [];
-					table.push('<table border="1">');
+					table.push( '<table border="1">' );
 
-					table.push('<thead>');
-					table.push('<tr>');
+					table.push( '<thead>' );
+					table.push( '<tr>' );
 					for ( var i = 0; i < hc.qDimensionInfo.length; i++ ) {
-						table.push('<th>' + hc.qDimensionInfo[i].qFallbackTitle + '</th>');
+						table.push( '<th>' + hc.qDimensionInfo[i].qFallbackTitle + '</th>' );
 					}
 					for ( var i = 0; i < hc.qMeasureInfo.length; i++ ) {
-						table.push('<th>' + hc.qMeasureInfo[i].qFallbackTitle + '</th>');
+						table.push( '<th>' + hc.qMeasureInfo[i].qFallbackTitle + '</th>' );
 					}
-					table.push('</tr>');
-					table.push('</thead>');
+					table.push( '</tr>' );
+					table.push( '</thead>' );
 
-					console.log('> rows > ', hc.qDataPages[0].qMatrix.length);
-					table.push('<tbody>');
+					table.push( '<tbody>' );
 					for ( var r = 0; r < hc.qDataPages[0].qMatrix.length; r++ ) {
-						table.push('<tr>');
+						table.push( '<tr>' );
 						for ( var c = 0; c < hc.qDataPages[0].qMatrix[r].length; c++ ) {
-							table.push('<td>');
-							table.push(hc.qDataPages[0].qMatrix[r][c].qText);
-							table.push('</td>');
+							table.push( '<td>' );
+							table.push( hc.qDataPages[0].qMatrix[r][c].qText );
+							table.push( '</td>' );
 						}
-						table.push('</tr>');
+						table.push( '</tr>' );
 					}
-					table.push('</tbody>');
-					table.push('</table>');
-					$container.append(table.join(''));
+					table.push( '</tbody>' );
+					table.push( '</table>' );
+					$container.append( table.join( '' ) );
 				}
 
-				function domCreation () {
+				function tableDomCreation () {
 
 					ensureContainer();
 
@@ -114,76 +112,75 @@ define( [
 						$trThead.append( $th );
 					}
 					for ( var i = 0; i < hc.qMeasureInfo.length; i++ ) {
-						var $th = $( document.createElement( 'th' ) ).html(hc.qMeasureInfo[i].qFallbackTitle);
+						var $th = $( document.createElement( 'th' ) ).html( hc.qMeasureInfo[i].qFallbackTitle );
 						$trThead.append( $th );
 					}
 					$thead.append( $trThead );
 					$table.append( $thead );
 
-					console.log('> rows > ', hc.qDataPages[0].qMatrix.length);
 					var $tbody = $( document.createElement( 'tbody' ) );
-					for (var r = 0; r < hc.qDataPages[0].qMatrix.length; r++) {
-						var $tr = $(document.createElement('tr'));
-						for (var c = 0; c < hc.qDataPages[0].qMatrix[r].length; c++) {
-							var $td = $(document.createElement('td') ).html(hc.qDataPages[0].qMatrix[r][c].qText);
-							$tr.append($td);
+					for ( var r = 0; r < hc.qDataPages[0].qMatrix.length; r++ ) {
+						var $tr = $( document.createElement( 'tr' ) );
+						for ( var c = 0; c < hc.qDataPages[0].qMatrix[r].length; c++ ) {
+							var $td = $( document.createElement( 'td' ) ).html( hc.qDataPages[0].qMatrix[r][c].qText );
+							$tr.append( $td );
 						}
-						$tbody.append($tr);
+						$tbody.append( $tr );
 					}
 
-
-					$table.append($tbody);
+					$table.append( $tbody );
 					$container.append( $table );
 
 				}
 
 				// Immediately appending
-				function domCreation2 () {
+				function tableDomCreationImmediately () {
 
 					ensureContainer();
 					var $table = $( document.createElement( 'table' ) );
 					$container.append( $table );
 
 					var $thead = $( document.createElement( 'thead' ) );
-					$table.append($thead);
+					$table.append( $thead );
 
 					var $trThead = $( document.createElement( 'tr' ) );
-					$thead.append($trThead);
+					$thead.append( $trThead );
 
 					for ( var i = 0; i < hc.qDimensionInfo.length; i++ ) {
 						var $th = $( document.createElement( 'th' ) ).html( hc.qDimensionInfo[i].qFallbackTitle );
 						$trThead.append( $th );
 					}
 					for ( var i = 0; i < hc.qMeasureInfo.length; i++ ) {
-						var $th = $( document.createElement( 'th' ) ).html(hc.qMeasureInfo[i].qFallbackTitle);
+						var $th = $( document.createElement( 'th' ) ).html( hc.qMeasureInfo[i].qFallbackTitle );
 						$trThead.append( $th );
 					}
 
-					console.log('> rows > ', hc.qDataPages[0].qMatrix.length);
 					var $tbody = $( document.createElement( 'tbody' ) );
-					$table.append($tbody);
-					for (var r = 0; r < hc.qDataPages[0].qMatrix.length; r++) {
-						var $tr = $(document.createElement('tr'));
-						for (var c = 0; c < hc.qDataPages[0].qMatrix[r].length; c++) {
-							var $td = $(document.createElement('td') ).html(hc.qDataPages[0].qMatrix[r][c].qText);
-							$tr.append($td);
+					$table.append( $tbody );
+					for ( var r = 0; r < hc.qDataPages[0].qMatrix.length; r++ ) {
+						var $tr = $( document.createElement( 'tr' ) );
+						for ( var c = 0; c < hc.qDataPages[0].qMatrix[r].length; c++ ) {
+							var $td = $( document.createElement( 'td' ) ).html( hc.qDataPages[0].qMatrix[r][c].qText );
+							$tr.append( $td );
 						}
-						$tbody.append($tr);
+						$tbody.append( $tr );
 					}
 				}
 
 				console.clear();
+				console.group( 'Tables' );
 				$element.empty();
-				perfTest( 'htmlInject - string concatenation', htmlInject );
+				perfTest( 'htmlInject - string concatenation', tableHtmlInject );
 
 				$element.empty();
-				perfTest( 'htmlInjectArray - string array', htmlInjectArray );
+				perfTest( 'htmlInjectArray - string array', tableHtmlInjectArray );
 
 				$element.empty();
-				perfTest( 'Using createElement & append at the end', domCreation );
+				perfTest( 'Using createElement & append at the end', tableDomCreation );
 
 				$element.empty();
-				perfTest( 'Using createElement and append immediately', domCreation2 );
+				perfTest( 'Using createElement and append immediately', tableDomCreationImmediately );
+				console.groupEnd();
 
 			}
 		};
