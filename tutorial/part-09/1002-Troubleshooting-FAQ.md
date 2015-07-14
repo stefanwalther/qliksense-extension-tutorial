@@ -51,7 +51,7 @@ If you want to **completely disable browser caching** e.g. in Chrome you can con
 
 
 ---
-**Qlik Sense Visualization Extension Tutorial**, Version 0.9.0<br/>
+**Qlik Sense Visualization Extension Tutorial**, Version 0.11.1<br/>
 
 
 [Overview of all chapters](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)
