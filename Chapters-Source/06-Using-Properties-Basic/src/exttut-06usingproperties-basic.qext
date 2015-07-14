@@ -1,9 +1,0 @@
-{
-	"name" : "06 Using Properties - Basic",
-	"description" : "Basic example of using built-in properties.",
-	"icon" : "extension",
-	"type" : "visualization",
-	"version": "@@version",
-	"preview" : "06usingproperties-basic.png",
-	"author": "Stefan Walther"
-}

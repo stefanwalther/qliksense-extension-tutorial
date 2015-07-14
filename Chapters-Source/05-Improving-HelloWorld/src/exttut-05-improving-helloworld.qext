@@ -1,9 +1,0 @@
-{
-  "name": "ExtTut-05-Improving-HelloWorld",
-  "description": "Extension tutorial, chapter 5, improving \"Hello World\".",
-  "icon": "extension",
-  "type": "visualization",
-  "version": "0.1",
-  "author": "Stefan Walther",
-  "preview": "ImprovedHelloWorld.png"
-}

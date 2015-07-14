@@ -1,8 +1,0 @@
-# -------------------------------------------------------------------
-# General replacements
-# ---
-# Add variables here which should be replaced in the release task
-#
-# In your code just use e.g @@isDebug
-# -------------------------------------------------------------------
-isDebug: false

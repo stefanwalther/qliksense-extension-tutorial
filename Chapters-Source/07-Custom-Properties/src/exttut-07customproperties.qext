@@ -1,9 +1,0 @@
-{
-	"name" : "07 Custom Properties",
-	"description" : "Examples how to use custom properties.",
-	"icon" : "extension",
-	"type" : "visualization",
-	"version": "@@version",
-	"preview" : "07customproperties.png",
-	"author": "Stefan Walther"
-}
