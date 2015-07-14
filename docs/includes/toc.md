@@ -59,8 +59,8 @@
 * [01 Two Approaches, the "Classic" One & the Angular Way]({{config.baseUrl}}part-02/01-Two-approaches-classic-one-and-the-angular-way.md)
 * 02 The Angular Way: Basics
 * 03 The Angular Way: Directives
-* 04 The Angular Way: Filter
-* 05 The Angular Way: Services
+* 04 The Angular Way: Services
+* 05 The Angular Way: Filter
 * [06 The Angular Way: Events]({{config.baseUrl}}part-02/06-The-Angular-Way--Events.md)
 * 07 The Angular Way: Bringing all together
 * [08 The Angular Way: Summary and Why using AngularJS]({{config.baseUrl}}part-02/08-The-Angular-Way-Summary-and-Why.md)
