@@ -63,13 +63,14 @@
 
 	
 ## Part II: Qlik Sense Visualization Extensions & AngularJS
-* 01 Two Approaches, the "Classic" One & the Angular Way
+* [01 Two Approaches, the "Classic" One & the Angular Way](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-02/01-Two-approaches-classic-one-and-the-angular-way.md)
 * 02 The Angular Way: Basics
 * 03 The Angular Way: Directives
 * 04 The Angular Way: Filter
 * 05 The Angular Way: Services
-* [06 The Angular Way: Events](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-02/NG06-The-Angular-Way--Events.md)
+* [06 The Angular Way: Events](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-02/06-The-Angular-Way--Events.md)
 * 07 The Angular Way: Bringing all together
+* [08 The Angular Way: Summary and Why using AngularJS](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-02/08-The-Angular-Way-Summary-and-Why.md)
 * 08 Testing AngularJS based visualization extensions
 
 

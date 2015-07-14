@@ -1,5 +1,12 @@
+v0.11.0:
+  date: "2015-07-14"
+  enhancements:
+    - Extended FAQ
+    - Reorganized source code
+    - "Finished Part II / Chapter 01: 'Two Approaches, the Classic One & the Angular Way'"
+    - "Finished Part II / Chapter 08: 'The AngularJS Way: Summary and Why Using AngularJS'"
 v0.10.1:
-  date: "1015-07-07"
+  date: "2015-07-07"
   enhancements:
     - Fix typo in chapter 09 (#2)
 v0.10.0:

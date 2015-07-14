@@ -65,4 +65,4 @@ If you have a look at some of the published example in the online help, you'll f
 With Qlik Sense 2.1 a new 
 
 ### Surprise
-While writing this chapter I did some research on the performance of several
+While writing this chapter I did some research on the performance of several approaches how to modify existing web pages.
