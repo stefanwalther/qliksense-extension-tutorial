@@ -1,0 +1,9 @@
+{
+	"name" : "exttut-04-Debugging",
+	"description" : "Sample code for chapter 04",
+	"icon" : "",
+	"type" : "visualization",
+	"version": "@@version",
+	"preview" : "exttut-04-debugging.png",
+	"author": "Stefan Walther"
+}

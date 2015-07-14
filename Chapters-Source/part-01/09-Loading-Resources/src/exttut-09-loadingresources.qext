@@ -1,0 +1,9 @@
+{
+	"name" : "09 - Loading Resources",
+	"description" : "Examples how to load several kinds of resources in a Qlik Sense visualization extension.",
+	"icon" : "extension",
+	"type" : "visualization",
+	"version": "@@version",
+	"preview" : "09-loadingresources.png",
+	"author": "Stefan Walther"
+}

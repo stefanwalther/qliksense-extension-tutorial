@@ -1,0 +1,38 @@
+# -------------------------------------------------------------------
+# General Settings
+general:
+  LocalExtensionPath: "d:\\Documents\\Qlik\\Sense\\Extensions"
+  ExtensionName: "ExtTut-05-Improving-HelloWorld"
+  ExtensionNameSafe: "ExtTut-05-Improving-HelloWorld"
+  ExtensionNamespace: "swr-"
+  Version:            '0.0.1'
+
+# -------------------------------------------------------------------
+# Settings for the Dev build
+dev:
+  less:
+    lessCompress: false
+    lessYuiCompress: false
+    lessCleanCss: false
+    lessOptimization: 2
+  uglify:
+    mangle: false
+    drop_console: false
+    beautify: true
+    preserveCommments: true
+    compress: false
+
+# -------------------------------------------------------------------
+# Settings for the Release build
+release:
+  less:
+    lessCompress: true
+    lessYuiCompress: true
+    lessCleanCss: true
+    lessOptimization: 2
+  uglify:
+    mangle: true
+    drop_console: true
+    beautify: false
+    preserveCommments: false
+    compress: true
