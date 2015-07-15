@@ -3,6 +3,7 @@ options:
   defaultLayout: 'default'
 data:
     - './lib/data/config.yml'
+    - './../package.json'
 images:
   src: './../docs/**/*.png'
   target: './../tutorial/'

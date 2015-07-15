@@ -37,7 +37,7 @@ All code samples in this tutorial are available on GitHub. At the beginning and 
 
 
 ---
-**Qlik Sense Visualization Extension Tutorial**, Version <br/>
+**Qlik Sense Visualization Extension Tutorial**, Version 0.12.3<br/>
 Last update: 2015-05-29<br/>
 
 [Overview of all chapters](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)
