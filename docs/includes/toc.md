@@ -57,7 +57,7 @@
 	
 ## Part II: Qlik Sense Visualization Extensions & AngularJS
 * [01 Two Approaches, the "Classic" One & the Angular Way]({{config.baseUrl}}part-02/01-Two-approaches-classic-one-and-the-angular-way.md)
-* 02 The Angular Way: Basics
+* [02 The Angular Way: Basics]({{config.baseUrl}}part-02/02-The-Angular-Way--Basics.md)
 * 03 The Angular Way: Directives
 * 04 The Angular Way: Services
 * 05 The Angular Way: Filter

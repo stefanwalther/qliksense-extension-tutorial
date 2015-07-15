@@ -4,6 +4,7 @@
 
 - [What is a .wbl file](#what-is-a-wbl-file)
 - [Changes made in a visualization extension are not reflected](#changes-made-in-a-visualization-extension-are-not-reflected)
+- [10,000 cells limitation](#10-000-cells-limitation)
 
 <!-- tocstop -->
 
@@ -47,11 +48,14 @@ If you want to **completely disable browser caching** e.g. in Chrome you can con
 
 ![](../faq/images/changes-not-reflected_DevToolsSettings.png)  
 
+## 10,000 cells limitation
+* 
+
 --- 
 
 
 ---
-**Qlik Sense Visualization Extension Tutorial**, Version 0.11.1<br/>
+**Qlik Sense Visualization Extension Tutorial**, Version <br/>
 
 
 [Overview of all chapters](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)

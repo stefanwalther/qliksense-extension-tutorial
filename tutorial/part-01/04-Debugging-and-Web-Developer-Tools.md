@@ -141,7 +141,7 @@ Read more on:
 > Very similar to the advice above regarding `console.x()`, do not forget to remove `debugger;` statements if you move your visualization extension to production environment.
   
 ---
-**Qlik Sense Visualization Extension Tutorial**, Version 0.11.1<br/>
+**Qlik Sense Visualization Extension Tutorial**, Version <br/>
 Last update: 2015-05-29<br/>
 
 [Overview of all chapters](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)
