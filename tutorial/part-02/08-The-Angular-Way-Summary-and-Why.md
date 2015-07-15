@@ -21,6 +21,7 @@ Here are some reasons why I have fully adopted this approach:
 ## Learn by examples
 Much better than any tutorial is to review existing solutions and their code, here's a collection of visualization extensions using the AngularJS approach:
 
+* [AngularChart: Official AngularJS example of the Qlik Sense developer help](http://help.qlik.com/sense/2.0/en-us/developer/Subsystems/Extensions/Content/Examples/angular-chart-extension-example.htm)
 * [sense-on-off-switch](https://github.com/stefanwalther/sense-on-off-switch)
 * [sense-media-box](https://github.com/stefanwalther/sense-media-box)
 * [sense-themable-kpi-tile](https://github.com/stefanwalther/sense-themable-kpi-tile)

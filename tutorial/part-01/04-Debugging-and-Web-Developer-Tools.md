@@ -39,7 +39,7 @@ It is not in contradiction to using Qlik Sense Desktop to develop your visualiza
 Even when developing using Qlik Sense Desktop you can use your favorite browser for debugging purposes at the same time:
 
 1. Open Qlik Sense Desktop (and leave it opened)
-2. Open your favorite browser and open `http://localhost:4848`
+2. Open your favorite browser and open `http://localhost:4848/hub`
 
 You'll see Qlik Sense' Hub and can open your browser's developer tools (most of the time by pressing `F12`).
 

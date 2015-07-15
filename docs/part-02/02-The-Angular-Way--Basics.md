@@ -53,6 +53,7 @@ The following cannot be done when developing a Qlik Sense visualization extensio
 
 * Loading and re-using entire AngularJS **modules** or **factories**  
 (You will have to modify them to work as directives or services)
+* Using AngularJS constants
 * Bootstrapping the application
 
 ## Let's get started

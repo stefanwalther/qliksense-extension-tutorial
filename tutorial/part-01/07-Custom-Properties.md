@@ -328,9 +328,9 @@ return {
 
 ## Adding a custom section
 
-So fare we have
-- added custom items to the built-in section "appearance"
-- added a new section header to the built-in section "appearance"
+Until now we have
+* added custom items to the built-in section "appearance"
+* added a new section header to the built-in section "appearance"
 
 But we haven't covered so far how to create a new accordion section, so let's create one:
 
@@ -348,7 +348,7 @@ var header1_item1 = {
 ...
 
 // Define a custom section
-myCustomSection = {
+var myCustomSection = {
 	// not necessary to define the type, component "expandable-items" will automatically
 	// default to "items"
 	// type: "items"

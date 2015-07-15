@@ -40,8 +40,6 @@ If you have a look at the property panel accordion you'll recognize that propert
 As already mentioned in the previous chapter, properties can be added by defining them in the `definition` property of the extension's JavaScript file:
 
 
-
-
 ## Built-in vs. custom properties
 There are two main approaches how you can define properties:
 
@@ -166,6 +164,8 @@ As we have now defined some properties to use in our extension, let's have a loo
 We haven't covered this so far: A second parameter called `layout` will be passed to the `paint` method, which includes the current scope the extension object, also "holding" the properties we have defined.
 
 ```javascript
+// Make sure to add some dimensions and measures to your extension first
+// (This will give you a better picture what layout can contain ...)
 paint: function ( $element, layout ) {
 
 	console.info('paint >> layout >> ', layout);
