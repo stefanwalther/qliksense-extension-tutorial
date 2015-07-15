@@ -1,5 +1,5 @@
 {
-"name": "qliksense-extension-tutorial",
+  "name": "qliksense-extension-tutorial",
   "version": "0.12.1",
   "description": "Comprehensive tutorial to start developing Qlik Sense Extensions.",
   "main": "-",
