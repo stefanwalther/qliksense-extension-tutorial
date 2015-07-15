@@ -1,4 +1,3 @@
-/*global define*/
 define( [], function () {
     'use strict';
     return {
@@ -7,7 +6,7 @@ define( [], function () {
             qMeasures: [],
             qInitialDataFetch: [
                 {
-                    qWidth: 2,
+                    qWidth: 10,
                     qHeight: 50
                 }
             ]

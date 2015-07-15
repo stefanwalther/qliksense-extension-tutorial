@@ -1,0 +1,19 @@
+<div qv-extension>
+	<b ng-bind="myTitle" />
+
+	<table border="1">
+		<thead>
+		<tr>
+			<th ng-repeat="dim in layout.qHyperCube.qDimensionInfo" ng-bind="dim.qFallbackTitle" />
+			<th ng-repeat="mea in layout.qHyperCube.qMeasureInfo" ng-bind="mea.qFallbackTitle" />
+		</tr>
+		</thead>
+		<tbody>
+		<tr ng-repeat="row in layout.qHyperCube.qDataPages[0].qMatrix">
+			<td ng-repeat="col in row">
+				{{col.qText}}
+			</td>
+		</tr>
+		</tbody>
+	</table>
+</div>

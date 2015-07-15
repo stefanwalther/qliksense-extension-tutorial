@@ -1,9 +1,9 @@
 {
-	"name" : "10-AngularJS-Basics",
+	"name" : "02-AngularJS-Basics",
 	"description" : "Basic usage of AngularJS in visualization extensions",
 	"icon" : "extension",
 	"type" : "visualization",
 	"version": "@@version",
-	"preview" : "10-angularjs-basics.png",
+	"preview" : "02-angularjs-basics.png",
 	"author": "Stefan Walther"
 }
