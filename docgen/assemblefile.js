@@ -30,6 +30,10 @@ var toc = require( 'template-toc' );
 // Config file
 // ****************************************************************************************
 var cfg = yaml.load( fs.readFileSync( path.join( __dirname, './assemble-config.yml' ), 'utf-8' ) );
+
+var packageCfg = JSON.parse(fs.readFileSync( './../package.json'));
+cfg.version = packageCfg.version;
+
 assemble.data( cfg.data );
 
 // ****************************************************************************************
