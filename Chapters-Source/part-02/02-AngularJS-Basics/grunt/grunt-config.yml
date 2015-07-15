@@ -6,10 +6,10 @@ general:
   LocalExtensionPath:   "d:\\documents\\Qlik\\Sense\\Extensions"
 
   # Name of the Extension as defined in the generator
-  ExtensionName:        "10-AngularJS-Basics"
+  ExtensionName:        "02-AngularJS-Basics"
 
   # Name of the Extension, safe to be used for file-names
-  ExtensionNameSafe:    "10-AngularJS-Basics"
+  ExtensionNameSafe:    "02-AngularJS-Basics"
 
   # Namespace
   ExtensionNamespace:   "exttut-"

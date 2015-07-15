@@ -1,4 +1,4 @@
-# 10-AngularJS-Basics
+# 01-AngularJS-Basics
 > Basic usage of AngularJS in visualization extensions
 
 ## Purpose and Description
