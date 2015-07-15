@@ -26,6 +26,6 @@ Loop:
 * {{faq "changes-not-reflected"}}
 
 ## 10,000 cells limitation
-* {{faq "10000-cells-limiation"}}
+* {{faq "10000-cells-limitation"}}
 
 --- 
