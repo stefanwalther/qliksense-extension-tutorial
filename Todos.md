@@ -7,6 +7,8 @@
 	- git add
 	- ideally change lastUpdate programmatically
 	- rss to tutorial files?
+- Assemble
+	- find a good solution for co-authors
 
 ## Content
 - Redo some of the screenshots (especially in the custom properties section)

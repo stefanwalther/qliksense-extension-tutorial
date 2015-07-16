@@ -55,7 +55,7 @@ If you want to follow changes, follow the [Change Log](CHANGELOG.yml).
 * [qliksite.io](http://qliksite.io)
 
 Thx for contributing:
-* @mcgovey
+* [mcgovey](https://github.com/mcgovey)
 
 ## License
 
