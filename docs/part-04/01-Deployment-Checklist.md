@@ -1,6 +1,7 @@
 ---
 title: Deployment Checklist
-draft: true
+lastUpdate: "2015-07-17"
+draft: false
 ---
 
 **Table of Contents**
