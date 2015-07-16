@@ -92,7 +92,7 @@
 * XX Talking to the Repository API
 
 ## Part IV: Deployment of Qlik Sense Visualization Extensions
-* [Deployment checklist]({{baseUrl}}part-04/01-Deployment-Checklist.md)
+* [Deployment checklist]({{config.baseUrl}}part-04/01-Deployment-Checklist.md)
 * XX Setting up a Robust Development Environment
 	* Using Less
 	* Automatically deploy and zip

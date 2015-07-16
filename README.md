@@ -116,7 +116,7 @@ These are the chapters I am about to write ... and some of them are already fini
 * XX Talking to the Repository API
 
 ## Part IV: Deployment of Qlik Sense Visualization Extensions
-* [Deployment checklist](part-04/01-Deployment-Checklist.md)
+* [Deployment checklist](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-04/01-Deployment-Checklist.md)
 * XX Setting up a Robust Development Environment
 	* Using Less
 	* Automatically deploy and zip
