@@ -30,7 +30,7 @@ Much better than any tutorial is to review existing solutions and their code, he
 * [sense-qr-code](https://github.com/stefanwalther/sense-qr-code)
 
 ---
-**Qlik Sense Visualization Extension Tutorial**, Version 0.12.4<br/>
+**Qlik Sense Visualization Extension Tutorial**, Version 0.12.5<br/>
 
 
 [Overview of all chapters](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)
