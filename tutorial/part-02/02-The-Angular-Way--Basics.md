@@ -79,7 +79,7 @@ define( [
 			definition: {},
 			initialProperties: {},
 			snapshot: {canTakeSnapshot: true},
-			template: '<div qv-extension>This is my message: <b></b></div>',
+			template: '<div qv-extension>This is my message: <b>{{msg}}</b></div>',
 			controller: ['$scope', function ( $scope ) {
 				$scope.msg = 'Hello AngularJS';
 			}]
@@ -102,7 +102,7 @@ By moving the template to a separate file, maintaining the HTML code becomes muc
 (file: `template.ng.html`, located in the same folder as your main script file)
 ```html
 <div qv-extension>
-	This is my message: <br/>
+	This is my message: {{msg}}<br/>
 	or<br/>
 	This is my message: <span ng-bind="msg"></span>
 </div>
@@ -200,7 +200,7 @@ define( [], function () {
 		<tbody>
 		<tr ng-repeat="row in layout.qHyperCube.qDataPages[0].qMatrix">
 			<td ng-repeat="col in row">
-				
+				{{col.qText}}
 			</td>
 		</tr>
 		</tbody>
