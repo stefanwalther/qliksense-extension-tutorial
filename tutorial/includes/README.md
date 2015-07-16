@@ -187,6 +187,8 @@ If you want to follow changes, follow the [Change Log](CHANGELOG.yml).
 * [twitter.com/waltherstefan](http://twitter.com/waltherstefan)
 * [qliksite.io](http://qliksite.io)
 
+{% var authors = authors || [author] %} {% if (authors) { authors.forEach(function(author) { print('\n' + include("author", {author: author}) + '\n'); }); } %}
+
 ## License
 
 This tutorial is made available "AS IS" without any warranty of any kind under the MIT License (MIT).
