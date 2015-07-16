@@ -2,6 +2,7 @@ v0.12.1.6:
   date: "2015-07-16"
   enhancements:
     - "Pull request #4 ('Fix naming error' in part-01/05-Improving-the-Hello-World-Experience.md), thx @mcgovey"
+    - Added first version of a deployment checklist
 v0.12.1-5:
   date: "2015-07-15"
   enhancements:
