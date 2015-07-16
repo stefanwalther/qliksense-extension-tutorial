@@ -54,7 +54,8 @@ If you want to follow changes, follow the [Change Log](CHANGELOG.yml).
 * [twitter.com/waltherstefan](http://twitter.com/waltherstefan)
 * [qliksite.io](http://qliksite.io)
 
-{% var authors = authors || [author] %} {% if (authors) { authors.forEach(function(author) { print('\n' + include("author", {author: author}) + '\n'); }); } %}
+Thx for contributing:
+* @mcgovey
 
 ## License
 
