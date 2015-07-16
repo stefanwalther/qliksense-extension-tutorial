@@ -134,7 +134,7 @@ we make it dynamic by using `layout.myDynamicOutput`
 ```javascript
 $element.empty();
 var $helloWorld = $( document.createElement( 'div' ) );
-$helloWorld.html( layout.myDynamicOutput );
+$helloWorld.html( layout.myDynamicProperty );
 $element.append( $helloWorld );
 ```
 
@@ -166,7 +166,7 @@ Congrats, you have now created an **improved version** of your "Hello World" exa
 
 
 ---
-**Qlik Sense Visualization Extension Tutorial**, Version 0.12.5<br/>
+**Qlik Sense Visualization Extension Tutorial**, Version 0.12.6<br/>
 Last update: 2015-05-29<br/>
 
 [Overview of all chapters](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)

@@ -9,7 +9,7 @@
 	* [What's New in Qlik Sense 1.1] (2011-Appendix-Whats-New-in-Qlik-Sense-1.1.md)
 
 ---
-**Qlik Sense Visualization Extension Tutorial**, Version 0.12.5<br/>
+**Qlik Sense Visualization Extension Tutorial**, Version 0.12.6<br/>
 Last update: 2015-05-29<br/>
 
 [Overview of all chapters](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)

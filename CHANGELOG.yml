@@ -1,4 +1,8 @@
-v0.12.x:
+v0.12.1.6:
+  date: "2015-07-16"
+  enhancements:
+    - "Pull request #4 ('Fix naming error' in part-01/05-Improving-the-Hello-World-Experience.md), thx @mcgovey"
+v0.12.1-5:
   date: "2015-07-15"
   enhancements:
     - "Added FAQ: 10,000 cells limitation"
