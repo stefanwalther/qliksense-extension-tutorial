@@ -3,7 +3,7 @@
 # Qlik Sense Extension Tutorial
 > A comprehensive tutorial how to create Qlik Sense Visualization Extensions
 
-![](http://serve.mod.biz/branch/)
+![](http://serve.mod.bz/branch/)
 
 ---
 
