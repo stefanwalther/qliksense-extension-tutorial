@@ -7,7 +7,7 @@ layout: raw
 # Qlik Sense Extension Tutorial
 > A comprehensive tutorial how to create Qlik Sense Visualization Extensions
 
-[![](http://serve.mod.biz/branch/)](https://github.com/stefanwalther/qliksense-extension-tutorial)
+[![](http://serve.mod.bz/branch/)](https://github.com/stefanwalther/qliksense-extension-tutorial)
 
 ---
 
