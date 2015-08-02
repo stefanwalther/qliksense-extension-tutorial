@@ -101,6 +101,22 @@ The `description` is visible in the preview:
 
 {{image "images/03/03_icon.png"}}
 
+The following values are possible for setting the icon:
+
+* `extension`
+* `bar-chart-vertical`
+* `line-chart`
+* `pie-chart`
+* `gauge-chart`
+* `scatter-chart`
+* `text-image`
+* `table`
+* `list`
+* `filterpane`
+* `treemap`
+
+You can find more about the `icon` property in the [official documentation](http://help.qlik.com/sense/2.0/en-us/developer/Subsystems/Extensions/Content/Overview/qext-file-overview.htm).
+
 ### `type`
 
 Defines the type of the extension, should be always `visualization` as of now.

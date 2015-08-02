@@ -114,6 +114,22 @@ The `description` is visible in the preview:
 
 ![](images/03/03_icon.png)  
 
+The following values are possible for setting the icon:
+
+* `extension`
+* `bar-chart-vertical`
+* `line-chart`
+* `pie-chart`
+* `gauge-chart`
+* `scatter-chart`
+* `text-image`
+* `table`
+* `list`
+* `filterpane`
+* `treemap`
+
+You can find more about the `icon` property in the [official documentation](http://help.qlik.com/sense/2.0/en-us/developer/Subsystems/Extensions/Content/Overview/qext-file-overview.htm).
+
 ### `type`
 
 Defines the type of the extension, should be always `visualization` as of now.
@@ -262,7 +278,7 @@ I leave it to you whether you decide to go with better performance or better rea
 
 
 ---
-**Qlik Sense Visualization Extension Tutorial**, Version 0.12.6<br/>
+**Qlik Sense Visualization Extension Tutorial**, Version 0.12.7<br/>
 Last update: 2015-05-29<br/>
 
 [Overview of all chapters](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)
