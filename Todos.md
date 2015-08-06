@@ -12,3 +12,4 @@
 
 ## Content
 - Redo some of the screenshots (especially in the custom properties section)
+- AngularJS filters: http://fdietz.github.io/recipes-with-angular-js//filters/formatting-string-with-currency-filter.html

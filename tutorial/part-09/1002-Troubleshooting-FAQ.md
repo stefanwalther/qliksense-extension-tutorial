@@ -18,7 +18,7 @@ When you save an extension- or mashup project from the editor, a WBL file is aut
 Note: This file is not necessary for using a visualization extension, just in case you have added some files to Workbench and you want to edit those files in Workbench.
 
 If you want to load any existing visualization extension only the main script file + the .qext file will be loaded in Workbench.
-By adding additional file names - seperated by a semicolon and line carriage - to the wbfolder.wbl you can enable also these additonal files to be loaded in Workbench.
+By adding additional file names - separated by a semicolon and line carriage - to the wbfolder.wbl you can enable also these additional files to be loaded in Workbench.
 
 ```text
 my-extension.qext
