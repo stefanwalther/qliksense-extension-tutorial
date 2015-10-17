@@ -134,7 +134,7 @@ we make it dynamic by using `layout.myDynamicOutput`
 ```javascript
 $element.empty();
 var $helloWorld = $( document.createElement( 'div' ) );
-$helloWorld.html( layout.myDynamicProperty );
+$helloWorld.html( layout.myDynamicOutput );
 $element.append( $helloWorld );
 ```
 
