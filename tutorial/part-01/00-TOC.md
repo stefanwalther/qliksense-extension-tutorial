@@ -131,6 +131,7 @@
 ## Part IX: Appendix
 * [Appendix:](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-09/1000-Appendix.md)
 	* [FAQ & Troubleshooting](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-09/1002-Troubleshooting-FAQ.md)
+	* [Allowed Mime Types in Qlik Sense 2.1.1](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-09/1004-Allowed-Mime-Types-2.1.1.md)
 	* branch.qlik.com
 	* Basic Introduction to git & GitHub
 	* How to publish your extension to GitHub & branch.qlik.com
@@ -143,7 +144,7 @@
 	
 
 ---
-**Qlik Sense Visualization Extension Tutorial**, Version 0.12.7<br/>
+**Qlik Sense Visualization Extension Tutorial**, Version 0.12.8<br/>
 Last update: 2015-06-16<br/>
 
 [Overview of all chapters](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)

@@ -35,7 +35,7 @@ Have a look at the following projects to get an idea of how repetitive tasks rel
 * [generator-qsextension](https://github.com/stefanwalther/generator-qsExtension)
 
 ---
-**Qlik Sense Visualization Extension Tutorial**, Version 0.12.7<br/>
+**Qlik Sense Visualization Extension Tutorial**, Version 0.12.8<br/>
 Last update: 2015-07-17<br/>
 
 [Overview of all chapters](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)
