@@ -127,6 +127,7 @@
 ## Part IX: Appendix
 * [Appendix:]({{config.baseUrl}}part-09/1000-Appendix.md)
 	* [FAQ & Troubleshooting]({{config.baseUrl}}part-09/1002-Troubleshooting-FAQ.md)
+	* [Allowed Mime Types in Qlik Sense 2.1.1]({{config.baseUrl}}part-09/1004-Allowed-Mime-Types-2.1.1.md)
 	* branch.qlik.com
 	* Basic Introduction to git & GitHub
 	* How to publish your extension to GitHub & branch.qlik.com

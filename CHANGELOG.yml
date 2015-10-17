@@ -1,5 +1,9 @@
+v0.12.8:
+  date: "2015-10-14"
+  enhancements:
+    - "New: Allowed Mime types in Qlik Sense 2.1.1"
 v0.12.7:
-  date: "2015-08.02"
+  date: "2015-08-02"
   enhancements:
   	- "Clarification which icons can be used in the .qext file"
 v0.12.6:
