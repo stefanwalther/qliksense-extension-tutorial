@@ -1,7 +1,8 @@
-v0.13.0:
+v0.13.2:
   date: "2015-11-02"
   enhancements:
     - "New: What's new in Qlik Sense 2.1.1"
+    - "Fix link back to overview of chapters"
 v0.12.8:
   date: "2015-10-14"
   enhancements:
