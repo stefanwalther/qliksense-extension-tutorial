@@ -139,12 +139,13 @@
 	* Programmatic Deployment of Qlik Sense Extensions
 	* What's New
 		* [What's New in Qlik Sense 1.1](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-09/2011-Appendix-Whats-New-in-Qlik-Sense-1.1.md)
+		* [What's New in Qlik Sense 2.1.1](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-09/2013-Appendix-Whats-New-in-Qlik-Sense-2.1.1.md)
 	* Qlik Sense Extension Related Resources
 	* [Resources](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-09/1001-Appendix-Resources.md)
 	
 
 ---
-**Qlik Sense Visualization Extension Tutorial**, Version 0.12.8<br/>
+**Qlik Sense Visualization Extension Tutorial**, Version 0.13.0<br/>
 Last update: 2015-06-16<br/>
 
 [Overview of all chapters](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)

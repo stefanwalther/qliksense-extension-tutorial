@@ -1,5 +1,5 @@
 ---
-title: Appendix
+title: "Appendix - What's New in Qlik Sense 1.1"
 lastUpdate: "2015-05-29"
 abstract:
 tags:
