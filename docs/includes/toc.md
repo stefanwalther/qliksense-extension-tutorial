@@ -135,6 +135,6 @@
 	* Programmatic Deployment of Qlik Sense Extensions
 	* What's New
 		* [What's New in Qlik Sense 1.1]({{config.baseUrl}}part-09/2011-Appendix-Whats-New-in-Qlik-Sense-1.1.md)
-		* [What's New in Qlik Sense 2.1.1]({{config.baseUrl}}part-09/2013-Appendix-Whats-New-in-Qlik-Sense-2.1.1.md)
+		* [What's New in Qlik Sense 2.1.1]({{config.baseUrl}}part-09/2013-Appendix-Whats-New-in-Qlik-Sense-2.1.1/)
 	* Qlik Sense Extension Related Resources
 	* [Resources]({{config.baseUrl}}part-09/1001-Appendix-Resources.md)

@@ -162,7 +162,7 @@ These are the chapters I am about to write ... and some of them are already fini
 	* Programmatic Deployment of Qlik Sense Extensions
 	* What's New
 		* [What's New in Qlik Sense 1.1](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-09/2011-Appendix-Whats-New-in-Qlik-Sense-1.1.md)
-		* [What's New in Qlik Sense 2.1.1](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-09/2013-Appendix-Whats-New-in-Qlik-Sense-2.1.1.md)
+		* [What's New in Qlik Sense 2.1.1](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-09/2013-Appendix-Whats-New-in-Qlik-Sense-2.1.1/)
 	* Qlik Sense Extension Related Resources
 	* [Resources](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/part-09/1001-Appendix-Resources.md)
 
