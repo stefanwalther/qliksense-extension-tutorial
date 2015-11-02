@@ -25,7 +25,7 @@ Here are some resources I recommend:
 
 
 ---
-**Qlik Sense Visualization Extension Tutorial**, Version 0.13.0<br/>
+**Qlik Sense Visualization Extension Tutorial**, Version 0.13.1<br/>
 Last update: 2015-07-14<br/>
 
 [Overview of all chapters](https://github.com/stefanwalther/qliksense-extension-tutorial/blob/master/tutorial/readme.md)
