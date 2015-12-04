@@ -8,16 +8,16 @@
 
 - [The anatomy of a Qlik Sense extension](#the-anatomy-of-a-qlik-sense-extension)
 - [Skeleton of a script file](#skeleton-of-a-script-file)
-  * [`define`](#-define-)
-  * [`paint`](#-paint-)
+  * [define](#define)
+  * [paint](#paint)
 - [Structure of the .qext file](#structure-of-the-qext-file)
-  * [`name`](#-name-)
-  * [`description`](#-description-)
-  * [`icon`](#-icon-)
-  * [`type`](#-type-)
-  * [`version`](#-version-)
-  * [`preview`](#-preview-)
-  * [`author`](#-author-)
+  * [name](#name)
+  * [description](#description)
+  * [icon](#icon)
+  * [type](#type)
+  * [version](#version)
+  * [preview](#preview)
+  * [author](#author)
 - [Creating the Hello World example](#creating-the-hello-world-example)
   * [Create the Container](#create-the-container)
   * [Create a .qext file](#create-a-qext-file)
@@ -63,11 +63,11 @@ define( [ /* dependencies */ ],
 	} );
 ```
 
-### `define`
+### define
 `define` is a concept introduced by [RequireJS](http://requirejs.org/) to define dependencies in your JavaScript files. The idea is to load external dependencies before your main script gets executed ([read more here](http://requirejs.org/docs/api.html#defsimple)).
 In our example above we do not load any dependencies, but we'll do in further chapters of this tutorial.
 
-### `paint`
+### paint
 `paint` is the main method to render the visualization.
 
 > It will be called every time the visualization should be rendered, either because of new data from the server or because it has been re-sized.
@@ -98,47 +98,51 @@ The basic structure of a .qext file looks as follows:
 >**Hint:**
 > When creating your .qext file you should double-check if this file [meets the requirements of a valid .json file.](http://jsonlint.com/)
   
-### `name`
+### name
 
 The property `name` will be re-used in the list of visualizations and the preview:
 
 ![](images/03/03_name.png)  
 
-### `description`
+### description
 
 The `description` is visible in the preview:
 
 ![](images/03/03_description.png)  
 
-### `icon`
+### icon
 
 ![](images/03/03_icon.png)  
 
 The following values are possible for setting the icon:
 
-* `extension`
 * `bar-chart-vertical`
-* `line-chart`
-* `pie-chart`
-* `gauge-chart`
-* `scatter-chart`
-* `text-image`
-* `table`
-* `list`
+* `combo-chart`
+* `extension`
 * `filterpane`
+* `gauge-chart`
+* `kpi`
+* `line-chart`
+* `list`
+* `map`
+* `pie-chart`
+* `pivot-table`
+* `scatter-chart`
+* `table`
+* `text-image`
 * `treemap`
 
 You can find more about the `icon` property in the [official documentation](http://help.qlik.com/sense/2.0/en-us/developer/Subsystems/Extensions/Content/Overview/qext-file-overview.htm).
 
-### `type`
+### type
 
 Defines the type of the extension, should be always `visualization` as of now.
 
-### `version`
+### version
 
 Define the version of your visualization extension, I recommend to use [Semantic Versioning](http://semver.org/).
 
-### `preview`
+### preview
 
 Qlik Sense for Developers [states](http://help.qlik.com/sense/en-us/developer/#../Subsystems/Workbench/Content/BuildingExtensions/HowTos/Ext_Ex_AddPreviewImage.htm?Highlight=preview):
 
@@ -150,7 +154,7 @@ If you do not define the preview parameter in the qext file, the icon definition
 >**Hint:**
 > If you want to create a preview image, choose width and height of 140px x 123px.
   
-### `author`
+### author
 
 author references the author of the visualization extension, so probably your name.
 Note, as of this is not visible in neither the Qlik Sense Desktop nor Qlik Sense Server, so you can only get information about the author if you open the `.qext` file.
