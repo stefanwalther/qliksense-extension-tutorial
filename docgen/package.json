@@ -40,7 +40,8 @@
     "chai": "^2.3.0"
   },
   "scripts": {
-    "build": "assemble"
+    "build": "assemble",
+    "preinstall": "(npm list assemble -g || npm install git://github.com/assemble/assemble#v0.6.0 && npm list assemble-cli -g) || (npm install assemble/assemble-cli#0.1.1 -g)"
   },
   "author": "Stefan Walther",
   "license": "MIT"
