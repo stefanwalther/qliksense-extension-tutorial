@@ -1,7 +1,7 @@
 {
   "name": "docgen",
   "version": "0.0.2",
-  "description": "",
+  "description": "Generating pages for the sense-extension-tutorial",
   "main": "assemblefile.js",
   "dependencies": {
     "assemble": "git://github.com/assemble/assemble#v0.6.0",
@@ -40,8 +40,8 @@
     "chai": "^2.3.0"
   },
   "scripts": {
-    "test": ""
+    "build": "assemble"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Stefan Walther",
+  "license": "MIT"
 }
