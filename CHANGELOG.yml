@@ -4,6 +4,7 @@ v0.13.3:
     - "Fixing icon list (#9)"
     - "Fixing headers in part01/chapter03 (#10)"
     - "Wrong variable name in part01/chapter05 (#8)"
+    - "Improve readability in part01/chapter01 (#6)"
 v0.13.2:
   date: "2015-11-02"
   enhancements:
