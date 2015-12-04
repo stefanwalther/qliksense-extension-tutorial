@@ -116,16 +116,20 @@ The `description` is visible in the preview:
 
 The following values are possible for setting the icon:
 
-* `extension`
 * `bar-chart-vertical`
-* `line-chart`
-* `pie-chart`
-* `gauge-chart`
-* `scatter-chart`
-* `text-image`
-* `table`
-* `list`
+* `combo-chart`
+* `extension`
 * `filterpane`
+* `gauge-chart`
+* `kpi`
+* `line-chart`
+* `list`
+* `map`
+* `pie-chart`
+* `pivot-table`
+* `scatter-chart`
+* `table`
+* `text-image`
 * `treemap`
 
 You can find more about the `icon` property in the [official documentation](http://help.qlik.com/sense/2.0/en-us/developer/Subsystems/Extensions/Content/Overview/qext-file-overview.htm).
