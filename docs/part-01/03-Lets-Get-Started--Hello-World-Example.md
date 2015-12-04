@@ -49,11 +49,11 @@ define( [ /* dependencies */ ],
 	} );
 ```
 
-### `define`
+### define
 `define` is a concept introduced by [RequireJS](http://requirejs.org/) to define dependencies in your JavaScript files. The idea is to load external dependencies before your main script gets executed ([read more here](http://requirejs.org/docs/api.html#defsimple)).
 In our example above we do not load any dependencies, but we'll do in further chapters of this tutorial.
 
-### `paint`
+### paint
 `paint` is the main method to render the visualization.
 
 > It will be called every time the visualization should be rendered, either because of new data from the server or because it has been re-sized.
@@ -85,19 +85,19 @@ The basic structure of a .qext file looks as follows:
 When creating your .qext file you should double-check if this file [meets the requirements of a valid .json file.](http://jsonlint.com/)
 {{/hint}}
 
-### `name`
+### name
 
 The property `name` will be re-used in the list of visualizations and the preview:
 
 {{image "images/03/03_name.png"}}
 
-### `description`
+### description
 
 The `description` is visible in the preview:
 
 {{image "images/03/03_description.png"}}
 
-### `icon`
+### icon
 
 {{image "images/03/03_icon.png"}}
 
@@ -121,15 +121,15 @@ The following values are possible for setting the icon:
 
 You can find more about the `icon` property in the [official documentation](http://help.qlik.com/sense/2.0/en-us/developer/Subsystems/Extensions/Content/Overview/qext-file-overview.htm).
 
-### `type`
+### type
 
 Defines the type of the extension, should be always `visualization` as of now.
 
-### `version`
+### version
 
 Define the version of your visualization extension, I recommend to use [Semantic Versioning](http://semver.org/).
 
-### `preview`
+### preview
 
 Qlik Sense for Developers [states](http://help.qlik.com/sense/en-us/developer/#../Subsystems/Workbench/Content/BuildingExtensions/HowTos/Ext_Ex_AddPreviewImage.htm?Highlight=preview):
 
@@ -142,7 +142,7 @@ If you do not define the preview parameter in the qext file, the icon definition
 If you want to create a preview image, choose width and height of 140px x 123px.
 {{/hint}}
 
-### `author`
+### author
 
 author references the author of the visualization extension, so probably your name.
 Note, as of this is not visible in neither the Qlik Sense Desktop nor Qlik Sense Server, so you can only get information about the author if you open the `.qext` file.
