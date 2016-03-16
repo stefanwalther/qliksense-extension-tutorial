@@ -3,9 +3,9 @@ title: Creating a visualization extension using D3
 lastUpdate: "2015-05-29"
 draft: true
 tags:
-	- D3
-	- charting library
-	- chart
+  - D3
+  - charting library
+  - chart
 ---
 
 If you have a look at some of the visualization extensions published on branch.qlik.com, you'll recognize that quite a lot of them are based on D3 and the idea of bringing a new chart type into Qlik Sense.
@@ -35,5 +35,3 @@ If you've found what you are looking for I recommend the following approach:
 Before I start incorporating a D3 based chart into a Qlik Sense visualization extension, I always try to get the code working locally. This is one of my "golden rules" ;-) In the past I spent just too much time getting a D3 chart to work within a visualization extension, but then I realized that tha D3 based solution itself was not working, so in the end I just wasted a lot of time.
 
 ### Get the example running
-
-### 
