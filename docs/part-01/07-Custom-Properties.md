@@ -1,18 +1,11 @@
 ---
 title: Custom Properties
 lastUpdate: "2015-05-29"
-abstract:
 tags:
   - visualization extension
   - extension
   - Qlik Sense
 draft: false
----
-
-**Table of Contents**
-
-<!-- toc -->
-
 ---
 
 In the previous chapter you have learned how to re-use built-in properties in Qlik Sense' property panel. In this chapter we'll cover how we can extend the property panel to custom needs.
@@ -137,7 +130,6 @@ define( [], function () {
 In your main script load the external definition of properties and assign it to the properties' `definition`:
 
 ```javascript
-
 
 define( [
 		// Load the properties.js file using requireJS
