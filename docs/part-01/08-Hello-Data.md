@@ -9,18 +9,13 @@ tags:
 draft: false
 ---
 
-**Table of Contents**
-
-<!-- toc -->
-
----
-
 OK, now we are done with the very, very basics. Let's move on to the interesting stuff, bringing data into our _visualization extension_.
 
 ## Create your Hello-Data visualization extension
 For this chapter create a new visualization extension, let's call it "Hello-Data".
 
 **Hello-Data.qext**
+
 ```json
 {
 	"name" : "Hello Data",
@@ -34,6 +29,7 @@ For this chapter create a new visualization extension, let's call it "Hello-Data
 ```
 
 **Hello-Data.js**
+
 ```js
 define( [],
 	function ( ) {
@@ -214,13 +210,12 @@ To get first all dimensions let's iterate through all existing dimensions using 
 
 ```js
 ...
-	table += '<thead>';
-		table += '<tr>';
-			for (var i = 0; i < hc.qDimensionInfo.length; i++) {
-				table += '<th>' + hc.qDimensionInfo[i].qFallbackTitle + '</th>';
-			}
-		table += '</tr>';
-	table += '</thead>';
+table += '<thead>';
+	table += '<tr>';
+			table += '<th>' + hc.qDimensionInfo[i].qFallbackTitle + '</th>';
+		}
+	table += '</tr>';
+table += '</thead>';
 ...
 ```
 
