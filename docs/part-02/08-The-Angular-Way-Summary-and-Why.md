@@ -3,8 +3,6 @@ title: "The AngularJS Way: Summary and Why Using AngularJS"
 draft: false
 ---
 
-<!-- toc -->
-
 ## Why using AngularJS?
 You might ask yourself now why you should learn how to use a new framework "just" to implement AngularJS based visualization extensions for Qlik Sense.
 It is certainly up to you, I wouldn't say that the one or the other approach is better.

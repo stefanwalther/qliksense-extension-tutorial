@@ -6,8 +6,6 @@ order: -1
 draft: false
 ---
 
-<!-- toc -->
-
 ## Introducing AngularJS
 
 AngularJS

@@ -7,12 +7,6 @@ tags:
   - Qlik Sense
 ---
 
-**Table of Contents**
-
-<!-- toc -->
-
----
-
 Before we start with the real fun stuff, let's spend a chapter or some minutes to understand the basic principles behind defining and using properties in Qlik Sense _Visualization Extensions_.
 
 This chapter only focuses on the basic concept of properties, a detailed overview of all possibilities will be added later on in one of the advanced chapters.

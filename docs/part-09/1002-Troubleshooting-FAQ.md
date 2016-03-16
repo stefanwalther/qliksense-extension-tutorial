@@ -3,10 +3,6 @@ title: Troubleshooting & FAQ
 draft: false
 ---
 
-<!-- toc -->
-
----
-
 {{#hidden}}
 Loop:
 

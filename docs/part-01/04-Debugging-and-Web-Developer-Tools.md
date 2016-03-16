@@ -12,12 +12,6 @@ tags:
   - alert
 ---
 
-**Table of Contents**
-
-<!-- toc -->
-
----
-
 {{#comment}}
 
 Console-log helper: http://www.briangrinstead.com/blog/console-log-helper-function

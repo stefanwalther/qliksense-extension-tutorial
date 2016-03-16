@@ -16,10 +16,12 @@ Adding a nice style for your table is now really a piece of cake:
 2. Load the style sheet as described in the previous chapter
 
 ```css
+TBD
 
 ```
 
 {{#hint}}
+TBD
 	
 {{/hint}}
 
@@ -58,8 +60,6 @@ If you have a look at some of the published example in the online help, you'll f
 ### Html injection
 
 ### DOM object creation
-
-###
 
 ### Table API
 With Qlik Sense 2.1 a new 
