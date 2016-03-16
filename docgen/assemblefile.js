@@ -197,3 +197,5 @@ assemble.task( 'tutorial', function () {
 //} );
 
 assemble.task( 'default', [/*'filelist:faq', */'clean:tutorial', 'assets', 'tutorial', 'readme'] );
+
+module.exports = assemble;
