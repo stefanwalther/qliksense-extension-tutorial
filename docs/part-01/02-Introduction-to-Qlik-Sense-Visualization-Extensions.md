@@ -3,7 +3,7 @@ title: Introduction to Qlik Sense Visualization Extensions
 lastUpdate: "2015-05-29"
 order: 20
 type: chapter
-abstract: 
+layout: default
 tags:
   - visualization extension
   - extension
