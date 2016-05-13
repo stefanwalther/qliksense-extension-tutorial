@@ -24,12 +24,12 @@ Therefore you can define which properties are exposed to the user in the (right)
 
 If you have a look at the output of our very first "Hello World" example you'll recognize that the property panel looks as follows:
 
-{{image "images/05/05_InitialPropertyPanel.png"}}
+{{image "images/05_InitialPropertyPanel.png"}}
 
 The "Appearance" accordion is enabled by default and available out of the box without doing anything. Now we'd like to inject just another text box into this accordion where we can define the output rendered:
 
 **Desired result:**  
-{{image "images/05/05_DesiredResult.png"}}
+{{image "images/05_DesiredResult.png"}}
 
 Therefore we add another object to the skeleton of the script file, called `definition`:
 
@@ -112,7 +112,7 @@ Now let's modify the code to render what we enter in our text box. Before doing 
 // put this inside at the beginning of your paint method
 console.log(layout);
 ```
-{{image "images/05/05_HelloWorld_ConsoleLog.png"}}
+{{image "images/05_HelloWorld_ConsoleLog.png"}}
 
 The rest of this exercise is easy, instead of hard-coding the result
 
@@ -141,7 +141,7 @@ Therefore double-checking the returned properties using `console.log(...)` is al
 
 The last exercise is easy, we want to add a good looking preview image if you click on the object in the Library or Assets panel.
 
-{{image "images/05/05_PreviewImg_Before.png"}}
+{{image "images/05_PreviewImg_Before.png"}}
 
 For modifying the displayed preview image, do the following:
 * Create a new image and save it as .png file in the folder of your extension
@@ -150,7 +150,7 @@ For modifying the displayed preview image, do the following:
 
 **Our final result:**
 
-{{image "images/05/05_PreviewImg_After.png"}}
+{{image "images/05_PreviewImg_After.png"}}
 
 {{#hint}}
 As of version 1.0 or 1.1 of Qlik Sense the expected dimensions of the image are not clearly defined. It works best if you choose 140x123 pixels or a multiple of this ratio.

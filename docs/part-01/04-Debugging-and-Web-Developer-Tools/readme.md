@@ -41,14 +41,14 @@ Even when developing using Qlik Sense Desktop you can use your favorite browser 
 
 You'll see Qlik Sense' Hub and can open your browser's developer tools (most of the time by pressing `F12`).
 
-![](images/04/04_Chromes_Web_DevTools.png)
+![](images/04_Chromes_Web_DevTools.png)
 
 #### Using developer tools within Qlik Sense Desktop
 Since Qlik Sense Desktop is using Chromium as an embedded browser, you can also open Chrome's Web DevTools within Qlik Sense Desktop:
 
 By using `Ctrl`+`Shift` and right mouse click you'll get the following dialog to activate _DevTools_:
 
-![](images/04/04_DevTools_in_QlikSenseDesktop.png)
+![](images/04_DevTools_in_QlikSenseDesktop.png)
 
 ## Chrome Web DevTools
 There are a bunch of websites out there introducing the capabilities of developer tools, I just want to highlight three areas which are highly relevant when developing visualization extensions in Qlik Sense:
@@ -80,7 +80,7 @@ paint: function ( $element, layout ) {
 ```
 results into
 
-![](images/04/04_Console_Sample.png)
+![](images/04_Console_Sample.png)
 
 The console is very powerful, I highly recommend that you spend some time with more "advanced" concepts of the console like:
 
@@ -122,7 +122,7 @@ Having an inspector is a common capability of all Web Developer Tools. In Chrome
 
 Have a look at the following [short video](https://www.youtube.com/watch?v=GHaneFM0QXU):
 
-[![](images/04/04_ChromeWebDevTools_Inspect_Change_Elements.png)](https://www.youtube.com/watch?v=GHaneFM0QXU)
+[![](images/04_ChromeWebDevTools_Inspect_Change_Elements.png)](https://www.youtube.com/watch?v=GHaneFM0QXU)
 
 More detailed information: https://developer.chrome.com/devtools/docs/dom-and-styles
 

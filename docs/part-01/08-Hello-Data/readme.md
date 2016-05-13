@@ -73,11 +73,11 @@ definition: {
 
 This results into the following property panel:
 
-![](images/08/08_Default_Property_Panel.png)
+![](images/08_Default_Property_Panel.png)
 
 If you add the visualization onto a sheet you'll furthermore realize that in _Edit Mode_ the user can now define the dimensions and measures directly in the object (without using the property panel). In addition to that also drag and drop of previously defined dimensiosn and measures from the Master items is possible:
 
-![](images/08/08_Default_Object_Display.png)
+![](images/08_Default_Object_Display.png)
 
 {{#note}}
 Don't forget to reload the entire Qlik Sense client in your browser after you have made changes to your script file.
@@ -90,11 +90,11 @@ The easiest way to achieve that - if you haven't some good test data - is the fo
 
 Go to the **_Data load editor_**:
 
-![](images/08/08-open-data-load-editor.png)
+![](images/08-open-data-load-editor.png)
 
 At the end of the script of the _Main_ tab add the sample script by using the keyboard shortcut "Ctrl+0+0", load the data, go back to the "App overview" and then you can create your sheet to test your visualization extension.
 
-![](images/08/08-sample-script.png)
+![](images/08-sample-script.png)
 
 ### Testing with more data
 If you want to test with more data, here a modified sample script you can use:
@@ -154,7 +154,7 @@ Based on the sample code/data above I have chosen the following data:
 
 In the native table object this will result into something like this:
 
-![](images/08/08_Table_Data.png)
+![](images/08_Table_Data.png)
  
 ## How to retrieve the data in your extension
 As soon as you add dimensions and measures to a visualization extension the Qlik Engine will return a so called HyperCube. As of now, don't be confused by this term, just think of table returned from the Engine (altough a HyperCube is much more).
@@ -173,7 +173,7 @@ paint: function ( $element, layout ) {
 ```
 
 **The console output:**
-![](images/08/08_Table_ConsoleLog.png)
+![](images/08_Table_ConsoleLog.png)
 
 You will immediately realize, that this is not _just_ a normal data table, yes, it's the structure of a HyperCube.
 For the beginning three different objects are interesting (expand these nodes to review):
@@ -221,11 +221,11 @@ table += '</thead>';
 
 The result so far:
 
-![](images/08/08_Thead_Dims.png)
+![](images/08_Thead_Dims.png)
 
 Now let's do the same for measures (by adding additional table headings) and you should come up with:
 
-![](images/08/08_Thead_All.png)
+![](images/08_Thead_All.png)
 
 {{#hint}}
 At this stage I highly recommend that you follow the creation of this simple table-output step by step and make yourself familiar with the concept. Sure, creating a table might not be a very useful and common requirement, but for the majority of visualizations extensions it is essential do deal with data and understanding the underlying data-structure - the structure of the HyperCube.
@@ -243,11 +243,11 @@ If you expand the qDataPages node we recognize that
 **But wait, something is wrong, isn't it?**
 As we have defined 3 measures and 2 dimensions we should see 5 cell, but instead there are only two:
 
-![](images/08/08_qMatrix_Explanation.png)
+![](images/08_qMatrix_Explanation.png)
 
 The explanation can be found if you expand `qDataPages[0].qArea`, which shows us the default settings how many data the Engine will return:
 
-![](images/08/08_Default_qInitialDataFetch.png)
+![](images/08_Default_qInitialDataFetch.png)
 
 By default these are:
 * 50 rows (`qArea.qHeight`)
@@ -280,7 +280,7 @@ By doing so the Engine will then return a maximum of 10 columns and 100 rows.
 {{/note}}
 
 Every row has now 5 cells:  
-![](images/08/08_Custom_qInitialDataFetch.png)
+![](images/08_Custom_qInitialDataFetch.png)
 
 ## Rendering table data
 
@@ -305,7 +305,7 @@ table += '</tbody>';
 ```
 
 The result:  
-![](images/08/08_TableRendering_Result.png)
+![](images/08_TableRendering_Result.png)
 
 Hurray, we are done, we have rendered all the data, so we are fine, are we?
 Unfortunately not really. There are still some issues we have to solve:

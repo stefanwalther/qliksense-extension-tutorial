@@ -203,7 +203,7 @@ return {
 };
 ```
 ***Result:***  
-{{image "images/07/07-Default-appearance-section.png"}}
+{{image "images/07-Default-appearance-section.png"}}
 
 **Code after adding `myTextBox`**:
 
@@ -235,7 +235,7 @@ return {
 ```
 
 ***Result:***  
-{{image "images/07/07-Textbox-property-default.png"}}
+{{image "images/07-Textbox-property-default.png"}}
 
 So what happened here?
 You'll realize that not only our text box component was add but also a header was created automatically re-using the label of our component. Let's verify this by just adding another text box component:
@@ -274,13 +274,13 @@ return {
 
 ```
 
-{{image "images/07/07-Two-Textboxes-default.png"}}
+{{image "images/07-Two-Textboxes-default.png"}}
 
 ## Adding a custom section header
 
 That's fine, but in many case that's probably not the result we'd like to achieve, it's probably more common, that we want to create a new header within a section containing several components, so something like that:
 
-{{image "images/07/07-Custom-header-with-textboxes.png"}}
+{{image "images/07-Custom-header-with-textboxes.png"}}
 
 To achieve this result, we have to create a new header (`myNewHeader`) into the existing section "Appearance" - which is loaded by `uses: "settings"` - and add the items there:
 
@@ -378,7 +378,7 @@ return {
 
 The result is a custom accordion section with section headers and items:
 
-{{image "images/07/07-Custom-section-with-headers-and-items.png"}}
+{{image "images/07-Custom-section-with-headers-and-items.png"}}
 
 
 
