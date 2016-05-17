@@ -4,6 +4,7 @@ lastUpdate: "2015-05-29"
 order: 20
 type: chapter
 layout: default
+draft: false
 tags:
   - visualization extension
   - extension
