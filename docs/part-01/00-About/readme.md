@@ -2,6 +2,8 @@
 title: About this tutorial
 lastUpdate: "2015-05-29"
 order: 0
+abstract:
+draft: false
 tags:
   - Qlik Sense
   - visualization extension
