@@ -6,4 +6,4 @@ draft: true
 
 # String Helpers
 
-{{upper "Upper Case String"}}
+//upper "Upper Case String"
