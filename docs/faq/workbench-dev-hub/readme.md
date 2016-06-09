@@ -1,6 +1,5 @@
 ---
 title: What is Workbench/Dev Hub ?
-slug: workbench-dev-hub
 chapter: faq
 ---
 

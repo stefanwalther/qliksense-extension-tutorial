@@ -1,6 +1,5 @@
 ---
 title: 10,000 cells limitation
-slug: 10000-cells-limitation
 chapter: faq
 draft: false
 ---

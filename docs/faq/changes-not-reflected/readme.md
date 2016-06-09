@@ -1,6 +1,5 @@
 ---
 title: Changes made in a visualization extension are not reflected
-slug: changes-not-reflected
 chapter: faq
 draft: false
 ---

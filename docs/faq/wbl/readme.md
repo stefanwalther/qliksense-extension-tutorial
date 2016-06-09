@@ -1,6 +1,5 @@
 ---
 title: What's a .WBL file?
-slug: wbl
 chapter: faq
 draft: false
 ---
