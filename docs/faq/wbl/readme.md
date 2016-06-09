@@ -1,7 +1,8 @@
 ---
 title: What's a .WBL file?
+slug: wbl
+chapter: faq
 draft: false
-cat: faq
 ---
 
 > The Workbench load file (wbfolder.wbl) is used by the Extension- & Mashup editor and contains a list of files which should be loaded into the editor.

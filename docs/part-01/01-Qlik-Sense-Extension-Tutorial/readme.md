@@ -1,5 +1,6 @@
 ---
 title: Qlik Sense Extension Tutorial
+slug: 01-Qlik-Sense-Extension-Tutorial
 lastUpdate: "2015-05-29"
 order: 10
 type: chapter

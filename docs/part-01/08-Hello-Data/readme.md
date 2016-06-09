@@ -6,7 +6,7 @@ tags:
   - visualization extension
   - extension
   - Qlik Sense
-draft: false
+draft: true
 ---
 
 OK, now we are done with the very, very basics. Let's move on to the interesting stuff, bringing data into our _visualization extension_.
@@ -99,7 +99,7 @@ At the end of the script of the _Main_ tab add the sample script by using the ke
 ### Testing with more data
 If you want to test with more data, here a modified sample script you can use:
 
-```bash
+<code>
 // Change the amount here to create more records
 SET vAmountTransactions=10000;
 
@@ -131,7 +131,7 @@ Load
  RecNo() as TransID
 Autogenerate $(#vAmountTransactions)
  While Rand()<=0.5 or IterNo()=1;
-```
+</code>
 
 ## Visualizing the data returned from the Qlik Engine
 If you start working with data returned from the Qlik Engine, I recommend that you first visualize your data in a native _Table_ object side by side with your visualization extension. You'll recognize in a few minutes why this is quite useful.

@@ -121,7 +121,7 @@ define( [
 
 **Result:**
 
-> ![](images/02/02-output.png)
+> ![](images/02-output.png)
 
 ### Accessing the layout & properties
 Working with properties doesn't change, define `definition` and `initialProperties` as described in earlier chapters. All the property values are automatically bound to the current scope under `$scope.layout`.
@@ -223,12 +223,12 @@ define( [
 
 **Result:**
 
-> ![](images/02/02-AngularJS-table.png)
+> ![](images/02-AngularJS-table.png)
 
 {{#hint}}
 Add a `console.log('layout', $scope.layout);` into your controller and you'll see where you can find all the properties.
 
-![](images/02/02-layout-console-output.png)
+![](images/02-layout-console-output.png)
 
 {{/hint}}
 
@@ -255,4 +255,4 @@ define( [
 AngularJS developers seem to be funny guys, have a look at the `codeName` of version 1.2.15 ;-)
 
 
-> ![](images/02/02-angular-version.png)
+> ![](images/02-angular-version.png)

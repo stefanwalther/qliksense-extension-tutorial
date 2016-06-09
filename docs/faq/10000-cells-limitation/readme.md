@@ -1,7 +1,8 @@
 ---
 title: 10,000 cells limitation
+slug: 10000-cells-limitation
+chapter: faq
 draft: false
-cat: faq
 ---
 
 There is a persistent rumor that one can only load 10,000 data-cells when working with a HyperCube using the Client APIs (in visualization extensions or mash-ups).

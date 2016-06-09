@@ -1,7 +1,7 @@
 ---
 title: What is Workbench/Dev Hub ?
-draft: true
-cat: faq
+slug: workbench-dev-hub
+chapter: faq
 ---
 
 **Workbench** is a collection of tools available since Qlike Sense 1.0 until Qlik Sense 2.0.

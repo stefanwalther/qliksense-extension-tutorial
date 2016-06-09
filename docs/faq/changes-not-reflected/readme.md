@@ -1,7 +1,8 @@
 ---
 title: Changes made in a visualization extension are not reflected
+slug: changes-not-reflected
+chapter: faq
 draft: false
-cat: faq
 ---
 
 When developing visualization extensions and testing them in Qlik Sense Desktop it might happen that you don't immediately see the changes.
