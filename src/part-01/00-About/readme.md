@@ -1,7 +1,6 @@
 ---
 title: About this tutorial
 lastUpdate: "2015-05-29"
-slug: 00-About
 order: 0
 abstract:
 draft: false

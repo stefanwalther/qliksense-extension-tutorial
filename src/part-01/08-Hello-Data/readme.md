@@ -6,7 +6,7 @@ tags:
   - visualization extension
   - extension
   - Qlik Sense
-draft: true
+draft: false
 ---
 
 OK, now we are done with the very, very basics. Let's move on to the interesting stuff, bringing data into our _visualization extension_.
@@ -17,7 +17,7 @@ For this chapter create a new visualization extension, let's call it "Hello-Data
 **Hello-Data.qext**
 
 ```json
-{
+{å
 	"name" : "Hello Data",
 	"description" : "Examples how to use data in visualization extensions.",
 	"icon" : "extension",
@@ -105,18 +105,18 @@ SET vAmountTransactions=10000;
 
 Characters:
 Load Chr(RecNo()+Ord('A')-1) as Alpha, RecNo() as Num autogenerate 26;
- 
+
 ASCII:
-Load 
+Load
  if(RecNo()>=65 and RecNo()<=90,RecNo()-64) as Num,
- Chr(RecNo()) as AsciiAlpha, 
+ Chr(RecNo()) as AsciiAlpha,
  RecNo() as AsciiNum
 autogenerate 255
  Where (RecNo()>=32 and RecNo()<=126) or RecNo()>=160 ;
- 
+
 Transactions:
 Load
- TransLineID, 
+ TransLineID,
  TransID,
  mod(TransID,26)+1 as Num,
  Pick(Ceil(3*Rand1),'A','B','C') as Dim1,
@@ -125,7 +125,7 @@ Load
  Round($(#vAmountTransactions)*Rand()*Rand()*Rand1) as Expression1,
  Round(  10*Rand()*Rand()*Rand1) as Expression2,
  Round(Rand()*Rand1,0.00001) as Expression3;
-Load 
+Load
  Rand() as Rand1,
  IterNo() as TransLineID,
  RecNo() as TransID

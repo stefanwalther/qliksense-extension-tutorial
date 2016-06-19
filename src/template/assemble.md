@@ -1,5 +1,5 @@
 ---
-title: Template
+title: default
 layout: debug
 draft: true
 ---

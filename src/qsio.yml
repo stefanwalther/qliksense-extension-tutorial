@@ -1,0 +1,13 @@
+- type: section
+  label: "Part I: Introduction to Developing Visualization Extensions for Qlik Sense"
+  key: "index.html"
+  items:
+    - type: item
+      label: "About this Tutorial"
+      key: "part-01/00-About/"
+    - type: item
+      label: "Table of Contents"
+      key: "part-01/00-TOC/"
+    - type: item
+      label: "01 Qlik Sense Extension Tutorial"
+      key: "part-01/01-Qlik-Sense-Extension-Tutorial/"
