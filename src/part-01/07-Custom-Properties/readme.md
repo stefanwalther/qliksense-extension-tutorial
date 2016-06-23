@@ -2,10 +2,6 @@
 title: Custom Properties
 lastUpdate: "2015-05-29"
 tags:
-  - visualization extension
-  - extension
-  - Qlik Sense
-draft: false
 ---
 
 In the previous chapter you have learned how to re-use built-in properties in Qlik Sense' property panel. In this chapter we'll cover how we can extend the property panel to custom needs.
