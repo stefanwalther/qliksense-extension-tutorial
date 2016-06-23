@@ -3,10 +3,6 @@ title: Hello Data
 lastUpdate: "2015-05-29"
 abstract: Working with data in a Qlik Sense visualization extension.
 tags:
-  - visualization extension
-  - extension
-  - Qlik Sense
-draft: false
 ---
 
 OK, now we are done with the very, very basics. Let's move on to the interesting stuff, bringing data into our _visualization extension_.
@@ -17,7 +13,7 @@ For this chapter create a new visualization extension, let's call it "Hello-Data
 **Hello-Data.qext**
 
 ```json
-{å
+{
 	"name" : "Hello Data",
 	"description" : "Examples how to use data in visualization extensions.",
 	"icon" : "extension",
