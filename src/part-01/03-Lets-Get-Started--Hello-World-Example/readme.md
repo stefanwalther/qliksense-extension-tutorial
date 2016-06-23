@@ -86,7 +86,7 @@ The property `name` will be re-used in the list of visualizations and the previe
 
 The `description` is visible in the preview:
 
-{{image "images/03_description.png"}}
+![](images/03_description.png)
 
 ### icon
 

@@ -16,7 +16,7 @@ Since this is misleading the term "Capability API" was introduced which describe
 Capability APIs are small, granular APIs with a specific purpose. Some of them can be used inside Qlik Sense (visualization extensions), some of them only outside Qlik Sense (mashup scenarios), but most of them are supported in both environments.
 Therefore a usage matrix was published with Qlik Sense 2.1.1 which will then in the future be extended a soon as new Capability APIs will be added to the product.
 
-{{image "images/2013_usage-matrix.png"}}
+![](images/2013_usage-matrix.png)
 
 **Reference:**  
 [Capability APIs on "Qlik Sense for Developers, 2.1.1"](http://help.qlik.com/sense/2.1/en-us/developer/Subsystems/APIs/Content/mashup-api-reference.htm)

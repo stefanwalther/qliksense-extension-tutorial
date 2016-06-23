@@ -20,7 +20,7 @@ If you have a look at the property panel accordion you'll recognize that propert
 		* Section **headers**
 			* Property **items**
 
-{{image "images/06_Accordion_Concept.png"}}
+![](images/06_Accordion_Concept.png)
 
 ## Property panel definition in your JavaScript file
 
@@ -68,7 +68,7 @@ define( [
 
 **Result:** 
 
-{{image "images/06_DefaultProperties.png"}}
+![](images/06_DefaultProperties.png)
 
 So getting the "Appearance" section is the default behavior.
 
@@ -141,7 +141,7 @@ definition: {
 
 **Result:**
 
-{{image "images/06_More_BuiltIn_Properties.png"}}
+![](images/06_More_BuiltIn_Properties.png)
 
 
 #### Referencing properties
@@ -162,7 +162,7 @@ paint: function ( $element, layout ) {
 
 If you have a look at the console output of e.g. Chrome's Dev Tools, you can easily find what you are looking for:
 
-{{image "images/06_Console_Properties.png"}}
+![](images/06_Console_Properties.png)
 
 So let's output some values in our `paint` method:
 

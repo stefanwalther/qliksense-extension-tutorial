@@ -24,7 +24,7 @@ Therefore you can define which properties are exposed to the user in the (right)
 
 If you have a look at the output of our very first "Hello World" example you'll recognize that the property panel looks as follows:
 
-{{image "images/05_InitialPropertyPanel.png"}}
+![](images/05_InitialPropertyPanel.png)
 
 The "Appearance" accordion is enabled by default and available out of the box without doing anything. Now we'd like to inject just another text box into this accordion where we can define the output rendered:
 
