@@ -16,15 +16,42 @@
     - type: item
       label: "Chapter 01 - About this Tutorial"
       key: "part-01/01-Qlik-Sense-Extension-Tutorial/"
+      items:
+        - type: bullet
+          label: "Prerequisites"
     - type: item
       label: "Chapter 02 - Introduction to Qlik Sense Visualization Extensions"
       key: "part-01/02-Introduction-to-QlikSense-Visualization-Extensions/"
+      items:
+        - type: bullet
+          label: "Installing a visualization extension for Qlik Sense Desktop"
+        - type: bullet
+          label: "Installing a visualization extension on Qlik Sense Server"
+        - type: bullet
+          label: "Comparison between extensions in QlikView and Qlik Sense"
     - type: item
       label: "Chapter 03 - Let's Get Started: Hello World Example"
       key: "part-01/03-Lets-Get-Started--Hello-World-Example/"
+      items:
+        - type: bullet
+          label: "The anatomy of a Qlik Sense extension"
+        - type: bullet
+          label: "Skeleton of a script file"
+        - type: bullet
+          label: "Structure of the .qext file"
+        - type: bullet
+          label: "Creating the Hello World example"
     - type: item
       label: "Chapter 04 - Debugging and Web Developer Tools"
       key: "part-01/04-Debugging-and-Web-Developer-Tools"
+      items:
+        - type: bullet
+          label: "The anatomy of a Qlik Sense extension"
+        - type: bullet
+          label: "Skeleton of a script file"
+        - type: bullet
+          label: "Structure of the .qext file"
+
     - type: item
       label: "Chapter 05 - Improving the Hello World Experience"
       key: "part-01/05-Improving-the-Hello-World-Experience/"
@@ -70,4 +97,10 @@
     - type: item
       label: "Chapter 01: Deployment Checklist"
       key: "part-04/01-Deployment-Checklist"
+- type: section
+  label: "Appendix: FAQ"
+  items:
+    - type: item
+      label: "Workbench vs. Dev-Hub"
+      key: "faq/workbench-dev-hub/"
 

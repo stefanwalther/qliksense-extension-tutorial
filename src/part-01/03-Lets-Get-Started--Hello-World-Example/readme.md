@@ -80,7 +80,7 @@ When creating your .qext file you should double-check if this file [meets the re
 
 The property `name` will be re-used in the list of visualizations and the preview:
 
-{{image "images/03_name.png"}}
+![](images/03_name.png)
 
 ### description
 
@@ -90,7 +90,7 @@ The `description` is visible in the preview:
 
 ### icon
 
-{{image "images/03_icon.png"}}
+![](images/03_icon.png)
 
 The following values are possible for setting the icon:
 
@@ -127,7 +127,7 @@ Qlik Sense for Developers [states](http://help.qlik.com/sense/en-us/developer/#.
 > You can define a custom preview image that is visible when the visualization has been deployed to Qlik Sense. The preview image is visible when selecting the visualization in the Library or Assets panel. This is done by defining the preview parameter in the qext file.
 If you do not define the preview parameter in the qext file, the icon definition will be used for rendering the preview image as well.
 
-{{image "images/03_preview.png"}}
+![](images/03_preview.png)
 
 {{#hint}}
 If you want to create a preview image, choose width and height of 140px x 123px.
@@ -201,7 +201,7 @@ Just follow these steps:
 
 You should see something like that:
 
-{{image "images/03_output.png"}}
+![](images/03_preview.png)
 
 
 {{#hint "Hint:"}}
@@ -223,7 +223,7 @@ If this is the first time that you are working with Qlik Sense (Desktop) I've ad
 Before jumping to the next chapter you'll probably realize that there is something wrong with our solution.
 As soon as you resize the (browser-)window you'll recognize that our output get multiplied, so you'll end up into something like that:
 
-{{image "images/03_output_multiplied.png"}}
+![](images/03_output_multiplied.png)
 
 So why did this happen?
 The answer is quite easy. Have a look above to the description of the `paint`. This method will always be called when the visualization should be rendered, and a resize triggers the paint.
