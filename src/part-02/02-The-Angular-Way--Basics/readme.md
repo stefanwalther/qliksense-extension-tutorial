@@ -233,7 +233,12 @@ Add a `console.log('layout', $scope.layout);` into your controller and you'll se
 {{/hint}}
 
 ## Support of AngularJS
-It is important to mention in this context that Qlik support does certainly not cover AngularJS. Qlik Sense 2.0.1 is using version 1.2.15 of AngularJS, but this might and will change in the future. So either ensure that you are not using a lot of version specific functionality of AngularJS or follow AngularJS advices how to upgrade your code to a new version.
+It is important to mention in this context that Qlik support does certainly not cover AngularJS. 
+
+- Qlik Sense 2.0.1 is using version 1.2.15 of AngularJS, 
+- Qlik Sense 3.0 is using 1.5 of AngularJS
+
+So either ensure that you are not using a lot of version specific functionality of AngularJS or follow AngularJS advices how to upgrade your code to a new version.
 
 Using angular as a dependency you can easily check which version is used:
 
