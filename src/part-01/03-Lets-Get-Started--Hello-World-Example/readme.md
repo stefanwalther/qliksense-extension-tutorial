@@ -4,9 +4,6 @@ lastUpdate: "2015-05-29"
 order: 30
 abstract: 
 tags:
-  - visualization extension
-  - extension
-  - Qlik Sense
 ---
 
 The first example is extremely easy, let’s just create a simple „Hello World“ visualization extension. In the following chapters we’ll improve this example and extend it with additional functionality.
