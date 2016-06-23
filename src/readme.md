@@ -1,10 +1,14 @@
 ---
-title: Qlik Sense Extension Tutorial - Table of Contents
-lastUpdate: "2015-05-29"
-draft: true
+title: "Visualization Extensions in Qlik Sense"
+layout: area-overview
+pageOpts:
+  isToc: false
+  isGitHub: false
+  isDisqus: false
+tags:
+ visualization extension
+ extension
+ Qlik Sense
+ tutorial
 ---
 
-<!-- notoc -->
-
-
-{{doc "toc"}}

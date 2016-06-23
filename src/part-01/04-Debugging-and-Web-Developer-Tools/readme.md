@@ -4,12 +4,13 @@ lastUpdate: "2015-05-29"
 order: 40
 abstract: 
 tags: 
-  - Debugging
-  - Chrome Dev Tools
-  - Chrome Developer Tools
-  - Object Inspection
-  - console
-  - alert
+  debugging
+  Chrome Dev Tools
+  Chrome Developer Tools
+  Object Inspection
+  console
+  console.log
+  alert
 ---
 
 {{#comment}}

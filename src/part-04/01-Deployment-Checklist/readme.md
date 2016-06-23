@@ -1,6 +1,7 @@
 ---
 title: Deployment Checklist
-lastUpdate: "2015-07-17"
+sub-title: Things to consider before you go live with your visualization extension.
+lastUpdate: "2016-06-23"
 draft: false
 ---
 

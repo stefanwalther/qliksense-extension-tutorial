@@ -1,13 +1,73 @@
 - type: section
+  label: "Table of Contents"
+  items:
+    - type: item
+      label: "Table of Contents of this Tutorial"
+      key: "index.html"
+- type: section
   label: "Part I: Introduction to Developing Visualization Extensions for Qlik Sense"
-  key: "index.html"
   items:
     - type: item
       label: "About this Tutorial"
       key: "part-01/00-About/"
+      items:
+        - type: bullet
+          label: "Installing a visualization extension for Qlik Sense Desktop"
     - type: item
-      label: "Table of Contents"
-      key: "part-01/00-TOC/"
-    - type: item
-      label: "01 Qlik Sense Extension Tutorial"
+      label: "Chapter 01 - About this Tutorial"
       key: "part-01/01-Qlik-Sense-Extension-Tutorial/"
+    - type: item
+      label: "Chapter 02 - Introduction to Qlik Sense Visualization Extensions"
+      key: "part-01/02-Introduction-to-QlikSense-Visualization-Extensions/"
+    - type: item
+      label: "Chapter 03 - Let's Get Started: Hello World Example"
+      key: "part-01/03-Lets-Get-Started--Hello-World-Example/"
+    - type: item
+      label: "Chapter 04 - Debugging and Web Developer Tools"
+      key: "part-01/04-Debugging-and-Web-Developer-Tools"
+    - type: item
+      label: "Chapter 05 - Improving the Hello World Experience"
+      key: "part-01/05-Improving-the-Hello-World-Experience/"
+    - type: item
+      label: "Chapter 06 - Introduction to Using Properties"
+      key: "part-01/06-Introduction-to-Using-Properties/"
+    - type: item
+      label: "Chapter 07 - Custom Properties"
+      key: "part-01/07-Custom-Properties/"
+    - type: item
+      label: "Chapter 08 - Hello Data"
+      key: "part-01/08-Hello-Data/"
+    - type: item
+      label: "Chapter 09 - Loading Resources"
+      key: "part-01/09-Loading-Resources/"
+      wip: true
+    - type: item
+      label: "Chapter 10 - Hello Data Improved"
+      wip: true
+    - type: item
+      label: "Chapter 11 - Visualization Extensions using D3"
+      wip: true
+    - type: item
+      label: "Chapter 12 - Visualization Extensions using HighCharts"
+      wip: true
+- type: section
+  label: "Part II: Visualization Extensions & AngularJS"
+  key: "index.html"
+  items:
+    - type: item
+      label: "Chapter 01 - Two Approaches, the 'Classic' One & the Angular Way"
+      key: "part-02/01-Two-approaches-classic-one-and-the-angular-way/"
+    - type: item
+      label: "Chapter 02 - The Angular Way: Basics"
+      key: "part-02/02-The-Angular-Way--Basics"
+    - type: item
+      label: "Chapter 03 - The Angular Way: Directives"
+      key: "part-02/03-The-Angular-Way--Directives"
+      wip: false
+- type: section
+  label: "Part IV: Deployment Checklist"
+  items:
+    - type: item
+      label: "Chapter 01: Deployment Checklist"
+      key: "part-04/01-Deployment-Checklist"
+
