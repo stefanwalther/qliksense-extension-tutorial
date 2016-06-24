@@ -1,127 +1,92 @@
 - type: section
   label: "Introduction"
-  items:
-    - type: item
-      label: "Table of Contents of this Tutorial"
+  pages:
+    - label: "Table of Contents of this Tutorial"
       key: "index.html"
-    - type: item
-      label: "About this Tutorial"
+    - label: "About this Tutorial"
       key: "part-01/00-About/"
       items:
         - type: bullet
           label: "Installing a visualization extension for Qlik Sense Desktop"
 - type: section
   label: "Part I: Introduction to Developing Visualization Extensions for Qlik Sense"
-  items:
-    - type: item
+  pages:
+    - type: page
       label: "Chapter 01 - About this Tutorial"
       key: "part-01/01-Qlik-Sense-Extension-Tutorial/"
-      items:
-        - type: bullet
-          label: "Prerequisites"
-    - type: item
+      bullets:
+        - label: "Prerequisites"
+    - type: page
       label: "Chapter 02 - Introduction to Qlik Sense Visualization Extensions"
       key: "part-01/02-Introduction-to-QlikSense-Visualization-Extensions/"
-      items:
-        - type: bullet
-          label: "Installing a visualization extension for Qlik Sense Desktop"
-        - type: bullet
-          label: "Installing a visualization extension on Qlik Sense Server"
-        - type: bullet
-          label: "Comparison between extensions in QlikView and Qlik Sense"
-    - type: item
+      bullets:
+        - label: "Installing a visualization extension for Qlik Sense Desktop"
+        - label: "Installing a visualization extension on Qlik Sense Server"
+        - label: "Comparison between extensions in QlikView and Qlik Sense"
+    - type: page
       label: "Chapter 03 - Let's Get Started: Hello World Example"
       key: "part-01/03-Lets-Get-Started--Hello-World-Example/"
-      items:
-        - type: bullet
-          label: "The anatomy of a Qlik Sense extension"
-        - type: bullet
-          label: "Skeleton of a script file"
-        - type: bullet
-          label: "Structure of the .qext file"
-        - type: bullet
-          label: "Creating the Hello World example"
-    - type: item
+      bullets:
+        - label: "The anatomy of a Qlik Sense extension"
+        - label: "Skeleton of a script file"
+        - label: "Structure of the .qext file"
+        - label: "Creating the Hello World example"
+    - type: page
       label: "Chapter 04 - Debugging and Web Developer Tools"
       key: "part-01/04-Debugging-and-Web-Developer-Tools"
-      items:
-        - type: bullet
-          label: "console.x()"
-        - type: bullet
-          label: "Debugging"
-        - type: bullet
-          label: "Object inspection"
-    - type: item
+      bullets:
+        - label: "console.x()"
+        - label: "Debugging"
+        - label: "Object inspection"
+    - type: page
       label: "Chapter 05 - Improving the Hello World Experience"
       key: "part-01/05-Improving-the-Hello-World-Experience/"
-      items:
-        - type: bullet
-          label: "Make _Hello World_ dynamic"
-        - type: bullet
-          label: "Define a preview image"
-    - type: item
+      bullets:
+        - label: "Make _Hello World_ dynamic"
+        - label: "Define a preview image"
+    - type: page
       label: "Chapter 06 - Introduction to Using Properties"
       key: "part-01/06-Introduction-to-Using-Properties/"
-      items:
-        - type: bullet
-          label: "Skeleton"
-        - type: bullet
-          label: "Re-using properties"
-        - type: bullet
-          label: "Basic custom property types"
-        - type: bullet
-          label: "How to reference properties"
-        - type: bullet
-          label: "Break out property definition to a separate file"
-    - type: item
+      bullets:
+        - label: "Skeleton"
+        - label: "Re-using properties"
+        - label: "Basic custom property types"
+        - label: "How to reference properties"
+        - label: "Break out property definition to a separate file"
+    - type: page
       label: "Chapter 07 - Custom Properties"
       key: "part-01/07-Custom-Properties/"
-      items:
-        - type: bullet
-          label: "Introduction to custom properties"
-        - type: bullet
-          label: "Improving readability & maintainability of properties"
-        - type: bullet
-          label: "Basic custom property - a string input box"
-        - type: bullet
-          label: "Adding a custom section header"
-        - type: bullet
-          label: "Adding a custom section"
-        - type: bullet
-          label: "Display & persistence"
-        - type: bullet
-          label: "Referencing property values"
-        - type: bullet
-          label: "Troubleshooting"
-        - type: bullet
-          label: "Source code"
-    - type: item
+      bullets:
+        - label: "Introduction to custom properties"
+        - label: "Improving readability & maintainability of properties"
+        - label: "Basic custom property - a string input box"
+        - label: "Adding a custom section header"
+        - label: "Adding a custom section"
+        - label: "Display & persistence"
+        - label: "Referencing property values"
+        - label: "Troubleshooting"
+        - label: "Source code"
+    - type: page
       label: "Chapter 08 - Hello Data"
       key: "part-01/08-Hello-Data/"
-      items:
-        - type: bullet
-          label: "Create your Hello-Data visualization extension"
-        - type: bullet
-          label: "Getting data into visualization extension"
-        - type: bullet
-          label: "Testing your extensions with data"
-        - type: bullet
-          label: "Changing the initial properties"
-        - type: bullet
-          label: "Rendering table data"
-        - type: bullet
-          label: "Some golden rules"
-    - type: item
+      bullets:
+        - label: "Create your Hello-Data visualization extension"
+        - label: "Getting data into visualization extension"
+        - label: "Testing your extensions with data"
+        - label: "Changing the initial properties"
+        - label: "Rendering table data"
+        - label: "Some golden rules"
+    - type: page
       label: "Chapter 09 - Loading Resources"
       #key: "part-01/09-Loading-Resources/"
       wip: true
-    - type: item
+    - type: page
       label: "Chapter 10 - Hello Data Improved"
       wip: true
-    - type: item
+    - type: page
       label: "Chapter 11 - Visualization Extensions using D3"
       wip: true
-    - type: item
+    - type: page
       label: "Chapter 12 - Visualization Extensions using HighCharts"
       wip: true
 - type: section
@@ -138,14 +103,14 @@
       #key: "part-02/03-The-Angular-Way--Directives"
 - type: section
   label: "Part IV: Deployment Checklist"
-  items:
-    - type: item
+  pages:
+    - type: page
       label: "Chapter 01: Deployment Checklist"
       key: "part-04/01-Deployment-Checklist"
 - type: section
   label: "Appendix: FAQ"
-  items:
-    - type: item
+  pages:
+    - type: page
       label: "Workbench vs. Dev-Hub"
       key: "faq/workbench-dev-hub/"
 
