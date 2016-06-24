@@ -99,6 +99,7 @@ Further readings:
 * http://anti-code.com/devtools-cheatsheet/
 
 #### But ...
+
 Unfortunately not all browsers support ```console.xxx()``` so we'll definitely have to ensure that in a production environment there are no ```console.xxx()``` left in the code.
 
 There are several strategies for achieving that:
@@ -128,13 +129,14 @@ Have a look at the following [short video](https://www.youtube.com/watch?v=GHane
 More detailed information: https://developer.chrome.com/devtools/docs/dom-and-styles
 
 ### Debugging
-Finally you can use Developer Tools for live debugging:
+Finally you can also use Developer Tools for live debugging:
 
 Read more on:
 
 * [Debugging with Chrome DevTools site](https://developer.chrome.com/devtools/docs/javascript-debugging)
 * [Debugging with Firebug](http://www.developerfusion.com/article/139949/debugging-javascript-with-firebug/)
 * [Debugging with Internet Explorer Developer Tools](https://msdn.microsoft.com/en-us/library/ie/gg589507%28v=vs.85%29.aspx)
+
 
 {{#hint}}
 Very similar to the advice above regarding `console.x()`, do not forget to remove `debugger;` statements if you move your visualization extension to production environment.

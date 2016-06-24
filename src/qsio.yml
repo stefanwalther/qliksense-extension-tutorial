@@ -1,18 +1,18 @@
 - type: section
-  label: "Table of Contents"
+  label: "Introduction"
   items:
     - type: item
       label: "Table of Contents of this Tutorial"
       key: "index.html"
-- type: section
-  label: "Part I: Introduction to Developing Visualization Extensions for Qlik Sense"
-  items:
     - type: item
       label: "About this Tutorial"
       key: "part-01/00-About/"
       items:
         - type: bullet
           label: "Installing a visualization extension for Qlik Sense Desktop"
+- type: section
+  label: "Part I: Introduction to Developing Visualization Extensions for Qlik Sense"
+  items:
     - type: item
       label: "Chapter 01 - About this Tutorial"
       key: "part-01/01-Qlik-Sense-Extension-Tutorial/"
@@ -66,7 +66,7 @@
       key: "part-01/08-Hello-Data/"
     - type: item
       label: "Chapter 09 - Loading Resources"
-      key: "part-01/09-Loading-Resources/"
+      #key: "part-01/09-Loading-Resources/"
       wip: true
     - type: item
       label: "Chapter 10 - Hello Data Improved"
@@ -79,7 +79,6 @@
       wip: true
 - type: section
   label: "Part II: Visualization Extensions & AngularJS"
-  key: "index.html"
   items:
     - type: item
       label: "Chapter 01 - Two Approaches, the 'Classic' One & the Angular Way"
@@ -89,8 +88,7 @@
       key: "part-02/02-The-Angular-Way--Basics"
     - type: item
       label: "Chapter 03 - The Angular Way: Directives"
-      key: "part-02/03-The-Angular-Way--Directives"
-      wip: false
+      #key: "part-02/03-The-Angular-Way--Directives"
 - type: section
   label: "Part IV: Deployment Checklist"
   items:

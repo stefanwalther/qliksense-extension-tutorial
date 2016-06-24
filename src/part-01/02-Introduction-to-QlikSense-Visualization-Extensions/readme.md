@@ -13,7 +13,7 @@ Visualization Extensions are a possibility to extend the visualization capabilit
 Extensions are so powerful in Qlik Sense because they use exactly the same set of technologies as standard objects in Qlik Sense do, so you are basically using the same set of technologies as Qlik’s R&D does!
 If developed properly, the handling of _Visualization Extensions_ is identical to standard objects:
 
-### _Visualization Extensions_ can be:
+### Visualization Extensions can be:
 -	Added to a sheet via drag’n’drop
 -	Configured to use the same property panels as standard objects do, therefore you can create visualizations on top of the data of a Qlik Sense app
 -	Resized, copied, pasted and positioned like any other object
@@ -69,5 +69,5 @@ branch.qlik.com is an open source community where you can find a lot of complete
 * **[market.qlik.com](http://market.qlik.com)**  
 Probably quite soon, we'll also see commercial visualization extensions for Qlik Sense on [market.qlik.com](http://market.qlik.com)
 * **[GitHub](http://github.com)**  
-Fortunately quite a lot of developers are publishing their extensions to GitHub.
+Fortunately quite a lot of developers are publishing their extensions to GitHub. Give it a try.
 
