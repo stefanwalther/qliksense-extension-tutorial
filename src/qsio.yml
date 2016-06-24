@@ -46,24 +46,71 @@
       key: "part-01/04-Debugging-and-Web-Developer-Tools"
       items:
         - type: bullet
-          label: "The anatomy of a Qlik Sense extension"
+          label: "console.x()"
         - type: bullet
-          label: "Skeleton of a script file"
+          label: "Debugging"
         - type: bullet
-          label: "Structure of the .qext file"
-
+          label: "Object inspection"
     - type: item
       label: "Chapter 05 - Improving the Hello World Experience"
       key: "part-01/05-Improving-the-Hello-World-Experience/"
+      items:
+        - type: bullet
+          label: "Make _Hello World_ dynamic"
+        - type: bullet
+          label: "Define a preview image"
     - type: item
       label: "Chapter 06 - Introduction to Using Properties"
       key: "part-01/06-Introduction-to-Using-Properties/"
+      items:
+        - type: bullet
+          label: "Skeleton"
+        - type: bullet
+          label: "Re-using properties"
+        - type: bullet
+          label: "Basic custom property types"
+        - type: bullet
+          label: "How to reference properties"
+        - type: bullet
+          label: "Break out property definition to a separate file"
     - type: item
       label: "Chapter 07 - Custom Properties"
       key: "part-01/07-Custom-Properties/"
+      items:
+        - type: bullet
+          label: "Introduction to custom properties"
+        - type: bullet
+          label: "Improving readability & maintainability of properties"
+        - type: bullet
+          label: "Basic custom property - a string input box"
+        - type: bullet
+          label: "Adding a custom section header"
+        - type: bullet
+          label: "Adding a custom section"
+        - type: bullet
+          label: "Display & persistence"
+        - type: bullet
+          label: "Referencing property values"
+        - type: bullet
+          label: "Troubleshooting"
+        - type: bullet
+          label: "Source code"
     - type: item
       label: "Chapter 08 - Hello Data"
       key: "part-01/08-Hello-Data/"
+      items:
+        - type: bullet
+          label: "Create your Hello-Data visualization extension"
+        - type: bullet
+          label: "Getting data into visualization extension"
+        - type: bullet
+          label: "Testing your extensions with data"
+        - type: bullet
+          label: "Changing the initial properties"
+        - type: bullet
+          label: "Rendering table data"
+        - type: bullet
+          label: "Some golden rules"
     - type: item
       label: "Chapter 09 - Loading Resources"
       #key: "part-01/09-Loading-Resources/"
