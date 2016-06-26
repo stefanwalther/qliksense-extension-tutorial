@@ -1,5 +1,4 @@
 - auto-linking to the online-help would be extremely cool
-- experiment: use images to to post images depending on the host (branch.qlik.com vs. github vs. qliksite.io) 
 - Gulp
 	- Generate qliksite.yml file
 	- ideally change lastUpdate programmatically

@@ -2,40 +2,40 @@
   "name": "qliksense-extension-tutorial",
   "version": "0.13.2",
   "description": "Comprehensive tutorial to start developing Qlik Sense Extensions.",
+  "keywords": [
+    "chart",
+    "examples",
+    "examples",
+    "extension",
+    "hypercube",
+    "property panel",
+    "qlik",
+    "qlik sense",
+    "qlik-sense",
+    "qliksense",
+    "qliksense-visualization-extension",
+    "tutorial",
+    "visualization",
+    "visualization-extension",
+    "walkthrough"
+  ],
+  "homepage": "https://github.com/stefanwalther/qliksense-extension-tutorial",
+  "bugs": {
+    "url": "https://github.com/stefanwalther/qliksense-extension-tutorial/issues"
+  },
+  "license": "CC-BY-4.0",
+  "author": "Stefan Walther",
   "main": "-",
   "directories": {
     "doc": "docs"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/stefanwalther/qliksense-extension-tutorial.git"
   },
-  "keywords": [
-    "qliksense-visualization-extension",
-    "qliksense",
-    "qlik sense",
-    "qlik-sense",
-    "tutorial",
-    "examples",
-    "walkthrough",
-    "qlik",
-    "extension",
-    "visualization-extension",
-    "chart",
-    "hypercube",
-    "property panel",
-    "visualization",
-    "examples"
-  ],
-  "author": "Stefan Walther",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/stefanwalther/qliksense-extension-tutorial/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/stefanwalther/qliksense-extension-tutorial",
   "dependencies": {},
   "devDependencies": {}
 }

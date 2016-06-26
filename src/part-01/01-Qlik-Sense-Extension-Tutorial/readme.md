@@ -28,7 +28,11 @@ The entire tutorial is written based on Qlik Sense 1.0, published in September 2
 
 ### Code Editor
 
-In addition to Qlik Sense you'll need a code editor, basically every basic editor is sufficient, so something like [Notepad++](http://notepad-plus-plus.org/), [Sublime Text](http://www.sublimetext.com/) or [Aptana](http://www.aptana.com/) ...
+In addition to Qlik Sense you'll need a code editor, basically every basic editor is sufficient, so something like 
+
+- [Notepad++](http://notepad-plus-plus.org/), 
+- [Sublime Text](http://www.sublimetext.com/) or 
+- [Aptana](http://www.aptana.com/) ...
 
 ## Code Download
 All code samples in this tutorial are available on GitHub. At the beginning and end of each chapter you’ll find a short note how to download the corresponding code to a specific chapter.
