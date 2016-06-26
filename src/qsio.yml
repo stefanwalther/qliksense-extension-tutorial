@@ -1,116 +1,116 @@
-- type: section
-  label: "Introduction"
-  pages:
-    - label: "Table of Contents of this Tutorial"
-      key: "index.html"
-    - label: "About this Tutorial"
-      key: "part-01/00-About/"
-      items:
-        - type: bullet
-          label: "Installing a visualization extension for Qlik Sense Desktop"
-- type: section
-  label: "Part I: Introduction to Developing Visualization Extensions for Qlik Sense"
-  pages:
-    - type: page
-      label: "Chapter 01 - About this Tutorial"
-      key: "part-01/01-Qlik-Sense-Extension-Tutorial/"
-      bullets:
-        - label: "Prerequisites"
-    - type: page
-      label: "Chapter 02 - Introduction to Qlik Sense Visualization Extensions"
-      key: "part-01/02-Introduction-to-QlikSense-Visualization-Extensions/"
-      bullets:
-        - label: "Installing a visualization extension for Qlik Sense Desktop"
-        - label: "Installing a visualization extension on Qlik Sense Server"
-        - label: "Comparison between extensions in QlikView and Qlik Sense"
-    - type: page
-      label: "Chapter 03 - Let's Get Started: Hello World Example"
-      key: "part-01/03-Lets-Get-Started--Hello-World-Example/"
-      bullets:
-        - label: "The anatomy of a Qlik Sense extension"
-        - label: "Skeleton of a script file"
-        - label: "Structure of the .qext file"
-        - label: "Creating the Hello World example"
-    - type: page
-      label: "Chapter 04 - Debugging and Web Developer Tools"
-      key: "part-01/04-Debugging-and-Web-Developer-Tools"
-      bullets:
-        - label: "console.x()"
-        - label: "Debugging"
-        - label: "Object inspection"
-    - type: page
-      label: "Chapter 05 - Improving the Hello World Experience"
-      key: "part-01/05-Improving-the-Hello-World-Experience/"
-      bullets:
-        - label: "Make _Hello World_ dynamic"
-        - label: "Define a preview image"
-    - type: page
-      label: "Chapter 06 - Introduction to Using Properties"
-      key: "part-01/06-Introduction-to-Using-Properties/"
-      bullets:
-        - label: "Skeleton"
-        - label: "Re-using properties"
-        - label: "Basic custom property types"
-        - label: "How to reference properties"
-        - label: "Break out property definition to a separate file"
-    - type: page
-      label: "Chapter 07 - Custom Properties"
-      key: "part-01/07-Custom-Properties/"
-      bullets:
-        - label: "Introduction to custom properties"
-        - label: "Improving readability & maintainability of properties"
-        - label: "Basic custom property - a string input box"
-        - label: "Adding a custom section header"
-        - label: "Adding a custom section"
-        - label: "Display & persistence"
-        - label: "Referencing property values"
-        - label: "Troubleshooting"
-        - label: "Source code"
-    - type: page
-      label: "Chapter 08 - Hello Data"
-      key: "part-01/08-Hello-Data/"
-      bullets:
-        - label: "Create your Hello-Data visualization extension"
-        - label: "Getting data into visualization extension"
-        - label: "Testing your extensions with data"
-        - label: "Changing the initial properties"
-        - label: "Rendering table data"
-        - label: "Some golden rules"
-    - type: page
-      label: "Chapter 09 - Loading Resources"
-      #key: "part-01/09-Loading-Resources/"
-      wip: true
-    - type: page
-      label: "Chapter 10 - Hello Data Improved"
-      wip: true
-    - type: page
-      label: "Chapter 11 - Visualization Extensions using D3"
-      wip: true
-    - type: page
-      label: "Chapter 12 - Visualization Extensions using HighCharts"
-      wip: true
-- type: section
-  label: "Part II: Visualization Extensions & AngularJS"
-  items:
-    - type: item
-      label: "Chapter 01 - Two Approaches, the 'Classic' One & the Angular Way"
-      key: "part-02/01-Two-approaches-classic-one-and-the-angular-way/"
-    - type: item
-      label: "Chapter 02 - The Angular Way: Basics"
-      key: "part-02/02-The-Angular-Way--Basics"
-    - type: item
-      label: "Chapter 03 - The Angular Way: Directives"
-      #key: "part-02/03-The-Angular-Way--Directives"
-- type: section
-  label: "Part IV: Deployment Checklist"
-  pages:
-    - type: page
-      label: "Chapter 01: Deployment Checklist"
-      key: "part-04/01-Deployment-Checklist"
-- type: section
-  label: "Appendix: FAQ"
-  pages:
-    - type: page
-      label: "Workbench vs. Dev-Hub"
-      key: "faq/workbench-dev-hub/"
-
+sections:
+  - type: section
+    label: "Introduction"
+    pages:
+      - label: "Table of Contents of this Tutorial"
+        key: "index.html"
+      - label: "About this Tutorial"
+        key: "part-01/00-About/"
+        items:
+          - type: bullet
+            label: "Installing a visualization extension for Qlik Sense Desktop"
+  - type: section
+    label: "Part I: Introduction to Developing Visualization Extensions for Qlik Sense"
+    pages:
+      - type: page
+        label: "Chapter 01 - About this Tutorial"
+        key: "part-01/01-Qlik-Sense-Extension-Tutorial/"
+        bullets:
+          - label: "Prerequisites"
+      - type: page
+        label: "Chapter 02 - Introduction to Qlik Sense Visualization Extensions"
+        key: "part-01/02-Introduction-to-QlikSense-Visualization-Extensions/"
+        bullets:
+          - label: "Installing a visualization extension for Qlik Sense Desktop"
+          - label: "Installing a visualization extension on Qlik Sense Server"
+          - label: "Comparison between extensions in QlikView and Qlik Sense"
+      - type: page
+        label: "Chapter 03 - Let's Get Started: Hello World Example"
+        key: "part-01/03-Lets-Get-Started--Hello-World-Example/"
+        bullets:
+          - label: "The anatomy of a Qlik Sense extension"
+          - label: "Skeleton of a script file"
+          - label: "Structure of the .qext file"
+          - label: "Creating the Hello World example"
+      - type: page
+        label: "Chapter 04 - Debugging and Web Developer Tools"
+        key: "part-01/04-Debugging-and-Web-Developer-Tools/"
+        bullets:
+          - label: "console.x()"
+          - label: "Debugging"
+          - label: "Object inspection"
+      - type: page
+        label: "Chapter 05 - Improving the Hello World Experience"
+        key: "part-01/05-Improving-the-Hello-World-Experience/"
+        bullets:
+          - label: "Make _Hello World_ dynamic"
+          - label: "Define a preview image"
+      - type: page
+        label: "Chapter 06 - Introduction to Using Properties"
+        key: "part-01/06-Introduction-to-Using-Properties/"
+        bullets:
+          - label: "Skeleton"
+          - label: "Re-using properties"
+          - label: "Basic custom property types"
+          - label: "How to reference properties"
+          - label: "Break out property definition to a separate file"
+      - type: page
+        label: "Chapter 07 - Custom Properties"
+        key: "part-01/07-Custom-Properties/"
+        bullets:
+          - label: "Introduction to custom properties"
+          - label: "Improving readability & maintainability of properties"
+          - label: "Basic custom property - a string input box"
+          - label: "Adding a custom section header"
+          - label: "Adding a custom section"
+          - label: "Display & persistence"
+          - label: "Referencing property values"
+          - label: "Troubleshooting"
+          - label: "Source code"
+      - type: page
+        label: "Chapter 08 - Hello Data"
+        key: "part-01/08-Hello-Data/"
+        bullets:
+          - label: "Create your Hello-Data visualization extension"
+          - label: "Getting data into visualization extension"
+          - label: "Testing your extensions with data"
+          - label: "Changing the initial properties"
+          - label: "Rendering table data"
+          - label: "Some golden rules"
+      - type: page
+        label: "Chapter 09 - Loading Resources"
+        #key: "part-01/09-Loading-Resources/"
+        wip: true
+      - type: page
+        label: "Chapter 10 - Hello Data Improved"
+        wip: true
+      - type: page
+        label: "Chapter 11 - Visualization Extensions using D3"
+        wip: true
+      - type: page
+        label: "Chapter 12 - Visualization Extensions using HighCharts"
+        wip: true
+  - type: section
+    label: "Part II: Visualization Extensions & AngularJS"
+    pages:
+      - type: page
+        label: "Chapter 01 - Two Approaches, the 'Classic' One & the Angular Way"
+        key: "part-02/01-Two-approaches-classic-one-and-the-angular-way/"
+      - type: page
+        label: "Chapter 02 - The Angular Way: Basics"
+        key: "part-02/02-The-Angular-Way--Basics/"
+      - type: page
+        label: "Chapter 03 - The Angular Way: Directives"
+        #key: "part-02/03-The-Angular-Way--Directives"
+  - type: section
+    label: "Part IV: Deployment Checklist"
+    pages:
+      - type: page
+        label: "Chapter 01: Deployment Checklist"
+        key: "part-04/01-Deployment-Checklist/"
+  - type: section
+    label: "Appendix: FAQ"
+    pages:
+      - type: page
+        label: "Workbench vs. Dev-Hub"
+        key: "faq/workbench-dev-hub/"
