@@ -9,8 +9,6 @@ tags:
   - Hello World
 ---
 
-## Scope of this Chapter
-
 OK, let's improve the _Hello World_ experience.
 In this chapter we'll make the _Hello World_ example a bit more dynamic:
 
