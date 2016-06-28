@@ -1,6 +1,6 @@
 {
   "name": "qliksense-extension-tutorial",
-  "version": "0.13.2",
+  "version": "0.14.0",
   "description": "Comprehensive tutorial to start developing Qlik Sense Extensions.",
   "keywords": [
     "chart",

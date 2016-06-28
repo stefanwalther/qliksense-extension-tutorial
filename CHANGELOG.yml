@@ -1,3 +1,7 @@
+v0.14.0:
+  date: "2016-06-28"
+  changes:
+    - "Generating now mainly for qliksite.io"
 v0.13.3:
   date: "2015-12-05"
   enhancements:
