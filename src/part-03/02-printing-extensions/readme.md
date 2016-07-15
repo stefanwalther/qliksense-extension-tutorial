@@ -1,6 +1,5 @@
 ---
 title: "Enabling support to print visualization extensions"
-draft: true
 ---
 
 In Qlik Sense 3.0 support for printing extensions has been added. Therefore it is now possible to:
