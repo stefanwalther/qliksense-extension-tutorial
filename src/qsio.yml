@@ -104,13 +104,13 @@ sections:
         #key: "part-02/03-The-Angular-Way--Directives"
   - type: section
     label: "Part III: Subjects"
-    page:
+    pages:
       - type: page
         label: "Enable/disable support to export data"
         key: "part-03/01-exporting-data/"
       - type: page
         label: "Enable printing support"
-        key: "part-03/02-printing-extensions/"
+        key: "part-03/02-printin  g-extensions/"
         hidden: true
   - type: section
     label: "Part IV: Deployment Checklist"

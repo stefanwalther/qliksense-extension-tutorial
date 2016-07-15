@@ -3,6 +3,7 @@ title: "Enable/Disable support to export data"
 ---
 
 Qlik Sense 3.0 introduces the possibility to enable/disable the functionality to export the underlying data of a visualization extension.
+
 To define whether exporting data should be enabled or not, use the property `exportData` in the section `support`:
 
 
