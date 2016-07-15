@@ -110,8 +110,7 @@ sections:
         key: "part-03/01-exporting-data/"
       - type: page
         label: "Enable printing support"
-        key: "part-03/02-printin  g-extensions/"
-        hidden: true
+        key: "part-03/02-printing-extensions/"
   - type: section
     label: "Part IV: Deployment Checklist"
     pages:
