@@ -47,7 +47,8 @@ To prevent such a message, `exportData` can also return a function instead of a 
 
 ```
 
-## Qlik Sense server & export
+## Qlik Sense server & export (`exportData`)
 
-Note that on Qlik Sense server there is something else you have to consider: One can enable/disable the functionality of exporting data by using security rules.
+Note that settings defined in your Qlik sense visualization extension can be overruled in Qlik Sense server's management console:
 
+![](images/qmc-export-exportdata.png)

@@ -55,3 +55,10 @@ So even in case your visualization extension is loading data from an external so
 		
 	}
 ```
+
+## Qlik Sense server & printing (`export`)
+
+Note that settings defined in your Qlik sense visualization extension can be overruled in Qlik Sense server's management console:
+
+![](images/qmc-export-exportdata.png)
+
