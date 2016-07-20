@@ -1,5 +1,6 @@
 ---
 title: "Enable/Disable support to export data"
+sub-title: "Learn how to modify your visualization extension to enable or disable the ability to export the data on right click."
 ---
 
 Qlik Sense 3.0 introduces the possibility to enable/disable the functionality to export the underlying data of a visualization extension.
