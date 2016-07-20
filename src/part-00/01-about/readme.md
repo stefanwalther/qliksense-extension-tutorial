@@ -11,13 +11,13 @@ tags:
   - extension
 ---
 
-In the past I was writing quite a lot of article on [my private blog](http://qliksite.io) which is fine in general, but when writing a tutorial, a blog is not really the ideal format as I realized.
+In the past I was writing quite a lot of article on [my private blog](http://qliksite.io) which is fine in general, but I realized when writing a tutorial, a blog is not really the ideal format.
 
 So it's time to try something new: ***A living tutorial***.
 
 ## What's a "Living Tutorial"?
 
-The main idea behind publishing this tutorial to [GitHub](http://github.com) is, that a really good tutorial should probably never be finished. If there are changes to be made (either in the code or the descriptive text), it should just be easy to make these changes and publish them. Certainly not only for me - the primary author - but also for other people.
+The main idea behind publishing this tutorial to [GitHub](http://github.com) is, that a really good tutorial should probably never be finished. If there are changes to be made (either in the code or the descriptive text), it should just be easy to make these changes and publish them. Certainly not only for me - [the primary author](https://github.com/stefanwalther) - but also for other people.
 
 **So I invite you to not only consume, but also to participate!**
 
