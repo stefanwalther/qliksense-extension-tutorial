@@ -2,11 +2,10 @@
 title: "Two Approaches, the 'Classic' One & the Angular Way"
 lastUpdate: "2015-07-14"
 type: chapter
-order: -1
 draft: false
 ---
 
-Qlik Sense offers ***two different approaches to develop visualization extension***. One of the approaches is very similar to the extension concept in QlikView, I call it the „Classic Approach“:
+Qlik Sense offers ***two different approaches to develop visualization extensions***. One of the approaches is very similar to the extension concept in QlikView, I call it the „Classic Approach“:
 
 You already got to know this approach, which uses the `paint` method, and it was used and described in entire part 1 of this tutorial. Since this approach is very similar to how one has developed extensions in QlikView, this is probably also the favorable approach if you are considering to migrate extensions from QlikView to Qlik Sense.
 
