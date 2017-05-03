@@ -1,4 +1,6 @@
 # Qlik Sense Extension Tutorial
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/stefanwalther/qliksense-extension-tutorial.svg)](https://greenkeeper.io/)
 > A comprehensive tutorial how to create Qlik Sense Visualization Extensions.
 
 ---
