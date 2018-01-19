@@ -57,3 +57,10 @@ Have a look into the official documentation to learn more about the paging conce
 http://betahelp.qliktech.com/sense/2.0/en-us/developer/Subsystems/Platform/Content/Concepts/Paging.htm
 
 --- 
+
+## What is Workbench/Dev-Hub?
+
+**Workbench** is a collection of tools available since Qlike Sense 1.0 until Qlik Sense 2.0.
+With a face-lift & improvements introduced in Qlik Sense 2.1 Workbench has been renamed to **Qlik Dev Hub**.
+
+Workbench resp. Qlik Dev Hub work in both, Qlik Sense Desktop and Qlik Sense Server.

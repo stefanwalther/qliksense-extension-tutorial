@@ -123,6 +123,3 @@ sections:
       - type: page
         label: "Troubleshooting & FAQ"
         key: "part-09/1002-Troubleshooting-FAQ"
-      - type: page
-        label: "Workbench vs. Dev-Hub"
-        key: "faq/workbench-dev-hub/"
